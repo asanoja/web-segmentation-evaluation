@@ -1,0 +1,169 @@
+/* ::::: http://www.appropedia.org/load.php?debug=false&lang=en&modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.monobook&only=styles&skin=monobook&* ::::: */
+
+@media screen {
+	.mw-content-ltr { direction: ltr; }
+	.sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+	input[type="submit"], input[type="button"], input[type="reset"], input[type="file"] { direction: ltr; }
+	.mw-content-ltr .thumbcaption { text-align: left; }
+	.mw-content-ltr .magnify { float: right; }
+	#catlinks { text-align: left; }
+	.catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: none outside none; }
+	.catlinks li { display: inline-block; line-height: 1.25em; border-left: 1px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; }
+	.catlinks li:first-child { padding-left: 0.25em; border-left: medium none; }
+	table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: black; }
+	table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+	table.wikitable > tr > th, table.wikitable > * > tr > th { background-color: rgb(242, 242, 242); text-align: center; }
+	.visualClear { clear: both; }
+	.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+	.mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; }
+	h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lang(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa), h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em ! important; }
+	h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho), h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:lang(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu), h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(hi), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lang(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:lang(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne), h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lang(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa), h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:lang(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+	ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(mzn) li { list-style-type: -moz-persian; }
+	ol:lang(ckb) li { list-style-type: -moz-arabic-indic; }
+	ol:lang(hi) li, ol:lang(mr) li { list-style-type: -moz-devanagari; }
+	ol:lang(as) li, ol:lang(bn) li { list-style-type: -moz-bengali; }
+	ol:lang(or) li { list-style-type: -moz-oriya; }
+	#toc ul, .toc ul { margin: 0.3em 0px; }
+	.mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-content-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: left; }
+	.mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { margin: 0px 0px 0px 2em; }
+	#toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { direction: ltr; }
+	div.tright, div.floatright, table.floatright { clear: right; float: right; }
+	div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+	div.floatright, table.floatright, div.floatleft, table.floatleft { position: relative; }
+	.mw-jump, #jump-to-nav { overflow: hidden; height: 0px; }
+	.printfooter { display: none; }
+	.editsection, .toctoggle { -moz-user-select: none; }
+}
+@media screen {
+	a { text-decoration: none; color: rgb(6, 69, 173); background: none repeat scroll 0% 0% transparent; }
+	a:visited { color: rgb(11, 0, 128); }
+	a:active { color: rgb(250, 167, 0); }
+	a:hover, a:focus { text-decoration: underline; }
+	.mw-body a.external { color: rgb(51, 102, 187); }
+	.mw-body a.external:visited { color: rgb(102, 51, 102); }
+	.mw-body a.external:active { color: rgb(187, 102, 51); }
+	img { border: medium none; vertical-align: middle; }
+	h1, h2, h3, h4, h5, h6 { color: black; background: none repeat scroll 0% 0% transparent; font-weight: normal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.17em; border-bottom: 1px solid rgb(170, 170, 170); }
+	h1 { font-size: 188%; }
+	h2 { font-size: 150%; }
+	h3, h4, h5, h6 { border-bottom: medium none; font-weight: bold; }
+	h3 { font-size: 132%; }
+	h1, h2 { margin-bottom: 0.6em; }
+	h3, h4, h5 { margin-bottom: 0.3em; }
+	p { margin: 0.4em 0px 0.5em; line-height: 1.5em; }
+	ul { line-height: 1.5em; list-style-type: square; margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+	ol { line-height: 1.5em; margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+	li { margin-bottom: 0.1em; }
+	table { font-size: 100%; }
+	form { border: medium none; margin: 0px; }
+	#toc, .toc, .mw-warning { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+	#toc h2, .toc h2 { display: inline; border: medium none; padding: 0px; font-size: 100%; font-weight: bold; }
+	#toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-align: center; }
+	#toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-left: 0px; padding: 0px; text-align: left; }
+	#toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+	div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0px none; }
+	div.thumb { margin-bottom: 0.5em; width: auto; background-color: transparent; }
+	div.thumbinner { border: 1px solid rgb(204, 204, 204); padding: 3px ! important; background-color: rgb(249, 249, 249); font-size: 94%; text-align: center; overflow: hidden; }
+	html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+	html .thumbcaption { border: medium none; line-height: 1.4em; padding: 3px ! important; font-size: 94%; }
+	div.magnify { border: medium none ! important; background: none repeat scroll 0% 0% transparent ! important; }
+	div.magnify a, div.magnify img { display: block; border: medium none ! important; background: none repeat scroll 0% 0% transparent ! important; }
+	div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+	.catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+	#siteNotice { position: relative; text-align: center; margin: 0px; }
+	#localNotice { margin-bottom: 0.9em; }
+	.firstHeading, #firstHeading { margin-bottom: 0.1em; line-height: 1.2em; padding-bottom: 0px; }
+	#siteSub { display: none; }
+	#jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+	#contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0px 0px 1.4em 1em; color: rgb(125, 125, 125); width: auto; }
+	div#column-content { width: 100%; float: right; margin: 0px 0px 0.6em -12.2em; padding: 0px; }
+	div#content { margin: 2.8em 0px 0px 12.2em; padding: 0px 1em 1em; position: relative; z-index: 2; }
+	div#column-one { padding-top: 160px; }
+	#column-one h2 { position: absolute; top: -9999px; }
+	div#content { background: none repeat scroll 0% 0% white; color: black; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(170, 170, 170) -moz-use-text-color rgb(170, 170, 170) rgb(170, 170, 170); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; line-height: 1.5em; }
+	body { font: x-small sans-serif; background: url('undefined') no-repeat scroll 0px 0px rgb(249, 249, 249); color: black; margin: 0px; padding: 0px; direction: ltr; unicode-bidi: embed; }
+	div#globalWrapper { font-size: 127%; width: 100%; margin: 0px; padding: 0px; }
+	a { color: rgb(0, 43, 184); }
+	a:visited { color: rgb(90, 54, 150); }
+	ul { list-style-type: square; list-style-image: url('undefined'); }
+	#siteNotice { font-size: 95%; padding: 0px 0.9em; }
+	#localNotice { margin: 0px; }
+	#siteNotice p { margin: 0px; padding: 0px; }
+	#bodyContent a.external, #bodyContent a.external[href^="gopher://"] { background: url('undefined') no-repeat scroll right center transparent; padding-right: 13px; }
+	#bodyContent a.external[href^="https://"], .link-https { background: url('undefined') no-repeat scroll right center transparent; padding-right: 16px; }
+	#bodyContent a.external { color: rgb(51, 102, 187); }
+	.portlet { border: medium none; margin: 0px 0px 0.5em; padding: 0px; float: none; width: 11.6em; overflow: hidden; }
+	.portlet h3 { background: none repeat scroll 0% 0% transparent; padding: 0px 1em 0px 0.5em; display: inline; height: 1em; text-transform: lowercase; font-size: 91%; font-weight: normal; white-space: nowrap; }
+	.pBody { font-size: 95%; background-color: white; color: black; border-collapse: collapse; border: 1px solid rgb(170, 170, 170); padding: 0px 0.8em 0.3em 0.5em; }
+	.portlet ul { line-height: 1.5em; font-size: 95%; }
+	.portlet li { padding: 0px; margin: 0px; }
+	#p-logo { top: 0px; left: 0px; position: absolute; z-index: 3; height: 155px; width: 12em; overflow: visible; }
+	#p-logo a, #p-logo a:hover { display: block; height: 155px; width: 12.2em; background-repeat: no-repeat; background-position: 35% 50% ! important; text-decoration: none; }
+	#p-search { position: relative; z-index: 3; }
+	input.searchButton { margin-top: 1px; font-size: 95%; }
+	#searchGoButton { padding-left: 0.5em; padding-right: 0.5em; font-weight: bold; }
+	#searchInput { width: 10.9em; margin: 0px; font-size: 95%; }
+	#p-search .pBody { padding: 0.5em 0.4em 0.4em; text-align: center; }
+	#p-personal { position: absolute; left: 0px; top: 0px; z-index: 0; }
+	#p-personal { width: 100%; white-space: nowrap; padding: 0px; margin: 0px; border: medium none; background: none repeat scroll 0% 0% transparent; overflow: visible; line-height: 1.2em; }
+	#p-personal h3 { display: none; }
+	#p-personal .portlet, #p-personal .pBody { z-index: 0; padding: 0px; margin: 0px; border: medium none; overflow: visible; background: none repeat scroll 0% 0% transparent; }
+	#p-personal ul { border: medium none; line-height: 1.4em; color: rgb(47, 111, 171); padding: 0px 2em 0px 3em; margin: 0px; text-align: right; list-style-type: none; list-style-image: none; z-index: 0; background: none repeat scroll 0% 0% transparent; cursor: default; }
+	#p-personal li { z-index: 0; border: medium none; padding: 0px; display: inline; color: rgb(47, 111, 171); margin-left: 1em; line-height: 1.2em; background: none repeat scroll 0% 0% transparent; }
+	#p-personal li a { text-decoration: none; color: rgb(0, 88, 150); padding-bottom: 0.2em; background: none repeat scroll 0% 0% transparent; }
+	#p-personal li a:hover { background-color: white; padding-bottom: 0.2em; text-decoration: none; }
+	li#pt-userpage, li#pt-anonuserpage, li#pt-login { background: url('undefined') no-repeat scroll left top transparent; padding-left: 20px; text-transform: none; }
+	#p-personal ul { text-transform: lowercase; }
+	#p-cactions { position: absolute; top: 1.3em; left: 11.5em; margin: 0px; white-space: nowrap; width: 76%; line-height: 1.1em; overflow: visible; background: none repeat scroll 0% 0% transparent; border-collapse: collapse; padding-left: 1em; font-size: 95%; }
+	#p-cactions ul { list-style-type: none; list-style-image: none; }
+	#p-cactions li { display: inline; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(170, 170, 170) rgb(170, 170, 170) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0px 0px 0.1em; margin: 0px 0.3em 0px 0px; overflow: visible; background: none repeat scroll 0% 0% white; }
+	#p-cactions li.selected { border-color: rgb(250, 189, 35); padding: 0px 0px 0.2em; font-weight: bold; }
+	#p-cactions li a { background-color: rgb(251, 251, 251); color: rgb(0, 43, 184); border: medium none; padding: 0px 0.8em 0.3em; position: relative; z-index: 0; margin: 0px; text-decoration: none; }
+	#p-cactions li.selected a { z-index: 3; background-color: white; }
+	#p-cactions .new a { color: rgb(186, 0, 0); }
+	#p-cactions li a:hover { z-index: 3; text-decoration: none; background-color: white; }
+	#p-cactions h3 { display: none; }
+	li#ca-talk { margin-right: 1.6em; }
+	#p-cactions .pBody { font-size: 1em; background-color: transparent; color: inherit; border-collapse: inherit; border: 0px none; padding: 0px; }
+	#p-cactions li a { text-transform: lowercase; }
+	div#footer { background-color: white; border-top: 1px solid rgb(250, 189, 35); border-bottom: 1px solid rgb(250, 189, 35); margin: 0.6em 0px 1em; padding: 0.4em 0px 1.2em; text-align: center; font-size: 90%; }
+	div#footer li { display: inline; margin: 0px 1.3em; }
+	#f-poweredbyico, #f-copyrightico { margin: 0px 8px; position: relative; top: -2px; }
+	#f-poweredbyico { float: right; height: 1%; }
+	#f-copyrightico { float: left; height: 1%; }
+}
+/* ::::: http://www.appropedia.org/extensions/HeaderTabs/skins-jquery/ext.headertabs.jquery-large.css ::::: */
+
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; width: 0px; border: medium none; z-index: 1099; padding: 0px; margin: -1px -1px 0px 0px; }
+html > body .suggestions { margin: -1px 0px 0px; }
+.suggestions-special { position: relative; background-color: white; cursor: pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; display: none; padding: 0.25em; line-height: 1.25em; }
+.suggestions-results { background-color: white; cursor: pointer; border: 1px solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+/* ::::: http://www.appropedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=monobook&* ::::: */
+
+table.wikitable, table.prettytable { margin: 1em 1em 1em 0px; background: none repeat scroll 0% 0% rgb(245, 255, 245); border: 1px solid rgb(163, 191, 163); box-shadow: 2px 2px 1px rgb(136, 136, 136); border-collapse: collapse; }
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettytable td { border: 1px solid rgb(163, 191, 163); padding: 0.2em; }
+table.wikitable th, table.prettytable th { background: none repeat scroll 0% 0% rgb(206, 242, 206); text-align: center; }
+.collapseButton { float: right; font-weight: bold; text-align: right; width: auto; }
+table.wikitable, table.prettytable { margin: 1em 1em 1em 0px; background: none repeat scroll 0% 0% rgb(245, 255, 245); border: 1px solid rgb(163, 191, 163); border-collapse: collapse; }
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettytable td { border: 1px solid rgb(163, 191, 163); padding: 0.2em; }
+table.wikitable th, table.prettytable th { background: none repeat scroll 0% 0% rgb(206, 242, 206); text-align: center; }
+.pBody { background: none repeat scroll 0% 0% rgb(204, 255, 204); color: black; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; }
+#content { border: 2px solid rgb(129, 140, 165); }
+#p-cactions li.selected { border-color: rgb(140, 178, 139); }
+#footer { border-top: 1px solid rgb(129, 140, 165); border-bottom: 1px solid rgb(129, 140, 165); background: none repeat scroll 0% 0% rgb(204, 255, 204); }
+#p-navigation .pBody, #p-search .pBody, #p-tb .pBody, #portlet h5 .pBody { border: 1px solid rgb(129, 140, 165); }
+.pBody { border: 1px solid rgb(129, 140, 165); }
+ul { list-style-image: url('bulleton.png'); }
+.portlet ul { list-style-image: url('bulletoff.png'); }
+.portlet ul li:hover { list-style-image: url('bulleton.png'); }
+#searchInput { background: none repeat scroll 0% 0% rgb(236, 255, 230); border: 2px solid rgb(140, 178, 139); }
+#p-search, #p-navigation, #p-tb, #p-lang, #p-participate { margin: 1em 0.5em; width: 11.2em; }
+.generated-sidebar { margin: 1em 0.5em; width: 11.2em; }
+#p-tb a { color: black; text-decoration: none; }
+#p-personal .pBody ul { background: none repeat scroll 0% 0% rgb(204, 255, 204); border-bottom: 1px solid rgb(129, 140, 165); border-left: 1px solid rgb(129, 140, 165); float: right; padding-left: 0px; height: 1.45em; }
+#p-personal li { margin: 0px; }
+#p-personal li a { padding: 0.5em; }
+#p-personal li a:hover { background: none repeat scroll 0% 0% rgb(140, 178, 139); }
+#p-logo a, #p-logo a:hover { background-position: 45% 50% ! important; }
+a:lang(ar), a:lang(ckb), a:lang(fa), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-decoration: none; }

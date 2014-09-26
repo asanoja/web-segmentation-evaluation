@@ -1,0 +1,272 @@
+/* ::::: http://www.shell.com/etc/clientlibs/shell/shell.preload.min.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, textarea, select { font-size: 100%; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+/* ::::: http://www.shell.com/etc/clientlibs/granite/jquery-ui.min.css ::::: */
+
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.shell.com/etc/designs/shell/clientlibs/publish.min.css ::::: */
+
+#wrapper { margin: 10px auto 0px; width: 960px; position: relative; overflow: hidden; }
+#side_panel.shell, #side_panel_wrapper.shell { width: 176px; position: absolute; left: 0px; top: 0px; }
+#side_panel_modules.shell { padding-bottom: 6px; }
+#header.shell, #subheader.shell, #content.shell { margin-left: 208px; }
+#footer.shell p { float: left; margin-top: 5px; margin-right: 20px; position: relative; width: 166px; }
+#footer.shell ul { margin-left: 20px; }
+#footer.shell ul ul { margin-left: 0px; }
+#footer.shell li { float: left; margin-right: 20px; width: 162px; }
+#footer.shell li li { float: none; margin-right: 0px; width: auto; }
+.shell .one_wide, .shell .two_wide, .shell .three_wide, .shell #content_small { overflow: hidden; float: left; margin-right: 16px; }
+.shell .one_wide { width: 176px; }
+.shell .two_wide { width: 368px; }
+.shell .two_wide .one_wide { margin: 0px 8px 0px 0px; width: 176px; }
+#footer.shell { clear: both; float: right; padding: 0px 0px 20px; width: 752px; margin: 18px 0px 6px; }
+@media screen and (max-width: 767px) {
+	.mobile #wrapper { margin: 0px; position: static; width: auto; }
+	.mobile #header.shell, .mobile #subheader.shell, .mobile #content.shell { margin: 0px ! important; padding: 0px; width: 100%; float: none; }
+	.mobile #side_panel.shell { left: 0px; position: static; top: 0px; width: 100%; overflow: hidden; }
+	.mobile .homepage #side_panel.shell { position: static; width: 100%; }
+	.mobile #content.shell .columncontrol { margin: 0px; }
+	.mobile .shell .one_wide, .mobile .shell .two_wide, .mobile .shell .three_wide, .mobile .shell .four_wide { overflow: hidden; }
+	.mobile .shell .one_wide { float: left; margin-right: 0px; margin-left: 0px; width: 100%; }
+	.mobile .shell .two_wide { float: left; margin-right: 0px; width: 100%; }
+	.mobile .shell .two_wide .one_wide { margin: 0px; width: 100%; }
+	.mobile #content.shell .two_wide .one_wide { margin: 0px; padding: 0px; }
+}
+body { font-size: 70%; font-family: verdana,sans-serif; line-height: 130%; }
+.shell h1 { font-size: 200%; line-height: 130%; }
+.shell h2 { font-size: 120%; }
+.shell h2.module_header { font-size: 100%; text-transform: uppercase; }
+.shell h3 { font-size: 110%; }
+.shell h4 { font-size: 100%; }
+.shell a { text-decoration: none; }
+.shell a:hover { text-decoration: underline; }
+#header.shell, #footer.shell, #side_panel.shell { line-height: 160%; font-size: 90%; }
+.shell input, .shell button, .shell select, .shell textarea { font-size: 90%; line-height: 130%; }
+.shell .tag_cloud ul { line-height: 220%; }
+.shell .tag_cloud .size1 { font-size: 200%; }
+.shell .tag_cloud .size2 { font-size: 170%; }
+.shell .tag_cloud .size3 { font-size: 140%; }
+.shell .tag_cloud .size4 { font-size: 110%; }
+@media screen and (max-width: 767px) {
+	.mobile body {  }
+	.mobile .shell h1 { font-size: 130%; }
+	.mobile .shell h2, .mobile .shell h3, .mobile .shell h4 { font-size: 100%; }
+	.mobile #footer.shell { line-height: 160%; font-size: 100%; }
+	.mobile #side_panel.shell { font-size: 100%; }
+	.mobile .shell.module.box .link_list { font-size: 100%; }
+	.mobile .shell .module.tag_cloud ul { font-size: 80%; }
+}
+.shell.link, .shell .arrow, .shell P.results a, .shell .also_in_this_section .footer a, #homepage_chooser.shell a, .shell A.arrowed, .shell P.results A, .shell .automated_list UL LI A, .shell .also_in_this_section .footer A, .shell .full_story P A { background-image: url('undefined'); background-repeat: no-repeat; }
+.shell #cookie_info .button { background-image: url('undefined'); }
+.shell, .shell input, .shell select, .shell textarea, .shell a { color: rgb(51, 51, 51); }
+.shell.module.tag_cloud a.size2 { color: rgb(102, 102, 102); }
+.shell h2 sup.anchor_id, .shell.module.tag_cloud a.size1, .shell.module.search_results .item .breadcrumb { color: rgb(51, 51, 51); }
+#side_panel_modules.shell .shell.module .module_header span, .shell .module.share_price table, .shell .module.share_price table th, .shell .module.share_price table td { background-color: transparent; color: rgb(51, 51, 51); }
+.shell.module.hero .image, .shell.overlay, .mobile .shell #lucine_search_field, .mobile .shell #locationdropdown, .mobile .shell #languagedropdown, .shell.module.hero .control a.shell_carousel_current { background-color: rgb(255, 255, 255); }
+.shell.module .shell_carousel_pager a, .shell.module .module_header span, .shell.module .module_header span a, .shell.module.tabbed .tab, .shell .module.navigation > ul > li > h4 > a, .shell h2 span, .shell .module.page_tools h3 span, .shell .module.also_in_this_section h3 span, .shell .module.share_price h4 span { background-color: rgb(213, 213, 213); }
+#footer.shell, .shell.module .module_header, .shell.module.box, .shell.module.breadcrumbs, .shell.module.accordion .item, .shell.module.box.search_results .item, .shell.module.box.search_results .paginator, .shell.module.navigation ul, .shell.module.navigation li, .shell .search_container h2, .shell .module.page_tools h2, .shell .module.audio_player > h2, #header .input_search_text, #footer .input_search_text, .shell .module.audio_player .bottom_border, .shell .podcast-episode, .mobile .shell #lucine_search_field, .mobile .shell #locationdropdown, .mobile .shell #languagedropdown, .shell .automated_list ul li, .shell .directory_list H2, .shell DIV.box_top, .shell .content_module H2.media, .shell .tool_micro, .shell .module.media_releases h2.media { border-color: rgb(213, 213, 213); }
+.shell.module.navigation > ul > li > ul > li > h5 > a, .shell.module.hero .image { border-color: rgb(255, 255, 255); }
+.homepage .shell .module.navigation > ul > li.crisis > h4 > a, .homepage.crisis .shell .module.rss_wrapper .module_header span, .shell.module.hero .control a { background-color: rgb(212, 46, 18); color: rgb(255, 255, 255); }
+.shell.module .shell_carousel_pager a.shell_carousel_current, .shell.module.rss_wrapper .module_header span, .shell.module.heading_box, .shell.module.heading_box h1, .shell.module.heading_box p, .shell.module.heading_box a, .shell.module.heading_box li, .shell .module.navigation h5.active a, .shell .module.navigation > ul > li.active > h4 > a, .shell .module.navigation > ul > li > ul > li > h5.active > a, .shell .full_story h2, .shell #cookie_info, .shell #cookie_info a, .homepage .shell .module.navigation > ul > li.announcement > h4 a, .shell .module.navigation > ul > li.announcement > h4 a.selected, .shell .module.navigation > ul > li.crisis > h4 > a.selected, .search_container .searchResult p strong, .shell.module.hero .caption .headline, .shell.overlay .overlay_header, .shell.module.rss_wrapper .module_header span a, .shell.module.search_results .item.featured .wrapper { background-color: rgb(247, 209, 23); color: rgb(51, 51, 51); }
+.shell .module.navigation > ul > li > ul > li > h5 > a, .shell .module.navigation h5 a, #back_to_link, .shell .picture p, .shell .module.contact_details h2 span, .shell .module.tag_cloud h2 span { background-color: rgb(252, 237, 162); }
+.shell.module.tabbed .items .item, .shell.module.tabbed .pager a.activeSlide, .shell.module.accordion .items .item.selected, .shell .contact_details, .shell.module.google_map .no_js_msg, .shell .audio_player .wrapper_solid, .shell .youtube_player .alternative .text, #header_search_text, #footer_search_text, .shell.module.box.search_results .paginator, .shell table.global_table th, .shell table.grey_global_table th, #header .input_search_text, #footer .input_search_text { background-color: rgb(253, 246, 209); color: rgb(51, 51, 51); }
+.shell H1, .shell #country_switch A, .shell .module.table_wrapper_text a:active, .shell .input_form LI.error LABEL, .shell .input_form LI.error P, .shell .input_form LI.error EM, #welcome_fragment A, .shell .login_container .messageBox.error h3, .shell .login_container .messageBox.error p, .shell .login_container .messageBox a:active, .shell .input_form DIV.error LABEL, .shell .input_form DIV.error P, .shell .input_form DIV.error EM, .shell .module.text_with_options a:active, .shell .module.text_with_options a:hover, .shell .module.text_with_image a:active, .shell .module.text_with_image a:hover, .shell a.google_maps_full_page_link:active, .shell a.google_maps_full_page_link:hover { color: rgb(212, 46, 18); }
+.shell.module.hero .control a { border-color: rgb(212, 46, 18); }
+#footer.shell .title { border-color: rgb(247, 209, 23); }
+@media screen and (max-width: 767px) {
+	.mobile .shell .flash .carousel .shell_carousel_pager a, .mobile .shell .flash .shell_carousel_pager a, .mobile .shell .module.hero .control a { background-color: rgb(213, 213, 213); }
+	.mobile .shell_carousel_pagerSection, .mobile .shell .module.navigation .fold_button, .mobile .shell.module.search_results .paginator, .mobile #side_panel_modules.shell .shell.module.links ul.link_list li, .mobile .contentpage .shell .module.navigation .level_one li.active h4 { border-color: rgb(255, 255, 255); }
+	.mobile .shell .module.also_in_this_section ul.link_list li, .mobile .shell.module.links li { border-color: rgb(213, 213, 213); }
+	.mobile .shell.module.box .module_header span, .mobile #side_panel_modules.shell .shell.module.box .module_header span, .mobile .shell.overlay .overlay_header .mobile .shell h2 span, .mobile .shell .module.page_tools h3 span, .mobile .shell .module.also_in_this_section h3 span, .mobile .shell .module.share_price h4 span, .mobile .shell .module.tag_cloud h3 span, .mobile .shell_carousel_pagerSection, .mobile .shell .flash .carousel li .description div, .mobile .shell .module h3 span, .mobile .shell.module h2.module_header span, .mobile .shell.module h2.module_header span a, .mobile .shell.module.directory_list .module_content, .mobile .shell.module.directory_list .module_content a { background-color: rgb(250, 227, 116); }
+	.mobile #side_panel_modules.shell .shell.module.links ul.link_list li, .mobile #side_panel_modules.shell .shell.module.links ul.link_list li a, .mobile #search, .mobile .shell .flash .carousel .shell_carousel_pager a.shell_carousel_current, .mobile .shell .flash .shell_carousel_pager a.shell_carousel_current, .mobile .shell .module.hero .control a.shell_carousel_current, .mobile .shell .module.navigation .fold_button.unfolded, .mobile .shell .module.navigation .fold_button.folded { background-color: rgb(247, 209, 23); color: rgb(51, 51, 51); }
+}
+.shell FORM.search { clear: none; margin-bottom: 0px; }
+.shell .search LEGEND, .shell .search LABEL SPAN, .shell .country_selector LEGEND, .shell .country_selector LABEL, .shell #job_locator LEGEND { display: none; }
+.shell .country_selector FIELDSET { padding-top: 25px; }
+.shell .country_selector INPUT { background: url('undefined') no-repeat scroll left top transparent; border: 0px none; cursor: pointer; height: 19px; width: 25px; float: right; }
+.shell .country_selector SELECT { float: left; width: 147px; }
+#footer.shell FORM { margin-bottom: 14px; float: left; padding: 20px 20px 0px; width: 712px; }
+.shell DIV.formelement INPUT[placeholder]::-moz-placeholder, .shell DIV.captcha INPUT[placeholder]::-moz-placeholder, .shell DIV.ecomarathon INPUT[placeholder]::-moz-placeholder, .shell DIV.kenexa INPUT[placeholder]::-moz-placeholder { color: rgb(51, 51, 51); }
+.shell h1 { margin: 18px 0px 12px; padding: 0px 6px; }
+.shell h2, .shell h3 { margin: 12px 0px 6px; clear: both; }
+.shell h4, .shell p { margin: 6px 0px; }
+.shell ol, .shell ul { margin: 6px 0px; }
+.shell ol ol, .shell ol ul, .shell ul ul, .shell ul ol { margin: 0px; }
+.shell ul { list-style: none outside none; }
+#side_panel.shell .country_selector form { background: url('undefined') no-repeat scroll left top transparent; margin-top: 15px; padding-bottom: 40px; position: relative; display: none; }
+#side_panel.shell #country_selector_form { display: none; }
+.js #side_panel.shell #country_selector_list { display: none; }
+#side_panel.shell .country_selector img { float: left; margin-top: 3px; margin-bottom: 6px; }
+#side_panel.shell .country_selector #country_switch { position: relative; }
+#side_panel.shell .country_selector h4 { text-transform: uppercase; }
+#side_panel.shell .country_selector h4, #side_panel.shell .country_selector a { display: block; padding-left: 45px; clear: none; margin: 0px; }
+.shell .module.navigation a { display: block; padding: 6px; }
+.shell .module.navigation h4, .shell .module.navigation h5 { font-weight: normal; }
+.shell .module.navigation ul { margin: 0px; }
+.shell .module.navigation > ul > li { margin-bottom: 6px; padding: 0px; }
+.shell .module.navigation > ul > li > h4 { margin: 0px; }
+.shell #cookie_info { overflow: hidden; text-align: left; margin-bottom: 18px; }
+.js .shell #cookie_info { display: none; }
+.shell #cookie_info .wrapper { overflow: hidden; position: relative; }
+.shell #cookie_info .wrapper .text { padding: 0px 28px 0px 6px; }
+.shell #cookie_info .wrapper .text a { text-decoration: underline; }
+.shell #cookie_info .button { position: absolute; width: 16px; height: 16px; top: 6px; right: 6px; cursor: pointer; display: none; }
+.js .shell #cookie_info .button { display: block; }
+#header.shell { margin-bottom: 32px; text-align: right; }
+#header.shell ul { display: inline-block; margin: 2px 0px; }
+#header.shell ul li { float: left; margin: 0px 12px 0px 0px; }
+#header.shell form.search { display: inline-block; width: 180px; }
+#header.shell form.search input { display: block; }
+#header.shell form.search input.button, #footer.shell form.search input.button { background: url('undefined') no-repeat scroll left top transparent; border: 0px none; height: 19px; width: 25px; }
+#header.shell form.search input.button { float: right; }
+#footer.shell form.search input.button { float: left; }
+#header.shell li { float: left; margin-left: 0.75em; }
+#footer.shell { border-style: solid; border-width: 1px; border-radius: 6px; }
+#footer.shell .title { margin: 0px 0px 3px; border-width: 0px 0px 1px; border-style: solid; }
+.shell.module { margin-top: 16px; min-height: 1px; clear: both; border-style: solid; border-width: 0px; display: block; }
+.shell.module.box { overflow: hidden; border-width: 1px 0px; }
+.shell.module img { display: block; }
+.shell .box { border-width: 1px 0px; border-style: solid; }
+.shell h2.module_header { text-transform: uppercase; border-width: 0px 0px 1px; padding: 1px 0px; border-style: solid; margin: 0px; }
+#side_panel_modules.shell h2.module_header { text-transform: none; }
+.shell h2.module_header span { display: block; padding: 6px; }
+.shell .module_content, .shell .module_footer { margin: 6px; }
+.shell .link_list.column_list .new_row { clear: both; }
+.shell .pageheader #content_header { margin-bottom: 21px; }
+.shell.module.shell_logo img { display: inline; }
+.shell.module.shell_logo { margin: 37px 0px 18px; text-align: center; }
+#side_panel .module.country_selector { margin-bottom: 18px; min-height: 1px; clear: both; }
+.shell.link, .shell.iesymbol { padding: 2px 0px 2px 18px; display: inline-block; background-position: left 5px; background-repeat: no-repeat; line-height: 16px; }
+.shell .parbase.basecomponent.link { font-weight: bold; }
+.shell ul.link_list { overflow: hidden; font-weight: bold; margin: 16px 0px; }
+.shell.module.follow_us ul { box-sizing: border-box; margin: 6px; display: block; overflow: hidden; }
+.shell.module.follow_us li { text-align: center; float: left; display: block; overflow: hidden; padding-bottom: 3px; }
+.shell.module.follow_us a { display: table-cell; text-align: center; width: 74px; font-weight: bold; }
+.shell.module.follow_us a img { display: inline-block; }
+.shell.module.follow_us a span { display: inline-block; width: 100%; }
+.shell.module.follow_us a span.opensInNewWindow, .one_wide .shell.module.follow_us a span.opensInNewWindow { display: none; }
+.shell.module.promo a { display: block; }
+.shell.module.promo span { display: block; position: relative; }
+.shell.module.tag_cloud ul { margin: 8px 6px 3px; }
+.shell.module.tag_cloud li { display: inline; padding-right: 6px; }
+#jump_menu { display: none; }
+.shell .jump_point { display: none; }
+#wrapper { overflow: visible; }
+#content.shell .columncontrol { margin: 0px -16px 0px 0px; overflow: hidden; }
+#content.shell .columncontrol .two_wide .columncontrol .one_wide { margin-right: 16px; }
+#header .input_search_text, #footer .input_search_text { height: 18px; width: 143px; border-width: 1px; border-style: solid; padding: 0px 3px; line-height: 18px; float: left; display: inline-block; box-sizing: border-box; border-radius: 3px; }
+#footer .input_search_text { margin-right: 6px; }
+.shell HR, .shell CAPTION { display: none; }
+.shell h2 span { display: block; padding: 6px; }
+@media screen and (max-width: 767px) {
+	.mobile #jump_menu, .mobile #header h3, .mobile #header.shell form.search, .mobile hr, .mobile #jump_navigation, .mobile #jump_main_content, .mobile #jump_footer_links, .mobile .country_selector, .mobile #country_switch, .mobile #footer .search, .mobile #footer > p, .mobile .page_anchor, .mobile #homepage_chooser { display: none; }
+	.mobile .homepage .shell h1, .mobile .shell h1 { display: block; text-align: left; padding: 0px 6px; margin: 12px 0px 6px; }
+	.mobile #header.shell { width: 100%; }
+	.mobile #header.shell div { padding: 0px; margin: 0px; }
+	.mobile #header.shell ul { padding: 0px; display: block; overflow: hidden; margin: 0px; }
+	.mobile #header.shell ul > li { display: none; font-size: 100%; }
+	.mobile #footer.shell { background: none repeat scroll 0px center transparent; clear: both; margin: 12px 0px 0px; padding: 0px; width: 100%; border: 0px none; float: none; }
+	.mobile #footer.shell > ul > li:nth-child(3), .mobile #footer.shell > ul > li:nth-child(4) { display: none ! important; }
+	.mobile #footer.shell ul.main, .mobile.rtl #footer.shell ul.main { overflow: hidden; margin: 0px; }
+	.mobile #footer.shell ul.main > li { display: block; float: right; vertical-align: top; text-align: left; width: 50%; margin: 0px 0px 6px; }
+	.mobile #footer.shell .title { display: block; border-width: 0px 0px 1px; border-style: solid; margin: 6px; }
+	.mobile #footer.shell ul.main > li:nth-child(3), .mobile #footer.shell ul.main > li:nth-child(4) { display: none ! important; }
+	.mobile #footer.shell ul.main > li > ul > li { padding: 3px 6px; }
+	.mobile #footer.shell .footer_text { display: none; }
+	.mobile .shell .module { clear: both; padding: 0px; border: 0px none; }
+	.mobile .shell.module.box { border: 0px none; }
+	.mobile .shell.module h2.module_header { text-transform: none; border: 0px none; padding: 0px; }
+	.mobile .shell.module .module_content { margin: 0px; }
+	.mobile .shell.module img { max-width: 100% ! important; height: auto; border: 0px none; }
+	.mobile .one_wide .shell.module.follow_us a, .mobile .shell.module.follow_us a { display: block; overflow: hidden; width: auto; height: auto; margin-right: 6px; }
+	.mobile .one_wide .shell.module.follow_us a img, .mobile .shell.module.follow_us a img { display: block; margin: 0px; }
+	.mobile .one_wide .shell.module.follow_us a span, .mobile .shell.module.follow_us a span { display: none; }
+	.mobile .shell.link { margin: 3px 6px; display: block; }
+	.mobile .shell.module .shell.link { margin-left: 0px; margin-right: 0px; }
+	.mobile .shell.module ul.link_list .shell.link { margin: 3px 6px; }
+	.mobile .shell ul.link_list { margin: 0px; }
+	.mobile .shell ul.link_list li { border: 0px none; width: 100%; overflow: hidden; }
+	.mobile .shell.module.links ul.link_list li { border-width: 0px 0px 1px; border-style: solid; }
+	.mobile #side_panel_modules.shell .shell.module.links ul.link_list li { border-width: 1px 0px 0px; }
+	.mobile .shell ul.link_list li:last-child { border: medium none ! important; }
+	.mobile .shell.module.promo a { padding: 0px 6px; }
+	.mobile .shell.module.tag_cloud ul { text-align: center; }
+	.mobile .shell.module.tag_cloud li { display: inline-block; margin: 0px 6px 3px 0px; }
+	.mobile .shell .module.navigation { overflow: hidden; margin: 0px 0px 12px; }
+	.mobile .shell .module.navigation ul { overflow: hidden; }
+	.mobile .homepage .shell .module.navigation > ul > li { text-align: left; padding: 0px; width: 50%; }
+	.mobile .homepage .shell .module.navigation > ul > li:nth-child(2n-1) > h4 { margin-right: 1px; }
+	.mobile.rtl .homepage .shell .module.navigation > ul > li:nth-child(2n-1) > h4 { margin-left: 1px; margin-right: 0px; }
+	.mobile .shell .module.navigation > ul > li { display: block; float: left; vertical-align: top; text-align: left; width: 100%; margin: 0px 0px 1px; }
+	.mobile .shell .module.navigation > ul > li > h4 { position: relative; }
+	.mobile .shell .module.navigation > ul > li > h4 > a { padding: 0px; }
+	.mobile .shell .module.navigation > ul > li > h4 > a > span { padding: 0px 6px; display: table-cell; height: 32px; vertical-align: middle; overflow: hidden; }
+	.mobile.js .shell .module.navigation .level_one > li:not(.active) { display: none; }
+	.mobile.js .homepage .shell .module.navigation .level_one > li:not(.active) { display: block; }
+	.mobile .shell.module.shell_logo { overflow: hidden; position: relative; margin: 0px; }
+	.mobile .shell .shell_logo a { position: absolute; left: 6px; top: 0px; }
+	.mobile .shell .shell.module.shell_logo img { width: 42px; height: auto; margin: 13px 13px 13px 7px; }
+	.mobile .shell .promo > a { text-decoration: none; }
+}
+/* ::::: http://www.shell.com/apps/shell/components/par/html5hero/clientlib.min.css ::::: */
+
+.shell.module.hero { position: relative; margin-top: 0px; overflow: hidden; }
+.shell.module.hero img { max-width: none; width: 100%; display: block; }
+.shell.module.hero .images { list-style: none outside none; display: block; width: 100% ! important; }
+.shell.module.hero .image_container { display: block; text-decoration: none; overflow: hidden; }
+.js.cqview .shell.module.hero .image_container { display: none; }
+.js.cqview .shell.module.hero .image_container:first-child { display: block; }
+.js .shell.module.hero .image_container:first-child { display: block; }
+.js .shell.module.hero .image_container.slide, .js .shell.module.hero .image_container.slide:first-child { display: block; }
+.shell.module.hero .slide .image > a, .shell.module.hero .slide .image > a:hover, .shell.module.hero .slide .image > a:visited, .shell.module.hero .slide .image > a:focus { outline: 0px none; -moz-user-select: none; }
+.shell.module.hero .slide .image > a > img { outline: 0px none; -moz-user-select: none; }
+.shell.module.hero .control { position: absolute; display: block; z-index: 10; list-style: none outside none; margin: 0px; padding: 0px; bottom: 6px; right: 6px; }
+.js .shell.module.hero .pager { display: none; }
+.shell.module.hero .control a { display: block; float: left; height: 14px; width: 14px; margin: 6px; border-width: 2px; border-style: solid; opacity: 0.7; }
+.shell.module.hero .image { float: left; position: relative; }
+.shell.module.hero .image .text { margin: 6px; }
+.shell.module.hero .image.main { width: 100%; height: auto; }
+.shell.module.hero .caption { overflow: hidden; position: absolute; left: 12px; top: 12px; }
+.shell.module.hero .caption .headline { display: inline-block; float: left; max-width: 280px; }
+.shell.module.hero .caption .headline .text { clear: both; margin: 6px; }
+.shell.module.hero .caption .headline h2 { font-size: 180%; line-height: normal; margin: 6px 0px; }
+.shell.module.hero .caption .tagline { font-weight: bold; display: inline-block; clear: both; float: left; margin-left: 24px; max-width: 560px; background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.8); }
+.shell.module.hero .caption .tagline a { padding: 0px 0px 0px 18px; background-position: left center; }
+@media screen and (max-width: 767px) {
+	.mobile .shell .module.hero .image { float: none; position: static; }
+	.mobile .shell .module.hero .image.main { width: 100% ! important; height: auto ! important; }
+	.mobile .shell .module.hero .caption { overflow: hidden; position: static; top: auto ! important; right: auto ! important; bottom: auto ! important; left: auto ! important; width: 100% ! important; }
+	.mobile .shell .module.hero .caption .headline, .mobile .shell .module.hero .caption .tagline { display: block; margin: 0px ! important; padding: 0px ! important; width: 100% ! important; max-width: 100% ! important; }
+	.mobile .shell .module.hero .caption .headline h2 { font-size: 130%; }
+	.mobile .shell .module.hero .control { position: static; text-align: center; min-height: 30px; }
+	.mobile .shell .module.hero .control a { display: inline-block; line-height: 12px; width: 12px; height: 12px; margin: 9px; border: 0px none; float: none; border-radius: 6px; text-align: center; vertical-align: middle; text-decoration: none; font-weight: bold; opacity: 1; }
+	.mobile .shell .module.hero .image.main img { height: auto; width: 100%; }
+}
+/* ::::: http://www.shell.com/apps/shell/components/par/contenthighlighter/clientlib.min.css ::::: */
+
+.shell.module.rss_wrapper .items_wrapper { overflow: hidden; position: relative; }
+.shell.module.rss_wrapper .items { width: 100% ! important; }
+.shell.module.rss_wrapper .rss_detail_wrapper { width: 100% ! important; height: auto ! important; }
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper:first-child { display: block; }
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper { display: none; }
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper.slide { display: block; }
+.shell.module.rss_wrapper .rss_detail { margin: 0px 6px; }
+.shell.module.rss_wrapper .pager { display: none; text-align: center; overflow: hidden; margin: 6px; }
+.shell.module.rss_wrapper .pager.shell_carousel_pager { display: block; }
+.shell.module.rss_wrapper .shell_carousel_pager a { display: inline-block; width: 12px; height: 12px; margin: 0px 6px; text-align: center; vertical-align: middle; text-decoration: none; font-weight: bold; }
+@media screen and (max-width: 767px) {
+	.mobile .shell.module.rss_wrapper .rss_detail { margin: 0px; }
+	.mobile .shell.module.rss_wrapper .rss_detail h4, .mobile .shell.module.rss_wrapper .rss_detail p { margin: 6px; }
+	.mobile .shell.module.rss_wrapper .pager a { border-radius: 6px; }
+}
+/* ::::: http://www.shell.com/apps/shell/base/components/truste/clientlib.min.css ::::: */
+
+#shell-truste { position: fixed; right: 0px; bottom: 0px; }
+@media screen and (max-width: 767px) {
+	#shell-truste { position: static; text-align: center; }
+}

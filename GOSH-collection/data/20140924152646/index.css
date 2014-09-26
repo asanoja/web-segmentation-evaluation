@@ -1,0 +1,251 @@
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/basf.css;pv71f62df39d5e5126 ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/reset.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, p, a { color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, p, a { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; margin: 0px; padding: 0px; }
+ul { list-style: none outside none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/forms.css ::::: */
+
+form { background-color: rgb(239, 239, 239); padding: 1.1em; }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/grid.css ::::: */
+
+.gridwidth_1 { width: 15.63em; }
+.gridwidth_2 { width: 32.17em; }
+.gridwidth_4 { width: 65.26em; }
+.gridheight_1 { height: 15.63em; }
+.gridheight_2 { height: 32.17em; }
+.gridheight_3 { height: 48.72em; }
+.gridpos_x_1 { left: 0em; position: absolute; }
+.gridpos_x_2 { left: 16.55em; position: absolute; }
+.gridpos_x_3 { left: 33.09em; position: absolute; }
+.gridpos_x_4 { left: 49.64em; position: absolute; }
+.gridpos_y_1 { top: 0em; position: absolute; }
+.gridpos_y_2 { top: 16.55em; position: absolute; }
+.gridpos_y_3 { top: 33.09em; position: absolute; }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/style_ie.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/photo-db.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/downloadcenter.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/google-search.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/local-sitemap.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/quickaccess.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/willi.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/plasticsportal.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/wa_layout.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jquery.plugin.include.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jquery-ui-1.8.7.custom.css ::::: */
+
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jquery.lightbox-0.5.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jquery.checkboxtoggle.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jquery.Jcrop.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/jScrollPane.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/incident.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/multimedia.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/lightbox.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/voting.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/calendar.css ::::: */
+
+.white { background-color: rgb(255, 255, 255); }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/ocenter.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/ahd.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/webinfo.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/inventory.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/formgenerator.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/productfinder.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/poll.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/searchbox.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/personalization.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/twitter.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/multi-select.css ::::: */
+
+.ms-container li.ms-elem-selectable.ms-hover:not(.disabled), .ms-container .ms-selection li.ms-hover:not(.disabled) { cursor: pointer; color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(0, 136, 204); }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/countryselector.css ::::: */
+
+body { background-color: rgb(255, 255, 255); height: 100%; }
+#document { height: 100%; min-width: 60em; }
+img { display: block; }
+#header { background-color: rgb(240, 240, 240); width: 60em; }
+#header .headerFontSize { font-size: 0.6875em; }
+#service { background-color: rgb(240, 240, 240); height: 1.8125em; font-family: Arial; overflow: hidden; padding-left: 12.5em; padding-top: 0.375em; width: 47.5em; }
+#service li { color: rgb(83, 83, 83); float: left; }
+#service li a { color: rgb(83, 83, 83); }
+#service .serviceFontSize { font-size: 0.625em; }
+.topBar_searchForm { background-color: rgb(240, 240, 240); }
+#service #search { float: right; width: 10.3125em; }
+#service #searchForm { vertical-align: middle; padding: 0px; white-space: nowrap; }
+#service #searchForm input { font-size: 1em; }
+#service #searchForm, #serviceNav .serviceNavFirstLevel, #service #langSwitch { line-height: 2em; }
+#service fieldset { line-height: 2em; color: rgb(83, 83, 83); }
+#service fieldset input { color: rgb(83, 83, 83); }
+#service #loupe { float: right; padding-right: 0.4375em; width: 4.1875em; }
+#service #loupe li { padding: 0.125em 0.1875em; }
+#service #loupe li img { vertical-align: top; width: 1em; cursor: pointer; }
+#service #searchForm a span { font-family: tahoma; font-size: 1.3em; line-height: 1em; }
+#service #searchString { background-color: rgb(255, 255, 255); border: 1px solid rgb(83, 83, 83); padding-left: 0.3125em; width: 9em; }
+#service #identity { font-family: Helvetica; font-weight: bold; line-height: 1em; }
+#service #identity span { font-size: 0.75em; }
+#service #serviceNav { float: right; }
+#service #serviceNav .serviceNavFirstLevel a, #service #search a, #service #langSwitch a { padding: 0pt 1.09em; }
+#service a:hover { text-decoration: underline; }
+#mainNav { background-color: rgb(240, 240, 240); height: 1.5625em; overflow: hidden; padding-left: 11.875em; width: 48.125em; }
+#mainNav ul { width: 48.6875em; }
+#mainNav li { float: left; font-weight: bold; }
+#mainNav li a { line-height: 2.28em; display: block; padding: 0px 1.09em; }
+#mainNav a:hover { background-color: rgb(255, 255, 255); text-decoration: underline; }
+#banderole { left: 1.25em; position: absolute; top: 0px; width: 10em; }
+#banderole2 { position: absolute; width: 160px; left: 1.25em; z-index: 70; }
+#banderole { height: 13.75em; }
+#logo { position: absolute; top: 1.25em; z-index: 80; overflow: hidden; }
+#logo.stageLogo { left: 1.25em; }
+#logo img { height: 10em; width: 10em; }
+#subBrand { position: absolute; bottom: 0px; left: 0.94em; }
+#subNav { width: 10em; top: 0px; left: 0px; padding-bottom: 0.625em; line-height: 1em; }
+#mainWrap { margin-left: 1.25em; position: relative; display: inline-block; }
+#menuMainWrap { position: absolute; top: 0em; left: 0em; width: 10em; }
+#clearMainWrap { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-left: 10em; padding-left: 3.125em; padding-top: 1.5625em; min-height: 1200px; }
+#content { position: relative; font-family: arial; font-size: 0.68em; line-height: 1.28em; padding-bottom: 0.93em; }
+#content .gridContainer { position: relative; overflow: hidden; }
+#content h1 { font-family: Helvetica; font-size: 2.2em; font-weight: bold; line-height: 1.04em; letter-spacing: 0em; margin-bottom: 0.125em; margin-top: 0.18em; }
+#content h2 { font-family: Arial; font-size: 1.65em; font-weight: bold; letter-spacing: 0px; line-height: 1.11em; margin-bottom: 0.34em; margin-top: 0.18em; }
+#content h3 { font-family: arial; font-size: 1.29em; font-weight: bold ! important; letter-spacing: 0em; line-height: 1.071em; margin-bottom: 0.428em; margin-top: 0.4285em; }
+#content h4 { font-family: arial; font-size: 0.999em; font-weight: bold ! important; letter-spacing: 0em; line-height: 1.28em; margin-bottom: 0.428em; margin-top: 0.4285em; }
+#content .lightGrey { background-color: rgb(239, 239, 239); }
+#content .darkGrey { background-color: rgb(153, 153, 153); }
+#content .brandColor p, #content .brandColor span, #content .brandColor a, #content .brandColor h1, #content .brandColor h2, #content .brandColor h3, #content .brandColorLight p, #content .brandColorLight span, #content .brandColorLight a, #content .brandColorLight h1, #content .brandColorLight h2, #content .brandColorLight h3, #content .darkGrey p, #content .darkGrey span, #content .darkGrey a, #content .darkGrey h1, #content .darkGrey h2, #content .darkGrey h3 { color: rgb(255, 255, 255); }
+#content .lightGrey p, #content .lightGrey a { color: rgb(51, 51, 51); }
+#content .contentBox a { font-weight: bold; line-height: 1.25em; }
+#content .linkWrap { line-height: 0.92em; }
+#content a:hover { text-decoration: underline; }
+#content .contentBox a:hover { text-decoration: underline; }
+#content .mainContent .contentImage, #content .mainContent .imagecaptiontable { margin: 0.92em 0.92em 0.92em 0px; }
+#content .lightGrey .contentBox .textBox, #content .darkGrey .contentBox .textBox, #content .brandColor .contentBox .textBox, #content .brandColorLight .contentBox .textBox { padding-left: 0.92em; padding-right: 0.92em; }
+#content .brandColor .empty-title-padding, #content .brandColorLight .empty-title-padding, #content .darkGrey .empty-title-padding, #content .lightGrey .empty-title-padding { padding-top: 0.4285em; }
+#content .inletText { font-weight: bold; margin: 0px; padding: 0px; }
+#content .brandColor .inletText, #content .brandColorLight .inletText, #content .darkGrey .inletText { color: rgb(255, 255, 255) ! important; }
+#content blockquote { margin-left: 1.84em; position: relative; }
+#content .lightGrey blockquote, #content .darkGrey blockquote, #content .brandColor blockquote #content .brandColorLight blockquote { margin-left: 0.92em ! important; }
+#content .accentuation { margin-left: 4.6em; clear: both; }
+#content .lightGrey .accentuation, #content .darkGrey .accentuation, #content .brandColor .accentuation, #content .brandColorLight .accentuation { margin-left: 3.68em ! important; }
+#content .accentuation .accentuationIcon { line-height: 1em; left: -2.76em; position: absolute; top: 0.28em; }
+#content .accentuation .accentuationIcon img { height: 1.84em; width: 1.84em; }
+#content .teaser, #content .teaser .contentBox, #content .teaser .horizontal, #content .teaser .horizontal75 { height: 100%; }
+#content .teaser .contentBox .textBox, #content .products .contentBox .textBox { padding-left: 0.92em; padding-right: 0.92em; }
+#content .teaser .pictureBox, #content .products .pictureBox { overflow: hidden; height: 50%; width: 100%; }
+#content .contentBox .textBox { padding-bottom: 0.64em; }
+#content .linkListComponent .contentBox, .searchbox { padding: 1.75em 1.84em; }
+#content .linkListComponent .linkList li, #content .audioComponent .linkList li { font-weight: bold; padding-bottom: 0.46em; position: relative; width: 100%; }
+#content .linkListComponent li a, #content .audioComponent li a { font-size: 1em ! important; font-weight: normal ! important; }
+#content .linkListComponent li a:hover, #content .audioComponent li a:hover { text-decoration: underline; }
+#content .linkListComponent .linkListIcon a:hover { text-decoration: none; }
+#content .linkListComponent .linkListHeaderIcon, #content .audioComponent .linkListHeaderIcon { overflow: hidden; display: block; left: 0px; margin: 0px; padding: 0px; position: absolute; top: 0.2em; width: 1.38em; height: 0.92em; }
+#content .linkListComponent .linkListIcon, #content .audioComponent .linkListIcon { display: block; margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0.3em; width: 1.38em; height: 0.92em; }
+#content .darkGrey .linkListComponent .linkListHeaderIcon, #content .brandColor .linkListComponent .linkListHeaderIcon, #content .brandColorLight .linkListComponent .linkListHeaderIcon, #content .darkGrey .audioComponent .linkListHeaderIcon, #content .brandColor .audioComponent .linkListHeaderIcon, #content .brandColorLight .audioComponent .linkListHeaderIcon { background-color: rgb(255, 255, 255) ! important; }
+#content .darkGrey .linkListComponent .linkListHeaderText, #content .brandColor .linkListComponent .linkListHeaderText, #content .brandColorLight .linkListComponent .linkListHeaderText, #content .darkGrey .audioComponent .linkListHeaderText, #content .brandColor .audioComponent .linkListHeaderText, #content .brandColorLight .audioComponent .linkListHeaderText { color: rgb(255, 255, 255) ! important; }
+#content .linkList a { line-height: 1em ! important; }
+#content .linkListText { font-weight: normal; }
+#content .linkListText, #content .linkListHeaderText { display: block; margin-left: 2.76em; width: 9.19em; }
+#content .linkListText, #content .linkListText a, #content .linkListHeaderText { line-height: 1.36em ! important; }
+#content .newsComponent .newsBox, #content .calendarComponent .calendarBox { padding-bottom: 0.92em; padding-top: 0.09em; }
+#content .lightGrey .newsComponent .newsBox, #content .darkGrey .newsComponent .newsBox, #content .brandColor .newsComponent .newsBox, #content .brandColorLight .newsComponent .newsBox, #content .lightGrey .calendarComponent .calendarBox, #content .darkGrey .calendarComponent .calendarBox, #content .brandColor .calendarComponent .calendarBox, #content .brandColorLight .calendarComponent .calendarBox { padding-left: 0.92em; padding-right: 0.92em; }
+#content .applicationComponent { width: 100%; height: 100%; }
+#content .tickerComponent { height: 100%; position: relative; overflow: hidden; }
+#content .tickerComponent .tickerBox { padding: 0.37em 0.92em 0.92em; }
+#content .tickerComponent .contentBox { padding-bottom: 1.29em; }
+#content .tickerComponent .contentBox img { display: inline; vertical-align: middle; padding-left: 1em; }
+.north, .south, .east, .west { position: relative; overflow: hidden; }
+.north { margin-bottom: 0.92em; }
+.south { clear: both; }
+.mainContent { position: relative; float: left; margin-right: 0.92em; margin-bottom: 0.92em; }
+.griditem, .mainContent { overflow: hidden; }
+.mainContent .section, .mainContent .selectionlist { clear: both; }
+#content table.standardtable_transparent { border-collapse: separate; }
+div.tagcloud { overflow: hidden; padding-left: 0.92em; padding-right: 0.92em; }
+div.tagcloud .contentBox { text-align: justify; }
+.tagcloud a { color: rgb(0, 0, 0); text-decoration: none; }
+.tagcloud a:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+#content .tagcloud .contentBox .small { font-size: 1em; }
+#content .tagcloud .contentBox .normal { font-size: 1.2em; }
+#content .tagcloud .contentBox .big { font-size: 1.4em; }
+#content .tagcloud .contentBox .bigger { font-size: 1.6em; }
+#content .tagcloud .contentBox .biggest { font-size: 1.8em; }
+#content .tagcloud .tagcloudtag { white-space: nowrap; text-align: right; }
+.internalLinkIcon { background-image: url('link_int_black_icon2.gif'); background-repeat: no-repeat; background-position: left 0.4em; padding-left: 10px; cursor: pointer; line-height: 1.272em; font-weight: bold; }
+.brandColor .internalLinkIcon, .brandColorLight .internalLinkIcon, .darkGrey .internalLinkIcon { background-image: url('link_int_white_icon2.gif'); background-position: left 0.4em; }
+.externalLinkIcon, .mailToLinkIcon, .telephoneLinkIcon { background-image: url('link_ext_icon.gif'); background-repeat: no-repeat; background-position: left 0.4em; padding-left: 18px; cursor: pointer; line-height: 1.272em; font-weight: bold; }
+.brandColor .externalLinkIcon, .brandColor .mailToLinkIcon, .brandColor .telephoneLinkIcon, .brandColorLight .externalLinkIcon, .brandColorLight .mailToLinkIcon, .brandColorLight .telephoneLinkIcon, .darkGrey .externalLinkIcon, .darkGrey .mailToLinkIcon, .darkGrey .telephoneLinkIcon { background-image: url('link_ext_white_icon.gif'); background-position: left 0.2em; }
+.errorBox { margin-bottom: 0.92em; }
+.errorBox .mainContent { margin: 0px; }
+.errorMsgBox { padding: 0.92em; }
+.errorMsgBox blockquote {  }
+#content .errorMsgBox .accentuation .accentuationIcon { top: 0px; }
+#content .errorMsgBox .accentuation .accentuationIcon.vert-center .contentImage { margin-top: -0.25em; }
+#content .mainContent .errorMsgBox .accentuation { margin-bottom: 0.5em ! important; }
+#content .mainContent .errorMsgBox .section { margin-bottom: 0px ! important; }
+.linemargin h1 { margin-bottom: 0.35em ! important; }
+.linemargin h3 { margin-bottom: 0.8em ! important; }
+#content .mainContent .section { margin-bottom: 0.8em ! important; }
+#content .mainContent .inletText, #content .mainContent .accentuation { margin-bottom: 0.8em ! important; }
+#content .mainContent h1 { margin-bottom: 0.35em ! important; }
+.searchresult:nth-child(2n-1) { background-color: rgb(239, 239, 239); }
+#header .table-cell { display: table-cell; }
+.top-bar-link, .top-bar-spacer { display: inline-block; vertical-align: top; }
+.top-bar-link img, .top-bar-link a { display: block; }
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/darkblue-green/colors.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/darkblue-green/google-search.css ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/static:/internet-page-template/css/darkblue-green/quickaccess.css ::::: */
+
+#content .inletText a, #content .inletText a:hover, #content .tagcloud a, #content .tagcloud a:hover { color: rgb(0, 74, 150); }
+#service #identity, #service #identity a, #service #identity span div { color: rgb(0, 74, 150); }
+#mainWrap, #banderole, #banderole2, #countrySelection { background-color: rgb(166, 192, 218); }
+#content h1, #content h2, #content h3, #content h4, #content h1 a, #content h2 a, #content h3 a, #content h4 a, #content .linkListComponent .linkListHeaderText, #content .newsComponent .inletText, #content .inletComponent .inletText, #content .textComponent .inletText, #content .pubConfComponent .inletText, #content .selectionComponent .inletText, #content .mainContent .inletText, #content .inletText a, #content .inletText a:hover, #content .tagcloud a, #content .tagcloud a:hover, #content .specialTopicsComponent .contentBox a, #content .brandColorText, #content .brandColorText a { color: rgb(0, 74, 150); }
+#content .inletComponent .bulletpoint, #content .textComponent .bulletpoint, #content .mainContent .bulletpoint, #content .linkListComponent .linkListHeaderIcon, #content .audioComponent .linkListHeaderIcon, #content .brandColor { background-color: rgb(0, 74, 150); }
+/* ::::: http://www.basf.com/group/corporate/es/function/conversions:/publish/system/wcms-config/stylesheets/sciencearoundus.css;pvfc760c423f785e3f ::::: */
+
+/* ::::: http://www.basf.com/group/corporate/es/function/conversions:/publish/system/wcms-config/stylesheets/darkblue-green/colors.css;pvbcf5bd4ccc512193 ::::: */
+
+#content .inletText a, #content .inletText a:hover, #content .tagcloud a, #content .tagcloud a:hover { color: rgb(0, 74, 150); }
+#mainWrap, #banderole, #banderole2, #countrySelection { background-color: rgb(166, 192, 218) ! important; }
+/* ::::: http://www.basf.com/group/corporate/es/function/conversions:/publish/system/wcms-config/stylesheets/additionalstyles.css;pv8c91df0728e2fe71 ::::: */
+
+#content .brandColor span, #content .darkGrey span { color: rgb(255, 255, 255); }
+.brandColor .internalLinkIcon, .darkGrey .internalLinkIcon { background-position: left center; }
+.brandColor .externalLinkIcon, .darkGrey .externalLinkIcon { background-position: left center; }
+div.tagcloud .contentBox { text-align: justify; }
+input { background: none repeat scroll 0% 0% transparent; }
+/* ::::: http://www.basf.com/group/corporate/es/function/conversions:/publish/system/wcms-config/stylesheets/stylefix-13870439.css;pve9f6aaa3fd2954a7 ::::: */
+

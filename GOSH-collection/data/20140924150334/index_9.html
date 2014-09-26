@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    
+    
+    
+<link rel="stylesheet" type="text/css" href="index_9.css" media="all">
+</head>
+<body dir="ltr">
+    <div class="goog-app" id="peg" style="display: none;"></div>
+
+    <!-- place holder for templates -->
+    <div style="display: none;">
+      <!-- template for a link that browses to a member's profile. $this is an opensocial.Person. -->
+      <img id="member-thumb-tpl" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      <img id="member-thumb-54-tpl" jsvalues=".src:getThumbnail($this,54);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      <img id="member-thumb-65-tpl" jsvalues=".src:getThumbnail($this,65);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;" height="65" width="65">
+
+      <img id="member-thumb-large-tpl" jsvalues=".src:getThumbnail($this,45);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+
+      <div id="zoomy-tpl" style="float: right;">
+        <a href="javascript:void(0);" jsvalues="$h:handle(this,'gotoCanvasMode')">
+          <img jsvalues=".src:getZoomyImageUrl()" border="0" height="12" width="12">
+        </a>
+      </div>
+
+      <div id="zoomy-profile-tpl" style="float: right;">
+        <!--
+        <a href="javascript:void(0);" jsvalues="$h:handle(this,'gotoProfileMode')">
+          <img border="0" jsvalues=".src:getZoomyImageUrl()" width="12" height="12">
+        </a> -->
+      </div>
+
+      <div class="fc-member-large-thumb" id="member-thumb-large-tpl:canvas">
+        <img class="fc-member-large-thumb-img" jsvalues="src:getThumbnail($this,45);$h:handle(this,'viewProfile');title:getDisplayName()" height="45" width="45">
+        <div class="fc-member-large-thumb-name" jscontent="getDisplayName()"></div>
+      </div>
+
+      <div id="item-tpl" jsvalues=".className:(isCanvasMode() ? 'fc-item fc-item-canvas' : 'fc-item')">
+        <div class="fc-item-body" style="padding-left: 20px;">
+          <img jsvalues="src:icon" style="margin-left: -20px; margin-right: 2px; position: relative;" align="top" height="16" width="16">
+          <a jscontent="title" jsdisplay="title" jsvalues="href:link;.className:(isCanvasMode() ? 'fc-item-link fc-item-link-canvas' : 'fc-item-link')" target="_blank"></a>
+          <span jsvalues=".innerHTML:typeof(innerHTML) != 'undefined' ? innerHTML : ''"></span>
+          <span class="fc-item-body" jsdisplay="body"> - <span jsvalues=".innerHTML:typeof(body) != 'undefined' ? body : ''"></span></span>
+          <span class="fc-on-other-site" jsdisplay="siteTitle">
+            &nbsp;<img class="delete-button" jsdisplay="typeof($this.deleteHandler) != 'undefined' &amp;&amp; $this.deleteHandler != null" jsvalues="$h:handle(this, $this.deleteHandler);alt:MSG_DELETE_THIS;title:MSG_DELETE_THIS" src="trash.gif">
+          </span>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="profile-extension-tpl" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-itemlist fc-userpage-itemlist-canvas' : 'fc-userpage-itemlist')">
+        <span class="fc-sectitle">
+          <span jscontent="title"></span>
+        </span>
+        <div jsselect="body">
+          <div class="fc-about-me" jscontent="$this"></div>
+        </div>
+      </div>
+
+
+      <!-- Top panel in the members gadget -->
+      <div class="fc-topcap-color" id="topcap-tpl" jsvars="isSlimTop: hasMenuMode('profile') ||
+                                    isBottomMenu();
+                                   isSlimEmpty: hasMenuMode('members') &amp;&amp;
+                                    isBottomMenu();
+                                   isNoTop: hasMenuMode('members') &amp;&amp;
+                                    !isBottomMenu();">
+        <div class="fc-topcap" jsdisplay="!isNoTop">
+          <div jsdisplay="viewer">
+            <div jsdisplay="!isSlimTop">
+              <div transclude="zoomy-tpl"></div>
+              <div class="fc-userpic" jsselect="viewer">
+                <div transclude="member-thumb-tpl"></div>
+              </div>
+            </div>
+            <div class="fc-userpic-caption" jsselect="viewer">
+              <div class="fc-username" jscontent="getDisplayName()" jsdisplay="!isSlimTop"></div>
+              <div class="fc-members-options-menu" jsdisplay="!isSlimEmpty">
+              </div>
+            <div class="clear"></div>
+            </div>
+          </div>
+          <div jsdisplay="!viewer">
+            <div jsdisplay="!isSlimEmpty">
+              <div class="clear"></div>
+              <div transclude="zoomy-tpl"></div>
+              <div transclude="signin-button-tpl"></div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fc-topcap" id="topcap-nav-tpl">
+        <div jsdisplay="viewer">
+          <div class="fc-userpic" jsselect="viewer">
+            <div transclude="member-thumb-tpl"></div>
+          </div>
+          <div class="fc-userpic-caption" jsselect="viewer">
+            <div class="fc-username" jscontent="getDisplayName()"></div>
+            <div>
+              <span id="nav-links-tpl" style="font-weight: bold;">
+                <a class="fc-topcap-link" href="javascript:void(0);" jscontent="MSG_BACK_TO_TOP" jsvalues="$h:handle(this,'goBackToHome')"></a>&nbsp;|&nbsp;<a class="fc-topcap-link" href="javascript:void(0);" jscontent="MSG_BACK" jsvalues="$h:handle(this,'goBack')"></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div jsdisplay="!viewer" jsvars="buttonLabel:MSG_JOIN;buttonHandler:signin">
+          <div transclude="zoomy-tpl"></div>
+          <div transclude="button-tpl"></div>
+          <div transclude="nav-links-tpl"></div>
+        </div>
+      </div>
+
+      <div id="topcap-nav-tpl:canvas">
+        <div transclude="top-paging-tpl"></div>
+      </div>
+
+      <div id="topcap-nav-home-tpl">
+        <div class="fc-topverb" style="border-bottom: medium none;">
+          <span jsvalues=".className:(isCanvasMode() ? 'fc-left-verb fc-left-verb-canvas' : 'fc-left-verb')">
+            <span transclude="view-my-profile-tpl"></span>
+          </span>
+          <div transclude="zoomy-profile-tpl"></div>
+        </div>
+      </div>
+
+    <div class="fc-button" id="signin-button-tpl" jseval="generateSignInButton(this, MSG_JOIN, 'standard');">
+    </div>
+
+
+    <div class="fc-button" id="button-tpl" jseval="handle(this,buttonHandler);decorateButton(this);">
+      <span jscontent="buttonLabel" style="font-size: 14px; font-weight: bold;"></span>
+    </div>
+
+    <div class="fc-members" id="profile-tpl">
+      <div transclude="topcap-tpl"></div>
+      <div class="fc-scroll-botnav fc-content-bg">
+        <div class="fc-content fc-minheight fc-profile">
+          <div jsselect="profile">
+            <div transclude="profile-summary-tpl"></div>
+            <div jsselect="person" jsvars="aboutMe:getField(opensocial.Person.Field.ABOUT_ME)">
+              <div class="fc-userpage-itemlist" jsdisplay="aboutMe != null &amp;&amp; aboutMe.length > 0">
+                <span class="fc-sectitle">
+                  <span jscontent="MSG_ABOUT_ME"></span>
+                </span>
+                <div class="fc-about-me" jscontent="aboutMe">
+                </div>
+              </div>
+            </div>
+            <div jsselect="profileExtensions">
+              <div transclude="profile-extension-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="links" jsvars="numPreviewItems:3;heading:MSG_LINKS;items:$this;showAllHandler:showAllLinks;transform:transformLink">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="sites" jsvars="numPreviewItems:3;heading:MSG_SITES;items:$this;showAllHandler:showAllSites;transform:transformSite">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div class="fc-userpage-itemlist" jsdisplay="size() > 0" jsselect="friends" jsvars="label:MSG_PROFILE_FRIENDS;showAllHandler:showAllProfileFriends;numPreviewItems:facesPerRow">
+              <div transclude="faces-preview-tpl">
+              </div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="activities" jsvars="numPreviewItems:2;heading:MSG_ACTIVITIES;items:$this;showAllHandler:showAllActivities;transform:transformActivity">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl"></div>
+    </div>
+
+    <div class="fc-members-canvas" id="profile-tpl:canvas">
+      <div jsdisplay="!hideNavigation()"> <div transclude="top-paging-tpl"></div></div>
+      <div class="fc-content-canvas fc-content-bg fc-minheight">
+        <div jsselect="profile" style="position: relative;">
+          <div>
+            <div transclude="profile-summary-tpl"></div>
+            <div jsselect="person" jsvars="aboutMe:getField(opensocial.Person.Field.ABOUT_ME)">
+              <div class="fc-userpage-itemlist-canvas" jsdisplay="aboutMe &amp;&amp; aboutMe.length > 0">
+                <span class="fc-sectitle fc-sectitle-canvas">
+                  <span jscontent="MSG_ABOUT_ME"></span>
+                </span>
+                <div class="fc-about-me" jscontent="aboutMe">
+                </div>
+              </div>
+            </div>
+
+            <div jsselect="profileExtensions">
+              <div transclude="profile-extension-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="links" jsvars="numPreviewItems:5;heading:MSG_LINKS;items:$this;showAllHandler:showAllLinks;transform:transformLink">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="sites" jsvars="numPreviewItems:5;heading:MSG_SITES;items:$this;showAllHandler:showAllSites;transform:transformSite">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div class="fc-userpage-itemlist" jsdisplay="size() > 0" jsselect="friends" jsvars="label:MSG_PROFILE_FRIENDS;showAllHandler:showAllProfileFriends;numPreviewItems:16">
+              <div transclude="faces-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="activities" jsvars="numPreviewItems:2;heading:MSG_ACTIVITIES;items:$this;showAllHandler:showAllActivities;transform:transformActivity">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+      </div>
+      <div jsdisplay="!hideNavigation()"> <div transclude="bottom-paging-tpl"></div></div>
+    </div>
+
+    <div class="fc-userpage-itemlist" id="item-list-preview-tpl">
+      <span class="fc-sectitle" jscontent="heading"></span>
+      <span class="fc-userpage-itemlist-paging">
+        <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="items.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+      </span>
+      <div class="fc-itemlist-table" jsselect="map(items, transform).slice(0, numPreviewItems)">
+        <div transclude="item-tpl"></div>
+      </div>
+    </div>
+
+    <div class="fc-userpage-itemlist-canvas" id="item-list-preview-tpl:canvas">
+      <span class="fc-sectitle fc-sectitle-canvas" jscontent="heading" style="font-size: 14px;"></span>&nbsp;
+      <span class="fc-userpage-itemlist-paging">
+        <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="items.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+      </span>
+      <div class="fc-itemlist-table" jsselect="map(items, transform).slice(0, numPreviewItems)">
+        <div transclude="item-tpl"></div>
+      </div>
+    </div>
+
+    <div id="profile-summary-tpl">
+      <div jsselect="person">
+        <span class="fc-userpage-pic">
+          <div jsdisplay="!isCanvasMode()">
+            <div transclude="member-thumb-54-tpl"></div>
+          </div>
+          <div jsdisplay="isCanvasMode()">
+            <div transclude="member-thumb-65-tpl"></div>
+          </div>
+        </span>
+      </div>
+      <div class="fc-userpic-caption">
+        <div jsselect="person">
+          <a jsdisplay="externalProfileUrl" jsvalues="href:externalProfileUrl" target="_blank">
+            <div jscontent="getDisplayName()" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-name fc-userpage-name-canvas' : 'fc-userpage-name')"></div>
+          </a>
+          <span jsdisplay="!externalProfileUrl || typeof(externalProfileUrl)==undefined">
+            <div jscontent="getDisplayName()" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-name fc-userpage-name-canvas' : 'fc-userpage-name')"></div>
+          </span>
+        </div>
+        <div style="padding-bottom: 2px;">
+          <div jsdisplay="typeof(isFriend) != 'undefined' &amp;&amp; !isFriend &amp;&amp; typeof(isInvited) == 'undefined'">
+            <a href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'goToInviteFriend');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+              <img class="fc-plus-pic" src="plus.gif">
+              <span jscontent="MSG_ADD_AS_FRIEND"></span>
+            </a>
+          </div>
+          <div jscontent="MSG_IS_INVITED" jsdisplay="typeof(isInvited) != 'undefined' &amp;&amp; isInvited">
+          </div>
+          <div jscontent="MSG_IS_FRIEND" jsdisplay="isFriend">
+          </div>
+        </div>
+        <div jsdisplay="isMessagingEnabled &amp;&amp; canSendMessage">
+          <a href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'sendMessageDialog');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+            <img class="fc-envelope-pic" src="smallenvelope.jpg">
+              <span jscontent="MSG_SEND_MESSAGE"></span>
+            </a>
+        </div>
+        <div jsdisplay="isViewingSelf &amp;&amp; communityHasProfile">
+          <a class="fc-faded-link" href="javascript:void(0);" jsvalues="$h:handle(this,'goToEditProfile')">
+            <img class="fc-edit-pic" src="fc-edit.png">
+            <span jscontent="MSG_EDIT_PROFILE"></span>
+          </a>
+        </div>
+
+        <div jsdisplay="isViewerAdmin">
+          <div jsdisplay="!isAdmin &amp;&amp; (typeof(isBlocked) != 'undefined' &amp;&amp; !isBlocked)">
+            <a class="fc-faded-link" href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'goToBlockMember')">
+              <img class="fc-do-not-enter-pic" src="do-not-enter.gif">
+              <span jscontent="MSG_BLOCK_USER"></span>
+            </a>
+          </div>
+          <div jsdisplay="isBlocked">
+            <a class="fc-faded-link-small" href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'unblockUser')">
+              <img class="fc-plus-pic" src="unblock.gif">
+              <span jscontent="MSG_UNBLOCK_USER"></span>
+            </a>
+          </div>
+          <div class="fc-profile-summary" jscontent="MSG_USER_IS_ADMIN" jsdisplay="isAdmin"></div>
+        </div>
+      </div>
+      <div class="clear">
+      </div>
+    </div>
+
+    <div class="fc-members" id="activities-tpl" jsvars="label:MSG_ALL_ACTIVITIES; previous:MSG_NEWER;next:MSG_OLDER;items:profile.activities;transform:transformActivity;nextHandler:nextActivities;prevHandler:prevActivities">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="members-page-tpl" jsvars="label:MSG_ALL_SITE_MEMBERS;items:members;nextHandler:nextMembers;prevHandler:previousMembers">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="blocked-members-page-tpl" jsvars="label:MSG_ALL_BLOCKED_MEMBERS;items:blockedMembers;nextHandler:nextBlockedMembers;prevHandler:previousBlockedMembers;noneMessage:MSG_NO_BLOCKED_MEMBERS;showAllFilter:true">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="profile-friends-page-tpl" jsvars="label:MSG_ALL_PROFILE_FRIENDS;items:profile.friends;nextHandler:nextProfileFriends;prevHandler:previousProfileFriends">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="viewer-friends-page-tpl" jsvars="label:MSG_ALL_YOUR_FRIENDS;items:friends;nextHandler:nextViewerFriends;prevHandler:previousViewerFriends">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="faces-page-tpl" jsvars="previous:MSG_PREVIOUS;next:MSG_NEXT">
+      <div transclude="topcap-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-noscroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div class="fc-mem-grid" style="padding-bottom: 0px;">
+            <div class="clear"></div>
+            <div jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')">
+              <span class="fc-right-verb" jsdisplay="showAllFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_ALL" jsvalues="$h:handle(this,showUnblockedMembers)"></a></span>
+              <span jscontent="label"></span>&nbsp;(<span jscontent="items.getTotalSize() || '0'"></span>)
+            </div>
+            <div class="clear"></div>
+            <div class="fc-no-elements" jscontent="noneMessage" jsdisplay="!items.getTotalSize() &amp;&amp; noneMessage">
+            </div>
+            <div class="fc-thumbnail" jsselect="items.asArray()">
+              <div transclude="member-thumb-large-tpl"></div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="faces-page-tpl:canvas" jsvars="previous:MSG_PREVIOUS;next:MSG_NEXT">
+      <div transclude="top-paging-tpl"></div>
+      <div class="fc-minheight fc-content-bg">
+        <div class="fc-members-header" style="border-top: medium none;">
+          <span class="fc-right-verb" jsdisplay="showAllFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_ALL" jsvalues="$h:handle(this,showUnblockedMembers)"></a></span>
+          <span class="fc-header-sectitle" jscontent="label"></span>&nbsp;(<span jscontent="items.getTotalSize() || '0'"></span>)
+        </div>
+        <div class="fc-mem-grid" style="padding-bottom: 0px;">
+          <div class="fc-no-elements" jscontent="noneMessage" jsdisplay="!items.getTotalSize() &amp;&amp; noneMessage">
+          </div>
+          <div class="fc-thumbnail" jsselect="items.asArray()">
+            <div transclude="member-thumb-large-tpl"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="links-tpl" jsvars="label:MSG_ALL_LINKS;previous:MSG_PREVIOUS;next:MSG_NEXT;items:profile.links;transform:transformLink;nextHandler:nextLinks;prevHandler:previousLinks">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="sites-tpl" jsvars="label:MSG_ALL_SITES;previous:MSG_PREVIOUS;next:MSG_NEXT;items:profile.sites;transform:transformSite;nextHandler:nextSites;prevHandler:previousSites">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="items-tpl">
+      <div jsdisplay="isCanvasMode()">
+        <div transclude="topcap-nav-tpl"></div>
+      </div>
+      <div jsdisplay="!isCanvasMode()">
+        <div transclude="topcap-tpl"></div>
+      </div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile">
+            <div transclude="profile-summary-tpl">
+            </div>
+            <div class="fc-userpage-itemlist">
+              <span jscontent="label" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')"></span>&nbsp;
+              
+              <div class="fc-itemlist-table" jsselect="map(items, transform)">
+                <div transclude="item-tpl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="invite-friend-tpl" jsvars="sendHandler:sendInvite">
+      <div transclude="topcap-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile.person">
+            <span class="fc-userpage-pic">
+              <div transclude="member-thumb-54-tpl"></div>
+            </span>
+            <div class="fc-userpic-caption">
+              <div class="fc-userpage-name" jscontent="getDisplayName()"></div>
+            </div>
+            <div class="fc-message">
+              <div jscontent="MSG_INVITATION" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')"></div>
+              <textarea class="fc-textarea" jsvalues="id:'inviteMessage'" name="textarea" rows="2"></textarea>
+              <div class="fc-helpful" jscontent="MSG_HELP_FRIENDINVITE"></div>
+              <div jsvars="buttonHandler:sendHandler;buttonLabel:MSG_SEND">
+                <div transclude="button-tpl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="block-member-tpl" jsvars="sendHandler:blockMember">
+      <div jsdisplay="isCanvasMode()">
+        <div transclude="topcap-nav-tpl"></div>
+      </div>
+      <div jsdisplay="!isCanvasMode()">
+        <div transclude="topcap-tpl"></div>
+      </div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile.person">
+            <span class="fc-userpage-pic">
+              <div transclude="member-thumb-54-tpl"></div>
+            </span>
+            <div class="fc-userpic-caption">
+              <div class="fc-userpage-name" jscontent="getDisplayName()"></div>
+            </div>
+            <div class="fc-message">
+              <div jscontent="MSG_HELP_BLOCKMEMBER" jsvalues=".className:(isCanvasMode()
+                     ? 'fc-blocked-helpful-msg-canvas'
+                     : 'fc-blocked-helpful-msg-gadget')">
+              </div>
+              <span jsvars="buttonHandler:sendHandler;buttonLabel:MSG_BLOCK">
+                <div transclude="button-tpl"></div>
+              </span>
+              &nbsp; &nbsp;
+              <a href="javascript:void(0);" jscontent="MSG_CANCEL" jsvalues="$h:handle(this,'goBack');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <span class="fc-send" id="send-button-tpl" jscontent="MSG_SEND" jsvalues="$h:handle(this,sendHandler)"></span>
+
+    <div class="fc-botcap-short" id="bottom-paging-tpl">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-botcap-short fc-botcap-short-canvas" id="bottom-paging-tpl:canvas">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-topverb" id="top-paging-tpl">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-topverb fc-topverb-canvas" id="top-paging-tpl:canvas">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <a href="javascript:void(0);" id="goback-tpl" jscontent="MSG_BACK" jsdisplay="!isHome()" jsvalues="$h:handle(this,'goBack')"></a>
+
+    <a href="javascript:void(0);" id="gobacktop-tpl" jscontent="MSG_BACK_TO_TOP" jsdisplay="!hasMenuMode('profile')" jsvalues="$h:handle(this,'goBackToHome')"></a>
+
+    <a href="javascript:void(0);" id="view-my-profile-tpl" jscontent="MSG_VIEW_MY_PROFILE" jsdisplay="viewer.getId() &amp;&amp; isCanvasMode()" jsvalues="$h:handle(this,'goToViewerProfile')"></a>
+
+    <div id="paging-tpl">
+      <span jsvalues=".className:(isCanvasMode() ? 'fc-left-verb fc-left-verb-canvas' : 'fc-left-verb')">
+        <span transclude="gobacktop-tpl"></span>&nbsp;&nbsp;
+        <span transclude="goback-tpl"></span>&nbsp;&nbsp;
+      </span>
+      <span jsselect="items" jsvalues=".className:(isCanvasMode() ? 'fc-right-verb fc-right-verb-canvas' : 'fc-right-verb')" style="margin-right: 4px;">
+        <a href="javascript:void(0);" jscontent="previous" jsdisplay="$this.getOffset() > 0" jsvalues="$h:handle(this,prevHandler)" style="padding-right: 4px;"></a>
+        <span jscontent="previous" jsdisplay="$this.getOffset() == 0" style="visibility: hidden; padding-right: 4px;"></span>
+        <a href="javascript:void(0);" jscontent="next" jsdisplay="$this.getTotalSize() > ($this.size() + $this.getOffset())" jsvalues="$h:handle(this,nextHandler)"></a>
+        <span jscontent="next" jsdisplay="$this.getTotalSize() <= ($this.size() + $this.getOffset())" style="visibility: hidden;"></span>
+      </span>&nbsp;
+      <div class="clear"></div>
+    </div>
+
+    <div class="fc-waitingmsg" id="waiting-messages-tpl" jsdisplay="showWaitingMessages">
+      <div>
+        <table><tbody><tr>
+            <td valign="top"><img src="smallenvelope.jpg"></td>
+            <td>
+              <div jscontent="MSG_NUM_WAITING_MESSAGES"></div>
+              <div><a href="javascript:void(0);" jscontent="MSG_VIEW_AND_CONFIGURE_MESSAGING" jseval="handle(this,'acceptMessages')">
+                </a>
+              </div>
+            </td>
+        </tr></tbody></table>
+      </div>
+    </div>
+
+    <div class="fc-promo-main" id="promo-tpl" jsdisplay="promoHtml">
+      <div jseval="insertHtml(this, promoHtml);"></div>
+    </div>
+
+    <div class="fc-members" id="friend-requests-tpl">
+      <div transclude="topcap-tpl"></div>
+      <div class="fc-scroll-botnav fc-content-bg">
+        <div class="fc-friendreq" jsselect="friendRequests.asArray()">
+          <div class="fc-userpic" jsselect="$this.getField(google.FriendConnect.Invite.Field.INVITER)">
+            <div transclude="member-thumb-tpl"></div>
+          </div>
+          <div class="fc-userpic-caption">
+            <span jsselect="$this.getField(google.FriendConnect.Invite.Field.INVITER)">
+              <div class="fc-username" jscontent="getDisplayName()"></div>
+              <a href="javascript:void(0);" jscontent="MSG_ADD_AS_FRIEND" jsvalues="$h:handle(this,'acceptFriendRequest');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')"></a> |
+              <a href="javascript:void(0);" jscontent="MSG_IGNORE" jsvalues="$h:handle(this,'ignoreFriendRequest');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')"></a>
+            </span>
+            <div class="fc-friendreq-text" jscontent="$this" jsselect="$this.getField(google.FriendConnect.Invite.Field.MESSAGE)">
+            </div>
+          </div>
+        </div>
+        <div jsvalues=".className:(isCanvasMode() ? '' : 'fc-content')">
+          <span class="fc-helpful" jscontent="MSG_HELP_FRIENDREQUEST"></span>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div id="invitedby-tpl">
+      <div jsdisplay="showInvitedBy()">
+        <div jsselect="invitedBy" jsvalues=".className:(isCanvasMode() ? 'fc-invitedby-canvas' : 'fc-invitedby')">
+          <div class="fc-userpic">
+            <div transclude="member-thumb-tpl"></div>
+          </div>
+          <div class="fc-invitedby-text" jscontent="MSG_INVITED_YOU"></div>
+          <div class="fc-invitedby-link-container"><a class="fc-invitedby-link" href="javascript:void(0);" jscontent="MSG_VIEW_INVITER_PROFILE" jsvalues="$h:handle(this,'viewProfile')"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="friendreqs-tpl">
+      <div jsdisplay="$this.size()" jsselect="friendRequests" jsvalues=".className:(isCanvasMode() ? 'fc-friendreqs-canvas' : 'fc-friendreqs')">
+        <div class="fc-userpic" jsselect="asArray()[0].getField(google.FriendConnect.Invite.Field.INVITER)">
+          <div transclude="member-thumb-tpl"></div>
+        </div>
+        <a class="fc-friendreqs-link" href="javascript:void(0);" jscontent="MSG_NEW_FRIEND_REQUESTS" jsvalues="$h:handle(this,'viewFriendRequests')"></a>
+      </div>
+    </div>
+
+    <div class="fc-members" id="faces-tpl" jsvars="friendReqs:(friendRequests &amp;&amp; friendRequests.size() > 0)">
+      <div transclude="topcap-tpl"></div>
+      <div transclude="waiting-messages-tpl"></div>
+      <div transclude="promo-tpl"></div>
+      <div transclude="invitedby-tpl"></div>
+      <div transclude="friendreqs-tpl"></div>
+      <div jsvars="dropARow:(friendReqs || showInvitedBy() || showWaitingMessages || promoHtml)">
+        <div jsvalues=".className:(dropARow ? 'fc-content-bg fc-noscroll-friendreq' : 'fc-content-bg fc-noscroll')">
+          <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')" style="padding-bottom: 0px;">
+            <div class="fc-no-elements" jsdisplay="!members || !members.getTotalSize()">
+              <div jscontent="MSG_NO_SITE_MEMBERS">
+              </div>
+              <a href="javascript:void(0);" jscontent="MSG_BE_THE_FIRST" jsvalues="$h:handle(this,'signin')"></a>
+            </div>
+            <div jsselect="members" jsvars="label:MSG_SITE_MEMBERS;showAllHandler:showAllMembers;numPreviewItems:numPreviewMembers(dropARow);showBlockedFilter:false;needsZoomyForNoTop:hasMenuMode('members')">
+              <div transclude="faces-preview-tpl">
+              </div>
+            </div>
+            <div jsselect="friends" jsvars="label:MSG_YOUR_FRIENDS;showAllHandler:showAllViewerFriends;numPreviewItems:numPreviewFriends(dropARow);showBlockedFilter:false;needsZoomyForNoTop:false">
+              <div transclude="faces-preview-tpl">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div transclude="footer-text-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="faces-tpl:canvas" jsvars="friendReqs:(friendRequests &amp;&amp; friendRequests.size() > 0)">
+      <div transclude="waiting-messages-tpl"></div>
+      <div transclude="promo-tpl"></div>
+      <div transclude="invitedby-tpl"></div>
+      <div transclude="friendreqs-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg fc-minheight' : 'fc-content')">
+        <div jsselect="members" jsvars="label:MSG_SITE_MEMBERS;showAllHandler:showAllMembers;numPreviewItems:numPreviewMembers(friendReqs);showBlockedFilter:isViewerAdmin">
+          <div transclude="faces-preview-large-tpl">
+          </div>
+        </div>
+        <div class="fc-no-elements" jscontent="MSG_NO_SITE_MEMBERS" jsdisplay="!members || !members.getTotalSize()">
+        </div>
+        <div jsselect="friends" jsvars="label:MSG_YOUR_FRIENDS;showAllHandler:showAllViewerFriends;numPreviewItems:numPreviewFriends(friendReqs);showBlockedFilter:false">
+          <div transclude="faces-preview-large-tpl">
+          </div>
+        </div>
+      </div>
+      <div transclude="footer-text-tpl"></div>
+    </div>
+
+    <div class="fc-mem-grid" id="faces-preview-tpl" jsdisplay="$this &amp;&amp; $this.size() &amp;&amp; numPreviewItems > 0">
+        <div jsdisplay="needsZoomyForNoTop">
+          <div transclude="zoomy-tpl"></div>
+        </div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')">
+        <span jscontent="label"></span>&nbsp;(<span jscontent="$this.getTotalSize() || '0'"></span>)
+        <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="$this.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+        <span jsdisplay="showBlockedFilter">
+          <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_SHOW_BLOCKED" jsvalues="$h:handle(this,showBlockedMembers)"></a>
+        </span>
+      </div>
+      <div class="clear"></div>
+      <div class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <div transclude="member-thumb-tpl"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="fc-mem-grid" id="faces-preview-large-tpl:canvas" jsdisplay="($this &amp;&amp; $this.size() &amp;&amp; numPreviewItems > 0) || showBlockedFilter">
+      <div class="fc-members-header">
+        <span class="fc-header-sectitle" jscontent="label" style="font-size: 15px;"></span>&nbsp;(<span jscontent="$this.getTotalSize() || '0'"></span>)
+        <span class="fc-see-all">
+          <span jsdisplay="showBlockedFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_BLOCKED" jsvalues="$h:handle(this,showBlockedMembers)"></a></span>
+          <a href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="$this.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+        </span>
+      </div>
+      <div class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <div transclude="member-thumb-large-tpl"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="fc-subtle-botcap" id="footer-text-tpl">
+      <div jsdisplay="viewer == null">
+        <span class="fc-botcap-text" jscontent="MSG_ALREADY_MEMBER"></span>
+        <span class="fc-content-link">
+          <a href="javascript:void(0);" jscontent="MSG_SIGN_IN" jsvalues="$h:handle(this,'signin')"></a>
+        </span>
+      </div>
+    </div>
+
+    </div>
+
+    <div id="gadget_js_log" style="display: none;"><div>Wed Sep 24 2014 15:03:29 GMT+0200 (CEST) -- requesting promo</div><div>Wed Sep 24 2014 15:03:30 GMT+0200 (CEST) -- processing promo</div></div>
+
+    
+    
+    
+  </body>
+</html>

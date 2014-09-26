@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js no-touch">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>
+	Enterprise Websites
+</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="shortcut icon" href="favicon.ico"><link rel="apple-touch-icon" sizes="114x114" href="http://mercurynewmedia.com/touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="72x72" href="http://mercurynewmedia.com/touch-icon-72x72.png"><link rel="apple-touch-icon" href="http://mercurynewmedia.com/touch-icon-iphone.png">
+    
+    
+    <meta name="Generator" content="Sitefinity 6.1.4300.0 PE">
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body class="SideNavActive Enterprise-Websites Ready">
+    <form method="post" action="http://mercurynewmedia.com/solutions/enterprise-websites" id="form1">
+<div class="aspNetHidden">
+<input name="ctl14_TSM" id="ctl14_TSM" value=";;System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:fr:c9cbdec3-c810-4e87-846c-fb25a7c08002:ea597d4b:b25378d2;;Telerik.Sitefinity, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:fr:52450140-1455-4dd7-8639-8bc40c780e66:3b9a1b05;Telerik.Sitefinity.Search.Impl, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:fr:b16945a5-bd84-48b5-9b64-db7f367ce493:7561727d;Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr:38d7db1e-d3bf-44c8-8ec4-ec2917fcd015:a1a4383a;Telerik.Sitefinity, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:fr:52450140-1455-4dd7-8639-8bc40c780e66:1900ec7d:2aeb216e:f77740f1:26cfb6dc:6e04508f;Telerik.Sitefinity.Resources:fr:c0de57d9-770c-4f47-be3f-ad47ad7aca56:c4ef6dcd:6f03d72a;Telerik.Sitefinity, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:fr:52450140-1455-4dd7-8639-8bc40c780e66:8bc17194:c1fc658e:447a22b8:9790c5c8:ef84b30a:a05bbffe:6ef1aa4d:d1fb4819:fad02b10" type="hidden">
+<input name="ctl15_TSSM" id="ctl15_TSSM" value=";Telerik.Sitefinity.Resources, Version=6.1.4300.0, Culture=neutral, PublicKeyToken=null:en:c0de57d9-770c-4f47-be3f-ad47ad7aca56:7a90d6a:83fa35c7;Telerik.Web.UI, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:38d7db1e-d3bf-44c8-8ec4-ec2917fcd015:580b2269;Telerik.Web.UI.Skins, Version=2013.1.417.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:d16e8365-294c-4b33-9cbf-b70fd757bfd2:6c8ef648" type="hidden">
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM3NDY2MTYzNGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgcFNWN0bDAwJE1haW5Db250ZW50JFRGMzdDMEQyNTAwNiRjdGwwMCRjdGwwMCRCcmVhZGNydW1iBU1jdGwwMCRRdW90ZUZvcm1Db250ZW50JFQ4Q0NCNDUzMjA1MCRjdGwwMCRjdGwwMCRDMDE0JGN0bDAwJGN0bDAwJGNoZWNrQm94ZXMkMAVNY3RsMDAkUXVvdGVGb3JtQ29udGVudCRUOENDQjQ1MzIwNTAkY3RsMDAkY3RsMDAkQzAxNCRjdGwwMCRjdGwwMCRjaGVja0JveGVzJDEFTWN0bDAwJFF1b3RlRm9ybUNvbnRlbnQkVDhDQ0I0NTMyMDUwJGN0bDAwJGN0bDAwJEMwMTQkY3RsMDAkY3RsMDAkY2hlY2tCb3hlcyQyBU1jdGwwMCRRdW90ZUZvcm1Db250ZW50JFQ4Q0NCNDUzMjA1MCRjdGwwMCRjdGwwMCRDMDE0JGN0bDAwJGN0bDAwJGNoZWNrQm94ZXMkMwVNY3RsMDAkUXVvdGVGb3JtQ29udGVudCRUOENDQjQ1MzIwNTAkY3RsMDAkY3RsMDAkQzAxNCRjdGwwMCRjdGwwMCRjaGVja0JveGVzJDQFTWN0bDAwJFF1b3RlRm9ybUNvbnRlbnQkVDhDQ0I0NTMyMDUwJGN0bDAwJGN0bDAwJEMwMTQkY3RsMDAkY3RsMDAkY2hlY2tCb3hlcyQ0WVhKDsd2QcYRFqTpu5/LoD1266pGtZSnrTr3rmXWNrU=" type="hidden">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="aspNetHidden">
+
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACfVw/kL+poPlV7OkhlR5eJhzfsJj8pi5otadxlnksAh+iI6hCLqi502gMcMW9LOnl5Igh0YtarUewsFQzkLh15JBY49k+7ltemAmohpFpFvQe9lKJpz4mIvDRRQha166T0GRzNsrDGGxxCF4tRyHupYP0YXHF7ukFBnHzVlD4wfj4rU8BO9DsBPTo/kyrXF1rh9SpCi3JbJv2wyFRs1YL0YuXxs/4YLStl0rw/A75JNRhvjDVxD4wkKvLAhFH3Q0vLRKM+TkBQZZB0NSBWDJY1tUN/RCj0/dn5CWEbQK+VDdk0KO1v9RoojO/WqhXfvnF917/s0Vy7EKL7hwpS1/pVKI3WvAg6jqpUXd5iEaRl+BLQBLMwdRtyCDpZd1OkDRSwLNKgolbwxsp/jkrPcPUQGCrtbEzTwM2LtJaUVelPWOwx1RJEOIQcfFm4Db27R+1Jd51yWDUbvqbUSbGJTe57WQvMDhuasdDEKvIMTYTls2jgTzsQOM9I/LagxuCiS245s2e7CLgZVQGpIdsuvF78KT/1mgMDY3W/qhbrfjRTk9sWzJDicyYqZFmCpobOR/8cPQgCJUVrmdgD3pdd0fzqxjEY24GiAAaxsu3/iCQClmB9LTRSRJlu10IQw6werhDD45qjfsjpE9BJ2j8cX2hMDZvU+7EqVBQpf5k+sUjUF0zxE6cdTwrrZS+5ubEjtgGak9wIio1UkEqHaric045XyOm58oGdTgPAG3HNuPut1gENacQj79B9mVHCOlcvBuELhrjuGqvl3Zt6qfY2upIOSXiZyR5s6o73+xk1BmyR19UrgT0Q/vy3aZwfIFnNo6IXvQhYCEpu668MZ92I/lqOl/KO2mR75B6DH2LiKHsoYlA==" type="hidden">
+</div>
+<input name="ctl00$ctl14" id="ctl14" type="hidden">
+
+
+        <header class="clearfix">
+            <div class="headerInnerWrapper">
+                <div class="logo">
+                    <a href="http://mercurynewmedia.com/Mercury-Home">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="261px" height="68px" viewBox="0 0 261 68" enable-background="new 0 0 261 68" xml:space="preserve">
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M6.808,27.005H4.91v16.599h1.956V29.419
+	c0-0.397,0.338-0.734,0.733-0.734h2.724c0.488,0,0.731,0.246,0.731,0.734v13.362c0,0.457,0.368,0.823,0.826,0.823h1.133V29.358
+	c0-0.365,0.335-0.673,0.733-0.673h2.72c0.398,0,0.735,0.338,0.735,0.734v13.362c0,0.457,0.395,0.823,0.854,0.823h1.099V29.451
+	c0-1.65-0.823-2.445-2.567-2.445h-2.199c-0.825,0-1.314,0.244-1.774,0.947c-0.336-0.643-0.887-0.947-1.741-0.947H8.67
+	c-1.008,0-1.467,0.154-1.863,0.581V27.005z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M30.773,37.367H29.52c-0.398,0-0.674,0.337-0.674,0.827v3.025
+	c0,0.366-0.366,0.703-0.731,0.703h-2.661c-0.397,0-0.701-0.305-0.701-0.703v-5.869c0-0.307,0.212-0.488,0.549-0.488h5.472v-5.291
+	c0-1.619-0.948-2.567-2.537-2.567h-2.905c-1.589,0-2.508,0.948-2.508,2.567v11.496c0,1.589,0.918,2.536,2.508,2.536h2.905
+	c1.589,0,2.537-0.947,2.537-2.536V37.367z M28.846,33.15h-4.094v-3.729c0-0.399,0.305-0.737,0.701-0.737h2.661
+	c0.394,0,0.731,0.338,0.731,0.737V33.15z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M36.306,27.005H34.44v15.776c0,0.457,0.368,0.823,0.827,0.823h1.1
+	V29.419c0-0.397,0.338-0.734,0.735-0.734h1.468c0.394,0,0.731,0.338,0.731,0.734v2.568c0,0.46,0.368,0.827,0.826,0.827h0.947v-3.242
+	c0-1.62-0.947-2.567-2.538-2.567H38.17c-0.978,0-1.437,0.154-1.864,0.581V27.005z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M51.804,36.36h-1.1c-0.457,0-0.825,0.368-0.825,0.824v4.036
+	c0,0.366-0.367,0.703-0.733,0.703h-2.66c-0.369,0-0.735-0.337-0.735-0.703v-11.8c0-0.399,0.336-0.735,0.735-0.735h2.66
+	c0.458,0,0.733,0.275,0.733,0.735v3.638c0,0.459,0.368,0.827,0.825,0.827h1.1v-4.311c0-1.62-0.949-2.568-2.537-2.568h-2.905
+	c-1.588,0-2.537,0.948-2.537,2.568v11.494c0,1.589,0.949,2.536,2.537,2.536h2.905c1.588,0,2.537-0.947,2.537-2.536V36.36z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M61.587,43.604h1.837V27.006h-1.897V41.22
+	c0,0.366-0.368,0.703-0.733,0.703h-2.691c-0.366,0-0.704-0.337-0.704-0.703V27.829c0-0.488-0.336-0.823-0.826-0.823h-1.101v14.062
+	c0,1.589,0.95,2.536,2.509,2.536h1.742c0.978,0,1.437-0.152,1.864-0.58V43.604z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M68.954,27.005H67.09v15.776c0,0.457,0.366,0.823,0.827,0.823
+	h1.099V29.419c0-0.397,0.338-0.734,0.733-0.734h1.468c0.395,0,0.732,0.338,0.732,0.734v2.568c0,0.46,0.368,0.827,0.826,0.827h0.95
+	v-3.242c0-1.62-0.95-2.567-2.538-2.567h-0.367c-0.98,0-1.437,0.154-1.866,0.581V27.005z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M84.454,27.005h-1.927v14.185c0,0.518-0.214,0.732-0.734,0.732
+	h-2.66c-0.396,0-0.732-0.337-0.732-0.732V27.83c0-0.487-0.337-0.824-0.826-0.824h-1.1v14.062c0,1.59,0.947,2.536,2.538,2.536h3.179
+	c0.242,0,0.335,0.092,0.335,0.337v1.62c0,0.184-0.152,0.337-0.305,0.337H77.3c-0.459,0-0.826,0.398-0.826,0.855v0.826h5.593
+	c1.621,0,2.387-0.764,2.387-2.384V27.005z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#6CC04A" d="M96.986,43.604V29.573c0-1.59-0.948-2.567-2.537-2.567h-1.651
+	c-1.009,0-1.345,0.122-1.681,0.549v-0.549h-2.996v16.598h2.996v-13.51c0-0.398,0.305-0.704,0.672-0.704h1.559
+	c0.365,0,0.673,0.306,0.673,0.704v12.655c0,0.458,0.368,0.855,0.825,0.855H96.986z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#6CC04A" d="M109.521,37.307h-2.143c-0.487,0-0.853,0.366-0.853,0.857v2.322
+	c0,0.397-0.276,0.704-0.644,0.704h-1.559c-0.365,0-0.673-0.308-0.673-0.704v-4.739c0-0.275,0.155-0.429,0.429-0.429h5.443v-5.746
+	c0-1.59-0.949-2.567-2.539-2.567h-3.791c-1.59,0-2.539,0.947-2.539,2.567v11.434c0,1.65,0.949,2.598,2.539,2.598h3.791
+	c1.559,0,2.539-0.977,2.539-2.598V37.307z M106.525,32.875h-2.876v-2.813c0-0.366,0.308-0.672,0.673-0.672h1.559
+	c0.368,0,0.644,0.273,0.644,0.672V32.875z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#6CC04A" d="M126.792,43.604l1.711-16.598h-2.293
+	c-0.518,0-0.916,0.365-0.947,0.853l-0.977,13.116c0,0.123-0.09,0.215-0.185,0.215c-0.09,0-0.182-0.092-0.182-0.215l-1.468-13.146
+	c-0.061-0.458-0.521-0.823-1.04-0.823h-1.926c-0.489,0-0.946,0.395-1.008,0.823l-1.467,13.146c0,0.123-0.123,0.215-0.217,0.215
+	c-0.09,0-0.182-0.092-0.182-0.215l-1.222-13.969h-3.119l1.713,15.773c0.06,0.458,0.488,0.824,0.948,0.824h4.156l1.285-12.165
+	l1.254,11.341c0.059,0.549,0.304,0.824,0.733,0.824H126.792z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M133.15,27.005h-1.897v16.599h1.959V29.419
+	c0-0.397,0.334-0.734,0.732-0.734h2.721c0.489,0,0.735,0.246,0.735,0.734v13.362c0,0.457,0.366,0.823,0.825,0.823h1.13V29.358
+	c0-0.365,0.337-0.673,0.734-0.673h2.721c0.398,0,0.734,0.338,0.734,0.734v13.362c0,0.457,0.398,0.823,0.857,0.823h1.101V29.451
+	c0-1.65-0.824-2.445-2.569-2.445h-2.199c-0.829,0-1.316,0.244-1.775,0.947c-0.337-0.643-0.887-0.947-1.743-0.947h-2.199
+	c-1.01,0-1.47,0.154-1.866,0.581V27.005z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M157.117,37.367h-1.255c-0.395,0-0.674,0.337-0.674,0.827v3.025
+	c0,0.366-0.366,0.703-0.732,0.703h-2.659c-0.397,0-0.703-0.305-0.703-0.703v-5.869c0-0.307,0.214-0.488,0.55-0.488h5.472v-5.291
+	c0-1.619-0.949-2.567-2.538-2.567h-2.905c-1.59,0-2.507,0.948-2.507,2.567v11.496c0,1.589,0.917,2.536,2.507,2.536h2.905
+	c1.589,0,2.538-0.947,2.538-2.536V37.367z M155.188,33.15h-4.094v-3.729c0-0.399,0.306-0.737,0.703-0.737h2.659
+	c0.398,0,0.732,0.338,0.732,0.737V33.15z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M166.959,43.604h1.804V23.153h-1.1
+	c-0.461,0-0.827,0.368-0.827,0.826v3.026h-3.514c-1.59,0-2.536,0.948-2.536,2.567v11.495c0,1.589,0.946,2.536,2.536,2.536h1.772
+	c0.98,0,1.438-0.152,1.866-0.578V43.604z M166.836,28.685v12.506c0,0.397-0.337,0.732-0.732,0.732h-2.69
+	c-0.368,0-0.704-0.335-0.704-0.732V29.42c0-0.398,0.337-0.735,0.735-0.735H166.836z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M172.431,25.324h1.893V23.98c0-0.552-0.243-0.828-0.731-0.828
+	h-1.163V25.324z M174.325,43.604V27.006h-1.893V42.78c0,0.458,0.338,0.824,0.734,0.824H174.325z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0047BA" d="M185.972,43.604V29.572c0-1.772-0.763-2.567-2.536-2.567h-2.902
+	c-1.592,0-2.539,0.948-2.539,2.567v3.242h1.101c0.458,0,0.826-0.399,0.826-0.856V29.42c0-0.398,0.337-0.735,0.732-0.735h2.659
+	c0.49,0,0.734,0.246,0.734,0.735v2.567c0,0.368-0.061,0.52-0.335,0.643L179.4,34.8c-0.703,0.366-1.132,0.855-1.314,1.527
+	c-0.061,0.368-0.092,0.643-0.092,1.652v3.76c0,1.223,0.643,1.864,1.864,1.864h2.385c1.04,0,1.559-0.183,1.956-0.641
+	c0.154,0.398,0.458,0.641,0.887,0.641H185.972z M184.047,34.494v6.697c0,0.366-0.335,0.701-0.734,0.701h-3.391v-4.737
+	c0-0.46,0.091-0.583,0.703-0.887L184.047,34.494z"></path>
+                            <path fill="#0047BA" d="M197.677,34.001c0-16.823,13.638-30.46,30.462-30.46c7.527,0,14.42,2.73,19.735,7.254
+	c-5.367-0.016-11.69,5.706-17.542,15.042c-0.627-1.359-1.356-2.548-2.194-3.555c-7.451-8.948-19.52,1.83-28.882,21.424
+	C198.232,40.658,197.677,37.395,197.677,34.001"></path>
+                            <path fill="#6CC04A" d="M215.804,61.86c-5.811-2.574-10.666-6.915-13.884-12.342c7.979-13.225,16.959-19.799,23.241-14.216
+	c-2.325,4.851-4.482,10.247-6.366,16.02C217.647,54.852,216.649,58.381,215.804,61.86"></path>
+                            <path fill="#6CC04A" d="M257.076,43.534c-3.999,12.153-15.443,20.927-28.937,20.927c-3.586,0-7.027-0.618-10.223-1.757
+	c3.046-8.725,6.713-16.481,10.583-22.657c2.508,5.431,2.793,12.758,2.793,12.758s3.04-9.701,1.359-18.673
+	c7.101-8.927,14.395-12.085,19.511-5.941C254.942,31.532,256.534,36.915,257.076,43.534"></path>
+                        </svg>
+                    </a>
+                </div>
+                <!--end logo-->
+                <div class="megamenu_container">
+                    
+<div class="sf_cols SearchOutterContainer">
+    <div class="sf_colsOut sf_1col_1_100 SearchContainer" style="">
+        <div id="PrimaryNavigation_T8CCB4532047_Col00" class="sf_colsIn sf_1col_1in_100"><div id="PrimaryNavigation_T8CCB4532033">
+	<fieldset id="PrimaryNavigation_T8CCB4532033_ctl00_ctl00_main" class="sfsearchBox">
+    <input value="" name="ctl00$PrimaryNavigation$T8CCB4532033$ctl00$ctl00$searchTextBox" id="PrimaryNavigation_T8CCB4532033_ctl00_ctl00_searchTextBox" class="sfsearchTxt" type="text">
+    <input name="ctl00$PrimaryNavigation$T8CCB4532033$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="PrimaryNavigation_T8CCB4532033_ctl00_ctl00_searchButton" class="sfsearchSubmit" type="submit">
+</fieldset>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+
+<nav class="NavigationContainer">
+    <div class="mobileNavTrigger">
+        <div class="not-active">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px" height="53px" viewBox="0 0 160 53" enable-background="new 0 0 160 53" xml:space="preserve">
+                <g>
+                    <path fill="#6E767A" d="M160,53H0V0h160V53z M1.998,51.018h156.003V1.982H1.998V51.018z"></path>
+                </g>
+                <rect x="1" y="0.991" fill="#A8B0B3" width="158.001" height="51.018"></rect>
+                <g>
+                    <rect x="46.058" y="6.467" fill="#6E767A" width="1.998" height="39.245"></rect>
+                </g>
+                <g>
+                    <path fill="#757B7E" d="M72.921,38.016V16.549h4.983l2.642,12.555h0.059l2.627-12.555h4.999v21.466h-3.352V21.252h-0.073
+		l-3.337,16.764h-1.8l-3.337-16.764h-0.059v16.764H72.921z"></path>
+                    <path fill="#757B7E" d="M91.437,38.016V16.549h9.953v3.222h-6.235v5.515h4.801v3.222h-4.801v6.299h6.645v3.208H91.437z"></path>
+                    <path fill="#757B7E" d="M104.742,38.016V16.549h3.44l4.537,12.279h0.059V16.549h3.352v21.466h-3.235l-4.742-13.411h-0.059v13.411
+		H104.742z"></path>
+                    <path fill="#757B7E" d="M119.73,32.602V16.549h3.718v16.212c0,0.793,0.161,1.381,0.483,1.763c0.322,0.382,0.82,0.573,1.493,0.573
+		c0.673,0,1.171-0.191,1.493-0.573c0.322-0.382,0.483-0.97,0.483-1.763V16.549h3.718v16.053c0,1.829-0.503,3.237-1.508,4.224
+		c-1.005,0.987-2.4,1.48-4.186,1.48c-1.786,0-3.181-0.493-4.186-1.48C120.232,35.839,119.73,34.431,119.73,32.602z"></path>
+                </g>
+                <g>
+                    <path fill="#FFFFFF" d="M72.921,37.024V15.558h4.983l2.642,12.555h0.059l2.627-12.555h4.999v21.466h-3.352V20.26h-0.073
+		l-3.337,16.764h-1.8L76.332,20.26h-0.059v16.764H72.921z"></path>
+                    <path fill="#FFFFFF" d="M91.437,37.024V15.558h9.953v3.222h-6.235v5.515h4.801v3.222h-4.801v6.299h6.645v3.208H91.437z"></path>
+                    <path fill="#FFFFFF" d="M104.742,37.024V15.558h3.44l4.537,12.279h0.059V15.558h3.352v21.466h-3.235l-4.742-13.411h-0.059v13.411
+		H104.742z"></path>
+                    <path fill="#FFFFFF" d="M119.73,31.61V15.558h3.718V31.77c0,0.793,0.161,1.381,0.483,1.763c0.322,0.382,0.82,0.573,1.493,0.573
+		c0.673,0,1.171-0.191,1.493-0.573c0.322-0.382,0.483-0.97,0.483-1.763V15.558h3.718V31.61c0,1.829-0.503,3.237-1.508,4.224
+		s-2.4,1.48-4.186,1.48c-1.786,0-3.181-0.493-4.186-1.48C120.232,34.847,119.73,33.439,119.73,31.61z"></path>
+                </g>
+                <polygon fill="#FFFFFF" points="24.278,25.894 14.854,16.549 14.854,26.523 24.278,35.673 33.702,26.523 33.702,16.549 "></polygon>
+            </svg>
+        </div>
+        <!--end non-active-->
+        <div class="is-active">
+            <svg version="1.1" id="Svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px" height="53px" viewBox="0 0 160 53" enable-background="new 0 0 160 53" xml:space="preserve">
+                <g>
+                    <path fill="#6E767A" d="M160,53H0V0h160V53z M1.998,51.018h156.003V1.982H1.998V51.018z"></path>
+                </g>
+                <rect x="1" y="0.991" fill="#A8B0B3" width="158.001" height="51.018"></rect>
+                <g>
+                    <rect x="46.058" y="6.467" fill="#6E767A" width="1.998" height="39.245"></rect>
+                </g>
+                <g>
+                    <path fill="#757B7E" d="M72.921,36.014V14.548h4.983l2.642,12.555h0.059l2.627-12.555h4.999v21.466h-3.352V19.25h-0.073
+		l-3.337,16.764h-1.8L76.332,19.25h-0.059v16.764H72.921z"></path>
+                    <path fill="#757B7E" d="M91.437,36.014V14.548h9.953v3.222h-6.235v5.515h4.801v3.222h-4.801v6.299h6.645v3.208H91.437z"></path>
+                    <path fill="#757B7E" d="M104.742,36.014V14.548h3.44l4.537,12.279h0.059V14.548h3.352v21.466h-3.235l-4.742-13.411h-0.059v13.411
+		H104.742z"></path>
+                    <path fill="#757B7E" d="M119.73,30.6V14.548h3.718V30.76c0,0.793,0.161,1.381,0.483,1.763c0.322,0.382,0.82,0.573,1.493,0.573
+		c0.673,0,1.171-0.191,1.493-0.573s0.483-0.97,0.483-1.763V14.548h3.718V30.6c0,1.829-0.503,3.237-1.508,4.224s-2.4,1.48-4.186,1.48
+		c-1.786,0-3.181-0.493-4.186-1.48C120.232,33.837,119.73,32.429,119.73,30.6z"></path>
+                </g>
+                <g>
+                    <path fill="#FFFFFF" d="M72.921,37.024V15.558h4.983l2.642,12.555h0.059l2.627-12.555h4.999v21.466h-3.352V20.26h-0.073
+		l-3.337,16.764h-1.8L76.332,20.26h-0.059v16.764H72.921z"></path>
+                    <path fill="#FFFFFF" d="M91.437,37.024V15.558h9.953v3.222h-6.235v5.515h4.801v3.222h-4.801v6.299h6.645v3.208H91.437z"></path>
+                    <path fill="#FFFFFF" d="M104.742,37.024V15.558h3.44l4.537,12.279h0.059V15.558h3.352v21.466h-3.235l-4.742-13.411h-0.059v13.411
+		H104.742z"></path>
+                    <path fill="#FFFFFF" d="M119.73,31.61V15.558h3.718V31.77c0,0.793,0.161,1.381,0.483,1.763c0.322,0.382,0.82,0.573,1.493,0.573
+		c0.673,0,1.171-0.191,1.493-0.573c0.322-0.382,0.483-0.97,0.483-1.763V15.558h3.718V31.61c0,1.829-0.503,3.237-1.508,4.224
+		s-2.4,1.48-4.186,1.48c-1.786,0-3.181-0.493-4.186-1.48C120.232,34.847,119.73,33.439,119.73,31.61z"></path>
+                </g>
+                <polygon fill="#FFFFFF" points="24.278,26.328 33.702,35.673 33.702,25.699 24.278,16.549 14.854,25.699 14.854,35.673 "></polygon>
+            </svg>
+        </div>
+    </div>
+    <div class="hideNav">
+        <ul class="megamenu">
+            <li class="One"><a href="http://mercurynewmedia.com/News" class="drop">News</a>
+                <div style="left: 0px; display: none;" class="drop8columns dropcontent">
+                    <div class="megaMenuContent">
+                        <ul class="sfnewsList sfnewsListTitleDateSummary">
+                            <li class="sfnewsListItem">
+                                <h4 class="sfnewsTitle">
+                                    <a href="http://mercurynewmedia.com/news/2014/09/23/mercury-wins-in-the-2014-w3-award-competition" id="PrimaryNavigation_T8CCB4532026_NewsStoryTitle1">Mercury Wins in the 2014 W3 Award Competition</a>
+                                </h4>
+                                <div class="sfnewsSummary">
+                                    <a href="http://mercurynewmedia.com/news/2014/09/23/mercury-wins-in-the-2014-w3-award-competition" id="PrimaryNavigation_T8CCB4532026_NewsStorySummary1">Mercury New Media wins the Silver award in the Self Promotion category in the 2014 W3 Award Competition for its work on the Mercury New Media website.</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="megaMenuContent">
+                        <ul class="sfnewsList sfnewsListTitleDateSummary">
+                            <li class="sfnewsListItem">
+                                <h4 class="sfnewsTitle">
+                                    <a href="http://mercurynewmedia.com/news/2014/08/15/mercury-quoted-at-tampa-bay-business-journal-tech-roundtable" id="PrimaryNavigation_T8CCB4532026_NewsStoryTitle2">Mercury quoted at Tampa Bay Business Journal Tech Roundtable</a>
+                                </h4>
+                                <div class="sfnewsSummary">
+                                    <a href="http://mercurynewmedia.com/news/2014/08/15/mercury-quoted-at-tampa-bay-business-journal-tech-roundtable" id="PrimaryNavigation_T8CCB4532026_NewsStorySummary2">From startups to advanced operations that employ hundreds, Tampa Bay’s technology community continues to mature. I asked the panel to address the current technology ecosystem and key issues they face for growth in the near term?</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="Two"><a href="http://mercurynewmedia.com/Solutions" class="drop">Solutions</a>
+                <div style="left: 0px; display: none;" class="drop8columns dropcontent">
+                    <ul class="PageLinkList">
+                        <li><a href="http://mercurynewmedia.com/Solutions/enterprise-websites">Enterprise Websites</a></li>
+                        <li><a href="http://mercurynewmedia.com/Solutions/mobility">Mobility</a></li>
+                        <li><a href="http://mercurynewmedia.com/Solutions/intranets-extranets">Intranets &amp; Extranets</a></li>
+                        <li><a href="http://mercurynewmedia.com/Solutions/ecommerce-solutions">Ecommerce Solutions</a></li>
+                        <li><a href="http://mercurynewmedia.com/Solutions/process-automation">Process Automation</a></li>
+                        <li><a href="http://mercurynewmedia.com/Solutions/healthcare-information-systems">Healthcare Information Systems</a></li>
+                    </ul>
+                    <div class="megaMenuContent">
+                        <p>
+                            Some problems are classics – they show up time and time again. While we would never attempt to force a square digital peg in a round solution hole we apply our skills in web, mobile and data to classic digital challenges.
+                        </p>
+                        <p>
+                            Take a look at some of our specialties on the left.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="Three"><a href="http://mercurynewmedia.com/Industries" class="drop">Industries</a>
+                <div style="left: 0px; display: none;" class="drop8columns dropcontent">
+                    <ul class="PageLinkList">
+                        <li><a href="http://mercurynewmedia.com/Industries/health-services">Healthcare Services</a></li>
+                        <li><a href="http://mercurynewmedia.com/Industries/professional-serivces">Professional Services</a></li>
+                        <li><a href="http://mercurynewmedia.com/Industries/manufacturing-and-distribution">Manufacturing and Distribution</a></li>
+                        <li><a href="http://mercurynewmedia.com/industries/government-and-education">Government and Education</a></li>
+                        <li><a href="http://mercurynewmedia.com/industries/non-profit-organization-and-associations">Non-Profits and Associations</a></li>
+                    </ul>
+                    <div class="megaMenuContent">
+                        <p>
+                            No two businesses are alike; the more specialized your industry, the more specialized your digital development needs. Our passion is to work closely with our clients to gain a deep understanding of their operation; this has given us significant experience in several specific industries.
+                        </p>
+                        <p>
+                            On the left are some industries that we work in regularly.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="FakeNav">
+            <li>
+                <a href="https://support.mercurynewmedia.com/access/login" class="fancybox LoginLink">Support</a>
+            </li>
+            <li>
+                <a href="#SearchContainer" class="SearchLink">Search</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="sf_cols NewMobileNav">
+    <div class="sf_colsOut sf_1col_1_100" style="">
+        <div id="PrimaryNavigation_T8CCB4532044_Col00" class="sf_colsIn sf_1col_1in_100">
+<div class="CleanNav"><ul><li class="first link-1"><a href="http://mercurynewmedia.com/mercury-home">Mercury Home</a></li><li class="link-2"><a href="http://mercurynewmedia.com/news">News</a></li><li class="parent link-3"><a href="http://mercurynewmedia.com/careers">Careers</a><ul>
+	<li class="first link-1"><a href="http://mercurynewmedia.com/careers/positions">Positions</a></li><li class="link-2"><a href="http://mercurynewmedia.com/careers/core-values">Core Values</a></li><li class="last link-3"><a href="http://mercurynewmedia.com/careers/benefits">Benefits</a></li>
+</ul></li><li class="active parent link-4"><a href="http://mercurynewmedia.com/solutions">Solutions</a><ul>
+	<li class="active first link-1"><a href="http://mercurynewmedia.com/solutions/enterprise-websites">Enterprise Websites</a></li><li class="link-2"><a href="http://mercurynewmedia.com/solutions/mobility">Mobility</a></li><li class="link-3"><a href="http://mercurynewmedia.com/solutions/intranets-extranets">Intranets &amp; Extranets</a></li><li class="link-4"><a href="http://mercurynewmedia.com/solutions/ecommerce-solutions">Ecommerce Solutions</a></li><li class="link-5"><a href="http://mercurynewmedia.com/solutions/process-automation">Process Automation</a></li><li class="last link-6"><a href="http://mercurynewmedia.com/solutions/healthcare-information-systems">Healthcare Information Systems</a></li>
+</ul></li><li class="parent link-5"><a href="http://mercurynewmedia.com/about">About</a><ul>
+	<li class="parent first link-1"><a href="http://mercurynewmedia.com/about/our-services">Our Services</a><ul>
+		<li class="first link-1"><a href="http://mercurynewmedia.com/about/our-services/web">Web</a></li><li class="link-2"><a href="http://mercurynewmedia.com/about/our-services/mobile">Mobile</a></li><li class="last link-3"><a href="http://mercurynewmedia.com/about/our-services/data">Data</a></li>
+	</ul></li><li class="parent link-2"><a href="http://mercurynewmedia.com/about/our-technology">Our Technology</a><ul>
+		<li class="first link-1"><a href="http://mercurynewmedia.com/about/our-technology/web-standards">Web Standards</a></li><li class="link-2"><a href="http://mercurynewmedia.com/about/our-technology/native-apps">Native Apps</a></li><li class="link-3"><a href="http://mercurynewmedia.com/about/our-technology/-net">.NET</a></li><li class="link-4"><a href="http://mercurynewmedia.com/about/our-technology/sql-server">SQL Server</a></li><li class="last link-5"><a href="http://mercurynewmedia.com/about/our-technology/sharepoint">SharePoint</a></li>
+	</ul></li><li class="parent link-3"><a href="http://mercurynewmedia.com/about/our-approach">Our Approach</a><ul>
+		<li class="first link-1"><a href="http://mercurynewmedia.com/about/our-approach/analyze">Analyze</a></li><li class="link-2"><a href="http://mercurynewmedia.com/about/our-approach/design">Design</a></li><li class="link-3"><a href="http://mercurynewmedia.com/about/our-approach/develop">Develop</a></li><li class="link-4"><a href="http://mercurynewmedia.com/about/our-approach/craft">Craft</a></li><li class="link-5"><a href="http://mercurynewmedia.com/about/our-approach/ship">Ship</a></li><li class="last link-6"><a href="http://mercurynewmedia.com/about/our-approach/support">Support</a></li>
+	</ul></li><li class="parent last link-4"><a href="http://mercurynewmedia.com/about/the-company">The Company</a><ul>
+		<li class="first link-1"><a href="http://mercurynewmedia.com/about/the-company/how-are-we-different-">How Are We Different?</a></li><li class="link-2"><a href="http://mercurynewmedia.com/about/the-company/company-history">Company History</a></li><li class="link-3"><a href="http://mercurynewmedia.com/about/the-company/partners">Partners</a></li><li class="last link-4"><a href="http://mercurynewmedia.com/about/the-company/leadership">Leadership</a></li>
+	</ul></li>
+</ul></li><li class="link-6"><a href="http://mercurynewmedia.com/blog">Blog</a></li><li class="link-7"><a href="http://mercurynewmedia.com/portfolio">Portfolio</a></li><li class="parent link-8"><a href="http://mercurynewmedia.com/industries">Industries</a><ul>
+	<li class="first link-1"><a href="http://mercurynewmedia.com/industries/health-services">Health Services</a></li><li class="link-2"><a href="http://mercurynewmedia.com/industries/professional-services">Professional Services</a></li><li class="link-3"><a href="http://mercurynewmedia.com/industries/manufacturing-and-distribution">Manufacturing and Distribution</a></li><li class="link-4"><a href="http://mercurynewmedia.com/industries/government-and-education">Government and Education</a></li><li class="last link-5"><a href="http://mercurynewmedia.com/industries/non-profit-organizations">Non-Profit Organizations</a></li>
+</ul></li><li class="last link-9"><a href="http://mercurynewmedia.com/search">Search</a></li></ul></div>
+            
+        </div>
+    </div>
+</div>
+
+
+                </div>
+                <!--end megamenu_container-->
+            </div>
+        </header>
+        <div class="main clearfix">
+            <div class="mainInnerWrapper">
+                <div class="mainContentArea">
+                    
+<div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_T8CCB4532017_Col00" class="sf_colsIn sf_1col_1in_100"><div class="sf_cols AllColumnWrapper">
+    <div class="sf_colsOut sf_1col_1_100" style="">
+        <div id="MainContent_TF37C0D25001_Col00" class="sf_colsIn sf_1col_1in_100"><div class="sf_cols sf_MainContentLeft">
+    <div class="sf_colsOut sf_1col_1_100" style="">
+        <div id="MainContent_TF37C0D25002_Col00" class="sf_colsIn sf_1col_1in_100">
+
+
+<div style="display: block;" class="SideNav clearfix">
+    <ul class="NavList clearfix">
+        <li class="FixedHomeItem TopLevel">
+            <a href="http://mercurynewmedia.com/">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="180px" height="43.75px" viewBox="0 0 180 43.75" enable-background="new 0 0 180 43.75" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M6.675,17.335H5.41v11.069h1.304v-9.459
+	c0-0.265,0.225-0.49,0.489-0.49h1.816c0.326,0,0.488,0.164,0.488,0.49v8.911c0,0.305,0.245,0.549,0.551,0.549h0.755v-9.5
+	c0-0.244,0.224-0.449,0.489-0.449h1.814c0.265,0,0.49,0.225,0.49,0.49v8.911c0,0.305,0.264,0.549,0.57,0.549h0.733v-9.438
+	c0-1.101-0.549-1.631-1.712-1.631H11.73c-0.55,0-0.876,0.163-1.183,0.632c-0.224-0.429-0.591-0.632-1.161-0.632H7.917
+	c-0.672,0-0.978,0.103-1.242,0.387V17.335z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M22.657,24.245h-0.836c-0.265,0-0.449,0.225-0.449,0.552v2.018
+	c0,0.244-0.244,0.469-0.488,0.469H19.11c-0.265,0-0.468-0.203-0.468-0.469V22.9c0-0.205,0.141-0.326,0.366-0.326h3.649v-3.528
+	c0-1.08-0.632-1.712-1.692-1.712h-1.937c-1.06,0-1.672,0.632-1.672,1.712v7.667c0,1.06,0.612,1.691,1.672,1.691h1.937
+	c1.06,0,1.692-0.632,1.692-1.691V24.245z M21.372,21.433h-2.73v-2.487c0-0.266,0.203-0.491,0.468-0.491h1.774
+	c0.263,0,0.488,0.225,0.488,0.491V21.433z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M26.347,17.335h-1.244v10.521c0,0.305,0.245,0.549,0.551,0.549
+	h0.734v-9.459c0-0.265,0.225-0.49,0.49-0.49h0.979c0.263,0,0.488,0.225,0.488,0.49v1.712c0,0.307,0.245,0.552,0.551,0.552h0.631
+	v-2.162c0-1.08-0.631-1.712-1.692-1.712H27.59c-0.652,0-0.958,0.103-1.243,0.387V17.335z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M36.683,23.573h-0.734c-0.305,0-0.55,0.245-0.55,0.55v2.691
+	c0,0.244-0.245,0.469-0.489,0.469h-1.774c-0.246,0-0.49-0.225-0.49-0.469v-7.869c0-0.266,0.224-0.49,0.49-0.49h1.774
+	c0.305,0,0.489,0.183,0.489,0.49v2.426c0,0.307,0.245,0.551,0.55,0.551h0.734v-2.875c0-1.08-0.633-1.712-1.692-1.712h-1.937
+	c-1.059,0-1.692,0.632-1.692,1.712v7.666c0,1.06,0.633,1.691,1.692,1.691h1.937c1.059,0,1.692-0.632,1.692-1.691V23.573z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M43.206,28.404h1.225V17.335h-1.265v9.479
+	c0,0.244-0.245,0.469-0.489,0.469h-1.795c-0.244,0-0.469-0.225-0.469-0.469v-8.93c0-0.325-0.224-0.549-0.551-0.549h-0.734v9.377
+	c0,1.06,0.633,1.691,1.673,1.691h1.162c0.652,0,0.958-0.102,1.243-0.387V28.404z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M48.119,17.335h-1.243v10.521c0,0.305,0.244,0.549,0.551,0.549
+	h0.733v-9.459c0-0.265,0.225-0.49,0.489-0.49h0.979c0.263,0,0.488,0.225,0.488,0.49v1.712c0,0.307,0.245,0.552,0.551,0.552H51.3
+	v-2.162c0-1.08-0.633-1.712-1.692-1.712h-0.245c-0.653,0-0.958,0.103-1.244,0.387V17.335z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M58.456,17.335h-1.285v9.46c0,0.346-0.143,0.488-0.49,0.488h-1.774
+	c-0.264,0-0.488-0.225-0.488-0.488v-8.91c0-0.325-0.225-0.55-0.551-0.55h-0.734v9.378c0,1.061,0.632,1.691,1.693,1.691h2.12
+	c0.162,0,0.224,0.062,0.224,0.225v1.08c0,0.123-0.102,0.225-0.204,0.225h-3.282c-0.306,0-0.551,0.266-0.551,0.57v0.551h3.73
+	c1.081,0,1.592-0.51,1.592-1.59V17.335z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M66.813,28.404v-9.357c0-1.06-0.632-1.712-1.692-1.712h-1.101
+	c-0.673,0-0.897,0.081-1.121,0.366v-0.366h-1.998v11.069h1.998v-9.01c0-0.265,0.203-0.469,0.448-0.469h1.04
+	c0.244,0,0.449,0.204,0.449,0.469v8.439c0,0.306,0.245,0.57,0.55,0.57H66.813z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M75.173,24.205h-1.429c-0.325,0-0.569,0.244-0.569,0.571v1.549
+	c0,0.265-0.184,0.47-0.429,0.47h-1.04c-0.244,0-0.449-0.205-0.449-0.47v-3.16c0-0.183,0.103-0.286,0.286-0.286h3.63v-3.832
+	c0-1.06-0.633-1.712-1.693-1.712h-2.528c-1.06,0-1.693,0.632-1.693,1.712v7.625c0,1.101,0.633,1.732,1.693,1.732h2.528
+	c1.04,0,1.693-0.651,1.693-1.732V24.205z M73.175,21.249h-1.918v-1.876c0-0.244,0.205-0.448,0.449-0.448h1.04
+	c0.245,0,0.429,0.182,0.429,0.448V21.249z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M86.69,28.404l1.141-11.069h-1.529
+	c-0.346,0-0.611,0.244-0.632,0.569l-0.652,8.747c0,0.082-0.06,0.144-0.123,0.144c-0.06,0-0.121-0.062-0.121-0.144l-0.979-8.767
+	c-0.041-0.305-0.347-0.549-0.694-0.549h-1.284c-0.326,0-0.631,0.264-0.672,0.549l-0.978,8.767c0,0.082-0.082,0.144-0.145,0.144
+	c-0.06,0-0.121-0.062-0.121-0.144l-0.815-9.316h-2.08l1.142,10.519c0.04,0.306,0.325,0.55,0.632,0.55h2.772l0.857-8.113l0.836,7.563
+	c0.04,0.366,0.203,0.55,0.489,0.55H86.69z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M90.931,17.335h-1.265v11.069h1.306v-9.459
+	c0-0.265,0.223-0.49,0.488-0.49h1.814c0.326,0,0.49,0.164,0.49,0.49v8.911c0,0.305,0.244,0.549,0.55,0.549h0.754v-9.5
+	c0-0.244,0.225-0.449,0.489-0.449h1.814c0.266,0,0.489,0.225,0.489,0.49v8.911c0,0.305,0.266,0.549,0.571,0.549h0.734v-9.438
+	c0-1.101-0.55-1.631-1.713-1.631h-1.467c-0.553,0-0.878,0.163-1.184,0.632c-0.225-0.429-0.592-0.632-1.162-0.632h-1.467
+	c-0.674,0-0.98,0.103-1.244,0.387V17.335z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M106.914,24.245h-0.837c-0.264,0-0.449,0.225-0.449,0.552v2.018
+	c0,0.244-0.244,0.469-0.488,0.469h-1.773c-0.265,0-0.469-0.203-0.469-0.469V22.9c0-0.205,0.143-0.326,0.367-0.326h3.649v-3.528
+	c0-1.08-0.633-1.712-1.692-1.712h-1.938c-1.061,0-1.672,0.632-1.672,1.712v7.667c0,1.06,0.611,1.691,1.672,1.691h1.938
+	c1.06,0,1.692-0.632,1.692-1.691V24.245z M105.628,21.433h-2.73v-2.487c0-0.266,0.204-0.491,0.469-0.491h1.773
+	c0.266,0,0.488,0.225,0.488,0.491V21.433z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M113.478,28.404h1.203V14.766h-0.733
+	c-0.308,0-0.552,0.245-0.552,0.551v2.018h-2.344c-1.061,0-1.691,0.632-1.691,1.712v7.666c0,1.06,0.631,1.691,1.691,1.691h1.182
+	c0.653,0,0.959-0.102,1.244-0.386V28.404z M113.396,18.455v8.34c0,0.265-0.225,0.488-0.488,0.488h-1.794
+	c-0.245,0-0.47-0.224-0.47-0.488v-7.85c0-0.265,0.225-0.49,0.49-0.49H113.396z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M117.127,16.213h1.263v-0.896c0-0.368-0.162-0.552-0.487-0.552
+	h-0.775V16.213z M118.39,28.404V17.335h-1.263v10.519c0,0.306,0.226,0.55,0.489,0.55H118.39z"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M126.157,28.404v-9.357c0-1.182-0.509-1.712-1.691-1.712h-1.936
+	c-1.062,0-1.693,0.632-1.693,1.712v2.162h0.734c0.306,0,0.551-0.266,0.551-0.571v-1.693c0-0.265,0.225-0.49,0.488-0.49h1.773
+	c0.327,0,0.489,0.164,0.489,0.49v1.712c0,0.245-0.041,0.347-0.224,0.429l-2.875,1.447c-0.469,0.244-0.755,0.57-0.876,1.019
+	c-0.041,0.245-0.062,0.429-0.062,1.102v2.508c0,0.815,0.429,1.243,1.243,1.243h1.591c0.693,0,1.04-0.122,1.305-0.428
+	c0.103,0.266,0.306,0.428,0.592,0.428H126.157z M124.873,22.329v4.466c0,0.244-0.224,0.468-0.489,0.468h-2.262v-3.159
+	c0-0.307,0.061-0.389,0.469-0.592L124.873,22.329z"></path>
+                    <path fill="#FFFFFF" d="M133.963,22c0-11.219,9.095-20.313,20.314-20.313c5.02,0,9.616,1.821,13.161,4.838
+	c-3.579-0.011-7.796,3.805-11.698,10.031c-0.418-0.906-0.904-1.699-1.463-2.371c-4.969-5.967-13.018,1.221-19.261,14.288
+	C134.333,26.439,133.963,24.264,133.963,22"></path>
+                    <path fill="#FFFFFF" d="M146.052,40.579c-3.875-1.717-7.113-4.611-9.259-8.23c5.321-8.819,11.31-13.204,15.499-9.48
+	c-1.551,3.235-2.989,6.834-4.245,10.684C147.28,35.905,146.615,38.259,146.052,40.579"></path>
+                    <path fill="#FFFFFF" d="M173.575,28.357c-2.667,8.104-10.299,13.956-19.298,13.956c-2.392,0-4.687-0.412-6.817-1.172
+	c2.031-5.818,4.477-10.991,7.058-15.109c1.673,3.622,1.862,8.508,1.862,8.508s2.027-6.47,0.906-12.452
+	c4.735-5.954,9.6-8.06,13.012-3.962C172.152,20.354,173.214,23.943,173.575,28.357"></path>
+                </svg>
+
+            </a>
+        </li>
+        <li class="About TopLevel">
+            <a href="http://mercurynewmedia.com/About" class=""><span>About</span></a>
+            <div class="SecondaryNav">
+                <h3 class="TabletHide">We’re obsessed with websites, web applications, mobile and everything "data"</h3>
+                <ul class="SecondLevel clearfix">
+                    <li><a href="http://mercurynewmedia.com/about/our-services"><span>Our Services</span></a>
+                        <ul style="display: none;" class="ThirdLevel clearfix Services">
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-services/web-apps" class="TempWeb"><span>Web</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-services/mobile-apps" class="TempMobile"><span>Mobile</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-services/-net-apps" class="TempData"><span>Data</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://mercurynewmedia.com/about/our-technology"><span>Our Technology</span></a>
+                        <ul style="display: none;" class="ThirdLevel clearfix">
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-technology/web-standards"><span>Web Standards</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-technology/native-apps"><span>Native Apps</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-technology/-net"><span>.NET</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-technology/sql-server"><span>SQL Server</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-technology/sharepoint"><span>SharePoint</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://mercurynewmedia.com/about/our-approach"><span>Our Approach</span></a>
+                        <ul style="display: none;" class="ThirdLevel clearfix">
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/analyze"><span>Analyze</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/design"><span>Design</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/develop"><span>Develop</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/craft"><span>Craft</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/ship"><span>Ship</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/our-approach/support"><span>Support</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://mercurynewmedia.com/about/the-company"><span>The Company</span></a>
+                        <ul style="display: none;" class="ThirdLevel clearfix">
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/the-company/how-are-we-different-"><span>How Are We Different?</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/the-company/company-history"><span>Company History</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/the-company/partners"><span>Partners</span></a>
+                            </li>
+                            <li>
+                                <a href="http://mercurynewmedia.com/about/the-company/leadership"><span>Leadership</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="Portfolio TopLevel">
+            <a href="http://mercurynewmedia.com/Portfolio" class=""><span>Portfolio</span></a>
+            <div class="SecondaryNav">
+                <div class="InnerSecondLevel">
+                    <h3>What type of projects would you like to see?</h3>
+                    <ul class="SecondLevel clearfix">
+                        
+                                <li class="Award">
+                                    <a href="javascript:void(0);"><span>Award Winning Websites</span></a>
+                                </li>
+                            
+                                <li class="EComm">
+                                    <a href="javascript:void(0);"><span>E-Commerce</span></a>
+                                </li>
+                            
+                                <li class="Nets">
+                                    <a href="javascript:void(0);"><span>Intranets/Extranets</span></a>
+                                </li>
+                            
+                                <li class="Mobile">
+                                    <a href="javascript:void(0);"><span>Mobile</span></a>
+                                </li>
+                            
+                                <li class="Professional">
+                                    <a href="javascript:void(0);"><span>Professional Websites</span></a>
+                                </li>
+                            
+                                <li class="WebApps">
+                                    <a href="javascript:void(0);"><span>Web Applications</span></a>
+                                </li>
+                            
+                    </ul>
+                    <a href="javascript:void(0);" class="PortfolioReset">View All</a>
+                </div>
+                <div style="display: none;" class="PortfolioBackLink">
+                    <a href="http://mercurynewmedia.com/Portfolio" class="PortfolioReturn"></a>
+                </div>
+            </div>
+        </li>
+        <li class="Blog TopLevel">
+            <a href="http://mercurynewmedia.com/blog"><span>Blog</span></a>
+        </li>
+        <li class="Quote TopLevel">
+            <a href="#QuoteFormContainer" class="fancybox"><span>Quote</span></a>
+        </li>
+        <li class="Careers TopLevel">
+            <a href="http://mercurynewmedia.com/Careers" class=""><span>Careers</span></a>
+            <div class="SecondaryNav">
+                <h3 class="TabletHide">It’s not just a job, it’s a career</h3>
+                <ul class="SecondLevel clearfix">
+                    <li>
+                        <a href="http://mercurynewmedia.com/careers/positions"><span>Positions</span></a>
+                    </li>
+                    <li>
+                        <a href="http://mercurynewmedia.com/careers/core-values"><span>Core Values</span></a>
+                    </li>
+                    <li>
+                        <a href="http://mercurynewmedia.com/careers/culture"><span>Culture</span></a>
+                    </li>
+                    <li>
+                        <a href="http://mercurynewmedia.com/careers/benefits"><span>Benefits</span></a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="Contact TopLevel">
+            <a href="#ContactFormContainer" class="fancybox"><span>Contact</span></a>
+        </li>
+    </ul>
+</div>
+<div id="MainContent_TF37C0D25006" class="BreadcrumbContainer">
+	
+
+<div class="sfBreadcrumbWrp">
+    <span id="MainContent_TF37C0D25006_ctl00_ctl00_BreadcrumbLabel" class="sfBreadcrumbLabel" style="display: none;"></span>
+    <div id="ctl00_MainContent_TF37C0D25006_ctl00_ctl00_Breadcrumb" class="RadSiteMap RadSiteMap_Sitefinity">
+		<!-- 2013.1.417.40 --><ul class="rsmFlow rsmLevel rsmOneLevel">
+			<li class="rsmItem sfBreadcrumbNavigation"><a class="rsmLink" href="http://mercurynewmedia.com/mercury-home">Mercury Home</a><span class="sfBreadcrumbNodeSeparator">/</span></li> <li class="rsmItem sfBreadcrumbNavigation"><a class="rsmLink" href="http://mercurynewmedia.com/solutions">Solutions</a><span class="sfBreadcrumbNodeSeparator">/</span></li> <li class="rsmItem sfNoBreadcrumbNavigation"><a class="rsmLink" href="javascript:%20void(0)">Enterprise Websites</a></li>
+		</ul><input id="ctl00_MainContent_TF37C0D25006_ctl00_ctl00_Breadcrumb_ClientState" name="ctl00_MainContent_TF37C0D25006_ctl00_ctl00_Breadcrumb_ClientState" type="hidden">
+	</div>
+</div>
+</div>
+            
+        </div>
+    </div>
+</div><div class="sf_cols TertNavigation">
+    <div class="sf_colsOut sf_1col_1_100 TertNavInner" style="">
+        <div id="MainContent_TF37C0D25003_Col00" class="sf_colsIn sf_1col_1in_100">
+
+
+
+<div class="sfNavWrp sfNavHorizontalWrp TertNav ASP.sfctrlpresentation__sfct__b7b00a42ab122a4f8e800450949acc75f26ca755_lightnavigationcontrol_ascx">
+    
+    
+      
+    
+     
+    <ul class="sfNavHorizontal sfNavList">
+        
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/enterprise-websites" class="sfSel">Enterprise Websites</a>                                  
+                        </li>                                               
+                    
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/mobility">Mobility</a>          
+                        </li>
+                    
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/intranets-extranets">Intranets &amp; Extranets</a>          
+                        </li>
+                    
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/ecommerce-solutions">Ecommerce Solutions</a>          
+                        </li>
+                    
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/process-automation">Process Automation</a>          
+                        </li>
+                    
+                        <li>
+                            <a href="http://mercurynewmedia.com/solutions/healthcare-information-systems">Healthcare Information Systems</a>          
+                        </li>
+                    
+    </ul>
+</div>
+
+            
+        </div>
+    </div>
+</div><div class="sf_cols CenterWrapper">
+    <div class="sf_colsOut sf_2cols_1_50 sf_MainContentCenter" style="width: 57%;">
+        <div id="MainContent_TF37C0D25004_Col00" class="sf_colsIn sf_2cols_1in_67"><div class="sfContentBlock"><h1>Enterprise Websites</h1> <h2>Large and In Charge</h2> <p>What makes a website an enterprise website?&nbsp; Breadth and depth?&nbsp; Yes.&nbsp; Multiple languages, custom functionality and ecommerce?&nbsp; Certainly.&nbsp; Custom content management systems and microsites?&nbsp; Almost always. &nbsp;Security, granular permissions and internal processes integration?&nbsp; That’s where things get <em>real</em> enterprise.</p> <p>
+These are not your dad’s “Contact Us” web pages.&nbsp; Enterprise websites embrace scale, complexity and business operations.&nbsp; Mercury New Media are specialists in designing, developing, crafting and supporting enterprise websites – check out a few to the right&nbsp;<span>▶</span></p>
+
+
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_50 right sf_MainContentRight" style="width: 38%;">
+        <div id="MainContent_TF37C0D25004_Col01" class="sf_colsIn sf_2cols_2in_33"><div class="sfContentBlock Callout CaseStudySide"><a href="http://mercurynewmedia.com/Portfolio/Detail/solar_gard"> <h3>Details of the Solar Gard Window Films Website</h3> <img src="sg-singleview.png" alt="Project Details" title="Solar Gard"> </a>
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <footer><div class="sf_cols SocialWrapper">
+    <div class="sf_colsOut sf_1col_1_100" style="">
+        <div id="PrimaryNavigation_T8CCB4532048_Col00" class="sf_colsIn sf_1col_1in_100">
+            
+        </div>
+    </div>
+</div>
+            <div class="footerInnerWrapper">
+                
+
+
+
+
+
+<div id="rotateArrow" class="rotateArrowLeft clearfix">
+    <img alt="Social Arrow" src="arrow-socialup.png">
+    <span>SHARE</span>
+</div>
+<div id="socialShare" class="SocialShareVisible clearfix">
+    <span st_processed="yes" class="st_facebook_large" displaytext="Facebook"><span class="right">Share on Facebook</span><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('facebook_32.png');" class="stLarge"></span></span></span>
+    <span st_processed="yes" class="st_googleplus_large" displaytext="Google Plus"><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('googleplus_32.png');" class="stLarge"></span></span></span>
+    <span st_processed="yes" class="st_delicious_large" displaytext="Delicious"><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('delicious_32.png');" class="stLarge"></span></span></span>
+    <span st_processed="yes" class="st_twitter_large" displaytext="Tweet"><span class="right">Share on Twitter</span><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('twitter_32.png');" class="stLarge"></span></span></span>
+    <span st_processed="yes" class="st_linkedin_large" displaytext="LinkedIn"><span class="right">Share on LinkedIn</span><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('linkedin_32.png');" class="stLarge"></span></span></span>
+    <span st_processed="yes" class="st_email_large" displaytext="Email"><span class="right">Share with a Friend</span><span class="stButton" style="text-decoration: none; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;"><span style="background-image: url('email_32.png');" class="stLarge"></span></span></span>
+</div>
+<div class="sf_cols FooterContentWrapper">
+    <div class="sf_colsOut sf_2cols_1_25 SocialGraphics" style="">
+        <div id="FooterContent_T8CCB4532038_Col00" class="sf_colsIn sf_2cols_1in_25">
+
+<aside>
+    <ul class="FlipperContainer">
+        <li>
+            
+
+<div class="tweetsDiv" data-screenname="MercuryNewMedia" data-retweets="false" data-replies="false" data-totaltweets="1">
+</div>
+
+            <a href="https://twitter.com/mercurynewmedia" class="TwitterLink" target="_top">FOLLOW US</a>
+        </li>
+        <li>
+            <h3 class="BlogTitle"><a href="http://mercurynewmedia.com/blog/blog-detail/mercury-new-media-blog/2014/09/11/rise-of-the-mobile-user-and-how-you-can-adapt" id="FooterContent_T8CCB4532029_AnchorLatestBlog">Rise of the Mobile User and How You Can Adapt</a></h3>
+
+            <a href="http://mercurynewmedia.com/blog/blog-detail/mercury-new-media-blog/2014/09/11/rise-of-the-mobile-user-and-how-you-can-adapt" id="FooterContent_T8CCB4532029_AnchorLatestBlogText" class="BlogText">The date, January 9, 2007. It was a controversial day, feelings of anxiousness and excitement clashed with feelings of envy and jealousy. It was a day to change the face of the mobile world. A day that would revolutionize the way content was designed, developed, and deployed across the globe. It was the day the world changed forever, the day of… the iPhone.</a>
+            <a href="http://mercurynewmedia.com/Blog" class="BlogLink">DEVELOPER'S BLOG</a>
+        </li>
+    </ul>
+    <ul class="FlipperPager">
+        <li class="CurrentFlip"></li>
+        <li></li>
+        <li class="Last"></li>
+    </ul>
+</aside>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_75 TechInfoGraphics" style="">
+        <div id="FooterContent_T8CCB4532038_Col01" class="sf_colsIn sf_2cols_2in_75"><div class="sfContentBlock TechLogoContainer"><ul> <li><a href="http://www.w3.org/html/wg/drafts/html/master/" target="_top"><img src="html5.png" class="tooltip" alt="HTML5"></a></li> <li><a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_top"><img src="fun-fact-css3-is-a-set-of-dark-magic-rituals-designers-perform-.png" class="tooltip"></a></li> <li><a href="http://jquery.com/" target="_top"><img src="jquery.png" class="tooltip"></a></li> <li> <a href="http://www.microsoft.com/net" target="_top"><img src="msnet.png" class="tooltip"></a></li> <li><a href="http://www.microsoft.com/en-us/sqlserver/default.aspx" target="_top"><img src="fun-fact-sql-server--you-ain@27t-gettin-anywhere-without-this-.png" class="tooltip"></a></li> <li><a href="http://sharepoint.microsoft.com/" target="_top"><img src="fun-fact-we-are-sharepoint-masters--true-ask-around.png" class="tooltip"></a></li> <!--<li><a href="http://www.apple.com/ios/" target="_blank"><img alt="" src="/images/default-source/logos/fun-fact-steve-jobs-gave-all-credit-to-us-in-his-book-.png?sfvrsn=2" class="tooltip" title="The mobile OS that started it all" sfref="[images|OpenAccessDataProvider]eff46f0a-24b6-447b-8dc4-ec22df695f45" /></a></li>
+    <li><a href="http://www.android.com/" target="_blank"><img alt="" src="/images/default-source/logos/fun-fact-something-cool-about-android-.png?sfvrsn=2" class="tooltip" title="The largest native mobile market" sfref="[images|OpenAccessDataProvider]30446f65-06f5-4eb1-940b-306dad0d1ef2" /></a></li>--> </ul>
+
+
+</div><div class="sfContentBlock FooterContactInfo"><ul> <li>4350 W. Cypress St. Suite 702</li> <li>Tampa, FL 33607</li> <li>(813) 933-9800</li> <li><a href="mailto:solutions@mercurynewmedia.com">solutions@mercurynewmedia.com</a></li> <li>© 1998-2014 Mercury New Media, Inc.</li> </ul>
+
+
+</div>
+        
+        </div>
+    </div>
+</div>
+
+<div id="ClientLogin" class="ClientLogin">
+    <h3>Sign In</h3>
+    <div class="LoginForm">
+        <input value="" name="ctl00$FooterContent$T8CCB4532025$TextBoxUserName" id="FooterContent_T8CCB4532025_TextBoxUserName" class="Username" type="text">
+        <input name="ctl00$FooterContent$T8CCB4532025$TextBoxPassword" id="FooterContent_T8CCB4532025_TextBoxPassword" class="Password" type="password">
+
+        <input id="return_to" name="return_to" value="https://support.mercurynewmedia.com/" type="hidden">
+        <a href="javascript:void(0);" class="ForgotLink">
+            Forgot Username or Password?
+        </a>
+        <input name="ctl00$FooterContent$T8CCB4532025$ButtonClientLogin" value="" id="FooterContent_T8CCB4532025_ButtonClientLogin" class="ClientLoginButton" type="submit">
+    </div>
+</div>
+            </div>
+            <div id="ModalForms">
+	
+                <div id="ContactFormContainer" class="FormPopup">
+                    
+<div id="ContactFormContent_T8CCB4532049">
+		
+
+
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_successMessage" class="sfSuccess" style="display: none;">
+			
+		</div>
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_formControls">
+			
+    
+<div class="sf_cols ContactForm">
+    <div style="" class="sf_colsOut ">
+        <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C009_Col00" class="sf_colsIn sf_1col_1in_100">
+            
+        <div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_ctl02_C010_Col00" class="sf_colsIn sf_1col_1in_100">
+            
+        <div class="sfContentBlock sfFormInstructions"><h2>Let's Talk</h2> <p>
+Would you like to discuss a project? Employment opportunities? Technology and design trends? Reach out to us with any of the following:
+</p> <a href="http://google.com/maps">Google maps for driving directions</a><br>
+
+
+</div></div>
+    </div>
+</div><div class="sf_cols">
+    <div style="width: 50%;" class="sf_colsOut left sf_2cols_1_50">
+        <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C011_Col00" class="sf_colsIn sf_2cols_1in_50">
+            
+        <div class="sfFieldWrpSpecial"><input class="sfTxt" value="" placeholder="Comment Details" type="text"></div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001" class="firstName sfFormBox">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">First Name</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C001$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="First Name" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C001$ctl00$ctl00$textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C001_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C001">
+	        
+            <div id="titleLabel_read_C001" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C001" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C001">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003" class="lastName sfFormBox">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Last Name</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C003$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Last Name" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C003$ctl00$ctl00$textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C003_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C003">
+	        
+            <div id="titleLabel_read_C003" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C003" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C003">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004" class="email sfFormBox">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Email</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C004$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Email" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C004$ctl00$ctl00$textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C004_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C004">
+	        
+            <div id="titleLabel_read_C004" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C004" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C004">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005" class="organization sfFormBox">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Organization</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C005$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Organization" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C005$ctl00$ctl00$textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C005_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C005">
+	        
+            <div id="titleLabel_read_C005" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C005" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C005">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006" class="phone sfFormBox">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Phone</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C006$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Phone" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C006$ctl00$ctl00$textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C006_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C006">
+	        
+            <div id="titleLabel_read_C006" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C006" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C006">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008" class="questions sfFormBlock">
+				
+            <label for="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ctl00_textBox_write" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Questions</label>
+            <a onclick="return false;" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C008$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <textarea placeholder="Questions" name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C008$ctl00$ctl00$textBox_write" rows="5" cols="20" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ctl00_textBox_write" class="sfTxt placeholder"></textarea>
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C008_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C008">
+	        
+            <div id="titleLabel_read_C008" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C008" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C008">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div class="sfFormSubmit submit ContactSubmit sfSubmitBtnSmall">
+				<input name="ctl00$ContactFormContent$T8CCB4532049$ctl00$ctl00$C002" value="Submit" onclick="return Telerik.Sitefinity.Web.UI.Fields.FormManager.validateGroup(&quot;sf_contactformT8CCB4532049&quot;);" id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C002" class="submit ContactSubmit" type="submit">
+			</div></div>
+    </div>
+    <div style="width: 50%;" class="sf_colsOut right sf_2cols_2_50">
+        <div id="ContactFormContent_T8CCB4532049_ctl00_ctl00_C011_Col01" class="sf_colsIn sf_2cols_2in_50">            
+        <div class="sfContentBlock sfFormInstructions"><p>Mercury New Media</p> <ul> <li>4350 W Cypress Street., Suite 702</li> <li>Tampa, FL 33607</li> <li>(813) 933-9800 voice</li> <li>(813) 354-2596 fax</li> <li><a href="mailto:solutions@mercurynewmedia.com">solutions@mercurynewmedia.com</a> </li> </ul>
+
+
+</div></div>
+    </div>
+</div></div>
+    </div>
+</div>
+		</div>
+
+	</div>
+                </div>
+                <div id="QuoteFormContainer" class="FormPopup">
+                    
+<div id="QuoteFormContent_T8CCB4532050">
+		
+
+
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_successMessage" class="sfSuccess" style="display: none;">
+			
+		</div>
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_formControls">
+			
+    
+<div class="sf_cols QuoteForm">
+    <div style="" class="sf_colsOut ">
+        <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C001_Col00" class="sf_colsIn sf_1col_1in_100">
+            
+        <div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_ctl02_C003_Col00" class="sf_colsIn sf_1col_1in_100">
+            
+        <div class="sfContentBlock sfFormInstructions"><h2>Request a Quote</h2> <p>Have a Web, Mobile and/or Data challenge? Let Mercury New Media help. Simply submit the form below or just give us a call at (813) 933-9800. We’ll make it Great.</p>
+
+
+</div></div>
+    </div>
+</div><div class="sf_cols">
+    <div style="" class="sf_colsOut sf_2cols_1_50 left">
+        <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C002_Col00" class="sf_colsIn sf_2cols_1in_50">
+            
+        <div class="sfFieldWrpSpecial"><input class="sfTxt" value="" placeholder="Comment Details" type="text"></div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006" class="firstName sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">First Name</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C006$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="First Name" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C006$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C006_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C006">
+	        
+            <div id="titleLabel_read_C006" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C006" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C006">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007" class="lastName sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Last Name</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C007$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Last Name" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C007$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C007_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C007">
+	        
+            <div id="titleLabel_read_C007" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C007" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C007">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008" class="email sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Email</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C008$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Email" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C008$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C008_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C008">
+	        
+            <div id="titleLabel_read_C008" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C008" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C008">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009" class="organization sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Organization</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C009$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Organization" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C009$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C009_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C009">
+	        
+            <div id="titleLabel_read_C009" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C009" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C009">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010" class="phone sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Phone</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C010$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Phone" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C010$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C010_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C010">
+	        
+            <div id="titleLabel_read_C010" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C010" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C010">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011" class="website sfFormBox">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Website</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C011$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <input value="" placeholder="Website" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C011$ctl00$ctl00$textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ctl00_textBox_write" class="sfTxt placeholder" type="text">
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C011_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C011">
+	        
+            <div id="titleLabel_read_C011" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C011" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C011">
+		
+	</div>
+        
+</div>
+				</div>
+			</div></div>
+    </div>
+    <div style="" class="sf_colsOut sf_2cols_2_50 right">
+        <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C002_Col01" class="sf_colsIn sf_2cols_2in_50">            
+        <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014" class="sfFormCheckboxlist">
+				
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_titleLabel_checkboxes" class="sfTxtLbl">
+					Requested Services
+				</div>
+            <span id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes" class="sfCheckListBox sfFieldWrp"><input id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_0" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C014$ctl00$ctl00$checkBoxes$0" value="Strategy and Guidance" type="checkbox"><label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_0">Strategy and Guidance</label><br><input id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_1" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C014$ctl00$ctl00$checkBoxes$1" value="Website Development" type="checkbox"><label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_1">Website Development</label><br><input id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_2" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C014$ctl00$ctl00$checkBoxes$2" value="Ecommerce" type="checkbox"><label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_2">Ecommerce</label><br><input id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_3" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C014$ctl00$ctl00$checkBoxes$3" value="Intranet/Extranet" type="checkbox"><label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_3">Intranet/Extranet</label><br><input id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_4" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C014$ctl00$ctl00$checkBoxes$4" value="Managed Hosting" type="checkbox"><label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C014_ctl00_ctl00_checkBoxes_4">Managed Hosting</label></span>
+        
+
+
+			</div><div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013" class="additionalInformation sfFormBlock">
+				
+            <label for="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ctl00_textBox_write" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ctl00_titleLabel_write" class="sfTxtLbl">Additonal Information</label>
+            <a onclick="return false;" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ctl00_expandButton_write" class="sfOptionalExpander" href="javascript:__doPostBack('ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C013$ctl00$ctl00$expandButton_write','')" style="display: none;">Click to add</a>
+            <div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ctl00_expandableTarget_write" class="sfFieldWrp" style="display:;">
+					
+                <textarea placeholder="Additional Information" name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C013$ctl00$ctl00$textBox_write" rows="5" cols="20" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ctl00_textBox_write" class="sfTxt placeholder"></textarea>
+                
+                
+                
+                
+            
+				</div>
+        
+<div id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C013_ctl00_ConditionalTemplates" style="display: none;">
+					<div id="ClientTemplatePanel_C013">
+	        
+            <div id="titleLabel_read_C013" class="sfTxtLbl">
+		
+	</div>
+            <div id="textLabel_read_C013" class="sfTxtContent">
+		
+	</div>
+            
+            <div id="characterCounter_read_C013">
+		
+	</div>
+        
+</div>
+				</div>
+			</div><div class="sfFormSubmit submit ContactSubmit sfSubmitBtnSmall">
+				<input name="ctl00$QuoteFormContent$T8CCB4532050$ctl00$ctl00$C005" value="Submit" onclick="return Telerik.Sitefinity.Web.UI.Fields.FormManager.validateGroup(&quot;sf_quoteformT8CCB4532050&quot;);" id="QuoteFormContent_T8CCB4532050_ctl00_ctl00_C005" class="submit ContactSubmit" type="submit">
+			</div></div>
+    </div>
+</div></div>
+    </div>
+</div>
+		</div>
+
+	</div>
+                </div>
+            
+</div>
+        </footer>
+    
+
+
+</form>
+    
+    
+    
+    
+    
+    ­
+    
+    
+    
+    
+    
+    
+    <!-- styles needed by jScrollPane -->
+    
+    <!-- the mousewheel plugin - optional to provide mousewheel support -->
+    
+    <!-- the jScrollPane script -->
+    
+    <!--the Tooltipster Plugin-->
+    
+    <!--Flexslider-->
+    
+
+
+<div style="position: absolute; top: -1999px; left: -1988px;" id="stcpDiv">ShareThis Copy and Paste</div><iframe style="display: none;" scrolling="no" src="index_1.html" name="stSegmentFrame" id="stSegmentFrame" frameborder="0" height="0px" width="0px"></iframe><div style="display: none; z-index: 89999999;" class="stwrapper stwrapper5x" id="stwrapper"><iframe src="index_2.html" style="top: 0px; left: 0px;" scrolling="no" name="stLframe" class="stLframe stframe5x" id="stLframe" allowtransparency="true" frameborder="0" height="419px" width="514px"></iframe></div><div onclick="javascript:stWidget.closeWidget();" id="stOverlay" style="height: 100%; width: 100%; background-color: rgb(0, 0, 0); opacity: 0.6; position: fixed; display: none; left: 0px; top: 0px; z-index: 89999990;"></div></body>
+</html>

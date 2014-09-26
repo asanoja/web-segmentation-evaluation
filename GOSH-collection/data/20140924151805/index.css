@@ -1,0 +1,124 @@
+/* ::::: http://fotolog.com/styles/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input { margin: 0px; padding: 0px; border: 0px none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-size: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; -moz-font-feature-settings: inherit; -moz-font-language-override: inherit; vertical-align: baseline; font-family: Arial,sans-serif; }
+body { line-height: 1; }
+ol, ul { list-style: none outside none; }
+a { text-decoration: none; outline: 0px none; }
+a img { border: 0px none; }
+/* ::::: http://fotolog.com/styles/common.css ::::: */
+
+body { background-color: rgb(239, 239, 239); }
+.clear { clear: both; margin: 0px; padding: 0px; }
+.hidden_object { display: none; }
+.img_not_visible { visibility: hidden; }
+.float_left { float: left ! important; display: block ! important; }
+.align_center { text-align: center; }
+a { color: rgb(153, 153, 153); font-size: 12px; }
+a:hover { color: rgb(119, 119, 119); }
+b { font-weight: bold; }
+#wrapper { padding-top: 15px; }
+#container { background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); display: block; margin: 0px auto; padding: 15px 15px 15px 30px; width: 953px; }
+#logo { float: left; font-size: 24px; height: 32px; padding-top: 4px; position: relative; width: 133px; z-index: 2; }
+.fotolog_title { color: rgb(0, 0, 0); display: block; float: left; font-size: 18px; margin-top: 6px; }
+#head_bar { position: relative; z-index: 60; background-color: rgb(22, 27, 31); font-size: 12px; }
+#head_bar_container { position: relative; width: 980px; height: 40px; margin: 0px auto; color: rgb(153, 153, 153); }
+#head_bar .fotolog_title { font-size: 20px; margin: 2px 0px 0px 5px; color: rgb(153, 153, 153); }
+#menu li a#menu_hidden_active_link { width: 82px; color: rgb(0, 203, 254); }
+#menu_hidden li a:hover { color: rgb(0, 203, 254); }
+#menu_hidden { background-color: rgb(51, 51, 51); border-left: 1px solid rgb(71, 72, 74); border-bottom: 1px solid rgb(71, 72, 74); border-right: 1px solid rgb(71, 72, 74); padding: 5px 0px; position: relative; z-index: 1051; margin-top: -1px; }
+#menu_hidden li a { color: rgb(203, 204, 206); display: block; padding: 3px 3px 3px 10px; }
+#menu > li { float: left; display: block; margin: 0px 3px; }
+#menu li#li_search { margin-right: 4px; }
+#menu li#li_submenu { margin-right: 5px; }
+#menu #menu_hidden li { float: none; }
+#menu li a.menu_link { border-radius: 4px; display: block; margin-top: 8px; padding: 5px 4px; text-decoration: none; background-color: rgb(51, 51, 51); color: rgb(203, 204, 206); border: 1px solid rgb(71, 72, 74); width: 105px; height: 12px; }
+#menu li a.menu_link:hover { background-color: rgb(89, 89, 89); }
+#menu li a.menu_link.mobile { width: 63px; border: 0px none; padding: 0px 2px 0px 0px; }
+#search_form { margin: 8px 0px 0px 15px; width: 184px; position: relative; }
+#search_form input { color: rgb(154, 154, 154); border-radius: 2px; height: 21px; width: 173px; padding-left: 5px; padding-top: 1px; background-color: rgb(51, 51, 51); }
+#search_form input[type="text"] { border: 1px solid rgb(71, 72, 74); }
+#search_form input:-moz-placeholder { color: rgb(154, 154, 154); }
+input#search_button { background: url('loupe_grey.png') no-repeat scroll 4px 2px transparent; color: transparent; cursor: pointer; height: 18px; left: 158px; padding: 0px; position: absolute; top: 3px; width: 21px; text-indent: -9000px; border: 0px none; }
+#menu { height: 40px; position: relative; left: 0px; top: 0px; width: 820px; float: left; }
+#container #geo_search h3 { border: 0px none; }
+#geo_search label { font-size: 12px; }
+#geo_form { width: 300px; }
+#geo_form .submit_button { display: block; margin: 0px auto; width: 150px; }
+.label_select { display: inline-block; width: 71px; color: rgb(154, 154, 154); }
+.geo_select { border: 1px solid rgb(224, 224, 224); background-color: rgb(239, 239, 239); display: inline-block; padding: 3px; width: 200px; }
+#geo_form p { margin-bottom: 7px; }
+.submit_button { border-radius: 5px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); cursor: pointer; text-align: center; }
+#promoted_banner { border: 7px solid rgb(0, 0, 0); clear: both; height: 83px; overflow: hidden; padding: 0px; position: relative; width: 937px; }
+#promoted_banner ul { border: 4px solid rgb(255, 255, 255); background-color: rgb(255, 255, 255); position: absolute; width: 5000px; overflow: hidden; }
+#footer { clear: both; color: rgb(155, 155, 155); font-size: 12px; margin: 0px auto; padding: 15px 40px; text-align: center; width: 920px; }
+#footer a { color: rgb(155, 155, 155); font-weight: bold; }
+#footer p { clear: both; margin-top: 20px; line-height: 15px; }
+#footer_links li { display: inline-block; line-height: 17px; }
+#footer_links li a { font-weight: normal; }
+#footer_links li a:hover { text-decoration: underline; }
+#bottom_pub { width: 729px; height: 90px; margin: 30px auto 10px; }
+.button_30px, .button_input_30px { background: url('bouton-30-content.png') repeat-x scroll left top rgb(21, 27, 30); color: rgb(255, 255, 255); display: block; font-size: 15px; font-weight: bold; height: 16px; padding: 7px 10px; border-radius: 5px; margin: 0px auto; text-align: center; }
+.button_input_30px { height: 30px; padding: 0px 10px; }
+.button_30px:hover, .button_input_30px:hover { background-image: url('bouton-30-content-over.png'); background-color: rgb(132, 138, 141); color: rgb(255, 255, 255); }
+#promote_link { background: url('bouton-banniere-visibilite.png') no-repeat scroll left top transparent; display: block; height: 45px; padding-left: 10px; padding-top: 30px; width: 112px; z-index: 10; position: relative; color: rgb(202, 203, 205); font-size: 12px; }
+.vip_promoted { font-weight: bold; text-indent: 30px; }
+#promoted_banner li#promote_your_photo_black { margin-right: 0px; float: left; }
+#promoted_banner li { width: 100px; margin-right: 4px; height: 75px; }
+#hr_before_promoted { border-right: 0px none; border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(204, 204, 204) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; clear: both; margin: 15px 0px 25px; }
+.blue_arrow { border-color: rgb(3, 204, 255) transparent transparent; border-style: solid; border-width: 4px 4px 0px; display: block; height: 0px; left: 68px; margin-left: 2px; margin-top: 1px; position: relative; top: -7px; width: 0px; }
+#flyout { position: fixed; right: -370px; bottom: 40px; box-shadow: 0px 0px 3px 3px rgb(68, 68, 68); opacity: 0; height: 140px; width: 370px; z-index: 10; }
+#flyout {  }
+#flyout_flyout { display: none; }
+/* ::::: http://fotolog.com/styles/fotolog.css ::::: */
+
+/* ::::: http://fotolog.com/styles/home.css ::::: */
+
+#login_menu { margin: 0px 15px 0px 4px; }
+#menu li a#create_fotolog { background-color: rgb(94, 94, 94); color: rgb(203, 203, 203); border-color: rgb(131, 132, 134); }
+#banner_top { height: 440px; margin: 0px auto; overflow: hidden; position: relative; width: 1000px; }
+#banner_mask { position: absolute; z-index: 50; top: 0px; }
+#h1_banner { font-size: 39px; font-family: Arial; color: rgb(255, 255, 255); position: absolute; z-index: 51; top: 93px; left: 102px; text-align: center; }
+#h2_banner { color: rgb(167, 179, 183); font-family: Arial; font-size: 15px; left: 102px; line-height: 20px; position: absolute; text-align: center; top: 213px; z-index: 51; }
+#button_register { background: url('bouton-essayer-content-over.png') repeat-x scroll left top transparent; border-radius: 5px; box-shadow: 3px 4px 3px rgb(51, 51, 51); color: rgb(0, 0, 0); display: block; font-size: 22px; font-weight: bold; height: 51px; left: 155px; outline: 0px none; padding-top: 9px; position: absolute; text-align: center; text-transform: uppercase; top: 272px; width: 182px; z-index: 51; }
+#button_register:hover { box-shadow: none; }
+.button_white_text { color: rgb(255, 255, 255); display: block; font-size: 14px; margin-top: 3px; }
+.images_banner { position: absolute; top: 32px; right: -345px; z-index: 48; }
+.first_image { right: 75px; z-index: 49; }
+#popular_photos { position: absolute; overflow: hidden; width: 610px; margin: 0px; }
+#popular_photos li { float: left; font-size: 12px; height: 105px; list-style-type: none; margin-right: 5px; margin-top: 15px; position: relative; text-align: center; width: 110px; }
+.popular_img_container { border: 1px solid rgb(204, 204, 204); height: 75px; margin: 2px; padding: 3px; width: 100px; }
+#block_slideshow { background-color: rgb(21, 27, 30); width: 100%; margin: auto; }
+#container h3 { border-bottom: 1px solid rgb(239, 239, 239); color: rgb(153, 153, 153); font-size: 18px; margin-bottom: 10px; padding-bottom: 5px; text-transform: uppercase; }
+#container h2 { color: rgb(153, 153, 153); font-size: 21px; margin-bottom: 10px; padding-bottom: 5px; text-transform: uppercase; }
+#container h3 { font-size: 14px; font-weight: bold; }
+#thumb_container { float: left; display: block; padding: 5px 0px; width: 590px; height: 760px; margin-bottom: 15px; }
+#right_column { float: left; display: block; width: 300px; margin: 0px 0px 0px 60px; }
+#right_column p { font-size: 14px; color: rgb(154, 154, 154); }
+#right_column p b { font-weight: bold; }
+#block_globe { margin-bottom: 75px; }
+#block_globe h3 img { vertical-align: middle; margin-left: 10px; }
+.board_border { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-radius: 5px; box-shadow: 3px 2px 2px rgb(153, 153, 153); color: rgb(0, 0, 0); display: inline-block; float: left; margin: 0px 2px; padding: 0px; position: relative; width: 20px; height: 30px; }
+.board_space { margin-left: 7px; }
+.board_border .hr_board_border { background-color: rgb(153, 153, 153); border: 0px none; box-shadow: 0px 0px 2px rgb(34, 34, 34); height: 1px; position: absolute; top: 50%; width: 20px; z-index: 2; left: 0px; display: inline-block; overflow: hidden; }
+#container_globe { padding: 52px 0px; background: url('map-small.png') no-repeat scroll left top transparent; }
+p#globe_count_user { font-size: 30px; margin: 0px auto 15px; text-align: center; width: 245px; }
+/* ::::: http://fotolog.com/styles/home_group.css ::::: */
+
+/* ::::: http://fotolog.com/styles/wall.css ::::: */
+
+#promoted_banner { margin-bottom: 15px; }
+.wall_user_name { display: block; margin-bottom: 5px; overflow: hidden; width: 111px; font-size: 11px; height: 15px; }
+.wall_img_container { border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); display: block; float: left; height: 75px; padding: 3px; width: 100px; overflow: hidden; text-align: center; }
+#random_button_container { position: absolute; right: 6px; top: 8px; z-index: 2; }
+#random_button { background: url('icone-random.png') no-repeat scroll center center rgb(47, 52, 55); border: 1px solid rgb(71, 72, 74); border-radius: 5px; color: rgb(0, 207, 255); cursor: pointer; display: block; height: 24px; padding: 4px 0px 3px; text-indent: -9000px; width: 36px; }
+#random_button:hover { background-color: rgb(89, 89, 89); }
+@media screen and (max-width: 1024px) {
+}
+/* ::::: http://fotolog.com/styles/login.css ::::: */
+
+/* ::::: http://fotolog.com/styles/directory.css ::::: */
+
+/* ::::: http://fotolog.com/styles/static.css ::::: */
+
+.fb_reset { background: none repeat scroll 0% 0% transparent; border: 0px none; border-spacing: 0px; color: rgb(0, 0, 0); cursor: auto; direction: ltr; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 1; margin: 0px; overflow: visible; padding: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-shadow: none; text-transform: none; visibility: visible; white-space: normal; word-spacing: normal; }
+.fb_reset > div { overflow: hidden; }

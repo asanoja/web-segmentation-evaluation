@@ -1,0 +1,212 @@
+/* ::::: https://docs.moodle.org/all/es/load.php?debug=false&lang=es&modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button&only=styles&skin=moodledocs&* ::::: */
+
+@media screen {
+	.mw-content-ltr { direction: ltr; }
+	.sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+	.mw-icon-question:lang(ar), .mw-icon-question:lang(fa), .mw-icon-question:lang(ur) { transform: scaleX(-1); }
+	#catlinks { text-align: left; }
+	.catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: none outside none; }
+	.catlinks li { display: inline-block; line-height: 1.25em; border-left: 1px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; }
+	.catlinks li:first-child { padding-left: 0.25em; border-left: medium none; }
+	.visualClear { clear: both; }
+	.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+	h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lang(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa), h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em ! important; }
+	h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho), h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:lang(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu), h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(hi), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lang(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:lang(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne), h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lang(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa), h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:lang(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+	ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(mzn) li { list-style-type: -moz-persian; }
+	ol:lang(ckb) li { list-style-type: -moz-arabic-indic; }
+	ol:lang(hi) li, ol:lang(mr) li { list-style-type: -moz-devanagari; }
+	ol:lang(as) li, ol:lang(bn) li { list-style-type: -moz-bengali; }
+	ol:lang(or) li { list-style-type: -moz-oriya; }
+	.mw-jump, #jump-to-nav { overflow: hidden; height: 0px; }
+	.printfooter { display: none; }
+	.mw-editsection, .toctoggle, #jump-to-nav { -moz-user-select: none; }
+}
+.mw-ui-button:hover::-moz-focus-inner, .mw-ui-button:focus::-moz-focus-inner { border-color: transparent; }
+.mw-ui-button.mw-ui-progressive:hover::-moz-focus-inner, .mw-ui-button.mw-ui-progressive:focus::-moz-focus-inner, .mw-ui-button.mw-ui-primary:hover::-moz-focus-inner, .mw-ui-button.mw-ui-primary:focus::-moz-focus-inner { border-color: transparent; }
+.mw-ui-button.mw-ui-constructive:hover::-moz-focus-inner, .mw-ui-button.mw-ui-constructive:focus::-moz-focus-inner { border-color: transparent; }
+.mw-ui-button.mw-ui-destructive:hover::-moz-focus-inner, .mw-ui-button.mw-ui-destructive:focus::-moz-focus-inner { border-color: transparent; }
+.mw-ui-button-group > :first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.mw-ui-button-group > :not(:first-child) { border-left: medium none; }
+.mw-ui-button-group > :last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+/* ::::: https://docs.moodle.org/all/es/skins/moodledocs/userdocs.css?305 ::::: */
+
+.clearfix {  }
+.clearfix:before, .clearfix:after { display: table; content: ""; line-height: 0; }
+.clearfix:after { clear: both; }
+audio:not([controls]) { display: none; }
+html { font-size: 100%; }
+a:focus { outline: thin dotted rgb(51, 51, 51); outline-offset: -2px; }
+a:hover, a:active { outline: 0px none; }
+img { max-width: 100%; height: auto; vertical-align: middle; border: 0px none; }
+button, input, select, textarea { margin: 0px; font-size: 100%; vertical-align: middle; }
+button, input { line-height: normal; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0px; border: 0px none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+body { margin: 0px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 20px; color: rgb(89, 89, 89); background-color: rgb(255, 255, 255); }
+a { color: rgb(0, 112, 168); text-decoration: none; }
+a:hover, a:focus { color: rgb(0, 61, 92); text-decoration: underline; }
+[class*="span"] { float: left; min-height: 1px; margin-left: 20px; }
+.span4 { width: 300px; }
+.row-fluid { width: 100%; }
+.row-fluid:before, .row-fluid:after { display: table; content: ""; line-height: 0; }
+.row-fluid:after { clear: both; }
+.row-fluid [class*="span"] { display: block; width: 100%; min-height: 30px; box-sizing: border-box; float: left; margin-left: 2.12766%; }
+.row-fluid [class*="span"]:first-child { margin-left: 0px; }
+.row-fluid .span4 { width: 31.9149%; }
+.container-fluid { padding-right: 20px; padding-left: 20px; }
+.container-fluid:before, .container-fluid:after { display: table; content: ""; line-height: 0; }
+.container-fluid:after { clear: both; }
+p { margin: 0px 0px 10px; }
+strong { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { margin: 10px 0px; font-family: inherit; font-weight: 300; line-height: 20px; color: rgb(108, 51, 109); text-rendering: optimizelegibility; }
+h1, h2, h3 { line-height: 40px; }
+h1 { font-size: 38.5px; }
+h2 { font-size: 31.5px; }
+h3 { font-size: 24.5px; }
+h5 { font-size: 14px; }
+ul, ol { padding: 0px; margin: 0px 0px 10px 25px; }
+li { line-height: 20px; }
+form { margin: 0px 0px 20px; }
+label, input, button, select, textarea { font-size: 14px; font-weight: normal; line-height: 20px; }
+input, button, select, textarea { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+label { display: block; margin-bottom: 5px; }
+input, textarea, .uneditable-input { width: 206px; }
+input:-moz-placeholder, textarea:-moz-placeholder { color: rgb(153, 153, 153); }
+input, textarea, .uneditable-input { margin-left: 0px; }
+input:focus:invalid, textarea:focus:invalid, select:focus:invalid { color: rgb(185, 74, 72); border-color: rgb(238, 95, 91); }
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus { border-color: rgb(233, 50, 45); box-shadow: 0px 0px 6px rgb(248, 185, 183); }
+.table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th { background-color: rgb(249, 249, 249); }
+button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner { padding: 0px; border: 0px none; }
+.navbar { overflow: visible; margin-bottom: 20px; }
+.breadcrumb { padding: 8px 15px; margin: 0px 0px 20px; list-style: none outside none; background-color: rgb(245, 245, 245); border-radius: 4px; }
+body { background-image: none; font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; color: rgb(89, 89, 89); line-height: 24px; direction: ltr; unicode-bidi: embed; min-width: 320px; }
+a { color: rgb(0, 112, 168); }
+a:visited { color: rgb(0, 78, 117); }
+a:hover { color: rgb(0, 61, 92); text-decoration: underline; }
+a:active { text-decoration: underline; }
+p { margin-top: 10px; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300; color: rgb(108, 51, 109); margin-top: 30px; }
+h1, h2, h3 { line-height: 30px; }
+h4, h5, h6 { line-height: 24px; }
+h1 { font-size: 30px; }
+h2 { font-size: 25px; }
+h3 { font-size: 21px; }
+h5 { font-size: 16px; }
+li { line-height: 24px; }
+label { display: inline; vertical-align: middle; }
+input { font-size: 14px; line-height: 20px; color: rgb(85, 85, 85); display: inline-block; height: 20px; padding: 4px 6px; margin-bottom: 10px; border-radius: 4px; vertical-align: middle; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset; transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; }
+input:focus { border-color: rgba(82, 168, 236, 0.8); outline: 0px none; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6); }
+table.nicetable tbody > tr:nth-child(2n+1) > td, table.nicetable tbody > tr:nth-child(2n+1) > th { background-color: rgb(249, 249, 249); }
+#page { margin-top: 71px; }
+.accesshide { position: absolute; top: -100000px; line-height: 20px; }
+.container-fluid { max-width: 1680px; margin: 0px auto; }
+#globalWrapper { position: relative; }
+#column-content { position: relative; }
+.has-sideblock { padding-right: 25.5%; }
+#content .firstHeading { margin-top: 60px; }
+#contentSub { margin-bottom: 20px; }
+.catlinks { display: inline-block; background: none repeat scroll 0% 0% rgb(249, 249, 249); border: 1px solid rgb(238, 238, 238); border-radius: 4px; padding: 10px 15px; margin-top: 30px; }
+#p-personal { position: absolute; top: -40px; right: 0px; width: auto; white-space: nowrap; padding: 0px 20px; background-color: rgb(255, 255, 255); }
+#p-personal h5 { display: none; }
+#p-personal li { display: inline; }
+#moodlenavbar { z-index: 0; height: 20px; padding-right: 20px; padding-left: 20px; max-width: 1680px; margin: 0px auto 20px; }
+#moodlenavbar:before, #moodlenavbar:after { display: table; content: ""; line-height: 0; }
+#moodlenavbar:after { clear: both; }
+#moodlenavbar .breadcrumb { font-size: 11.9px; background-color: transparent; padding: 0px; margin: 0px; float: left; }
+#moodlenavbar .breadcrumb ul { margin: 0px; }
+#moodlenavbar .breadcrumb ul li { display: inline; }
+#moodlenavbar .breadcrumb ul li a { color: rgb(89, 89, 89); }
+#p-cactions { position: absolute; top: 0px; right: 0px; text-align: right; padding: 0px 245px 0px 0px; margin-top: 16px; white-space: nowrap; }
+#p-cactions h5 { display: none; }
+#p-cactions a { text-transform: lowercase; text-decoration: none; }
+#p-cactions a:hover { background-color: rgb(238, 238, 238); }
+#p-cactions .new a { color: rgb(186, 0, 0); }
+#p-cactions .pBody { display: inline-block; white-space: normal; }
+#p-cactions .pBody > ul > li { display: inline-block; padding-top: 4px; padding-bottom: 8px; }
+#p-cactions .pBody > ul > li > a { padding: 8px 10px; margin: 0px 2px; border-radius: 4px 4px 0px 0px; }
+#p-cactions .pBody > ul > li.selected a { background-color: rgb(238, 238, 238); }
+.sideblock { font-size: 11.9px; padding: 8px 0px; width: 31% ! important; float: right; clear: right; position: relative; top: -25px; left: 34%; margin-left: -100%; }
+.sideblock .header { padding-top: 6px; border-top: 1px dotted rgba(0, 0, 0, 0.1); font-weight: bold; letter-spacing: 2px; text-transform: uppercase; line-height: 20px; }
+.sideblock .header a, .sideblock .header .selflink { color: rgb(108, 51, 109); padding: 3px 15px; display: block; margin-top: 10px; margin-bottom: 10px; }
+.sideblock ul { padding: 4px 14px; border-bottom: 1px dotted rgba(0, 0, 0, 0.1); margin: 0px; }
+.sideblock li { list-style: none outside none; line-height: 20px; padding-top: 3px; padding-bottom: 3px; border-top: 1px dotted rgba(0, 0, 0, 0.1); }
+.sideblock li a { display: block; color: rgb(89, 89, 89); }
+#column-one { margin-top: 50px; margin-bottom: 30px; border-top: 1px solid rgb(221, 221, 221); font-size: 11.9px; }
+.portlet { vertical-align: top; }
+.portlet h5 { font-size: 14px; font-weight: normal; text-transform: uppercase; }
+.portlet .pBody { border: 0px none; padding: 0px; }
+.portlet ul { list-style: none outside none; margin: 0px; }
+.portlet a { color: rgb(0, 112, 168); }
+.portlet.bottom-portlet h5 { padding-left: 12px; padding-right: 12px; }
+.portlet.bottom-portlet a { color: rgb(89, 89, 89); padding-left: 12px; padding-right: 12px; }
+#p-search { position: absolute; top: 0px; right: 0px; margin-right: 20px; margin-top: 16px; padding: 0px; height: 30px; }
+#p-search h3 { display: none; }
+#p-search #simpleSearch { white-space: nowrap; height: 30px; }
+#p-search #searchButton { position: absolute; right: 1px; top: 1px; display: inline-block; padding: 4px 12px; margin-bottom: 0px; font-size: 14px; line-height: 20px; text-align: center; vertical-align: middle; cursor: pointer; color: rgb(51, 51, 51); text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75); background-repeat: repeat-x; background-color: rgb(255, 255, 255); background-image: none; border: medium none; border-radius: 0px 4px 4px 0px; box-shadow: none; }
+#p-search #searchButton:hover, #p-search #searchButton:focus, #p-search #searchButton:active, #p-search #searchButton.active, #p-search #searchButton.disabled, #p-search #searchButton[disabled] { color: rgb(51, 51, 51); background-color: rgb(230, 230, 230); }
+#p-search #searchButton:active, #p-search #searchButton.active {  }
+#p-search #searchButton:first-child {  }
+#p-search #searchButton:hover, #p-search #searchButton:focus { color: rgb(51, 51, 51); text-decoration: none; background-position: 0px -15px; transition: background-position 0.1s linear 0s; }
+#p-search #searchButton:focus { outline: thin dotted rgb(51, 51, 51); outline-offset: -2px; }
+#p-search #searchButton.active, #p-search #searchButton:active { background-image: none; outline: 0px none; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+.suggestions { top: 160px ! important; background-color: rgb(255, 255, 255); border: 1px solid rgba(0, 0, 0, 0.2) ! important; border-radius: 6px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); z-index: 900 ! important; }
+.suggestions .suggestions-results { border: medium none; }
+.suggestions .suggestions-special { border-right: medium none; border-width: 1px medium medium; border-style: solid none none; border-color: rgba(0, 0, 0, 0.2) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-top: -1px; padding: 5px 20px; }
+#footer { font-size: 11.9px; border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); padding: 10px 12px; }
+#footer ul { margin-left: 0px; }
+#footer ul li { display: inline-block; margin-right: 40px; }
+#footer #f-poweredbyico { float: right; }
+#moodlesitelink { text-align: center; background-color: rgb(27, 27, 27); border-top: 5px solid rgb(108, 51, 109); padding: 20px; }
+.mw-contributions-table tr:nth-of-type(1) label:nth-of-type(2) { width: 221px; padding-right: 20px; }
+.mw-contributions-table tr:nth-of-type(2) td { float: left; }
+.mw-contributions-table tr:nth-of-type(5) label { display: block; float: left; width: 246px; padding-right: 20px; }
+.mw-contributions-table tr:nth-of-type(5) input { display: block; }
+/* ::::: https://docs.moodle.org/all/es/skins/moodledocs/sitebar/sitebar-doc.css?305 ::::: */
+
+#moodlesitestopnavbar { position: fixed; top: 0px; right: 0px; left: 0px; z-index: 1000; min-height: 40px; font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 11.9px; background-color: rgb(27, 27, 27); background-image: linear-gradient(to bottom, rgb(34, 34, 34), rgb(17, 17, 17)); border-bottom: 5px solid rgb(108, 51, 109); box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75); }
+#moodlesitestopnavbar .navbar-container { position: relative; display: block; max-width: 1680px; padding-right: 20px; padding-left: 20px; margin: 0px auto; }
+#moodlesitestopnavbar .sitelogo { position: absolute; top: 0px; display: block; padding-top: 7px; padding-right: 20px; padding-left: 20px; margin-left: -20px; }
+#moodlesitestopnavbar .sitelogo img { height: 25px; }
+#moodlesitestopnavbar ul { float: right; padding: 0px; margin: 0px; }
+#moodlesitestopnavbar ul li { display: inline-block; float: left; line-height: 20px; list-style: none outside none; }
+#moodlesitestopnavbar ul li a { display: block; padding: 10px 15px; color: rgb(255, 255, 255); text-decoration: none; text-shadow: none; text-transform: uppercase; background-position: center center; background-repeat: no-repeat; }
+#moodlesitestopnavbar ul li.home { margin-left: 104px; }
+#moodlesitestopnavbar ul li.home a { width: 20px; height: 20px; background-image: url('home.png'); }
+#moodlesitestopnavbar ul li.home a > span { display: none; }
+#moodlesitestopnavbar ul li.home a:hover { background-color: rgb(249, 128, 18); }
+#moodlesitestopnavbar ul li.documentation a:hover { background-color: rgb(108, 51, 109); }
+#moodlesitestopnavbar ul li.download a:hover { background-color: rgb(110, 171, 46); }
+#moodlesitestopnavbar ul li.demo a:hover { background-color: rgb(153, 153, 153); }
+#moodlesitestopnavbar ul li.tracker a:hover { background-color: rgb(70, 83, 180); }
+#moodlesitestopnavbar ul li.development a:hover { background-color: rgb(70, 83, 180); }
+#moodlesitestopnavbar ul li.translation a:hover { background-color: rgb(166, 42, 62); }
+#moodlesitestopnavbar ul li.moodlenet a:hover { background-color: rgb(251, 75, 40); }
+#moodlesitestopnavbar ul li.search a { width: 20px; height: 20px; background-image: url('search.png'); }
+#moodlesitestopnavbar ul li.search a > span { display: none; }
+#moodlesitestopnavbar ul li.search a:hover { background-color: rgb(249, 128, 18); }
+#moodlesitestopnavbar ul li.documentation a { background-color: rgb(108, 51, 109); }
+/* ::::: https://docs.moodle.org/all/es/skins/moodledocs/bootstrap-responsive.min.css?305 ::::: */
+
+.clearfix {  }
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both; }
+/* ::::: https://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic ::::: */
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url('dxi1orhcpsqm3vp6mxoatxhcuogz7vygh680lgh-uxm.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"), url('cjzkeoubrn4kerxqtauh3t8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; width: 0px; border: medium none; z-index: 1099; padding: 0px; margin: -1px -1px 0px 0px; }
+html > body .suggestions { margin: -1px 0px 0px; }
+.suggestions-special { position: relative; background-color: white; cursor: pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; display: none; padding: 0.25em; line-height: 1.25em; }
+.suggestions-results { background-color: white; cursor: pointer; border: 1px solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-decoration: none; }

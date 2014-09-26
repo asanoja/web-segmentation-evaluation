@@ -1,0 +1,5 @@
+body { padding: 0px; margin: 0px; }
+#customButton { display: inline-block; background: none repeat scroll 0% 0% transparent; width: 16px; height: 16px; opacity: 0.8; margin: 4px; padding: 0px; }
+#customButton:hover { cursor: pointer; opacity: 1; }
+#customButton .icon { background: url('undefined') no-repeat scroll center center transparent; display: inline-block; width: 16px; height: 16px; }
+#customButton .buttonText { display: none; }

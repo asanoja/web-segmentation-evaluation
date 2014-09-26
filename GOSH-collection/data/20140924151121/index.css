@@ -1,0 +1,207 @@
+/* ::::: http://s.w.org/style/codex-wp4.css?1 ::::: */
+
+html * { font-variant: normal ! important; text-align: left ! important; }
+.printfooter, hr, .urlexpansion { display: none ! important; }
+#bodyContent h1, #bodyContent h2 { font-family: Georgia,"Times New Roman",Times,serif; font-size: 22px; margin-bottom: 22px; color: rgb(51, 51, 51); }
+#bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5, #bodyContent h6 { font-family: Georgia,"Times New Roman",Times,serif; border-bottom: 1px solid rgb(218, 218, 218); font-weight: normal; }
+#bodyContent h2.pagetitle { font-family: sans-serif; font-size: 24px; font-weight: bold; color: rgb(102, 102, 102); padding-bottom: 2px; margin-top: 0px; margin-bottom: 24px; }
+.col-2 h3 { margin-top: 3px; }
+#bodyContent h2 { margin-top: 22px; margin-bottom: 11px; }
+#bodyContent h3, #bodyContent div > h3 { padding-bottom: 4px; margin-bottom: 4px; }
+#bodyContent h2 { font-size: 190%; }
+#bodyContent h3 { font-size: 150%; border-color: rgb(238, 238, 238); }
+#bodyContent h4 { font-size: 130%; }
+#bodyContent { color: black; }
+#bodyContent p { clear: left; }
+#pagebody #bodyContent p, #pagebody #bodyContent ul, #pagebody #bodyContent dl, #pagebody #bodyContent ol { margin-bottom: 22px; }
+p.login a { margin-right: 6px; }
+#bodyContent div { font-size: 100% ! important; }
+#bodyContent pre, #bodyContent code { margin-bottom: 22px; font-family: Consolas,Monaco,"Courier New",Courier,monospace; font-size: 12px; font-weight: inherit; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+dl dt { font-weight: bold; font-size: 110%; }
+dl dd { margin-bottom: 11px; margin-left: 1em; }
+#toc { background: none repeat scroll 0% 0% rgb(241, 241, 241); border: 1px solid rgb(218, 218, 218); float: right; margin-left: 16px; padding: 4px 8px; margin-bottom: 12px; font-size: 85%; max-width: 30%; }
+#pagebody #toc ul { margin-bottom: 0px; }
+#toctitle h2 { font-size: 18px; margin-top: 0px; margin-bottom: 5%; }
+input[type="text"], input[type="password"] { margin-right: 2px; font-size: 12px; padding: 3px; margin-bottom: 6px; background: none repeat scroll 0% 0% rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 3px; height: 14px; color: rgb(102, 102, 102); }
+a img.alignright, .tright, .floatright, img.alignright, img.right { float: right; margin: 0px 0px 1em 1em; }
+/* ::::: http://s.w.org/wp-includes/css/dashicons.css?20140409 ::::: */
+
+@font-face {
+	font-family: "dashicons";
+	src: url('dashicons.eot');
+}
+@font-face {
+	font-family: "dashicons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('undefined') format("woff"), url('dashicons.ttf') format("truetype"), url('dashicons.svg') format("svg");
+}
+/* ::::: http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic ::::: */
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url('dxi1orhcpsqm3vp6mxoatrsxeywm7fgeyasgu71clg0.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"), url('uykcpvoh6c5r0npdey5a-q.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url('mtp_ysujh_bn48vbg8snshsxeywm7fgeyasgu71clg0.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url('prmixeptr36kac0geaetxv25ds880du_gfzbulzlsbg.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Open Sans Italic"), local("OpenSans-Italic"), url('o4nhv7_qs9r9seto7fnsvd8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url('prmixeptr36kac0geaetxsuw6j0fiq4_byoaomnnbha.woff') format("woff");
+}
+/* ::::: http://s.w.org/style/wp4.css?15 ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td { margin: 0px; padding: 0px; }
+fieldset, img, abbr { border: 0px none; }
+address, caption, cite, code, dfn, h1, h2, h3, h4, h5, h6, th, var { font-style: normal; font-weight: normal; }
+a { text-decoration: none; }
+body { font-size: 62.5%; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-family: sans-serif; line-height: 22px; color: rgb(68, 68, 68); }
+code, pre { font-family: Consolas,Monaco,"Courier New",Courier,monospace; color: rgb(0, 0, 0); }
+pre { background: none repeat scroll 0% 0% rgb(243, 243, 247); border: 1px solid rgb(222, 222, 227); padding: 11px; font-size: 12px; line-height: 1.3em; margin-bottom: 22px; overflow: auto; }
+a, #wporg-footer ul li a { color: rgb(33, 117, 155); text-decoration: none; font-weight: normal; }
+a:visited, #wporg-footer ul li a:visited { color: rgb(76, 166, 207); }
+p a { border-bottom: 1px solid rgb(223, 223, 223); }
+.button a, .button a:hover, #headline a:not(.button), #headline a:hover:not(.button), #sidebar a, #sidebar a:hover, .frontpageheatmap a, .frontpageheatmap a:hover, .col-3 a, .col-3 a:hover { border: medium none ! important; }
+p a:hover { border-bottom: 1px solid rgb(213, 78, 33); }
+a:hover { color: rgb(213, 78, 33); }
+h2 { font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif; font-weight: 300; font-size: 22px; }
+h2 a { font-weight: 300; }
+strong { font-weight: bold; }
+.aligncenter, div.aligncenter { display: block; margin: 5px auto; }
+.aligncenter { display: block; margin: 5px auto; }
+.wrapper { max-width: 960px; margin: 0px auto; clear: both; }
+.wrapper img { max-width: 100%; height: auto; }
+#wporg-header { position: relative; height: 140px; width: 100%; background: none repeat scroll 0% 0% rgb(34, 34, 34); text-align: center; }
+#wporg-header h1 { display: inline-block; width: 303px; }
+#wporg-header h1 a { display: block; background: url('wp-header-logo.png') no-repeat scroll left center / 303px 53px transparent; width: 303px; height: 88px; text-indent: -9999px; }
+@media not all {
+	#wporg-header h1 a { background-image: url('wp-header-logo-2x.png'); }
+}
+#head-search { height: 48px; }
+#head-search form { width: 288px; display: inline-block; margin-left: 60px; border-bottom: 1px solid rgb(63, 63, 63); }
+#head-search input.text { background: none repeat scroll 0% 0% rgb(19, 19, 19); border: 0px none; margin-right: 0px; margin-bottom: 0px; width: 256px; height: 24px; color: rgb(153, 153, 153); float: left; font-size: 12px; outline: medium none; font-family: "Open Sans",sans-serif; border-radius: 0px; }
+#head-search input.text::-moz-placeholder { color: rgb(238, 238, 238); }
+#head-search .button { float: left; text-shadow: none ! important; border: medium none; height: 30px; width: 26px; background: url('admin-bar-sprite.png') no-repeat scroll 100% 2px rgb(19, 19, 19); border-radius: 0px; padding: 0px; }
+#wporg-header ul#wporg-header-menu { position: absolute; left: -75%; margin: 0px; padding: 20px 0px 0px; min-width: 200px; max-width: 75%; background: none repeat scroll 0% 0% rgb(34, 34, 34); list-style: none outside none; text-align: left; transition: left 0.3s ease 0s; z-index: 10; }
+#wporg-header ul li { position: relative; list-style-type: none; }
+#wporg-header ul li a { font-family: "Open Sans",Helvetica,Arial,"Liberation Sans",sans-serif; font-weight: 600; display: block; line-height: 34px; padding: 10px 30px; margin: 0px 4px; font-size: 13px; color: rgb(221, 221, 221); height: 34px; }
+#wporg-header ul li a:active { color: rgb(0, 0, 0); }
+#wporg-header ul li a:hover { color: rgb(47, 170, 221); }
+#wporg-header ul li a.current { color: rgb(47, 170, 221); }
+#wporg-header .nav-submenu { display: none; position: static; padding: 0px; margin-top: -15px; margin-bottom: 10px; }
+#wporg-header ul.nav-submenu li a { margin-left: 20px; height: 24px; line-height: 24px; }
+#wporg-header ul li#download { display: none; height: 34px; padding: 0px 0px 34px; float: right; margin-right: 14px; overflow: hidden; }
+#wporg-header ul li#download a { margin: 0px; padding: 0px 16px; }
+#wporg-header ul li#download a:hover { color: rgb(238, 238, 238); }
+#mobile-menu-button { position: absolute; top: 75px; left: 10px; display: block; float: left; width: 39px; height: 32px; vertical-align: top; text-align: center; text-decoration: inherit; font-weight: normal; font-style: normal; font-size: 16px; font-family: 'dashicons'; line-height: 1; }
+#mobile-menu-button:before { display: inline-block; float: left; box-sizing: border-box; margin: 0px; padding: 3px; width: 39px; height: 32px; outline: medium none; border: medium none; color: rgb(136, 136, 136); content: ""; vertical-align: middle; text-decoration: none; font: 50px/1 'Dashicons'; }
+#mobile-menu-button:hover { background: none repeat scroll 0% 0% transparent; }
+#download-mobile { background: none repeat scroll 0% 0% rgb(247, 247, 247); border-bottom: 1px solid rgb(221, 221, 221); }
+#download-mobile .wrapper { padding: 20px 0px; text-align: center; }
+#download-mobile span.download-ready { font-size: 1.6em; margin-right: 20px; }
+#download-mobile a.download-button { height: inherit; padding: 10px 15px; font-size: 1.6em; }
+@media screen and (min-width: 480px) {
+	#head-search form { margin-left: 0px; }
+}
+@media screen and (max-width: 480px) {
+	#head-search form { width: 248px; }
+	#head-search input.text { width: 216px; }
+}
+@media screen and (min-width: 768px) {
+	#wporg-header { height: 120px; text-align: inherit; }
+	#wporg-header h1 { float: left; padding-left: 10px; }
+	#head-search { float: right; margin-right: 14px; height: 48px; padding-top: 30px; }
+	#head-search form { margin-left: 0px; }
+	#wporg-header ul#wporg-header-menu { position: static; float: left; margin: -15px 0px 0px; padding: 0px; min-width: 0px; max-width: inherit; width: 100%; list-style: none outside none; }
+	#wporg-header ul li { float: left; position: relative; }
+	#wporg-header ul li a { font-family: "Open Sans",Helvetica,Arial,"Liberation Sans",sans-serif; font-weight: 600; display: block; line-height: 34px; padding: 0px 6px; margin: 0px 4px; font-size: 13px; color: rgb(221, 221, 221); height: 46px; }
+	#wporg-header ul li a.current ~ .uparrow { width: 0px; height: 0px; border-left: 9px solid transparent; border-right: 9px solid transparent; border-bottom: 9px solid rgb(247, 247, 247); margin: -8px auto 0px; }
+	#wporg-header ul li:hover .nav-submenu ~ .uparrow, #wporg-header ul li .nav-submenu:hover ~ .uparrow { width: 0px; height: 0px; border-left: 9px solid transparent; border-right: 9px solid transparent; border-bottom: 9px solid rgb(68, 68, 68); margin: -10px auto 0px; }
+	#wporg-header .nav-submenu { display: none ! important; min-width: 0px; background: none repeat scroll 0% 0% rgb(68, 68, 68); margin-top: -1px; border-right: 1px solid rgb(68, 68, 68); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(68, 68, 68) rgb(68, 68, 68); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+	#wporg-header ul li:hover .nav-submenu, #wporg-header ul li .nav-submenu:hover { display: block ! important; position: absolute; top: 46px; left: 0px; z-index: 11; width: auto; }
+	#wporg-header ul li .nav-submenu li { float: none; }
+	#wporg-header ul.nav-submenu li a { margin-left: 6px; height: 34px; line-height: 34px; }
+	#headline h2 { text-rendering: optimizelegibility; }
+	#mobile-menu-button { display: none; }
+}
+@media screen and (max-width: 960px) {
+}
+@media screen and (min-width: 800px) {
+	#wporg-header ul li#download { display: list-item; }
+	#download-mobile { display: none; }
+}
+.submit input, input[type="button"], input[type="submit"], .button, .button-primary, .download-button, .button-secondary { display: inline-block; text-decoration: none; font-size: 12px; line-height: 23px; height: 24px; margin: 0px; padding: 0px 10px 1px; cursor: pointer; border-width: 1px; border-style: solid; border-radius: 3px; white-space: nowrap; box-sizing: border-box; }
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner { border-width: 1px 0px; border-style: solid none; border-color: transparent; padding: 0px; }
+.button:active { outline: medium none; }
+.submit input, input[type="button"], input[type="submit"], .button, .button-secondary { background: linear-gradient(to bottom, rgb(254, 254, 254), rgb(244, 244, 244)) repeat scroll 0% 0% rgb(243, 243, 243); border-color: rgb(187, 187, 187); color: rgb(51, 51, 51); text-shadow: 0px 1px 0px rgb(255, 255, 255); }
+.submit input:hover, input[type="button"]:hover, input[type="submit"]:hover, .submit input:focus, input[type="button"]:focus, input[type="submit"]:focus, .button.hover, .button:hover, .button-secondary:hover, .button.focus, .button:focus, .button-secondary:focus { background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(243, 243, 243)) repeat scroll 0% 0% rgb(243, 243, 243); border-color: rgb(153, 153, 153); color: rgb(34, 34, 34); }
+.submit input:focus, input[type="button"]:focus, input[type="submit"]:focus, .button.focus, .button:focus, .button-secondary:focus { box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
+.submit input:active, input[type="button"]:active, input[type="submit"]:active, .button.active, .button.active:hover, .button.active:focus, .button:active, .button-secondary:active { background: linear-gradient(to bottom, rgb(244, 244, 244), rgb(254, 254, 254)) repeat scroll 0% 0% rgb(238, 238, 238); border-color: rgb(153, 153, 153); color: rgb(51, 51, 51); text-shadow: 0px -1px 0px rgb(255, 255, 255); box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.5) inset; }
+.submit input:disabled, input[type="button"]:disabled, input[type="submit"]:disabled, .button[disabled], .button:disabled, .button-secondary[disabled], .button-secondary:disabled, .button-disabled { color: rgb(170, 170, 170) ! important; border-color: rgb(221, 221, 221) ! important; background-image: linear-gradient(to bottom, rgb(249, 249, 249), rgb(244, 244, 244)) ! important; box-shadow: none ! important; text-shadow: 0px 1px 0px rgb(255, 255, 255) ! important; cursor: default; }
+.button-primary, .download-button, .button-primary:visited, .download-button:visited { background-color: rgb(33, 117, 155); background-image: linear-gradient(to bottom, rgb(42, 149, 197), rgb(33, 117, 155)); border-color: rgb(33, 117, 155) rgb(33, 117, 155) rgb(30, 106, 141); box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset; color: rgb(255, 255, 255); text-decoration: none; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); }
+.button-primary.hover, .button-primary:hover, .button-primary.focus, .button-primary:focus, .download-button.hover, .download-button:hover, .download-button.focus, .download-button:focus { background-color: rgb(39, 138, 183); background-image: linear-gradient(to bottom, rgb(46, 159, 210), rgb(33, 117, 155)); border-color: rgb(27, 96, 127); box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.6) inset; color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
+.button-primary.focus, .button-primary:focus, .download-button.focus, .download-button:focus { border-color: rgb(14, 57, 80); box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.6) inset, 1px 1px 2px rgba(0, 0, 0, 0.4); }
+.button-primary.active, .button-primary.active:hover, .button-primary.active:focus, .button-primary:active, .download-button.active, .download-button.active:hover, .download-button.active:focus, .download-button:active { background: linear-gradient(to bottom, rgb(33, 117, 155), rgb(39, 138, 183)) repeat scroll 0% 0% rgb(27, 96, 127); border-color: rgb(18, 69, 96) rgb(35, 130, 174) rgb(35, 130, 174); color: rgba(255, 255, 255, 0.95); box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); }
+.button-primary[disabled], .button-primary:disabled, .button-primary-disabled, .download-button[disabled], .download-button:disabled, .download-button-disabled { color: rgb(148, 205, 231) ! important; background: none repeat scroll 0% 0% rgb(41, 140, 186) ! important; border-color: rgb(27, 96, 127) ! important; box-shadow: none ! important; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1) ! important; cursor: default; }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { float: left; margin: 0px 14px; }
+.col-2 { width: 132px; }
+.col-10 { width: 772px; }
+h3 { font-size: 14px; color: rgb(51, 51, 51); font-weight: bold; margin: -1px 0px 1px; }
+h4, h3.head { font-weight: bold; font-size: 14px; border-bottom: 1px solid rgb(222, 222, 222); padding-bottom: 4px; color: rgb(51, 51, 51); margin-bottom: 18px; }
+@media not all {
+}
+input.text { margin-right: 2px; font-size: 12px; padding: 3px; background: none repeat scroll 0% 0% rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); height: 16px; vertical-align: top; color: rgb(102, 102, 102); font-family: sans-serif; }
+#headline { height: 62px; background: none repeat scroll 0% 0% rgb(247, 247, 247); border-bottom: 1px solid rgb(223, 223, 223); }
+#headline h2 { color: rgb(85, 85, 85); font-size: 28px; line-height: 1em; text-shadow: 0px 1px 0px rgb(255, 255, 255); padding-top: 18px; padding-left: 9px; float: left; }
+#headline .login { font-size: 12px; position: relative; float: right; padding-top: 22px; margin-right: 15px; }
+#headline .login a { color: rgb(33, 117, 155); }
+#headline .login a:visited { color: rgb(76, 166, 207); }
+#pagebody .submenu, #pagebody #submenu { margin-left: 0px; margin-top: -2px; font-size: 10px; list-style: none outside none; }
+#pagebody .submenu li { border-bottom: 1px solid rgb(222, 222, 222); font-size: 12px; line-height: 18px; padding: 5px 0px; }
+#pagebody .submenu li a { width: 100%; display: block; }
+#pagebody { font-size: 13px; margin-top: 29px; margin-bottom: 22px; }
+#pagebody p, #pagebody ol, #pagebody ul { margin: 0px 0px 22px; }
+#pagebody ul { margin-left: 16px; list-style: square outside none; }
+#pagebody ol { margin-left: 22px; }
+#wporg-footer { clear: both; overflow: auto; margin: 0px auto; padding: 22px 14px 65px; border-top: 1px solid rgb(223, 223, 223); background-color: rgb(247, 247, 247); }
+#wporg-footer .wrapper { overflow: auto; max-width: 932px; }
+#wporg-footer ul { float: left; overflow: auto; width: 135px; margin-left: 24px; margin-bottom: 15px; padding-left: 0px; }
+@media screen and (min-width: 960px) {
+	#wporg-footer ul:first-child { margin-left: 0px; }
+}
+#wporg-footer ul li { font-size: 14px; margin-bottom: 1px; color: rgb(187, 187, 187); list-style-type: none; }
+#wporg-footer ul li a { border: medium none; }
+#wporg-footer h6 { clear: both; background: url('codeispoetry.png') no-repeat scroll center center / 190px 15px transparent; width: 190px; height: 15px; text-indent: -9999px; margin-top: 35px; }
+@media not all {
+	#wporg-footer h6 { background-image: url('codeispoetry-2x.png'); }
+}
+#headline a { color: rgb(85, 85, 85); }
+/* ::::: http://s.w.org/style/iphone.css?1 ::::: */
+
+html {  }
+#wporg-header ul li a.current, #wporg-header ul li#download a.current { padding-bottom: 1px; }

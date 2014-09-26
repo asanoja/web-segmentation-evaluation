@@ -1,0 +1,9 @@
+body#ConsentBody { margin: 0px; padding: 0px; background-color: transparent; }
+#hiddena { display: none; }
+.consentbutton { margin: 0px; padding: 0px; }
+.consentbutton a.cookieq { z-index: 10000000; border-style: none; border-width: 0px; width: 25px; height: 25px; margin: 2px 0px 0px; padding: 0px; display: block; text-decoration: none; background-color: transparent; background-repeat: no-repeat; background-position: 0px -600px; background-image: url('custombutton'); outline: 0px none; }
+.consentbutton a.cookieq span { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; }
+.consentbutton a.cookieq:hover, .consentbutton a.cookieq:active, .consentbutton a.cookieq:focus { background-position: 0px -750px; background-image: url('custombutton'); width: 25px; height: 25px; text-decoration: underline; }
+.consentbutton a.cookieq:visited { outline: 0px none; }
+.consentbutton a.cookieq, .consentbutton a.cookieq:focus, .consentbutton a.cookieq:active { background-position: 0px -600px; }
+.consentbutton a.cookieq:hover { background-position: 0px -750px; }

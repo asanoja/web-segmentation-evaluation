@@ -1,0 +1,10 @@
+/* ::::: http://www.bioscience.heacademy.ac.uk/imagebank/stylesheet/imagebank_stylesheet1.css ::::: */
+
+.menutxt { font-family: Arial,Helvetica,sans-serif; font-size: xx-small; font-weight: normal; list-style-type: none; }
+.blinker { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 10pt; color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-variant: normal; }
+A { font-family: Arial,Helvetica,sans-serif; color: rgb(51, 102, 153); text-decoration: underline; }
+A:active { font-family: Arial,Helvetica,sans-serif; color: rgb(51, 102, 153); text-decoration: none; background-color: rgb(253, 206, 1); }
+A:visited { font-family: Arial,Helvetica,sans-serif; color: rgb(204, 0, 0); text-decoration: underline; }
+A:hover { font-family: Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; background-color: rgb(255, 255, 204); }
+BODY { font-size: 90%; font-family: Arial,Helvetica,sans-serif; }
+P { font-family: Arial,Helvetica,sans-serif; }

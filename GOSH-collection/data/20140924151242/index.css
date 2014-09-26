@@ -1,0 +1,152 @@
+/* ::::: http://library.castilleja.org/wp-content/themes/gazette/gazette/style.css ::::: */
+
+.entry a:visited { color: rgb(255, 0, 0); }
+.entry a:hover { color: rgb(255, 0, 0); }
+.entry a:active { color: rgb(255, 0, 0); }
+* { border: 0px none; margin: 0px; padding: 0px; }
+body { color: rgb(37, 36, 48); background-color: rgb(221, 221, 221); font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 18px; }
+a { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(255, 0, 0); text-decoration: underline; }
+input, select, textarea { border: 1px solid rgb(221, 221, 221); font-size: 12px; padding: 5px; }
+li { list-style: none outside none; }
+#page { width: 960px; background-color: rgb(255, 255, 255); margin: 15px auto; border: 1px solid rgb(204, 204, 204); }
+#columns { padding: 15px 15px 25px; background-color: rgb(255, 255, 255); margin: 0px; }
+.col1 { float: left; width: 595px; padding-right: 15px; }
+.col2 { float: left; width: 320px; }
+.subcol { width: 150px; }
+#nav { height: 30px; padding: 2px 0px ! important; background-color: rgb(255, 255, 255); margin: 15px 15px 0px ! important; border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); width: 930px ! important; }
+#nav-left { float: left; display: inline; width: 600px; }
+#nav-right { float: right; display: inline; width: 330px; margin: 0px ! important; padding: 0px ! important; }
+#nav1, #nav1 ul { padding: 0px; float: left; list-style: none outside none; }
+#nav1 { padding: 0px; font-size: 13px; float: left; }
+#nav1 a { display: block; padding-left: 15px; padding-right: 15px; }
+#nav1 li { float: left; line-height: 30px; font-weight: bold; font-size: 11px; text-transform: uppercase; }
+#nav1 li a:hover { background: none repeat scroll 0% 0% transparent; text-decoration: none; color: rgb(255, 0, 0); }
+#nav1 li:hover, #nav1 li.hover { position: static; }
+#search { float: right; height: 27px; width: 310px; margin: 3px 0px 0px ! important; padding: 0px ! important; }
+#search input { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); color: rgb(0, 0, 0); float: left; font-size: 11px; width: 223px; margin: 1px 0px 0px; padding: 3px 4px 4px; }
+#search .btn { padding: 0px; height: 22px; margin: 1px 0px 0px 5px ! important; border: medium none; width: 69px; }
+#header { height: 100px; background-color: rgb(255, 255, 255); margin: 0px 15px; padding: 0px; }
+#header h1 { float: left; display: inline; line-height: 100px; font-size: 24px; }
+#header h1 a { display: block; height: 93px; width: 389px; color: rgb(0, 0, 0); font-size: 28px; }
+.post-alt { margin: 0px 0px 15px; }
+.post-alt h2 { font-size: 22px; padding: 0px; color: rgb(0, 0, 0); line-height: 26px; }
+.post-alt h3 a, .post-alt h2 a { color: rgb(0, 0, 0); }
+.post-alt p { padding: 0px 0px 15px; }
+.post-alt p.post_date { color: rgb(153, 153, 153); padding: 5px 0px 10px; font-size: 11px; font-weight: normal; }
+.author_info { float: left; width: 573px; padding: 10px; background-color: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); margin-bottom: 15px; }
+.author_info h3 { margin-bottom: 10px; }
+.navigation { width: 595px; margin-bottom: 15px; float: left; padding: 15px 0px; border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238); }
+.alignleft { display: inline; float: left; margin-right: 15px; }
+.alignright { display: inline; float: right; margin-left: 15px; }
+#archivebox { margin-bottom: 15px; padding: 10px; color: rgb(0, 0, 0) ! important; }
+#archivebox h4, #archivebox h3, #archivebox h2 { color: rgb(51, 51, 51); }
+#archivebox h4 em, #archivebox h2 em, #archivebox h3 em { font-weight: normal; }
+#archivebox a, #archivebox h2 { color: rgb(0, 0, 0); }
+.singletags { margin-top: 5px; }
+.entry p { text-align: left; font-size: 13px; letter-spacing: 0pt; word-spacing: 0.3pt; line-height: 1.8; }
+#comment { width: 595px; float: left; margin-bottom: 15px; }
+#respond p { margin-bottom: 10px; line-height: 20px; }
+#tabs { width: 308px ! important; height: auto ! important; padding: 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(238, 238, 238); float: left; display: block; }
+.inside { width: 293px ! important; padding: 5px ! important; border: 1px solid rgb(221, 221, 221) ! important; margin: 5px 0px 0px ! important; background-color: rgb(255, 255, 255); }
+ul.wooTabs { width: 100%; padding: 0px 0px 7px; }
+ul.wooTabs li { float: left; display: inline; line-height: 34px; background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); border: 1px solid rgb(221, 221, 221); font-weight: bold; font-size: 11px; margin: 0px 2px 0px 0px ! important; cursor: pointer; }
+ul.wooTabs li a { line-height: 31px; color: rgb(0, 0, 0) ! important; display: block; float: left; padding: 0px 6px; }
+ul.wooTabs li a.selected, ul.wooTabs li a:hover { text-decoration: none; color: rgb(255, 255, 255) ! important; }
+#tagcloud { padding: 10px; }
+#sub img { float: right; margin: 0px 0px 8px 8px; }
+.inside li { border-bottom: 1px solid rgb(238, 238, 238); padding: 8px; }
+.inside li img.avatar, .inside li img.thumbnail { border: 1px solid rgb(221, 221, 221); padding: 3px; background-color: rgb(255, 255, 255); float: left; margin: 0px 8px 0px 0px; }
+.widget { margin-bottom: 15px; }
+.widget h3 { padding: 5px; }
+.widget ul { margin: 0px 0px 10px; padding: 5px 0px; border: medium none ! important; }
+.widget ul li { border-bottom: 1px solid rgb(238, 238, 238); padding: 5px 0px 5px 5px; margin: 0px; }
+.widget ul li a { color: rgb(0, 0, 0); }
+.textwidget { padding-top: 15px; }
+#footer { clear: both; color: rgb(102, 102, 102); height: 35px; line-height: 35px; margin: 0px 15px 15px; padding: 0px 15px; background-color: rgb(247, 247, 247); border: 1px solid rgb(221, 221, 221); }
+.fix { clear: both; height: 1px; margin: 0px 0px -1px; overflow: hidden; }
+.blog { width: 100% ! important; float: left; }
+.fl { float: left; }
+.fr { float: right; }
+/* ::::: http://library.castilleja.org/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.9 ::::: */
+
+/* ::::: http://library.castilleja.org/wp-content/plugins/pinterest-rss-widget/style.css?ver=3.9 ::::: */
+
+ul.pins-feed-list { list-style: none outside none ! important; margin: 0px; padding: 0px; }
+li.pins-feed-item { list-style: none outside none ! important; float: left; font-size: 12px; line-height: 14px; margin: 5px; padding: 0px; text-align: center; }
+.pinsClear { clear: both; }
+.nailthumb-container { width: auto; height: auto; margin: 0px 0px 11px; padding: 0px; overflow: hidden; text-align: left; }
+.nailthumb-container img.nailthumb-image { margin: 0px; padding: 0px; max-width: none; text-align: left; float: left; }
+.nailthumb-container img { max-width: none; text-align: left; }
+/* ::::: http://library.castilleja.org/wp-content/plugins/social-media-widget/social_widget.css?ver=3.9 ::::: */
+
+.socialmedia-buttons { margin-top: 5px; }
+.smw_left { text-align: left; }
+.smw_center img, .smw_left img { border: 0px none ! important; display: inline; transition: all 0.2s ease 0s; margin-right: 10px ! important; }
+.socialmedia-buttons a { background: none repeat scroll 0% 0% transparent ! important; }
+.socialmedia-buttons a:hover { text-decoration: none; border: 0px none; }
+.socialmedia-buttons img { vertical-align: middle; margin-bottom: 3px; }
+.socialmedia-buttons img.fade:hover { opacity: 1 ! important; transition: all 0.2s ease 0s; }
+/* ::::: http://library.castilleja.org/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003 ::::: */
+
+/* ::::: http://library.castilleja.org/wp-content/plugins/find-me-on/stylesheet.css ::::: */
+
+/* ::::: http://library.castilleja.org/wp-content/themes/gazette/gazette/styles/default.css ::::: */
+
+a { color: rgb(0, 0, 0); }
+#nav1 .current_page_item a, #nav1 li.current, #nav1 li a:focus, #nav1 li a:hover, #nav1 li a:active { background-color: rgb(204, 0, 0); color: rgb(255, 255, 255); }
+#nav li a { color: rgb(204, 0, 0); }
+ul.wooTabs li a.selected, ul.wooTabs li a:hover { color: rgb(255, 255, 255); background-color: rgb(204, 0, 0); }
+.widget h3 { color: rgb(255, 255, 255); background-color: rgb(204, 0, 0); }
+#footer a { color: rgb(204, 0, 0); }
+#archivebox { background-color: rgb(245, 204, 204); border: 1px solid rgb(224, 102, 102); }
+#archivebox h4 em, #archivebox h2 em, #archivebox h3 em { color: rgb(204, 0, 0); }
+/* ::::: http://library.castilleja.org/wp-content/themes/gazette/gazette/custom.css ::::: */
+
+#tabs { display: none; }
+#black-studio-tinymce-2 { height: 209px; margin-top: -24px; margin-bottom: 23px; }
+.entry a:visited { color: rgb(255, 0, 0); }
+.entry a:hover { color: rgb(255, 0, 0); }
+.entry a:active { color: rgb(255, 0, 0); }
+/* ::::: http://library.castilleja.org/wp-content/plugins/easy-social-media/style.css ::::: */
+
+#easy-social-buttons { display: block; width: 100%; padding: 7px 0px; height: 20px; clear: both; }
+.easy-social-button { float: left; }
+.googleplus { width: 75px ! important; }
+.stumble { width: 90px ! important; margin-top: 2px; }
+.pintrest { width: 60px ! important; }
+#iframe-stmblpn-widget-1 { height: 19px ! important; }
+.IN-widget { padding-right: 10px; }
+/* ::::: http://s.gravatar.com/css/hovercard.css?ver=2014Sepaa ::::: */
+
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 1.5), not all {
+}
+/* ::::: http://s.gravatar.com/css/services.css?ver=2014Sepaa ::::: */
+
+#li_ui_li_gen_1411564357529_0 { position: relative ! important; overflow: visible ! important; display: block ! important; }
+#li_ui_li_gen_1411564357529_0 span { box-sizing: content-box ! important; }
+#li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link { border: 0px none ! important; height: 20px ! important; text-decoration: none ! important; padding: 0px ! important; margin: 0px ! important; display: inline-block ! important; }
+#li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link:link, #li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link:visited, #li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link:hover, #li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link:active { border: 0px none ! important; text-decoration: none ! important; }
+#li_ui_li_gen_1411564357529_0 a#li_ui_li_gen_1411564357529_0-link:after { content: "." ! important; display: block ! important; clear: both ! important; visibility: hidden ! important; line-height: 0 ! important; height: 0px ! important; }
+#li_ui_li_gen_1411564357529_0 #li_ui_li_gen_1411564357529_0-logo { background-image: url('sprite_connect_v14.png') ! important; background-position: 0px -276px ! important; background-repeat: no-repeat ! important; background-size: initial ! important; cursor: pointer ! important; border: 0px none ! important; text-indent: -9999em ! important; overflow: hidden ! important; padding: 0px ! important; margin: 0px ! important; position: absolute ! important; left: 0px ! important; top: 0px ! important; display: block ! important; width: 20px ! important; height: 20px ! important; float: right ! important; border-radius: 0px 2px 2px 0px ! important; }
+#li_ui_li_gen_1411564357529_0 #li_ui_li_gen_1411564357529_0-title { color: rgb(51, 51, 51) ! important; cursor: pointer ! important; display: block ! important; white-space: nowrap ! important; float: left ! important; margin-left: 1px ! important; vertical-align: top ! important; overflow: hidden ! important; text-align: center ! important; height: 18px ! important; padding: 0px 4px 0px 23px ! important; border-width: 1px 1px 1px 0px ! important; border-style: solid solid solid none ! important; -moz-border-top-colors: none ! important; -moz-border-right-colors: none ! important; -moz-border-bottom-colors: none ! important; -moz-border-left-colors: none ! important; border-image: none ! important; border-color: rgb(226, 226, 226) rgb(191, 191, 191) rgb(185, 185, 185) -moz-use-text-color ! important; text-shadow: -1px 1px 0px rgb(255, 255, 255) ! important; line-height: 20px ! important; border-radius: 0px 2px 2px 0px ! important; background-color: rgb(236, 236, 236) ! important; background-image: -moz-linear-gradient(center top , rgb(254, 254, 254) 0%, rgb(236, 236, 236) 100%) ! important; }
+#li_ui_li_gen_1411564357529_0 #li_ui_li_gen_1411564357529_0-title-text, #li_ui_li_gen_1411564357529_0 #li_ui_li_gen_1411564357529_0-title-text * { color: rgb(51, 51, 51) ! important; font-size: 11px ! important; font-family: Arial,sans-serif ! important; font-weight: bold ! important; font-style: normal ! important; display: inline-block ! important; background: none repeat scroll 0% 0% transparent ! important; vertical-align: top ! important; height: 18px ! important; line-height: 20px ! important; float: none ! important; }
+#li_ui_li_gen_1411564357529_0 #li_ui_li_gen_1411564357529_0-title #li_ui_li_gen_1411564357529_0-mark { display: inline-block ! important; width: 0px ! important; overflow: hidden ! important; }
+#li_ui_li_gen_1411564357537_1-container.IN-right { display: inline-block ! important; float: left ! important; overflow: visible ! important; position: relative ! important; height: 18px ! important; padding-left: 2px ! important; line-height: 1px ! important; cursor: pointer ! important; }
+#li_ui_li_gen_1411564357537_1.IN-right { display: block ! important; float: left ! important; height: 18px ! important; margin-right: 4px ! important; padding-right: 4px ! important; background-image: url('sprite_connect_v14.png') ! important; background-color: transparent ! important; background-repeat: no-repeat ! important; background-position: right -100px ! important; }
+#li_ui_li_gen_1411564357537_1-inner.IN-right { display: block ! important; float: left ! important; padding-left: 8px ! important; text-align: center ! important; background-image: url('sprite_connect_v14.png') ! important; background-color: transparent ! important; background-repeat: no-repeat ! important; background-position: 0px -60px ! important; }
+#li_ui_li_gen_1411564357537_1-content.IN-right { display: inline ! important; font-size: 11px ! important; color: rgb(4, 85, 139) ! important; font-weight: bold ! important; font-family: Arial,sans-serif ! important; line-height: 18px ! important; padding: 0px 5px ! important; }
+#li_ui_li_gen_1411564357537_1-container.IN-hidden #li_ui_li_gen_1411564357537_1 { display: none ! important; }
+.fb_reset { background: none repeat scroll 0% 0% transparent; border: 0px none; border-spacing: 0px; color: rgb(0, 0, 0); cursor: auto; direction: ltr; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 1; margin: 0px; overflow: visible; padding: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-shadow: none; text-transform: none; visibility: visible; white-space: normal; word-spacing: normal; }
+.fb_reset > div { overflow: hidden; }
+.fb_iframe_widget { display: inline-block; position: relative; }
+.fb_iframe_widget span { display: inline-block; position: relative; text-align: justify; }
+.fb_iframe_widget iframe { position: absolute; }
+a.PIN_1411564358366_pin_it_button_20 { cursor: pointer ! important; background-size: 40px 60px ! important; height: 20px ! important; padding: 0px ! important; vertical-align: baseline ! important; text-decoration: none ! important; width: 40px ! important; background-position: 0px -20px; }
+a.PIN_1411564358366_pin_it_button_20:hover { background-position: 0px 0px; }
+a.PIN_1411564358366_pin_it_button_20:active, a.PIN_1411564358366_pin_it_button_20.PIN_1411564358366_hazClick { background-position: 0px -40px; }
+a.PIN_1411564358366_pin_it_button_inline_20 { cursor: pointer ! important; position: relative ! important; display: inline-block ! important; }
+a.PIN_1411564358366_pin_it_button_en_20_gray { background-image: url('pinit_bg_en_rect_gray_20_1.png') ! important; }
+.PIN_1411564358366_hidden { display: none ! important; }
+/* ::::: http://www.google.com/uds/api/feeds/1.0/482f2817cdf8982edf2e5669f9e3a627/default+fr.css ::::: */
+

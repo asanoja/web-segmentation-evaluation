@@ -1,0 +1,28 @@
+/* ::::: http://s0.wp.com//i/noticons/noticons.css?ver=20140922 ::::: */
+
+@font-face {
+	font-family: "Noticons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('noticons.eot') format("embedded-opentype"), url('undefined'), url('noticons.woff') format("woff"), url('noticons.ttf') format("truetype"), url('noticons.svg') format("svg");
+}
+@media not all {
+	@font-face {
+	font-family: "Noticons";
+	src: url('noticons.svg') format("svg");
+}
+}
+/* ::::: http://widgets.wp.com/likes/style.css?ver=20140922 ::::: */
+
+html { overflow: hidden; }
+body { margin: 0px; height: 26px; }
+.wpl-likebox, .wpl-follow a, .wpl-count a { font-size: 11px ! important; font-family: "Open Sans",sans-serif ! important; }
+.wpl-button { min-width: 73px; }
+.wpl-button a { text-decoration: none; display: inline-block; margin: 0px 5px 3px 0px; font-size: 12px; font-family: "Open Sans",sans-serif; border-radius: 3px; color: rgb(119, 119, 119); background: none repeat scroll 0% 0% rgb(248, 248, 248); border: 1px solid rgb(204, 204, 204); box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08); text-shadow: none; line-height: 23px; padding: 1px 8px 0px 5px; }
+.wpl-button a:hover { color: rgb(85, 85, 85); background: none repeat scroll 0% 0% rgb(250, 250, 250); border: 1px solid rgb(153, 153, 153); }
+.wpl-button a:active { box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16) inset; }
+.wpl-button a:before { color: rgb(43, 161, 203); display: inline-block; vertical-align: top; position: relative; width: 16px; height: 16px; text-align: center; font: 18px/1 "Noticons"; top: 1px; margin-left: -1px; margin-right: 1px; }
+.wpl-button.like a:before, .wpl-button.liked a:before { content: ""; }
+.wpl-count { clear: both; }
+.wpl-count-text { line-height: 1.6; }
+.wpl-button { float: left; }

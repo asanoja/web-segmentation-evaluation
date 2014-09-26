@@ -1,0 +1,96 @@
+/* ::::: http://www.imagebank.sweden.se/css/nivo-slider.css ::::: */
+
+/* ::::: http://www.imagebank.sweden.se/css/jquery.fancybox.css ::::: */
+
+/* ::::: http://www.imagebank.sweden.se/css/style.css ::::: */
+
+img { -moz-user-select: none; }
+html, body { margin: 0px; background-color: rgb(234, 234, 234); }
+body { margin: 0px auto; width: 960px; }
+img { border: medium none; }
+html, body, select, input, textarea, th, td { font-family: helvetica,arial,sans-serif; font-size: 14px; color: rgb(100, 100, 100); }
+h1, h2, h3, h4, h5, h6 { color: rgb(51, 51, 51); }
+a { color: rgb(0, 145, 218); }
+div#header { height: 68px; margin-top: 25px; position: relative; }
+div#header div#header-right { float: right; width: 235px; position: absolute; right: 0px; top: 0px; }
+div#header div#my-selection { width: 230px; height: 19px; }
+div#header div#my-selection img { margin: -6px 0px 0px -7px; float: left; }
+div#header div#my-selection div { float: left; line-height: 22px; }
+div#header div#my-selection a { text-decoration: none; color: rgb(0, 145, 218); }
+div#header form { margin-top: 10px; }
+div#header form input[type="submit"] { background: url('search-button.png') repeat scroll 0% 0% transparent; width: 64px; height: 24px; padding: 1px 8px; position: relative; top: 1px; border: 0px none; }
+div#header form input[type="text"] { width: 157px; height: 17px; }
+ul#filters, ul#filterclone, div#searchwords { background-color: rgb(255, 255, 255); margin: 0px; padding: 14px 9px; overflow: hidden; position: relative; box-shadow: 0px 1.5px 3px rgb(183, 183, 183); }
+ul#filterclone { position: fixed; top: 33px; z-index: 60; display: none; border-bottom: 1px solid rgb(136, 136, 136); padding: 14px 10px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); }
+ul#filters li.clearfilters, ul#filterclone li.clearfilters { width: 83px; height: 22px; text-align: center; display: block; position: absolute; bottom: 10px; right: 0px; margin-right: 10px; background: url('clearfilter.gif') no-repeat scroll 0% 0% transparent; }
+ul#filters li.clearfilters a, ul#filterclone li.clearfilters a { line-height: 22px; padding: 0px 10px; margin: 0px 0px 3px; display: block; font-weight: normal; text-decoration: none; font-size: 11px; color: rgb(100, 100, 100); height: 16px; }
+ul#filters > li, ul#filterclone > li, div#searchwords ul > li { list-style: none outside none; float: left; width: 225px; margin: 0px 20px 0px 0px; padding: 0px; font-weight: bold; }
+ul#filters > li.first, ul#filterclone > li.first, div#searchwords ul li.first { width: 215px; }
+ul#filters > li.last, ul#filterclone > li.last, div#searchwords ul li.last { width: 215px; margin-right: 0px; }
+ul#filters ul, ul#filterclone ul { list-style: none outside none; margin: 5px 0px 0px; padding: 0px; font-weight: normal; font-size: 11px; }
+ul#filters ul li, ul#filterclone ul li { height: 16px; line-height: 16px; padding: 0px 10px; margin: 0px 0px 3px; background: url('filters_bg.gif') no-repeat scroll 0% 0% transparent; }
+ul#filters ul li.selected, ul#filterclone ul li.selected { background: url('filters_bg_selected.gif') no-repeat scroll 0% 0% transparent; }
+ul#filters li.first li, ul#filters li.last li, ul#filterclone li.first li, ul#filterclone li.last li { background: url('filters_bg2.gif') no-repeat scroll 0% 0% transparent; }
+ul#filters li.first li.selected, ul#filters li.last li.selected, ul#filterclone li.first li.selected, ul#filterclone li.last li.selected, div#searchwords ul li.first, div#searchwords ul li.last { background: url('filters_bg2_selected.gif') no-repeat scroll 0% 0% transparent; }
+ul#filters ul li a, ul#filterclone ul li a { display: block; text-decoration: none; color: rgb(100, 100, 100); height: 16px; }
+ul#filters ul li.selected a, ul#filterclone ul li.selected a { color: rgb(255, 255, 255); }
+ul#filters ul li a span, ul#filterclone ul li a span { float: left; cursor: pointer; }
+ul#filters ul li a span.r, ul#filterclone ul li a span.r { float: right; }
+ul#filters ul li a span.rr, ul#filterclone ul li a span.rr { float: right; width: 24px; text-align: left; display: block; margin-left: 4px; }
+a#togglecategories { position: fixed; top: 0px; left: 50%; right: 50%; width: 112px; height: 44px; z-index: 80; margin-left: -66px; text-align: center; color: rgb(255, 255, 255); font-size: 10px; text-decoration: none; line-height: 36px; background: url('showcategories.png') no-repeat scroll 0% 0% transparent; display: none; }
+ul.toolbar { list-style: none outside none; margin: 0px; padding: 0px; height: 33px; background: url('tb-bg-large.gif') repeat-x scroll 0% 0% transparent; font-size: 12px; position: relative; z-index: 2; }
+ul.toolbar li { float: left; height: 33px; line-height: 33px; color: rgb(255, 255, 255); position: relative; background: url('toolbar-divider.png') no-repeat scroll right center transparent; padding-right: 2px; }
+ul.toolbar li.no-divider { background: none repeat scroll 0% 0% transparent; }
+ul.toolbar li a { display: block; padding: 0px 8px; color: rgb(255, 255, 255); text-decoration: none; }
+ul.toolbar li.viewmode { float: right; width: 32px; background: url('toolbar-divider.png') no-repeat scroll left center transparent; }
+ul.toolbar li.sortmode { float: right; padding: 0px; background: url('toolbar-divider.png') no-repeat scroll left center transparent; }
+ul.toolbar li.sortmode a { padding: 0px 8px; height: 33px; line-height: 33px; }
+ul.toolbar li.sortmode a.active { background-image: url('toolbar-selected.png'); color: rgb(135, 198, 216); }
+ul.toolbar li.sortmode a:hover { color: rgb(135, 198, 216); }
+ul.toolbar li#my-selection-tb { float: right; background: url('toolbar-divider.png') no-repeat scroll left center transparent; }
+ul.toolbar li#my-selection-tb a { display: block; padding-left: 40px; background: url('my-selection-border.png') no-repeat scroll 8px 4px transparent; }
+ul.toolbar li.viewmode a { padding: 0px 0px 0px 2px; height: 33px; width: 32px; }
+ul.toolbar li.viewmode a.active { background-image: url('toolbar-selected.png'); }
+ul.toolbar li.viewmode a img { clip: rect(0px, 32px, 32px, 0px); position: absolute; }
+ul.toolbar li.viewmode a.active img, ul.toolbar li.viewmode a img:hover { clip: rect(0px, 64px, 32px, 32px); left: -30px; }
+ul.toolbar li.addall { background: url('my-selection-addall.png') no-repeat scroll 0% 0% transparent; width: 22px; height: 21px; margin-top: 4px; }
+ul.toolbar li.addall a { display: block; height: 100%; width: 100%; }
+.imagelist { position: relative; z-index: 1; overflow: hidden; }
+.imagelist .item { float: left; width: 225px; margin: 20px 20px 0px 0px; position: relative; }
+.imagelist a { text-decoration: none; }
+.imagelist a table { width: 225px; border-collapse: collapse; background-color: rgb(255, 255, 255); height: 230px; table-layout: fixed; box-shadow: 0px 1px 2px rgb(183, 183, 183); }
+.imagelist .item.right { margin-right: 0px; }
+.imagelist a td.info { height: 40px; text-align: left; vertical-align: middle; padding: 0px 4px; overflow: hidden; white-space: nowrap; }
+.imagelist a td.info h4 { margin: -4px 0px 0px; padding: 0px; font-size: 16px; font-weight: normal; }
+.imagelist a td.info span { color: rgb(140, 140, 140); font-size: 11px; }
+.imagelist a td { margin: 0px; padding: 4px; text-align: center; color: rgb(0, 0, 0); vertical-align: bottom; max-width: 215px; height: 182px; }
+.imagelist a td img { border: 0px none; display: block; margin: 0px auto; }
+.footer { position: static; z-index: 100; bottom: 0px; left: 0px; height: 41px; width: 100%; color: rgb(99, 99, 99); clear: both; font-size: 12px; background-color: rgb(234, 234, 234); padding-bottom: 15px; }
+.footer #gototop { position: fixed; bottom: 34px; right: 50%; width: 11px; display: none; }
+.footer div { padding: 8px 0px; width: 960px; margin: 10px auto 0px; border-top: 4px solid rgb(210, 210, 210); }
+.footer div a { color: rgb(0, 144, 218); text-decoration: none; }
+.footer div span { float: right; }
+#selection-empty { display: none; }
+.hiddenterms { display: none; }
+.filter-toolbar-filler { height: 33px; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	div#header div#header-right { width: 245px; }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	div#header div#header-right { width: 245px; }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+#fdbk_overlay { width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1000000; position: absolute; }
+#fdbk_screen { top: 0px; left: 0px; z-index: 1; width: 100%; position: absolute; background-color: black; opacity: 0.45; }
+#fdbk_container { width: 680px; height: 640px; margin: 0px auto; z-index: 2; position: relative; }
+#fdbk_container iframe { width: 658px; height: 100%; margin: 20px; background: none repeat scroll 0% 0% transparent; }
+#fdbk_container iframe.loading { background: url('fb_loading-69ae70a0488c96730fb4a43785fd97b7.png') no-repeat scroll 0% 0% transparent; }
+a#fdbk_tab { top: 25%; left: 0px; width: 42px; height: 102px; color: white; cursor: pointer; text-indent: -100000px; overflow: hidden; position: fixed; z-index: 100000; margin-left: -7px; background-image: url('feedback_trans_tab-fa5bd26fde4425fd8102f4380980fc11.png'); }
+a#fdbk_tab:hover { margin-left: -4px; }
+a.fdbk_tab_right { right: 0px ! important; left: auto ! important; margin-right: 0px ! important; margin-left: auto ! important; width: 35px ! important; }
+a.fdbk_tab_right:hover { width: 38px ! important; margin-right: 0px ! important; margin-left: auto ! important; }
+a#fdbk_close { position: absolute; cursor: pointer; outline: medium none; top: 0px; left: 0px; z-index: 4; width: 42px; height: 42px; overflow: hidden; background-image: url('feedback-close-28150549f7cfbad294bff4e64334c01a.png'); }
+a#fdbk_close:hover { background-position: -42px 0px; }

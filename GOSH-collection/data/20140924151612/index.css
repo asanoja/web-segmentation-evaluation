@@ -1,0 +1,21 @@
+/* ::::: http://cheshireimagebank.org.uk/styles.css ::::: */
+
+body { font-family: arial,helvetica,sans-serif; font-size: 85%; padding: 0px; width: 950px; margin: 0px auto; }
+#header { background-color: rgb(98, 99, 101); padding: 5px; height: 100px; margin-bottom: 20px; }
+#container { padding: 0px; }
+fieldset { border: medium none; }
+#header form { margin: 0px; padding: 0px; float: right; }
+#header label { color: rgb(255, 255, 255); }
+h1 { margin: 0px; padding: 0px; color: rgb(255, 255, 255); float: left; width: 310px; }
+#navigation { margin: 0px; padding: 0px; list-style: none outside none; float: left; width: 200px; }
+#navigation li { margin-bottom: 1px; }
+#navigation li a:link, #navigation li a:visited { background-color: rgb(161, 232, 214); color: rgb(0, 0, 0); padding: 5px; text-decoration: none; display: block; }
+#navigation li a:hover, #navigation li a.selected { background-color: rgb(0, 152, 153); color: rgb(255, 255, 255); }
+#mainContent { width: auto; }
+#content, #contentStretched { float: left; width: 500px; margin-left: 20px; color: rgb(0, 126, 129); text-align: center; }
+#contentStretched { width: 730px; }
+#footer { clear: both; background-color: rgb(98, 99, 101); height: 35px; padding: 5px; }
+#footer ul { list-style: none outside none; margin: 0px; padding: 0px; }
+#footer ul li { float: left; margin-right: 20px; }
+#footer ul li a { color: rgb(255, 255, 255); text-decoration: none; }
+#user_keywords { width: 190px; }

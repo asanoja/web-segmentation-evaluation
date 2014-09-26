@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://amb.vis.ne.jp/mozilla/scrapbook-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:scrapbook:item20140924145817"
+                   NS1:id="20140924145817"
+                   NS1:type=""
+                   NS1:title="MxNitro, el navegador web más rápido del mercado • artescritorio"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://artescritorio.com/mxnitro-el-navegador-web-mas-rapido-del-mercado-31237/"
+                   NS1:icon="resource://scrapbook/data/20140924145817/favicon-2_001.ico" />
+  <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20140924145817"/>
+  </RDF:Seq>
+</RDF:RDF>

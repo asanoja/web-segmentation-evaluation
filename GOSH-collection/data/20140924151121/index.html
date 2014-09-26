@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta name="generator" content="MediaWiki 1.15.5">
+		<meta name="keywords" content="Creating a Static Front Page,Administration Panels,Class Reference/WP Query,Conditional Tags,Function Reference/get home template,Function Reference/get page template,Function Reference/get query template,Function Reference/is front page,Function Reference/is home,Multilingual Codex,Next and Previous Links">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="search" type="application/opensearchdescription+xml" href="http://codex.wordpress.org/opensearch_desc.php" title="Codex (en)">
+		<link rel="alternate" type="application/rss+xml" title="Codex RSS feed" href="http://codex.wordpress.org/index.php?title=Special:RecentChanges&amp;feed=rss">
+		<link rel="alternate" type="application/atom+xml" title="Codex Atom feed" href="http://codex.wordpress.org/index.php?title=Special:RecentChanges&amp;feed=atom">
+<title>Creating a Static Front Page « WordPress Codex</title>
+
+
+
+
+
+
+<link rel="shortcut icon" href="favicon_001.ico" type="image/x-icon">
+
+
+<!--[if lte IE 8]>
+<style type="text/css">
+@import url("//s.w.org/style/ie.css?1");
+</style>
+<![endif]-->
+
+
+<!--[if IE]>
+    <script type="text/javascript" src="/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" />
+<![endif]-->
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body id="wordpress-org">
+<div id="wporg-header">
+	<div class="wrapper">
+  
+<div class="survey-wrapper" style="width: 100%; height: 0px;">  
+<div class="survey-div" style="font-family: 'Open Sans',Helvetica,Arial,'Liberation Sans',sans-serif; font-weight: 600; display: block; margin: 0px auto; font-size: 13px; color: rgb(221, 221, 221); height: 22px; width: 315px; text-align: center ! important; background-color: rgb(213, 78, 33); border-radius: 0px 0px 4px 4px;">  
+<a href="http://wp-survey.polldaddy.com/s/wp-2014" style="color: rgb(221, 221, 221); font-weight: 600;">Have you taken the WordPress 2014 Survey yet?</a>  
+</div>  
+</div>  
+ 
+	<a id="mobile-menu-button" class="" href="#" onclick="toggleMenu();"></a>
+	<h1><a href="http://wordpress.org/">WordPress.org</a></h1>				<div id="head-search">
+		<form action="http://wordpress.org/search/do-search.php" method="get">
+			<input class="text" name="search" value="" maxlength="150" placeholder="Search WordPress.org" type="text"> <input class="button" value="" type="submit">
+		</form>
+		</div>
+				<div style="clear: both;"></div>
+		
+<ul id="wporg-header-menu">
+<li><a href="http://wordpress.org/showcase/" title="See some of the sites built on WordPress.">Showcase</a></li>
+<li><a href="http://wordpress.org/themes/" title="Find just the right look for your website.">Themes</a></li>
+<li><a href="http://wordpress.org/plugins/" title="Plugins can extend WordPress to do almost anything you can imagine.">Plugins</a></li>
+<li><a href="http://wordpress.org/mobile/" title="Take your website on the go!">Mobile</a></li>
+<li><a href="http://wordpress.org/support/" title="Forums, documentation, help." class="current">Support</a><ul class="nav-submenu"><li><a href="http://wordpress.org/support/" title="Support and discussion forums.">Forums</a></li><li><a href="http://codex.wordpress.org/Main_Page" title="Documentation, tutorials, best practices.">Documentation</a></li></ul><div class="uparrow"></div></li>
+<li><a href="http://make.wordpress.org/" title="Contribute your knowledge.">Get Involved</a></li>
+<li><a href="http://wordpress.org/about/" title="About the WordPress Organization, and where we're going.">About</a></li>
+<li><a href="http://wordpress.org/news/" title="Come here for the latest scoop.">Blog</a></li>
+<li><a href="http://wordpress.org/hosting/" title="Find a home for your blog.">Hosting</a></li>
+<li id="download" class="button download-button"><a href="http://wordpress.org/download/" title="Get it. Got it? Good.">Download WordPress</a></li>
+</ul>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+
+<div id="download-mobile">
+    <div class="wrapper">
+        <span class="download-ready">Ready to get started?</span><a class="button download-button" href="http://wordpress.org/download/" title="Get it. Got it? Good.">Download WordPress</a>
+    </div>
+</div>
+
+
+<div id="headline">
+	<div class="wrapper">
+		<h2><a href="http://codex.wordpress.org/">Codex</a></h2>
+		
+		<div class="portlet" id="p-personal">
+		  <p class="login">Codex tools:
+		     <a href="http://codex.wordpress.org/index.php?title=Special:UserLogin&amp;returnto=Creating_a_Static_Front_Page">Log in</a> 		  </p>
+		</div>
+	</div>
+</div>
+
+<div id="pagebody">
+	<div class="wrapper">	
+		<div class="col-10" id="bodyContent">
+			<div id="siteNotice"><div style="clear: both; background-color: rgb(252, 236, 173); border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); padding: 7px; margin: 0.5em auto;"><a href="http://codex.wordpress.org/File:Ambox_notice.png" class="image" title="Ambox notice.png"><img alt="Attention" src="ambox_notice.png" style="vertical-align: middle;" border="0" height="40" width="40"></a> Interested in functions, hooks, classes, or methods? Check out the new <a href="http://developer.wordpress.org/reference" class="external text" title="http://developer.wordpress.org/reference">WordPress Code Reference</a>!</div>
+</div>			<h2 class="pagetitle">Creating a Static Front Page</h2>
+									<!-- start content -->
+				<p class="LanguageLinks" style="border: 1px solid rgb(204, 204, 204); line-height: 1.5; text-align: left; color: rgb(51, 51, 51); font-size: 90%; padding: 10px;"><span style="white-space: nowrap;"><a href="http://codex.wordpress.org/Multilingual_Codex" title="Multilingual Codex" class="mw-redirect">Languages</a>:</span> 
+<strong class="selflink">English</strong> • 
+<a href="http://wpdocs.sourceforge.jp/Creating_a_Static_Front_Page" class="external text" title="http://wpdocs.sourceforge.jp/Creating_a_Static_Front_Page">日本語</a> • 
+<a href="http://codex.wordpress.org/pt-br:Criando_uma_P%C3%A1gina_Inicial_Est%C3%A1tica" title="pt-br:Criando uma Página Inicial Estática" class="mw-redirect">Português do Brasil</a> • 
+
+ <small>(<a href="http://codex.wordpress.org/Multilingual_Codex#Language_Cross_Reference" title="Multilingual Codex" class="mw-redirect">Add your language</a>)</small>
+</p>
+<table id="toc" class="toc" summary="Contents"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#WordPress_Static_Front_Page_Process"><span class="tocnumber">1</span> <span class="toctext">WordPress Static Front Page Process</span></a></li>
+<li class="toclevel-1"><a href="#Creating_a_Static_Front_Page"><span class="tocnumber">2</span> <span class="toctext">Creating a Static Front Page</span></a></li>
+<li class="toclevel-1"><a href="#Theme_Development_for_Custom_Front_Page_Templates"><span class="tocnumber">3</span> <span class="toctext">Theme Development for Custom Front Page Templates</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Theme_Template_Files"><span class="tocnumber">3.1</span> <span class="toctext">Theme Template Files</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Custom_Site_Front_Page_Template"><span class="tocnumber">3.1.1</span> <span class="toctext">Custom Site Front Page Template</span></a></li>
+<li class="toclevel-3"><a href="#Custom_Blog_Posts_Index_Page_Template"><span class="tocnumber">3.1.2</span> <span class="toctext">Custom Blog Posts Index Page Template</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Contextual_Conditional_Tags"><span class="tocnumber">3.2</span> <span class="toctext">Contextual Conditional Tags</span></a></li>
+<li class="toclevel-2"><a href="#Configuration_of_front-page.php"><span class="tocnumber">3.3</span> <span class="toctext">Configuration of front-page.php</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Conditional_display_within_front-page.php"><span class="tocnumber">3.3.1</span> <span class="toctext">Conditional display within front-page.php</span></a></li>
+<li class="toclevel-3"><a href="#Filtering_frontpage_template"><span class="tocnumber">3.3.2</span> <span class="toctext">Filtering frontpage_template</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Adding_custom_query_loops_to_front-page.php"><span class="tocnumber">3.4</span> <span class="toctext">Adding custom query loops to front-page.php</span></a></li>
+<li class="toclevel-2"><a href="#Pagination"><span class="tocnumber">3.5</span> <span class="toctext">Pagination</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Resources"><span class="tocnumber">4</span> <span class="toctext">Resources</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<p>By default, WordPress shows your most recent posts in reverse chronological order on the front page of your site. Many WordPress users want a <b>static front page</b> or <b>splash page</b> as the front page instead. This "static front page" look is common for users desiring static or welcoming information on the front page of the site.
+</p><p>The look and feel of the front page of the site is based upon the choices of the user combined with the features and options of the WordPress Theme. 
+</p><p>There are four models for WordPress layout and structure, three that include static front pages.
+</p>
+<ol><li> <b>Blog:</b> This is the traditional front page format with posts featured in reverse chronological order.
+</li><li> <b>Static Front Page:</b> This is a traditional static HTML site model with a fixed front page and content placed in Pages, rarely if ever using posts, categories, or tags. 
+</li><li> <b>Static Front Page Plus Blog:</b> This model features a static front page as an introduction or welcome plus a blog to manage posts. Pages may be used to provide timeless content such as Contact, About, etc.
+</li><li> <b>Dynamic Front Page:</b> Sometimes called the <i>integrated</i> model, the dynamic site design features a static front page plus blog, however the front page is dynamic. It may feature a combination of static and blog content (Page and posts). The Twenty-Eleven WordPress Theme offers that feature as an example with their Showcase Page Template. It features the most recent post in full or excerpt followed by the next most recent posts as post titles. There is an option to add a slider for featured posts set as Sticky Posts above the first post, creating a dynamic mix of content on the front page.
+</li></ol>
+<p>No matter which layout structure you choose, the process of setting up the static front page in WordPress is basically the same. 
+</p>
+<a name="WordPress_Static_Front_Page_Process" id="WordPress_Static_Front_Page_Process"></a><h2> <span class="mw-headline"> WordPress Static Front Page Process </span></h2>
+<p>There are two steps critical to creating a static front page on your site with WordPress. 
+</p>
+<ol><li> Assign the Front <a href="http://codex.wordpress.org/Pages" title="Pages">Page</a>
+</li><li> Assign the Posts <a href="http://codex.wordpress.org/Pages" title="Pages">Page</a> (blog page)
+</li></ol>
+<p><a href="http://codex.wordpress.org/File:static_front_page_setting.png" class="image" title="File:static_front_page_setting.png"><img alt="File:static_front_page_setting.png" src="static_front_page_setting.png" border="0" height="187" width="578"></a>
+</p><p>The Page assigned as the front page of the site will display the static information you wish readers to know. It may be customized to direct people to welcome or offer instructions, featured content, highlight specific posts, articles, categories, or contributors. 
+</p><p>The Page assigned as the blog page (posts page) of the site displays posts in reverse chronological order. Posts set as Sticky Posts will stick to the top of the queue, and navigation and organization of post content is through categories and tags. 
+</p>
+<div style="clear: both; background-color: rgb(252, 236, 173); border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); padding: 7px; margin: 0.5em auto; vertical-align: middle;">Some WordPress Themes offer special setup or options for "front page" type features including customized Page Templates. This article describes the standardized way of creating Static Front Pages. See the documentation for your WordPress Theme for specific details.</div>
+<a name="Creating_a_Static_Front_Page" id="Creating_a_Static_Front_Page"></a><h2> <span class="mw-headline"> Creating a Static Front Page </span></h2>
+<p>Creating a virtual static front page does not require editing or coding of files or templates. Using the default configuration for a "static front page" in WordPress does not remove the sidebar or change the look of the entire site, just the content area. 
+</p><p>Please note that the names for the Pages used in these examples are web standardized names. You may choose alternative titles.
+</p><p>To create the static front page, go to the WordPress <a href="http://codex.wordpress.org/Administration_Panels" title="Administration Panels" class="mw-redirect">Administration Panels</a>. 
+</p>
+<ol><li> <b>Create a Front Page:</b> In <a href="http://codex.wordpress.org/Pages" title="Pages">Pages</a> choose <b>Add New Page</b>.
+<ul><li> Title it "Home".
+<ol><li> If the WordPress Theme offers an option to change the look and feel of the front page, select the <b>Template</b> in the <b>Page Attributes</b> panel box.
+</li><li> Add content you would like to see within the content area of the static front page, or leave it blank if it is a Dynamic front page.
+</li><li> Publish the Page.
+</li></ol>
+</li></ul>
+</li><li> <b>Create a Blog Page:</b> If choosing to add a blog, choose <b>Add New Page</b> again.
+<ul><li> Title it "Blog," "News," "Articles," or an appropriate name.
+<ol><li> <b>Do not use a custom Page template for this page.</b> The template files <tt>home.php</tt> or <tt>index.php</tt> will be used to generate this page in the Theme.
+</li><li> <b>DO NOT add content.</b> Leave it blank. Any content here will be ignored -- only the Title is used.
+</li><li> Publish the Page.<div class="thumb tright"><div class="thumbinner" style="width: 182px;"><a href="http://codex.wordpress.org/File:options-reading.png" class="image" title="Reading panel"><img alt="" src="180px-options-reading.png" class="thumbimage" border="0" height="186" width="180"></a>  <div class="thumbcaption"><div class="magnify"><a href="http://codex.wordpress.org/File:options-reading.png" class="internal" title="Enlarge"><img src="magnify-clip.png" alt="" height="11" width="15"></a></div>Reading panel</div></div></div>
+</li></ol>
+</li></ul>
+</li><li> <b>Go to <a href="http://codex.wordpress.org/Administration_Panels" title="Administration Panels" class="mw-redirect">Administration</a> &gt; <a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> panel.</b>
+<ul><li> Set <b>Front page displays</b> to <b>a static page</b>
+<ol><li> In the drop down menu for <b>Front Page</b> select "Home." 
+</li><li> In the drop down menu for <b>Posts page</b> select "Blog" or the name you created, or leave it blank if you will not feature posts on the site. 
+</li><li> Save changes.
+</li></ol>
+</li></ul>
+</li></ol>
+<p>While we are calling this a "static front page," you may edit the content on that web page at any time by editing the "Home" <a href="http://codex.wordpress.org/Pages" title="Pages">Page</a>.
+</p>
+<a name="Theme_Development_for_Custom_Front_Page_Templates" id="Theme_Development_for_Custom_Front_Page_Templates"></a><h2> <span class="mw-headline"> Theme Development for Custom Front Page Templates </span></h2>
+<a name="Theme_Template_Files" id="Theme_Template_Files"></a><h3> <span class="mw-headline"> Theme Template Files </span></h3>
+<p>Developing Theme template files that incorporate the static front page feature requires understanding of the WordPress <a href="http://codex.wordpress.org/Template_Hierarchy" title="Template Hierarchy">Template Hierarchy</a>. 
+</p><p>On the site front page, WordPress will always use the <tt>front-page.php</tt> template file, if it exists. If <tt>front-page.php</tt> does not exist, WordPress will determine which template file to use, depending on the user configuration of '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays', as follows:
+</p>
+<ul><li> <b>A static page:</b> WordPress uses the <a href="http://codex.wordpress.org/Template_Hierarchy#Page_display" title="Template Hierarchy">Static Page</a> template hierarchy: <a href="http://codex.wordpress.org/Page_Templates#Custom_Page_Template" title="Page Templates">Custom Page Template</a>, <tt>page-{id}.php</tt>, <tt>page-{slug}.php</tt>, <tt>page.php</tt>, <tt>index.php</tt>
+</li><li> <b>Your latest posts:</b> WordPress uses the <a href="http://codex.wordpress.org/Template_Hierarchy#Home_Page_display" title="Template Hierarchy">Blog Posts Index</a> template hierarchy: <tt>home.php</tt>, <tt>index.php</tt>
+</li></ul>
+<a name="Custom_Site_Front_Page_Template" id="Custom_Site_Front_Page_Template"></a><h4> <span class="mw-headline"> Custom Site Front Page Template </span></h4>
+<p>To create a custom site front page template, include either of the following in the Theme:
+</p>
+<ul><li> <tt>front-page.php</tt>
+</li><li> A <a href="http://codex.wordpress.org/Page_Templates#Custom_Page_Template" title="Page Templates">Custom Page Template</a> (e.g. <tt>template-featured.php</tt> for featured content)
+</li></ul>
+<a name="Custom_Blog_Posts_Index_Page_Template" id="Custom_Blog_Posts_Index_Page_Template"></a><h4> <span class="mw-headline"> Custom Blog Posts Index Page Template </span></h4>
+<p>To create a custom blog posts index template, include the following in the Theme:
+</p>
+<ul><li> <tt>home.php</tt>
+</li></ul>
+<p>Use only the <tt>home.php</tt> template file for the blog posts index. Do not use a Custom Page Template (such as <tt>template-blog.php</tt>) for two reasons:
+</p>
+<ol><li> When the static front page feature is configured properly, WordPress will not use a Custom Page Template to display the blog posts index, even if a Custom Page Template is assigned to the page designated as the "Posts page". WordPress will <i>only</i> use either <tt>home.php</tt> or <tt>index.php</tt>.
+</li><li> When the Custom Page Template is assigned to a static page other than the one designated as the "Posts page," the blog posts index loop pagination will not work properly.
+</li></ol>
+<a name="Contextual_Conditional_Tags" id="Contextual_Conditional_Tags"></a><h3> <span class="mw-headline"> Contextual Conditional Tags </span></h3>
+<dl><dt> <tt><a href="http://codex.wordpress.org/Function_Reference/is_front_page" title="Function Reference/is front page">is_front_page()</a></tt>&nbsp;</dt><dd>This <a href="http://codex.wordpress.org/Conditional_Tags" title="Conditional Tags">Conditional Tag</a> checks if the site front page is being displayed. Returns true when the site front page is being displayed, regardless of whether '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is set to "Your latest posts" or "A static page".
+</dd></dl>
+<dl><dt> <tt><a href="http://codex.wordpress.org/Function_Reference/is_home" title="Function Reference/is home">is_home()</a></tt>&nbsp;</dt><dd>This <a href="http://codex.wordpress.org/Conditional_Tags" title="Conditional Tags">Conditional Tag</a> checks if the blog posts index is being displayed.  Returns true when the blog posts index is being displayed: when the site front page is being displayed and '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is set to "Your latest posts", or when '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is set to "A static page" and the "Posts Page" value is the current <a href="http://codex.wordpress.org/Pages" title="Pages">Page</a> being displayed.
+</dd></dl>
+<p>When the site front page is being displayed and '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is set to "Your latest posts", both <tt>is_front_page()</tt> and <tt>is_home()</tt> will return true.
+</p>
+<a name="Configuration_of_front-page.php" id="Configuration_of_front-page.php"></a><h3> <span class="mw-headline"> Configuration of <tt>front-page.php</tt> </span></h3>
+<p>If it exists, the <tt>front-page.php</tt> template file is used on the site's front page regardless of whether '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is set to "A static page" or "Your latest posts," the Theme will need to account for both options, so that the site front page will display either a static page or the blog posts index. There are a few methods to do so.  
+</p>
+<a name="Conditional_display_within_front-page.php" id="Conditional_display_within_front-page.php"></a><h4> <span class="mw-headline"> Conditional display within <tt>front-page.php</tt> </span></h4>
+<p>One way to allow <tt>front-page.php</tt> to account for both options for '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Front page displays' is to add a conditional inside of <tt>front-page.php</tt> itself, using <a href="http://codex.wordpress.org/Option_Reference#Reading" title="Option Reference"><tt>get_option( 'show_on_front' )</tt></a>, <a href="http://codex.wordpress.org/Function_Reference/get_home_template" title="Function Reference/get home template"><tt>get_home_template()</tt></a>, and <a href="http://codex.wordpress.org/Function_Reference/get_page_template" title="Function Reference/get page template"><tt>get_page_template()</tt></a>.
+</p><p>Method 1: including custom content directly within <tt>front-page.php</tt>:
+</p>
+<pre>if ( 'posts' == get_option( 'show_on_front' ) ) {
+    include( get_home_template() );
+} else {
+    // Custom content markup goes here
+}
+</pre>
+<p>Method 2: including any page template:
+</p>
+<pre>if ( 'posts' == get_option( 'show_on_front' ) ) {
+    include( get_home_template() );
+} else {
+    include( get_page_template() );
+}
+</pre>
+<a name="Filtering_frontpage_template" id="Filtering_frontpage_template"></a><h4> <span class="mw-headline"> Filtering <tt>frontpage_template</tt> </span></h4>
+<p>Another way to allow the site front page to display either a static page/custom content or the blog posts index, without adding conditional code within <tt>front-page.php</tt>, is to <a href="http://codex.wordpress.org/Function_Reference/get_query_template" title="Function Reference/get query template">filter <tt>frontpage_template</tt></a>, by adding a filter callback to <tt>functions.php</tt>:
+</p>
+<pre>function themeslug_filter_front_page_template( $template ) {
+    return is_home()&nbsp;? ''&nbsp;: $template;
+}
+add_filter( 'frontpage_template', 'themeslug_filter_front_page_template' );
+</pre>
+<p>This method causes WordPress to bypass the <tt>front-page.php</tt> template file altogether when the blog posts index is being displayed.
+</p>
+<a name="Adding_custom_query_loops_to_front-page.php" id="Adding_custom_query_loops_to_front-page.php"></a><h3> <span class="mw-headline"> Adding custom query loops to <tt>front-page.php</tt> </span></h3>
+<p>If the <tt>front-page.php</tt> template file includes a default <a href="http://codex.wordpress.org/The_Loop" title="The Loop">WordPress Loop</a>, like so:
+</p>
+<pre>&lt;?php
+if ( have_posts() )&nbsp;: while ( have_posts() )&nbsp;: the_post();
+    // do something
+endwhile; else:
+    // no posts found
+endif;
+</pre>
+<p>That loop applies to the post content of the static page assigned to '<a href="http://codex.wordpress.org/Administration_Panels#Reading" title="Administration Panels" class="mw-redirect">Settings</a> &gt; <a href="http://codex.wordpress.org/Settings_Reading_SubPanel" title="Settings Reading SubPanel" class="mw-redirect">Reading</a> -&gt;Posts page'.
+</p><p>To display custom loops (latest blog posts, custom/featured content, etc.), add secondary loop queries using calls to <a href="http://codex.wordpress.org/Class_Reference/WP_Query" title="Class Reference/WP Query">WP_Query</a>. For example, to show the 3 latest blog posts:
+</p>
+<pre>$latest_blog_posts = new WP_Query( array( 'posts_per_page' =&gt; 3 ) );
+
+if ( $latest_blog_posts-&gt;have_posts() )&nbsp;: while ( $latest_blog_posts-&gt;have_posts() )&nbsp;: $latest_blog_posts-&gt;the_post();
+    // Loop output goes here
+endwhile; endif;
+</pre>
+<a name="Pagination" id="Pagination"></a><h3> <span class="mw-headline"> Pagination </span></h3>
+<p>Static front pages are not intended to be paged. None of the WordPress <a href="http://codex.wordpress.org/Next_and_Previous_Links" title="Next and Previous Links">Previous / Next page link</a> functions work with a static front page.  Pagination on a static front page uses the <tt>page</tt> query variable, not the <tt>paged</tt> variable. See the <a href="http://codex.wordpress.org/Class_Reference/WP_Query" title="Class Reference/WP Query">WP_Query</a> for details.
+</p>
+<a name="Resources" id="Resources"></a><h2> <span class="mw-headline">Resources</span></h2>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 69/1000000
+Post-expand include size: 1148/2097152 bytes
+Template argument size: 576/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+Retrieved from "<a href="http://codex.wordpress.org/Creating_a_Static_Front_Page">http://codex.wordpress.org/Creating_a_Static_Front_Page</a>"</div>
+				<div id="catlinks"><div id="catlinks" class="catlinks"><div id="mw-normal-catlinks"><a href="http://codex.wordpress.org/Special:Categories" title="Special:Categories">Categories</a>: <span dir="ltr"><a href="http://codex.wordpress.org/Category:Getting_Started" title="Category:Getting Started">Getting Started</a></span> | <span dir="ltr"><a href="http://codex.wordpress.org/Category:Installation" title="Category:Installation">Installation</a></span> | <span dir="ltr"><a href="http://codex.wordpress.org/Category:Design_and_Layout" title="Category:Design and Layout">Design and Layout</a></span> | <span dir="ltr"><a href="http://codex.wordpress.org/Category:Advanced_Topics" title="Category:Advanced Topics">Advanced Topics</a></span></div></div></div>			<!-- end content -->
+		</div>
+		<div class="col-2">
+			
+						
+			<ul class="submenu">
+				<li id="n-mainpage"><a href="http://codex.wordpress.org/Main_Page">Home Page</a></li>	
+				<li><a href="http://codex.wordpress.org/WordPress_Lessons">WordPress Lessons</a></li>
+				<li><a href="http://codex.wordpress.org/Getting_Started_with_WordPress">Getting Started</a></li>
+				<li><a href="http://codex.wordpress.org/Working_with_WordPress">Working with WordPress</a></li>
+				<li><a href="http://codex.wordpress.org/Blog_Design_and_Layout">Design and Layout</a></li>
+				<li><a href="http://codex.wordpress.org/Advanced_Topics">Advanced Topics</a></li>
+				<li><a href="http://codex.wordpress.org/Troubleshooting">Troubleshooting</a></li>
+				<li><a href="http://codex.wordpress.org/Developer_Documentation">Developer Docs</a></li>
+				<li><a href="http://codex.wordpress.org/About_WordPress">About WordPress</a></li>
+			</ul>
+
+			<h3>Codex Resources</h3>
+			<ul class="submenu">
+				<li id="n-portal"><a href="http://codex.wordpress.org/Codex:Community_Portal">Community portal</a></li>	      
+				<li id="n-currentevents"><a href="http://codex.wordpress.org/Current_events">Current events</a></li>	      
+				<li id="n-recentchanges"><a href="http://codex.wordpress.org/Special:RecentChanges">Recent changes</a></li>	      
+				<li id="n-randompage"><a href="http://codex.wordpress.org/Special:Random">Random page</a></li>	      
+				<li id="n-help"><a href="http://codex.wordpress.org/Help:Contents">Help</a></li>	
+			</ul>
+			
+		</div>
+	</div>
+</div>
+
+<div id="wporg-footer">
+	<div class="wrapper">
+		<ul>
+			<li><a href="http://wordpress.org/about/" title="An introduction to the WordPress project">About</a></li>
+			<li><a href="http://wordpress.org/news/" title="News and Updates">Blog</a></li>
+			<li><a href="http://wordpress.org/hosting/" title="Recommended web hosting providers">Hosting</a></li>
+			<li><a href="http://jobs.wordpress.net/" title="Find or post WordPress jobs">Jobs</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://wordpress.org/support/" title="Forums, documentation, and other resources">Support</a></li>
+						<li><a href="http://make.wordpress.org/" title="Give back to WordPress through code, support, translation and more">Get Involved</a></li>
+			<li><a href="http://learn.wordpress.org/" title="Workshops and training materials">Learn</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://wordpress.org/showcase/" title="Some of the best WordPress sites on the Web">Showcase</a></li>
+			<li><a href="http://wordpress.org/plugins/" title="Add extra functionality to WordPress">Plugins</a></li>
+			<li><a href="http://wordpress.org/themes/" title="Make your WordPress pretty">Themes</a></li>
+			<li><a href="http://wordpress.org/ideas/" title="Share your ideas for improving WordPress">Ideas</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://central.wordcamp.org/" title="Find a WordPress event near you">WordCamp</a></li>
+			<li><a href="http://wordpress.tv/" title="Videos, tutorials, and WordCamp sessions">WordPress.TV</a></li>
+			<li><a href="http://buddypress.org/" title="A set of plugins to transform your WordPress into a social network">BuddyPress</a></li>
+			<li><a href="http://bbpress.org/" title="Fast, slick forums built on WordPress">bbPress</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://wordpress.com/?ref=wporg-footer" title="Hassle-free WordPress hosting">WordPress.com</a></li>
+			<li><a href="http://ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a></li>
+			<li><a href="http://wordpress.org/about/privacy/" title="WordPress.org Privacy Policy">Privacy</a></li>
+			<li><a href="http://wordpress.org/about/license/" title="WordPress is open source software">License / GPLv2</a></li>
+		</ul>
+
+		<ul>
+			<li>
+				<iframe allowtransparency="true" scrolling="no" src="index_1.html" style="width: 135px; height: 20px;" frameborder="0"></iframe>
+			</li>
+			<li>
+				<iframe src="index_2.html" scrolling="no" style="border: medium none; overflow: hidden; width: 135px; height: 21px;" allowtransparency="true" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<h6 class="aligncenter">Code is Poetry</h6>
+</div>
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+
+</body>
+</html>

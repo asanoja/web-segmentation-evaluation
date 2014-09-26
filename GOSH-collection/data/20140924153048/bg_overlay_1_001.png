@@ -1,0 +1,166 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head profile="http://purl.org/uF/2008/03/ http://purl.org/uF/hAtom/0.1/">
+		<title>404 Error -Page not found</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="title" content="" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="Sorry! the page you are looking for is not available.Please Double check the website URL, visit our home page, try using the search box, or contact us to report the error" />
+			<meta name="category" content="Error" />
+	
+			<link type="text/css" rel="stylesheet" media="screen, projection" href="/en_UK/_styles/screen.css" />
+	<link type="text/css" rel="stylesheet" media="print" href="/en_UK/_styles/print.css" />
+	<link type="text/css" rel="stylesheet" href="/en_UK/_styles/sifr.css" />
+	<!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="all" href="/en_UK/_styles/ie.css" /><![endif]-->	
+		<script src="/en_UK/_scripts/lib/modernizr.js" type="text/javascript"></script>
+		<script src="/en_UK/_scripts/lib/jquery-1.3.2.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/lib/jquery.stylish-select-mod.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/lib/jquery.zoom.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/lib/jquery.bbq.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/lib/swfobject.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/site-tools.js" type="text/javascript"></script>
+	<script src="/en_UK/_scripts/common.js" type="text/javascript"></script>
+    
+    
+	<script src="/en_UK/_scripts/lib/sifr.js" type="text/javascript"></script>
+    <script src="/en_UK/_scripts/lib/sifr-config.js" type="text/javascript"></script>
+    <script src="/en_UK/_scripts/navigation.js" type="text/javascript"></script>
+    <script src="/en_UK/_scripts/NewsletterForm.js" type="text/javascript"></script>
+	
+	<!--[if IE]><script src="/en_UK/_scripts/ie.js" type="text/javascript"></script><![endif]-->
+		
+	</head>
+	<body class="full-width info-page">
+		<div id="wrapper">
+			<div class="corporate-header">
+	<div id="header" class="section">
+		<a href="#main-content" id="skip-link" class="move_">Skip to main content</a>
+		<div id="corporate-navigation">
+			<ul class="nav">
+				<li class="nav-olympic-partnership"><a href="/en_UK/">Home</a></li>
+				<li class="nav-careers"><a href="http://uki.experiencepg.com/" class="ext">Careers</a></li>
+				<li class="nav-investor-relations"><a href="http://www.pg.com/en_US/investors/index.shtml" class="ext">Investor Relations</a></li>
+				<li class="nav-partners-suppliers"><a href="http://www.pg.com/en_US/partners_suppliers/index.shtml" class="ext">Partners &amp; Suppliers</a></li>
+			</ul>
+		</div>
+		<form id="site-search" method="get" action="/en_UK/_php/search.php">
+			<div>
+				<label for="search-text">Search</label>
+				<input id="search-text" name="searchtext" type="text" class="text" aria-required="true" aria-autocomplete="list" aria-controls="header-results-list" />
+				<input type="submit" class="submit" value="SEARCH" />
+				<input type="hidden" name="category" value=""/>
+				<input type="hidden" name="numberOfRecord" value="10"/>
+				<input type="hidden" name="start" value="0"/>
+			</div>
+		</form>
+		<p id="logo"><a href="/en_UK/">
+			UK and Ireland</a>
+		</p>
+		<div class="world_" id="corporate-navigation">
+                       <ul class="nav">
+                               <li style="
+   padding: 0px;
+" class="nav-worldwide-sites"><a tabindex="0" href="/en_US/worldwide_sites.shtml" target="_blank">Worldwide sites</a></li>
+                               </ul>
+               </div>
+
+	</div>
+</div>
+<div id="header-results" ></div>
+			<div id="body" class="section">
+				<div class="PG-logo"><a href="http://www.pg.com/en_UK/" class="ext"><img src="/en_UK/_images/skin/blank.gif" alt="P&amp;G UK and Ireland
+" height="29" width="62" /></a><span class="move_">Home</span></div>
+<div id="site-navigation">
+	<p class="move_">Primary navigation</p>
+	<ul class="nav">
+		
+		<li id="nav-company" class="primary-nav-item"><a href="/en_UK/company.shtml"><img src="/en_UK/_images/skin/blank.gif" alt="Company" /><span class="move_">Company</span></a><div class="subnav-container"><p><a href="/en_UK/company.shtml"><strong>Driven by purpose</strong><span>Learn More</span></a></p><ul class="sub-nav">
+					<li><a href="/en_UK/company/purpose-and-people.shtml">Purpose &amp; People</a></li>
+					<li><a href="/en_UK/company/our-heritage.shtml">Our Heritage</a></li>
+					<li><a href="/en_UK/company/core-strengths.shtml">Core Strengths</a></li>
+					<li><a href="/en_UK/company/structure-and-operations.shtml">Structure &amp; Operations</a></li>
+					<li><a href="/en_UK/company/external-recognition.shtml">External Recognition</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-brands" class="primary-nav-item"><a href="/en_UK/brands.shtml"><img src="/en_UK/_images/skin/blank.gif" alt="Brands" /><span class="move_">Brands</span></a><div class="subnav-container"><p><a href="/en_UK/brands.shtml"><strong>Trusted every day</strong><span>Learn More</span></a></p><ul class="sub-nav">
+					<li><a href="/en_UK/brands/all-brands.shtml">All Brands</a></li>
+					<li><a href="/en_UK/brands/beauty-grooming.shtml">Beauty &amp; Grooming</a></li>
+					<li><a href="/en_UK/brands/household-care.shtml">Household Care</a></li>
+					<li><a href="http://www.pg.com/en_US/innovation/index.shtml" class="ext">Global Innovations</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-sustainability" class="primary-nav-item"><a href="http://www.pg.com/en_US/sustainability/index.shtml" class="ext"><img src="/en_UK/_images/skin/blank.gif" alt="Sustainability
+"/><span class="move_">Sustainability
+</span></a><div class="subnav-container"><p><a href="http://www.pg.com/en_US/sustainability/index.shtml" class="ext"><strong>Changes that matter</strong><span>Learn More</span></a></p><ul class="sub-nav">
+				</ul>
+			</div>
+		</li>
+		<li id="nav-news-and-views" class="primary-nav-item"><a href="http://www.pgnewsroom.co.uk/"><img src="/en_UK/_images/skin/blank.gif" alt="News &amp; Views" /><span class="move_">News &amp; Views</span></a><div class="subnav-container"><p><a href="http://www.pgnewsroom.co.uk/"><strong>Stay in touch</strong><span>Learn More</span></a></p><ul class="sub-nav">
+					<li><a href="http://www.pginvestor.com/CorporateProfile.aspx?iid=4004124" class="ext">Financial News Releases</a></li>
+					<li><a href="http://www.pgnewsroom.co.uk/news_releases">UK News Releases</a></li>
+					<li><a href="http://www.pgnewsroom.co.uk/pg_views">P&amp;G Views</a></li>
+					<li><a href="http://www.pgnewsroom.co.uk/events" class="ext">Events</a></li>
+					<li><a href="http://www.pgnewsroom.co.uk/media_contacts">Press</a></li>
+					<li><a href="/en_UK/news-views/newsletter.shtml">&#8216;Inside P&amp;G&#8217; e-Newsletter</a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="content-top-border">&nbsp;</div>
+				<div id="content" class="section">
+					<div id="main-content" class="section">
+						<div class="page-intro">
+							<p class="large-header sIFR_">Sorry! We can't<br />
+find the page you're looking for.</p>
+						</div>
+						<div class="page-section">
+							<p>You can try one of the following:</p>
+							<p>1) Double check the URL - even a minor misspelling can cause this error.<br />
+2) Visit our <a href="/en_UK/">home page</a>.<br />
+3) Try using the search box above.<br />
+4) <a href="/en_UK/contact-us.shtml">Contact Us</a> if you think this is a mistake caused by the site.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="section">
+	<h4 class="follow"></h4>
+	<ul class="follow">
+   	 	
+		<li class="nav-facebook"><a href="https://www.facebook.com/PGUKandIreland" target="_blank"></a></li>
+		<li class="nav-twitter"><a href="https://twitter.com/PGUK" target="_blank"></a></li>
+		<li class="nav-youtube"><a href="http://www.youtube.com/user/ProcterGamble" target="_blank"></a></li>
+		
+		
+	</ul>
+	<p class="tagline">
+		<img src="/en_UK/_images/tagline.png" alt="Touching lives, improving life. P&amp;G (trademarked)" class="move_" />
+		<strong class="move_">Touching lives, improving life. <em>P&amp;G&#8482;</em></strong>
+	</p>
+	<ul class="nav">
+	<li class="nav-subscriptions"><a href="/en_UK/subscriptions.shtml">Subscriptions</a></li>
+<li class="nav-contact"><a href="/en_UK/contact-us.shtml">Contact Us</a></li>
+<li class="nav-pg"><a href="http://www.pg.com/en_US/index.shtml" class="ext">PG.com (US Corporate)  </a></li>
+<li class="nav-pg"><a href="http://www.pg.com/privacy/english/privacy_notice.html" class="ext">Privacy</a></li>
+
+<li class="nav-legal"><a href="http://www.pg.com/en_US/privacy/english/cookie_notice.shtml " class="ext">About Cookies</a></li>
+
+<li class="nav-contact nav-oba"><a href="http://www.pg.com/en_US/privacy/english/cookie_notice.shtml#IBA" class="ext">Ad Choices</a></li>
+<li class="nav-terms"><a href="http://www.pg.com/en_US/terms_conditions/index.shtml" class="ext">Terms &amp; Conditions</a></li>
+    
+  
+	</ul>
+	<p class="copyright">&#169; 2014 Procter &amp; Gamble</p>
+</div>
+
+		</div>
+	<script src="//s.btstatic.com/tag.js">{ site: "AK7okjI" }</script>
+<noscript><iframe src="//s.thebrighttag.com/iframe?c=AK7okjI" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></noscript>
+</body>
+</html>
+

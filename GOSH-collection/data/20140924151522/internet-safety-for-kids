@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var s=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:s};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(t){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/e3af22/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"https://gg.google.com/csi","sharingPolicy":"OPENED","siteNoticeUrlEnabled":null,"siteNoticeUrlAddress":null,"analyticsAccountId":"","baseUri":"/site/herricksvlmc","enableUniversalAnalytics":false,"name":"herricksvlmc","features":{"tabInEditorBubble":false,"copySiteProgressUpdates":true,"asyncPermanentDelete":false,"colorsAndFontsFix":true,"docosHideNotificationSettings":true,"siteNoticeUrl":true,"asyncPageKeyFix":true,"pdfEmbedSupport":false,"siteMapBottomPaginationButtonsFix":true,"plusBadge":false,"scaleDomainLogoAndUpdatePickerLayout":true,"hangoutEmbed":true,"analyticsTrackingForCorp":false,"freebirdFormEmbedDocTypeFix":false,"addShortcutToTextBoxDialog":true,"htmlEmbed":true,"removeOnepickExtraCloseButton":true,"newCountDownDialog":true,"pageTreeKeyboardFix":true},"domain":"defaultdomain","adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Virtual Library","signInUrl":"https://www.google.com/a/SelectSession?continue\u003dhttps://sites.google.com/site/herricksvlmc/internet-safety-for-kids\u0026service\u003djotspot","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/site/herricksvlmc/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"namespaceUser":false,"sessionIndex":"","primaryEmail":"guest","displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"hasWriteAccess":false,"domain":"","dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"es","state":"","wuid":"wuid:gx:170144f592bd2917","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":25,"title":"Internet Safety for Kids","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"internet-safety-for-kids","path":"/internet-safety-for-kids","isSiteRtlLocale":false,"parentPath":null};
+webspace.page.breadcrumbs = [{"title":"Internet Safety for Kids","dir":"ltr","path":"/site/herricksvlmc/internet-safety-for-kids","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'https://ssl.gstatic.com/sites/p/e3af22/system/js/codemirror.js',
+    'https://ssl.gstatic.com/sites/p/e3af22/system/app/css/codemirror_css.css',
+    'https://ssl.gstatic.com/sites/p/e3af22/system/js/trog_edit__es.js',
+    'https://ssl.gstatic.com/sites/p/e3af22/system/app/css/trogedit.css',
+    '/site/herricksvlmc/_/rsrc/1411492874000/system/app/css/editor.css',
+    'https://ssl.gstatic.com/sites/p/e3af22/system/app/css/codeeditor.css',
+    '/site/herricksvlmc/_/rsrc/1411492874000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'https://ssl.gstatic.com/sites/p/e3af22/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/e3af22/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["hace un minuto","hace __duration__ minutos","hace una hora","hace __duration__ horas"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"P\u00e1gina web","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Internet Safety for Kids - Virtual Library" />
+<meta itemprop="name" content="Internet Safety for Kids - Virtual Library" />
+<meta property="og:title" content="Internet Safety for Kids - Virtual Library" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/e3af22/system/app/themes/microblueprint/standard-css-microblueprint-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/herricksvlmc/_/rsrc/1411492874000/system/app/css/overlay.css?cb=microblueprint960px100204goog-ws-nav-nosidecontent30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/site/herricksvlmc/_/rsrc/1411492874000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/site/herricksvlmc/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Internet Safety for Kids - Virtual Library</title>
+<meta itemprop="image" content="http://open.thumbshots.org/image.pxf?url=http://www.brainpop.com/technology/computersandinternet/onlinesafety/" />
+<meta property="og:image" content="http://open.thumbshots.org/image.pxf?url=http://www.brainpop.com/technology/computersandinternet/onlinesafety/" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5693m/caja.js"> </script>
+<script src="https://ssl.gstatic.com/sites/p/e3af22/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" style="height: 100px"><div class="sites-header-cell-buffer-wrapper"><a href="https://sites.google.com/site/herricksvlmc/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/site/herricksvlmc/_/rsrc/1376597952791/config/customLogo.gif?revision=2" alt="Virtual Library" class="sites-logo  " /></a><h2><a href="https://sites.google.com/site/herricksvlmc/" dir="ltr" id="sites-chrome-userheader-title">Virtual Library</a></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/site/herricksvlmc/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-select-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div><div id="sites-searchbox-select-dropdown" class="goog-inline-block goog-flat-menu-button"><div class="goog-inline-block goog-flat-menu-button-caption"></div><div class="goog-inline-block goog-flat-menu-button-dropdown sites-jfk-menu-button-dropdown"> </div></div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-tabs"><li class="unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/home">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="http://destiny.herricks.org/quest/servlet/presentquestform.do?site=102">DestinyQuest</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="https://www.google.com/a/herricks-k5.org/ServiceLogin?service=CPanel&amp;passive=1209600&amp;continue=https://www.google.com/a/cpanel/herricks-k5.org/Dashboard&amp;followup=https://www.google.com/a/cpanel/herricks-k5.org/Dashboard">Google Apps Login</a></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/searingtown">Student Space</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/searingtown-research-projects">Project Archives</a></div></div></li><li class="unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/web-2-0-quick-links">Web 2.0 Quick Links</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/kkliegmanwixcomhvlmc">Online Databases</a></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/research-tools">Research Tools</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/giving-credit">Cite Your Sources</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/search-engines">Search Engines</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/search-for-images">Search for Images</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/search-for-sounds">Search for Sounds</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/search-other-libraries">Search Other Libraries</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/reference-tools">Reference Tools</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/maps-and-flags">Atlases, Maps, and Flags</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/virtual-dictionaries">Virtual Dictionaries</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/virtual-encyclopedias">Science Resources</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="https://herrickspathfinders.wikispaces.com/Social+Studies">Social Studies Resources</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="https://herrickspathfinders.wikispaces.com/Math">Math Resources</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/newsfeeds-1">Newsfeeds</a></div></div></li><li class="current sites-header-nav-dropdown"><a class="sites-navigation-link current" href="/site/herricksvlmc/internet-safety-for-kids">Internet Safety for Kids</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/online-safety-games">Online Safety Games</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/reading-space">Reading Space</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/suggested-reading">Suggested Reading</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/suggest-a-book">Suggest a Book</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/online-magazines">Online Magazines</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/nook-books">NOOK BOOKS</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/nook-survey">NOOK Survey</a></div></div></li><li class="unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/tutorials">Tutorials</a></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/teacher-portal">Teacher Space</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="http://www.corestandards.org/">Common Core Standards</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/collaborative-assignment-discussions">Searingtown LMS/Teacher Planning Space</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/p">Parent Space</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/searingtown-nook-aup-permission-form">Searingtown Nook AUP-Permission Form</a></div></div></li><li class="unselected"><a class="sites-navigation-link unselected" href="/site/herricksvlmc/about-this-site">About This Site</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="http://www.herricks.org/searingtown.cfm?subpage=8">Searingtown School</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="mailto:kkliegman@herricks.org">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 204px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_4588024916169343" class="sites-sidebar-plusone-wrapper"><div class="g-plusone" data-count="true" data-size="standard" data-source="google:sites"></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Internet Safety for Kids</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-layout-name-one-column-hf sites-layout-vbox"><div class="sites-layout-tile sites-tile-name-header"><div dir="ltr"><div><div><div style="width:75px;height:78px;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;margin-top:4px;background-repeat:no-repeat no-repeat"><a href="http://livebinders.com/play/play_or_edit?id=38320" rel="nofollow"><img src="http://open.thumbshots.org/image.pxf?url=http://www.brainpop.com/technology/computersandinternet/onlinesafety/" style="border-style:initial;border-color:initial;width:60px;height:60px;border-style:initial;border-color:initial;margin-top:11px;margin-right:0px;margin-bottom:0px;margin-left:13px" /></a></div><div><a href="http://livebinders.com/play/play_or_edit?id=38320" rel="nofollow">Staying Safe Online</a><br /></div></div><div><a href="https://sites.google.com/site/herricksvlmc/internet-safety-for-kids">Internet Safety for Kids</a><br /><a href="https://sites.google.com/site/herricksvlmc/safe-blogging" style="font-size:small">More Internet Smarts</a><br /><a href="https://sites.google.com/site/herricksvlmc/netiquette" style="font-size:small">Netiquette</a></div><div><span style="font-size:small"><a href="https://sites.google.com/site/herricksvlmc/system/errors/NodeNotFound?suri=wuid:gx:1ec8d0d3d9066a71" class="disabled">Do You Speak Internet?</a></span></div><div><font size="2"><a href="https://sites.google.com/site/herricksvlmc/online-safety-games">Online Safety Games</a></font></div></div><div><br /></div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:425px;"><h4 class="sites-embed-title">Internet Safety</h4><div class="sites-embed-content sites-embed-type-youtube"><iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/F4Qd1WVRctc?rel=0&amp;wmode=opaque" frameborder="0" allowFullScreen="true" width="425" height="355"></iframe></div></div></div>
+<div> </div>
+<div> </div>
+<div><span><font size="5">GET YOUR WEB LICENSE!</font>  <font size="4">To get started, click <a href="http://pbskids.org/old_license/" target="_blank" rel="nofollow">here</a>.</font></span></div>
+<div> </div>
+<div><span><img border="0" height="237" src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196867/internet-safety-for-kids/PBSWebLicense.jpg?height=237&amp;width=400" width="400" /></span><span>    </span>                    <br /></div></div></div><div class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">
+<div style="display:inline;float:left;margin:5px 10px 0pt 0pt"><a href="https://sites.google.com/site/herricksvlmc/internet-safety-for-kids/Picture%2030.png?attredirects=0" imageanchor="1"><img border="0" height="200" src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196886/internet-safety-for-kids/Picture%2030.png?height=200&amp;width=157" width="157" /></a></div>
+<div><b><font size="4">CYBERBULLYING:</font></b><br /><br /><b><span style="color:rgb(116,27,71)">Have you ever received a mean email or instant message? Have you ever sent one? This is called cyberbullying. A cyberbully uses the Internet, cell phone, or other device to send or post text or images to try to hurt or embarrass another person. It's a lot like the bullying that happens at recess or on the school bus, and it can hurt just as much. Like other kinds of bullying, you can help stop cyberbullying from happening to you.<br /></span></b><i>Source:<a href="http://www.mcgruff.org/Advice/cyberbullies.php" rel="nofollow">http://www.mcgruff.org/Advice/cyberbullies.php</a></i><br /><br />Print out the "Cyberbullying" attachment below to learn more about cyberbullying.<br /><br /><br /><br /><br /><br /></div>
+<div> </div>
+<div><font size="3"><b>Internet Safety:</b></font><br /><a href="https://sites.google.com/site/herricksvlmc/goog_1267138193180" rel="nofollow"></a></div>
+<div style="display:block;margin-left:auto;margin-right:auto"><img border="0" height="0" src="http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyNzk4MzU1MTg*NTgmcHQ9MTI3OTgzNTUyMzAwNyZwPTIwNjQyMSZkPWIxMjUzNDY5Jmc9MiZvPWE3NTA4NWY1ZjE5/ZjQwYjdhOTFjZmJhMDA*MzY1ZGQ3Jm9mPTA=.gif" style="width:0px;height:0px" width="0" /><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:480px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="480" height="360" scrolling="no" frameborder="0" id="912789862" name="912789862" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=b6b44a81eb247b44&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+height%3D%22360%22+width%3D%22480%22%3E%3Cparam+name%3D%22movie%22+value%3D%22http://voicethread.com/book.swf?b%3D1253469%22+/%3E+%3Cparam+name%3D%22wmode%22+value%3D%22transparent%22+/%3E+%3Cembed+height%3D%22360%22+src%3D%22http://voicethread.com/book.swf?b%3D1253469%22+type%3D%22application/x-shockwave-flash%22+width%3D%22480%22+wmode%3D%22transparent%22+/%3E%3C/object%3E&amp;st=e%3DAIHE3cCqLkFBTa7Nye5Jgzh1%252BcyPfE6%252BcYbMxqxQMxPgxRIej5wX%252BG1uThf9LcGS5LA5%252FdE4VgDJpWRgebcqTzwsJ8prp%252FMh4ZOWwh3%252B7XdEgDehadpAWhJiiHy1EAFxXtcAkJ3hTqNx%26c%3Denterprise&amp;rpctoken=2124253214255511150"></iframe></div></div></div></div>
+<div style="display:block;text-align:left">created by Veronica Farrell<br /></div>
+<div><br />Print out the "Internet Safety Tips" below to learn how to stay safe online.<br /><br /></div>
+<div> </div>
+<div>
+<div style="display:inline;float:left;margin:5px 10px 0pt 0pt"><a href="https://sites.google.com/site/herricksvlmc/internet-safety-for-kids/check.gif?attredirects=0" imageanchor="1"><img border="0" height="88" src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196838/internet-safety-for-kids/check.gif?height=88&amp;width=96" width="96" /></a></div></div>
+<p dir="ltr"><b><font size="4">INTERNET SAFETY PLEDGE:</font></b><br /></p>
+<p dir="ltr" style="color:rgb(11,83,148)"><b>Scroll down to the bottom of this page and click on the pledge (next to attachments). Print out the pledge, read it and sign it.<br /></b></p>
+<p dir="ltr" style="text-align:left"><br /></p>
+<div dir="ltr">
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="http://www.infinitelearninglab.org/" imageanchor="1" target="_blank" rel="nofollow"><img border="0" height="220" src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196877/internet-safety-for-kids/Picture%201.png?height=220&amp;width=320" width="320" /></a></div></div>
+<p dir="ltr" style="text-align:left"><b style="color:rgb(11,83,148)"><font size="4" style="color:rgb(12,52,61)"><br /></font></b></p>
+<p dir="ltr" style="text-align:left"><b style="color:rgb(11,83,148)"><font size="4" style="color:rgb(12,52,61)"><br /></font></b></p>
+<p dir="ltr" style="text-align:left"><b style="color:rgb(11,83,148)"><font size="4" style="color:rgb(12,52,61)">TAKE THE ONLINE SAFETY QUIZZES!</font></b><br /></p>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="http://www.safekids.com/quiz/" imageanchor="1" rel="nofollow" target="_blank"><img border="0" src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196893/internet-safety-for-kids/Picture%2038.png" /><img src="https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids" />http://www.safekids.com/quiz/</a><br /><br /><br /></div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"><a href="http://www.attorneygeneral.gov/kid_site/games/quiz_maker/es/quizmaker_es_ss.swf" rel="nofollow" target="_blank"><font size="4">Safe Surf Quiz</font></a></div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"> </div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"><font color="#ff0000" size="4"><u><b>Heads Up: Stop. Think. Click.--</b></u> Watch this video and you will remember that when you're online, take a second to stop and think before you click!</font></div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"> </div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"> </div>
+<div dir="ltr" style="display:block;margin-left:auto;margin-right:auto;text-align:left"> </div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:400px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="400" height="335" scrolling="no" frameborder="0" id="1105520280" name="1105520280" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=b6b44a81eb247b44&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+data%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+height%3D%22335%22+id%3D%22swf12789663481%22+type%3D%22application/x-shockwave-flash%22+width%3D%22400%22%3E+++++%3Cparam+name%3D%22swliveconnect%22+value%3D%22default%22+/%3E+++++%3Cparam+name%3D%22play%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22loop%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22menu%22+value%3D%22false%22+/%3E+++++%3Cparam+name%3D%22quality%22+value%3D%22autohigh%22+/%3E+++++%3Cparam+name%3D%22width%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22height%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22scale%22+value%3D%22noscale%22+/%3E+++++%3Cparam+name%3D%22wmode%22+value%3D%22opaque%22+/%3E+++++%3Cparam+name%3D%22bgcolor%22+value%3D%22%23FFFFFF%22+/%3E+++++%3Cparam+name%3D%22allowscriptaccess%22+value%3D%22always%22+/%3E+++++%3Cparam+name%3D%22allowfullscreen%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22base%22+value%3D%22http://www.onguardonline.gov/flash/videos/%22+/%3E+++++%3Cparam+name%3D%22src%22+value%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+/%3E+++++%3Cparam+name%3D%22flashvars%22+value%3D%22vidPath%3D/flash/videos/NetCetera-HeadsUpSTC.flv%26amp;xmlPath%3D/flash/videos/NetCetera-HeadsUpSTC.xml%26amp;imgPath%3D/flash/videos/NetCetera-HeadsUpSTC_slate_388x291.jpg%22+/%3E+%3C/object%3E&amp;st=e%3DAIHE3cDGgWUOZ6NZf3wbutJaRtxDTi5v5UJPo9D8O0VlTMCZy77idICMqAabiOJr9kFgHmhWB6TDAWG1WF%252FVR8sKDPi3MED3sl6dj1QV%252FyMZBu8nmqD4y4ExDP0ZXbG48QWSHp0%252BbzDy%26c%3Denterprise&amp;rpctoken=2124253214255511150"></iframe></div></div></div>
+<div style="text-align:left"> </div>
+<div style="text-align:left"><font color="#ff0000"><b><u><font size="4">Share with Care Video:</font></u></b> What you post online could have an impact on people in the real world.</font> </div>
+<div style="text-align:left"> </div>
+<div style="text-align:left"> <div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:400px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="400" height="335" scrolling="no" frameborder="0" id="772528296" name="772528296" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=b6b44a81eb247b44&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+data%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+height%3D%22335%22+id%3D%22swf12789663481%22+type%3D%22application/x-shockwave-flash%22+width%3D%22400%22%3E+++++%3Cparam+name%3D%22swliveconnect%22+value%3D%22default%22+/%3E+++++%3Cparam+name%3D%22play%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22loop%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22menu%22+value%3D%22false%22+/%3E+++++%3Cparam+name%3D%22quality%22+value%3D%22autohigh%22+/%3E+++++%3Cparam+name%3D%22width%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22height%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22scale%22+value%3D%22noscale%22+/%3E+++++%3Cparam+name%3D%22wmode%22+value%3D%22opaque%22+/%3E+++++%3Cparam+name%3D%22bgcolor%22+value%3D%22%23FFFFFF%22+/%3E+++++%3Cparam+name%3D%22allowscriptaccess%22+value%3D%22always%22+/%3E+++++%3Cparam+name%3D%22allowfullscreen%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22base%22+value%3D%22http://www.onguardonline.gov/flash/videos/%22+/%3E+++++%3Cparam+name%3D%22src%22+value%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+/%3E+++++%3Cparam+name%3D%22flashvars%22+value%3D%22vidPath%3D/flash/videos/NetCetera-ShareWithCare.flv%26amp;xmlPath%3D/flash/videos/NetCetera-ShareWithCare.xml%26amp;imgPath%3D/flash/videos/NetCetera-ShareWithCare_slate_388x291.jpg%22+/%3E+%3C/object%3E&amp;st=e%3DAIHE3cA68JHC%252Fi5OKTZED3zmJZO0FQ0f0DvCeJDNNylfBkTh1MIrXgqHUPNKXZhxsIRzlYnxGat7VWaolhzuoxKUBNZAfD9VvPIVM8JWaRczjeV004PWzXtzzXFXwtkOWbUTH8aqOKBz%26c%3Denterprise&amp;rpctoken=2124253214255511150"></iframe></div></div></div></div>
+<div style="text-align:left"> </div>
+<div style="text-align:left"><font color="#ff0000"><font size="4"><b><u>Stand Up to Cyberbullying Video:</u></b></font> You can help stop cyberbullies by standing up for yourself or someone else.</font></div>
+<div style="text-align:left"> </div>
+<div style="text-align:left"> </div>
+<div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:400px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="400" height="335" scrolling="no" frameborder="0" id="579938076" name="579938076" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=b6b44a81eb247b44&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+data%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+height%3D%22335%22+id%3D%22swf12789663481%22+type%3D%22application/x-shockwave-flash%22+width%3D%22400%22%3E+++++%3Cparam+name%3D%22swliveconnect%22+value%3D%22default%22+/%3E+++++%3Cparam+name%3D%22play%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22loop%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22menu%22+value%3D%22false%22+/%3E+++++%3Cparam+name%3D%22quality%22+value%3D%22autohigh%22+/%3E+++++%3Cparam+name%3D%22width%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22height%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22scale%22+value%3D%22noscale%22+/%3E+++++%3Cparam+name%3D%22wmode%22+value%3D%22opaque%22+/%3E+++++%3Cparam+name%3D%22bgcolor%22+value%3D%22%23FFFFFF%22+/%3E+++++%3Cparam+name%3D%22allowscriptaccess%22+value%3D%22always%22+/%3E+++++%3Cparam+name%3D%22allowfullscreen%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22base%22+value%3D%22http://www.onguardonline.gov/flash/videos/%22+/%3E+++++%3Cparam+name%3D%22src%22+value%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+/%3E+++++%3Cparam+name%3D%22flashvars%22+value%3D%22vidPath%3D/flash/videos/NetCetera-StandUpToCyberbullying.flv%26amp;xmlPath%3D/flash/videos/NetCetera-StandUpToCyberbullying.xml%26amp;imgPath%3D/flash/videos/NetCetera-StandUpToCyberbullying_slate_388x291.jpg%22+/%3E+%3C/object%3E&amp;st=e%3DAIHE3cB5XhV2tUK5RM1AKQIsX556tfrfVIcWEjqd5sY6WrnH6dT7NxzOe4jfLjwnphkAmOumJUXEDFboN1iyVc%252FTqPgfdoaDYwORf%252BXdwnU684LvLZIEMa4J%252B2ZaXeBjcHVibz54QRID%26c%3Denterprise&amp;rpctoken=2124253214255511150"></iframe></div></div></div> </div>
+<div><font color="#ff0000"><b><u><font size="4">Protection Connection:</font></u></b> Learn to protect yourself online with privacy settings and good online practices.</font></div>
+<div> </div>
+<div> </div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:400px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="400" height="335" scrolling="no" frameborder="0" id="2083763374" name="2083763374" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=b6b44a81eb247b44&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+data%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+height%3D%22335%22+id%3D%22swf12789663481%22+type%3D%22application/x-shockwave-flash%22+width%3D%22400%22%3E+++++%3Cparam+name%3D%22swliveconnect%22+value%3D%22default%22+/%3E+++++%3Cparam+name%3D%22play%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22loop%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22menu%22+value%3D%22false%22+/%3E+++++%3Cparam+name%3D%22quality%22+value%3D%22autohigh%22+/%3E+++++%3Cparam+name%3D%22width%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22height%22+value%3D%22100%25%22+/%3E+++++%3Cparam+name%3D%22scale%22+value%3D%22noscale%22+/%3E+++++%3Cparam+name%3D%22wmode%22+value%3D%22opaque%22+/%3E+++++%3Cparam+name%3D%22bgcolor%22+value%3D%22%23FFFFFF%22+/%3E+++++%3Cparam+name%3D%22allowscriptaccess%22+value%3D%22always%22+/%3E+++++%3Cparam+name%3D%22allowfullscreen%22+value%3D%22true%22+/%3E+++++%3Cparam+name%3D%22base%22+value%3D%22http://www.onguardonline.gov/flash/videos/%22+/%3E+++++%3Cparam+name%3D%22src%22+value%3D%22http://www.onguardonline.gov/flash/video-player_400x335.swf%22+/%3E+++++%3Cparam+name%3D%22flashvars%22+value%3D%22vidPath%3D/flash/videos/NetCetera-ProtectionConnection.flv%26amp;xmlPath%3D/flash/videos/NetCetera-ProtectionConnection.xml%26amp;imgPath%3D/flash/videos/NetCetera-ProtectionConnection_slate_388x291.jpg%22+/%3E+%3C/object%3E&amp;st=e%3DAIHE3cCcVS2wcuhEFPYYTvPZAqniW7t57233o51NdTjEckK1v%252B%252Bct2BGzoEQMYBfgl4MrGPHg05eRGf37xcE%252FjHG35u1bRfSgAGkDB6OAm8Fq8JSqzdnHLHykYhLAOj%252FrT5YOl003JMB%26c%3Denterprise&amp;rpctoken=2124253214255511150"></iframe></div></div></div>
+<div style="text-align:left"> </div></div></div><div class="sites-layout-tile sites-tile-name-footer sites-layout-empty-tile"><div dir="ltr"><br /></div></div></div>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-attachments">
+<div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:0px;"><span aria-label="Archivos adjuntos" title="Archivos adjuntos"><div class="sites-translucent sites-symbol">Č</div></span></div><div id="sites-attachments-update-div" class="sites-attachments-inner-div" style="display:none;"><span class="sites-attachments-update-icon"><img src="/site/herricksvlmc/system/app/images/spinner.gif" /></span><div class="sites-attachments-update-text">Actualizando...</div></div></div><div class="sites-attachments-separator"></div>
+<div id="attachment-wuid:gx:60cb7fba800952d9"><div class="sites-attachments-row"><div class="sites-attachments-icon sites-attachments-icon-accessible" style="left:5px"><span class="sites-symbol sites-color-adobe-pdf">Ċ</span></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxoZXJyaWNrc3ZsbWN8Z3g6NjBjYjdmYmE4MDA5NTJkOQ">CyberBullying.pdf</a> <div class="sites-translucent">(98k)</div></div><div class="sites-attachments-author">Karen Kliegman, <div class="sites-translucent">Aug 16, 2013, 8:33 AM</div></div></div><div class="sites-attachments-version sites-attachments-version-accessible"><a href="/site/herricksvlmc/system/app/pages/admin/revisions?wuid=wuid:gx:60cb7fba800952d9">v.3</a></div><div id="attachment-download-wuid:gx:60cb7fba800952d9" class="sites-attachments-icon sites-attachments-icon-accessible" style="right:0px"><a href="/site/herricksvlmc/internet-safety-for-kids/CyberBullying.pdf?attredirects=0&amp;d=1" aria-label="Descargar CyberBullying.pdf" title="Descargar"><span class="sites-symbol">ď</span></a></div></div><div class="sites-attachments-separator"></div></div>
+<div id="attachment-wuid:gx:6c34cbbd90dde3f6"><div class="sites-attachments-row"><div class="sites-attachments-icon sites-attachments-icon-accessible" style="left:5px"><span class="sites-symbol sites-color-adobe-pdf">Ċ</span></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxoZXJyaWNrc3ZsbWN8Z3g6NmMzNGNiYmQ5MGRkZTNmNg">InternetSafetyTips.pdf</a> <div class="sites-translucent">(78k)</div></div><div class="sites-attachments-author">Karen Kliegman, <div class="sites-translucent">Aug 16, 2013, 8:33 AM</div></div></div><div class="sites-attachments-version sites-attachments-version-accessible"><a href="/site/herricksvlmc/system/app/pages/admin/revisions?wuid=wuid:gx:6c34cbbd90dde3f6">v.3</a></div><div id="attachment-download-wuid:gx:6c34cbbd90dde3f6" class="sites-attachments-icon sites-attachments-icon-accessible" style="right:0px"><a href="/site/herricksvlmc/internet-safety-for-kids/InternetSafetyTips.pdf?attredirects=0&amp;d=1" aria-label="Descargar InternetSafetyTips.pdf" title="Descargar"><span class="sites-symbol">ď</span></a></div></div><div class="sites-attachments-separator"></div></div>
+<div id="attachment-wuid:gx:23190497f8edf7a9"><div class="sites-attachments-row"><div class="sites-attachments-icon sites-attachments-icon-accessible" style="left:5px"><span class="sites-symbol sites-color-adobe-pdf">Ċ</span></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxoZXJyaWNrc3ZsbWN8Z3g6MjMxOTA0OTdmOGVkZjdhOQ">pledge36_eng.pdf</a> <div class="sites-translucent">(179k)</div></div><div class="sites-attachments-author">Karen Kliegman, <div class="sites-translucent">Aug 16, 2013, 8:33 AM</div></div></div><div class="sites-attachments-version sites-attachments-version-accessible"><a href="/site/herricksvlmc/system/app/pages/admin/revisions?wuid=wuid:gx:23190497f8edf7a9">v.3</a></div><div id="attachment-download-wuid:gx:23190497f8edf7a9" class="sites-attachments-icon sites-attachments-icon-accessible" style="right:0px"><a href="/site/herricksvlmc/internet-safety-for-kids/pledge36_eng.pdf?attredirects=0&amp;d=1" aria-label="Descargar pledge36_eng.pdf" title="Descargar"><span class="sites-symbol">ď</span></a></div></div><div class="sites-attachments-separator"></div></div>
+<div style="height: 10px"></div>
+</div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comentarios</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr">~Searingtown School Library~Searingtown School~Herricks UFSD. <a href="mailto:kkliegman@herricks.org">kkliegman@herricks.org</a><br />This site last updated February 19, 2013.<br /><br /></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=https://sites.google.com/site/herricksvlmc/_/rsrc/1376667196819/internet-safety-for-kids">Iniciar sesión</a>|<a class="sites-system-link" href="/site/herricksvlmc/system/app/pages/recentChanges">Actividad reciente del sitio</a>|<a class="sites-system-link" href="/site/herricksvlmc/system/app/pages/reportAbuse" target="_blank">Informar de uso inadecuado</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Imprimir página</a>|<a class="sites-system-link" href="/site/herricksvlmc/system/app/pages/removeAccess" target="_blank">Eliminar acceso</a>|<span class="sites-system-link">Con la tecnología de</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/e3af22/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+  if (webspace.editorResources['text']) {
+    //<![CDATA[
+webspace.editorResources['text'].unshift('/site/herricksvlmc/system/app/css/overlay.css?cb=microblueprint960px100204goog-ws-nav-nosidecontent30themedefaultstandard');
+webspace.editorResources['text'].unshift('/site/herricksvlmc/_/rsrc/1411492874000/system/app/themes/microblueprint/standard-css-microblueprint-ltr-ltr.css');
+//]]>
+
+  }
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-select-button',
+                        {"object":[{"id":"search-site","action":"/site/herricksvlmc/system/app/pages/search","label":"Search this site"},{"id":"search-web","action":"/site/herricksvlmc/system/app/pages/customSearch","label":"Search web"}]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/site/herricksvlmc/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXt_Mp5R2w3D84n3sOb0JtfMBINOJjwcxmH-b04rAibwDmh0Sp5Ddp5upktGaENWLUTMfm9CUOak8Ymlh6x_AEC9sbXKs2OTOPDQg9QAtYmQEVVWFnwNer2dDgpL5Lc42GaTgpIj/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('es', 'en');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupNoticeManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

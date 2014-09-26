@@ -1,0 +1,63 @@
+/* ::::: https://www.blogger.com/static/v1/v-css/335733004-cmtfp.css ::::: */
+
+a, body, div, input, p, span, td { font-family: arial,sans-serif; font-size: 13px; }
+a { color: rgb(0, 158, 184); text-decoration: underline; }
+input[type="button"] { background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 2px; color: rgb(34, 34, 34); font: bold 11px arial; height: 27px; margin: 1px 0px 0px 15px; padding-bottom: 0px; text-align: center; text-shadow: 0px 1px rgba(0, 0, 0, 0.1); vertical-align: top; width: 75px; }
+input[type="button"]:active, input[type="button"]:focus:active { border: 1px solid rgb(77, 144, 254); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset; }
+h3 { margin: 5px 0px; }
+label { font-weight: bold; }
+.postCommentButtonHolder { background-color: rgb(245, 245, 245); padding: 2px 5px 8px 2px; }
+.dialog { color: rgb(0, 0, 0); position: absolute; width: 373px; z-index: 1; }
+.dialog h3 { margin: 5px 0px 10px; }
+.dialog img { margin: 2px 0px; }
+.dialog input { margin: 2px 0px; position: relative; }
+.dialogField { width: 280px; }
+.dialog .group { margin: 5px 0px; }
+.dialog .top { background: url('s_top_373_550.png') no-repeat scroll left top transparent; font-size: 90%; padding: 8px 20px 5px 15px; margin: 0px; }
+.dialog .top h3 { font-size: 16px; font-weight: normal; }
+#openIdIdentityHolder .top, #genericOpenIdIdentityHolder .top { background: url('s_top_373_550.png') no-repeat scroll left top transparent; }
+#openIdIdentityHolder .bottom, #genericOpenIdIdentityHolder .bottom { background: url('s_bottom_373.png') no-repeat scroll left bottom transparent; }
+#captchaHolder .top, #openIdIdentityHolder .top, #genericOpenIdIdentityHolder .top, #nameUrlIdentityHolder .top { height: 200px; }
+.dialog .bottom { background: url('s_bottom_373.png') no-repeat scroll left bottom transparent; height: 8px; font-size: 8px; }
+img.close { position: relative; margin: 5px 0px; float: right; cursor: pointer; }
+.shown-openid-url { color: rgb(136, 136, 136); font-style: italic; }
+#openIdUriDisplayUsername { color: rgb(0, 0, 0); }
+#postCommentSubmit { background-color: rgb(77, 144, 240); border: 1px solid rgb(48, 121, 237); color: rgb(255, 255, 255); font-weight: bold; margin: 8px 0px 0px 18px; }
+#postCommentPreview { color: rgb(68, 68, 68); margin: 8px 0px 0px 6px; }
+#postCommentSubmit:hover { background-color: rgb(53, 122, 232); background-image: -moz-linear-gradient(center top , rgb(77, 144, 254), rgb(53, 122, 232)); border-color: rgb(47, 91, 183); }
+#postCommentPreview:hover, .signoutButton:hover { background-color: rgb(248, 248, 248); background-image: -moz-linear-gradient(center top , rgb(248, 248, 248), rgb(241, 241, 241)); border: 1px solid rgb(198, 198, 198); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); color: rgb(34, 34, 34); transition: all 0s ease 0s; }
+#id-error, #empty-error, #captcha-error, #openIdDialogErrorHolder, #genericOpenIdDialogErrorHolder, #nameUrlDialogErrorHolder { margin-left: 10px; color: rgb(255, 51, 0); }
+#commentBodyField { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); color: rgb(34, 34, 34); display: inline-block; font-family: arial; font-size: 13px; padding: 5px 2px 2px 5px; vertical-align: top; width: 100%; box-sizing: border-box; }
+#commentBodyField:focus { border: 1px solid rgb(77, 144, 240) ! important; outline: medium none; }
+#LJLabel, #WPLabel, #TPLabel, #AIMLabel, #edit-profile-error, #main-status-holder, #main-error-holder, #identityHolder, #captchaHolder, #identityHolder .dialog { display: none; }
+#editButton, #settingsButton, #commentDash { display: none; margin-left: 5px; }
+table { font-size: 100%; border-width: 0px; border-spacing: 0px; border-style: none; border-collapse: collapse; }
+table.status-msg { margin: auto; width: auto; }
+table.status-msg td.corner { height: 1px; width: 1px; line-height: 1px; margin: 0px; background-color: transparent; }
+table.status-msg td.stretch { height: 2px; line-height: 2px; margin: 0px; }
+.error .msgcolor { background: none repeat scroll 0% 0% transparent; color: rgb(255, 0, 0); font-weight: normal; }
+.status .msgcolor { background: none repeat scroll 0% 0% rgb(249, 237, 190); color: rgb(51, 51, 51); opacity: 1; }
+table.status-msg img { display: block; }
+#allHolder { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.notifyMeCheckbox { background-color: rgb(255, 255, 255); border: 1px solid rgb(220, 220, 220); border-radius: 1px; cursor: pointer; display: inline-block; height: 13px; margin: 12px 0px -2px; position: relative; width: 13px; box-sizing: border-box; }
+.notifyMeCheckbox:hover { border-color: rgb(198, 198, 198); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1) inset; }
+.notifyMeCheckbox:focus { border-color: rgb(77, 144, 254); outline: medium none; }
+.notifyMeCheckbox:active { background: none repeat scroll 0% 0% rgb(235, 235, 235); border-color: rgb(198, 198, 198); }
+.checkboxLabel { padding-left: 3px; }
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+	.notifyMeCheckbox { margin: 12px 0px -1px ! important; }
+}
+#subscribeButtonHolder { color: rgb(68, 68, 68); float: right; margin-top: 8px; margin-right: 18px; }
+#main-error, #main-status { padding: 2px 6px; }
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+}
+#commentSelectorLabel { color: rgb(102, 102, 102); }
+#signoutLink { float: right; margin-top: 7px; vertical-align: middle; }
+#identityControlsHolder { padding-top: 8px; }
+#commentsHolder { padding: 18px 22px 10px; }
+.signoutButton { background-color: rgb(245, 245, 245); background-image: -moz-linear-gradient(center top , rgb(245, 245, 245), rgb(241, 241, 241)); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 2px; color: rgb(68, 68, 68) ! important; cursor: default; display: inline-block; font-size: 11px; font-weight: bold; height: 27px; line-height: 27px; min-width: 54px; padding: 0px 8px; text-align: center; text-decoration: none; transition: all 0.218s ease 0s; -moz-user-select: none; }
+.dropdown { background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 2px; display: inline-block; height: 30px; margin: 4px; outline: medium none; overflow: hidden; vertical-align: middle; }
+#identityMenu { background: none repeat scroll 0px 0px transparent; border: medium none; border-radius: 2px; font-family: arial,sans-serif; font-size: 13px; height: 30px; margin: 0px; outline: medium none; padding: 6px; width: 120px; }
+.dropdown:hover { border-color: rgb(184, 184, 184); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); }
+body { color: rgb(0, 0, 0); font-family: Arial,Tahoma,Helvetica,FreeSans,sans-serif; }
+a:link, a:visited, a:active, a:hover { color: rgb(24, 80, 218); }

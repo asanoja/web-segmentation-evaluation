@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		
+		
+						
+		
+		
+									
+		
+				<title>Cheshire image bank</title>
+	
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body>
+		<div id="header">
+			<h1>Cheshire image bank</h1>
+<form id="searchForm" action="http://cheshireimagebank.org.uk/frontend.php" onsubmit="if(document.getElementById('user_keywords').value==''){return true;};var keywordStr=[];var fields=['Ref_No_increment','Title','Location','Further_Information','Keywords'];var keywords=document.getElementById('user_keywords').value.split(' ');for(var i=0;i<keywords.length;i++){keywordStr.push(fields.join(',')+';MATCHES;(^|[^a-zA-Z])'+keywords[i].replace(/[^\w]/gi,'')+'($|[^a-zA-Z]);');};document.getElementById('keywords').value=keywordStr.join('AND;')">
+	<fieldset>
+		<label>Search Cheshire Image Bank</label>					
+		<input value="" name="searchterms" id="user_keywords" type="text">	
+		<input value="Go" type="submit">
+		<input name="action" value="search" type="hidden">
+		<input name="keywords" id="keywords" value="" type="hidden">
+	</fieldset>
+</form>
+		</div>
+		<div id="container">
+			
+			<ul id="navigation">				
+	<li><a href="http://cheshireimagebank.org.uk/index.php">Home</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/about.php">About us/What's new</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/frontend.php?action=alpha" class="selected">Searching the image bank</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/themes.php">Popular collections</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/buy.php">How to obtain prints</a></li>
+    <li><a href="http://cheshireimagebank.org.uk/Donating.php">Donating Images</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/links.php">Links</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/contact.php">Contact us</a></li>
+	<li><img src="cheshire@20west@20logo.gif" alt="Chester West logo"></li>
+	<li><img src="cheshire-east-logo.gif" alt="Chester Council logo"></li>
+</ul>		
+				
+			<div id="mainContent">								
+				<div id="contentStretched">									
+					<form action="http://cheshireimagebank.org.uk/frontend.php" method="post" onsubmit="return checkForm(this);"><table summary="This is the master table"><tbody><tr><td valign="top"><table summary="This table centers the content" cellpadding="2" cellspacing="1" width="100%"><tbody><tr><td valign="top"></td><td valign="top"><table summary="This table contains a picture of Aston_by_Sutton: Aston Hall 	" style="width: 378px;" border="2"><tbody><tr><td><div align="center"><a href="https://www.hpacde.org.uk/cheshire/jpgh/c00114.jpg" class="MagicMagnify" rel="hide-cursor:true; magnifier-size:128px; lense-position:bottom; magnifier-border-width:0; magnifier-filter:false; lense-url:images/lense.png;lense-offset-x:-19px;lense-offset-y:-19px;"><img src="c00114.jpg" alt="Aston_by_Sutton: Aston Hall 	"></a></div></td></tr></tbody></table><p></p>
+				<div align="center">
+				<table border="0">
+				<tbody><tr>
+				<td colspan="3"></td>
+				</tr>
+				<tr>
+				<td align="center">
+				<a class="button2" href="http://cheshireimagebank.org.uk/frontend.php?action=zoom">Previous page</a> </td><td align="left"> <a class="button2" href="http://cheshireimagebank.org.uk/frontend.php">Search again</a> </td></tr>
+				<tr>
+				<td align="center"> <a class="button2" href="http://cheshireimagebank.org.uk/frontend.php?action=addInformation&amp;PictureNumber=c00114&amp;continueUrl=">Can you help</a> </td><td>
+			<span id="albumControls"><a href="javascript:showAlbum();" id="albumURL" class="button2">View album</a></span>			
+			</td>
+					<td align="left"> <a class="button2" href="https://www.hpacde.org.uk/cheshire/jpgc/c00114.jpg" title="c00114">Add to album</a> </td>
+					</tr></tbody></table></div></td><td valign="top"><table summary="The table holds the picture and information"><tbody><tr><td>Ref No:</td><td>c00114</td></tr><tr><td>Date Period:</td><td>1900 to 1909</td></tr><tr><td>Date of Image:</td><td>1900 to 1909 	</td></tr><tr><td>Title:</td><td>Aston_by_Sutton: Aston Hall 	</td></tr><tr><td>Description:</td><td>Exterior view 	</td></tr><tr><td><label for="price">Price:</label></td><td>
+					<select name="price" id="price"><option value="" selected="">Please select</option><option value="178">10x8:Price £10.00</option></select><input value="Add to basket" type="submit"></td></tr></tbody></table></td></tr></tbody></table><p></p></td></tr></tbody></table><input name="action" value="addToBasket" type="hidden"><input name="id" value="c00114" type="hidden"></form>        		<div id="albumMessage">&nbsp;</div>
+			
+					<div id="albumLayer" style="display: none;">		
+					<h3 class="albumTitle">Selected Images</h3>
+                        <div id="album">		
+			</div>
+            <span id="imageCount"></span> <!--<a href="javascript:emptyAlbum();" id="deleteAll">Empty album</a>-->
+		</div>
+		<div class="endLayer"></div>
+		
+							
+			  </div>			  				
+			</div>			
+		</div>
+		<div id="footer">
+			<ul>
+	<li><a href="http://cheshireimagebank.org.uk/accessibility.php">Accessibility</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/disclaimer.php">Disclaimer</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/text.php">Text size</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/terms.php">Terms &amp; conditions</a></li>
+</ul>		<table align="right" border="0" cellpadding="1" width="40%">
+		  <tbody><tr>
+		    <td align="right"><a href="http://www.hoimages.co.uk/">Site powered and designed by House of Images</a></td>
+	      </tr>
+		  </tbody></table>
+		</div>
+        
+	
+</body>
+</html>

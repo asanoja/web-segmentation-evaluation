@@ -1,0 +1,161 @@
+/* ::::: http://www.tsmc.com/common/css/style.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+ol, ul { list-style: none outside none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { color: rgb(51, 51, 51); text-decoration: none; outline: medium none; font-size: 11px; }
+a:hover { color: rgb(228, 0, 0); text-decoration: underline; }
+input { font-family: "Arial","Helvetica","sans-serif"; border: medium none; }
+.clearfix:after { content: ""; display: block; clear: both; }
+.clearfix {  }
+.mR10 { margin-right: 10px ! important; }
+.none { display: none ! important; }
+body { background: url('bg_body.png') repeat-x scroll 0px 0px transparent; border-top: 4px solid rgb(245, 0, 0); font-size: 13px; font-family: "Arial","Helvetica","sans-serif"; line-height: 1.25em; }
+#container { width: 940px; margin: 0px auto; }
+#header { height: 87px; }
+#main { min-height: 400px; }
+#footer { margin-top: 2px; }
+#header { position: relative; font-size: 11px; color: rgb(153, 153, 153); }
+#header a { color: rgb(153, 153, 153); }
+#header a:hover, #header a.focus { color: rgb(228, 0, 0); text-decoration: none; }
+#header .form { position: relative; top: -1px; }
+#header input.search { background: none repeat scroll 0% 0% rgb(46, 46, 46); border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(85, 85, 85) -moz-use-text-color rgb(85, 85, 85) rgb(85, 85, 85); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 12px; color: rgb(119, 119, 119); padding: 1px 8px; width: 150px; float: left; }
+#header input.go { width: 44px; height: 20px; border: medium none; float: left; }
+#logo { display: block; width: 110px; height: 87px; background: url('logo.png') no-repeat scroll 0px 0px transparent; }
+#topMenu { position: absolute; right: 0px; top: 12px; max-width: 830px; }
+#topMenu li { float: left; padding: 3px 0px; margin-right: 10px; }
+#topMenu li span { margin-left: 10px; }
+#topMenu li.last { margin-right: 0px; }
+#dropMenu { position: absolute; right: 0px; top: 42px; max-width: 830px; height: 45px; font-size: 12px; z-index: 100; }
+#dropMenu > li { float: left; position: relative; }
+#dropMenu li > a { display: block; height: 45px; }
+#dropMenu li a > span { display: none; }
+#dropMenu li .menuBox { position: absolute; left: -14px; background: url('bg_d_menu_b.png') no-repeat scroll left bottom transparent; padding-left: 23px; display: none; }
+#dropMenu li .menuBox > div { background: url('bg_d_menu_b.png') no-repeat scroll right bottom transparent; padding-bottom: 14px; }
+#dropMenu li .menuBox div div > ul { position: relative; margin-left: -23px; padding-left: 14px; background: url('bg_d_menu_h.png') repeat-y scroll left top transparent; }
+#dropMenu li .menuBox ul > li { background: url('bg_d_menu_h.png') repeat-y scroll right top transparent; }
+#dropMenu li .menuBox ul li > div { padding-right: 14px; }
+#dropMenu li .menuBox ul li div > span { display: block; padding: 0px 14px; }
+#dropMenu li .menuBox ul li div span > a { display: block; border-bottom: 1px dotted rgb(170, 170, 170); padding: 8px 10px; text-decoration: none; width: 170px; font-size: 12px; color: rgb(51, 51, 51); }
+#dropMenu li .menuBox ul li div span > a:hover { color: rgb(228, 0, 0); }
+#dropMenu li .menuBox ul li.last div span > a { border: medium none; }
+#catch { padding: 25px 15px 10px; min-height: 155px; background: url('bg_catch.png') repeat-x scroll 0px 0px rgb(234, 234, 234); }
+#catch .highlights { float: left; width: 269px; margin-right: 15px; }
+#catch .highlights h2 { height: 20px; background: url('h_texts_up.png') no-repeat scroll 4px 0px transparent; }
+#catch .highlights h2 .navi { margin-left: 90px; }
+#catch .highlights .arrow { width: 24px; height: 18px; background: url('hl_arrow.png') no-repeat scroll 0% 0% transparent; cursor: pointer; float: left; display: block; }
+#catch .highlights .arrow.left { background-position: 0px 0px; }
+#catch .highlights .arrow.left:hover { background-position: 0px -19px; }
+#catch .highlights .arrow.right { background-position: -24px 0px; }
+#catch .highlights .arrow.right:hover { background-position: -24px -19px; }
+#catch .highlights ul.refer { height: 126px; overflow: hidden; }
+#catch .latest { width: 205px; float: left; margin-right: 10px; }
+#catch .latest h2 a { display: block; height: 20px; width: 180px; background: url('h_texts_up.png') no-repeat scroll 0px -20px transparent; }
+#catch .latest h2 a:hover { background-position: -250px -20px; }
+#catch .events { width: 210px; float: left; margin-right: 20px; }
+#catch .events h2 a { display: block; height: 20px; width: 180px; background: url('h_texts_up.png') no-repeat scroll 0px -40px transparent; }
+#catch .events h2 a:hover { background-position: -250px -40px; }
+#catch .hotlinks { width: 180px; float: left; }
+#catch .hotlinks h2 { height: 20px; width: 180px; background: url('h_texts_up.png') no-repeat scroll 0px -60px transparent; }
+#catch ul { font-size: 11px; }
+#catch .events ul { margin-top: 12px; }
+#catch .events ul li { margin-bottom: 12px; }
+#catch .hotlinks ul { margin-top: 12px; }
+#catch .hotlinks ul li { margin-bottom: 6px; }
+#vController { width: 940px; height: 310px; background: none repeat scroll 0% 0% rgb(0, 0, 0); position: relative; }
+#vController .left { float: left; width: 727px; height: 310px; overflow: hidden; position: relative; }
+#vController .right { float: left; width: 213px; height: 310px; overflow: hidden; position: relative; }
+#vController .navi { position: absolute; bottom: 0px; left: 0px; background: url('bg_transparent_black.png') repeat scroll 0% 0% transparent; width: 687px; font-size: 11px; padding: 5px 20px; }
+#vController .navi li { display: inline-block; height: 18px; padding-left: 4px; margin-right: 5px; background: url('vc_bg_num.png') no-repeat scroll 0px -54px transparent; }
+#vController .navi li span { display: inline-block; height: 18px; line-height: 18px; padding-right: 4px; text-align: center; background: url('vc_bg_num.png') no-repeat scroll right -36px transparent; cursor: pointer; color: rgb(51, 51, 51); }
+#vController .navi li.num span { width: 10px; }
+#vController .navi li.focus, #vController .navi li:hover { background-position: 0px -18px; }
+#vController .navi li.focus span, #vController .navi li:hover span { background-position: right 0px; font-weight: bold; }
+#vController .navi li.select.focus span, #vController .navi li.select:hover span { color: rgb(228, 0, 0); font-weight: normal; }
+#vController .thumb { background: url('vc_bg_thumb.png') no-repeat scroll 0px -93px transparent; width: 940px; height: 93px; position: absolute; bottom: 0px; left: 0px; display: none; z-index: 50; }
+#vController .thumb .close { position: absolute; top: 0px; left: 420px; width: 100px; height: 13px; cursor: pointer; }
+#vController .thumb .arrow { width: 25px; height: 51px; background: url('vc_bg_thumb.png') no-repeat scroll 0% 0% transparent; cursor: pointer; display: none; }
+#vController .thumb .arrow.left { position: absolute; left: 0px; top: 30px; background-position: -25px -186px; }
+#vController .thumb .arrow.right { position: absolute; right: 0px; top: 30px; background-position: 0px -186px; }
+#vController .thumb .arrow.left:hover { background-position: -25px -237px; }
+#vController .thumb .arrow.right:hover { background-position: 0px -237px; }
+#vController .thumb .refer { display: none; }
+#vController .thumb .itemWrap { width: 760px; height: 56px; position: absolute; top: 24px; left: 90px; overflow: hidden; }
+#vController .thumb .crop {  }
+#vController .thumb .item { width: 760px; float: left; }
+#vController .thumb .item a { text-decoration: none; }
+#vController .thumb .item > div { width: 92px; height: 54px; margin-right: 17px; float: left; border: 1px solid rgb(153, 153, 153); position: relative; cursor: pointer; }
+#vController .thumb .item > div:hover { border: 1px solid rgb(255, 255, 255); }
+#vController .thumb .item > div.pageLast { margin-right: 0px; }
+#vController .thumb .item div img { width: 92px; height: 54px; }
+#vController .thumb .item div span.title { display: block; position: absolute; background: url('bg_transparent_black.png') repeat scroll 0% 0% transparent; height: 24px; width: 88px; bottom: 0px; left: 0px; font-size: 10px; line-height: 1.2em; color: rgb(255, 255, 255); overflow: hidden; padding: 2px; cursor: pointer; }
+#footer { font-size: 11px; }
+#topFooter { background: url('bg_footer.png') no-repeat scroll 0px 0px transparent; }
+#topFooter ul { padding-top: 10px; padding-bottom: 10px; margin-left: 35px; background: url('bg_footer.png') no-repeat scroll -1298px -40px transparent; }
+#topFooter li { float: left; width: 260px; margin-right: 45px; }
+#topFooter li.left h2 a { display: block; height: 20px; width: 91px; background: url('h_texts_up.png') no-repeat scroll 0px -80px transparent; }
+#topFooter li.left h2 a:hover { background-position: -250px -80px; }
+#topFooter li.center h2 a { display: block; height: 20px; width: 120px; background: url('h_texts_up.png') no-repeat scroll 0px -100px transparent; }
+#topFooter li.center h2 a:hover { background-position: -250px -100px; }
+#topFooter li.right { margin-right: 0px; }
+#topFooter li.right h2 a { display: block; height: 20px; width: 120px; background: url('h_texts_up.png') no-repeat scroll 0px -120px transparent; }
+#topFooter li.right h2 a:hover { background-position: -250px -120px; }
+#bottomFooter { height: 29px; margin-top: 3px; background: url('bg_footer.png') no-repeat scroll -940px 0px transparent; position: relative; }
+#bottomFooter a { color: rgb(204, 204, 204); }
+#bottomFooter a:hover { color: rgb(255, 255, 255); }
+#bottomFooter ul { position: absolute; right: 0px; margin-top: 6px; margin-right: 15px; }
+#bottomFooter li { float: left; margin-left: 15px; }
+#footer .copy { text-align: center; color: rgb(136, 136, 136); margin-top: 15px; margin-bottom: 5px; }
+.HContentLink { font-size: 11px; }
+#catch .latest h2 a { margin-bottom: 12px; }
+/* ::::: http://www.tsmc.com/english/_css/language.css ::::: */
+
+#dropMenu { width: 745px; }
+#dropMenu li > a { background: url('d_menu.png') no-repeat scroll 0% 0% transparent; }
+#dropMenu .c01 > a { width: 147px; background-position: 0px 0px; }
+#dropMenu .c01:hover > a { background-position: 0px -45px; }
+#dropMenu .c02 > a { width: 66px; background-position: -147px 0px; }
+#dropMenu .c02:hover > a { background-position: -147px -45px; }
+#dropMenu .c03 > a { width: 48px; background-position: -213px 0px; }
+#dropMenu .c03:hover > a { background-position: -213px -45px; }
+#dropMenu .c04 > a { width: 72px; background-position: -261px 0px; }
+#dropMenu .c04:hover > a { background-position: -261px -45px; }
+#dropMenu .c05 > a { width: 93px; background-position: -333px 0px; }
+#dropMenu .c05:hover > a { background-position: -333px -45px; }
+#dropMenu .c06 > a { width: 62px; background-position: -426px 0px; }
+#dropMenu .c06:hover > a { background-position: -426px -45px; }
+#dropMenu .c07 > a { width: 164px; background-position: -488px 0px; }
+#dropMenu .c07:hover > a { background-position: -488px -45px; }
+#dropMenu .c08 > a { width: 93px; background-position: -652px 0px; }
+#dropMenu .c08:hover > a { background-position: -652px -45px; }
+#dropMenu li.c08 .menuBox { left: -139px; }
+/* ::::: http://www.tsmc.com/common/css/colorbox.css ::::: */
+
+#colorbox, #cboxOverlay, #cboxWrapper { position: absolute; top: 0px; left: 0px; z-index: 9999; overflow: hidden; }
+#cboxOverlay { position: fixed; width: 100%; height: 100%; }
+#cboxMiddleLeft, #cboxBottomLeft { clear: left; }
+#cboxContent { position: relative; }
+#cboxLoadedContent { overflow: auto; }
+#cboxTitle { margin: 0px; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor: pointer; }
+#colorbox, #cboxContent, #cboxLoadedContent { box-sizing: content-box; }
+#cboxOverlay { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#colorbox {  }
+#cboxTopLeft { width: 25px; height: 25px; background: url('border1.png') no-repeat scroll 0px 0px transparent; }
+#cboxTopCenter { height: 25px; background: url('border1.png') repeat-x scroll 0px -50px transparent; }
+#cboxTopRight { width: 25px; height: 25px; background: url('border1.png') no-repeat scroll -25px 0px transparent; }
+#cboxBottomLeft { width: 25px; height: 25px; background: url('border1.png') no-repeat scroll 0px -25px transparent; }
+#cboxBottomCenter { height: 25px; background: url('border1.png') repeat-x scroll 0px -75px transparent; }
+#cboxBottomRight { width: 25px; height: 25px; background: url('border1.png') no-repeat scroll -25px -25px transparent; }
+#cboxMiddleLeft { width: 25px; background: url('border2.png') repeat-y scroll 0px 0px transparent; }
+#cboxMiddleRight { width: 25px; background: url('border2.png') repeat-y scroll -25px 0px transparent; }
+#cboxContent { background: none repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; }
+#cboxLoadedContent { margin-bottom: 20px; }
+#cboxTitle { position: absolute; bottom: 0px; left: 0px; text-align: center; width: 100%; color: rgb(0, 0, 0); font-size: 11px; font-weight: bold; }
+#cboxCurrent { position: absolute; bottom: 0px; left: 100px; color: rgb(153, 153, 153); }
+#cboxSlideshow { position: absolute; bottom: 0px; right: 42px; color: rgb(68, 68, 68); }
+#cboxPrevious { position: absolute; bottom: 0px; left: 0px; color: rgb(68, 68, 68); }
+#cboxNext { position: absolute; bottom: 0px; left: 63px; color: rgb(68, 68, 68); }
+#cboxClose { background: url('close_grey.png') no-repeat scroll right bottom transparent; position: absolute; bottom: -4px; right: 0px; display: block; color: rgb(68, 68, 68); text-indent: -9999px; width: 64px; height: 20px; }

@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC  "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+  <title>404 Page Not Found - Enterprise Rent-A-Car</title>
+  <link rel="stylesheet" type="text/css" href="http://www.enterprise.com/include/navStyle.css">
+  <link rel="stylesheet" type="text/css" href="http://www.enterprise.com/include/navStyleIntres.css">
+  <link rel="stylesheet" type="text/css" href="http://www.enterprise.com/include/apologiesTemplate.css">
+  <link rel="stylesheet" type="text/css" href="http://www.enterprise.com/include/style.css">
+  <link rel="stylesheet" type="text/css" href="http://www.enterprise.com/include/buttons.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+<div id="logo">
+  <div id="logoArea">
+
+      <a href="http://www.enterprise.com/car_rental/home.do"><img src="http://www.enterprise.com/images/ban_enterpriseLogo.jpg" height="35" width="175" border="0" alt="Enterprise Rent-A-Car"></a>
+
+
+  </div>
+
+  <div id="utilityArea">
+    <div id="top">
+      <form name="localeForm" method="post" action="http://www.enterprise.com/car_rental/locale.do" class="localeForm">
+
+
+
+
+          <a href="http://aboutus.enterprise.com/">About Us</a>
+
+          <span class="footerNavPipe">&nbsp;|&nbsp;</span>
+
+
+          <a href="contactUs.do">Contact Us</a>
+
+          <span class="footerNavPipe">&nbsp;|&nbsp;</span>
+
+
+          <a href="http://enterprise.custhelp.com/cgi-bin/enterprise.cfg/php/enduser/std_alp.php?country=US">Help</a>
+
+
+      </form>
+    </div>
+    <div id="separator">&nbsp;</div>
+  </div>
+</div>
+
+
+<div id="navigation">
+
+
+      <ul id="nav">
+
+
+
+              <li id="active">
+
+
+
+
+          <div><a href="http://www.enterprise.com/car_rental/home.do">Rent a Car</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.enterprise.com/car_rental/home.do">Home</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/showVehicles.do">Vehicles</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/worldLocationSearch.do">Rental Locations</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/corporateClassIntro.do">Business Rentals</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/ticketReceiptRequest.do">Print a Receipt</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/reservationSearch.do">Modify A Reservation</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/reservationSearch.do">Cancel A Reservation</a></li>
+
+              </ul>
+
+
+          </li>
+
+
+
+
+              <li class="secondary">
+
+
+
+          <div><a href="http://www.enterprise.com/car_rental/corporateClassIntro.do">Business Rentals</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.enterprise.com/car_rental/corpClassBRPApply.do">Apply Now</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/deeplinkmap.do?bid=029">Make a Reservation</a></li>
+
+                  <li><a href="http://www.enterprise.com/car_rental/ticketReceiptRequest.do">Print a Receipt</a></li>
+
+              </ul>
+
+
+          </li>
+
+
+
+
+              <li class="secondary">
+
+
+
+          <div><a href="http://www.enterprisetrucks.com/">Rent a Truck</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.enterprisetrucks.com/personalTruckRental.html">Personal Use</a></li>
+
+                  <li><a href="http://www.enterprisetrucks.com">Commercial Use</a></li>
+
+              </ul>
+
+
+          </li>
+
+
+
+
+              <li class="secondary">
+
+
+
+          <div><a href="http://www.enterprisecarsales.com/">Buy a Car</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.enterprisecarsales.com/">Home</a></li>
+
+                  <li><a href="http://www.enterprisecarsales.com/carsales/usedCarFinder.do">Used Car Finder</a></li>
+
+                  <li><a href="http://www.enterprisecarsales.com/carsales/usedCarLocations.do">Used Car Locations</a></li>
+
+                  <li><a href="http://www.enterprisecarsales.com/carsales/enterpriseDifference.do">Enterprise Difference</a></li>
+
+                  <li><a href="http://www.enterprisecarsales.com/carsales/usedCarResearch.do">Used Car Research</a></li>
+
+                  <li><a href="http://www.enterprisecarsales.com/carsales/testimonials.do">Satisfied Customers</a></li>
+
+              </ul>
+
+
+          </li>
+
+
+
+
+              <li class="secondary">
+
+
+
+          <div><a href="http://www.efleets.com/fleets/home.do">Manage Your Fleet</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.efleets.com/fleets/home.do">Home</a></li>
+
+                  <li><a href="http://www.efleets.com/fleets/productsAndServices.do">Products and Services</a></li>
+
+                  <li><a href="http://www.efleets.com/fleets/locationSearch.do">Fleet Locations</a></li>
+
+              </ul>
+
+
+          </li>
+
+
+
+
+              <li class="secondary">
+
+
+
+          <div><a href="http://www.erac.com/">Careers</a></div>
+
+
+              <ul id="activeUL">
+
+                  <li><a href="http://www.erac.com">US Careers</a></li>
+
+                  <li><a href="http://www.erac.com/recruit/canada/default.asp?strLang=eng">Canada Careers</a></li>
+
+                  <li><a href="http://www.enterprisealive.com">UK Careers</a></li>
+
+                  <li><a href="http://www.enterprisealive.com">Ireland Careers</a></li>
+
+                  <li><a href="http://www.enterprisealive.com/de/">Germany Careers</a></li>
+
+              </ul>
+
+
+          </li>
+
+      </ul>
+
+
+</div>
+
+
+<div id="apologiesTemplate">
+  <h1>Our Apologies</h1>
+  <h2>Sorry, the page you requested could not be found.</h2>
+  <p>It is possible you typed the address incorrectly, or that the page has moved or no longer exists.</p>
+  <p>You can visit our <a href="http://www.enterprise.com/">Enterprise home page</a>, and find out more about our company or to make a reservation.</p>
+  <p>If you still encounter problems, <a href="http://enterprise.custhelp.com">please find an answer</a> to your question or <a href="/about/contactUs.html">contact us</a>.</p>
+  <a href="http://www.enterprise.com" class="primaryAction right"><strong>Go to Enterprise Home</strong></a>
+
+</div>
+
+</body>
+</html>

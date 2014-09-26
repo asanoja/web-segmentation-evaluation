@@ -1,0 +1,97 @@
+body { display: none; }
+/* ::::: http://platform.twitter.com/embed/timeline.05c8958bdec762021aa856f423864890.default.css ::::: */
+
+html body { display: block; background: none repeat scroll 0% 0% transparent; }
+html, body, h1, h2, h3, blockquote, p, ol, ul, li, iframe, button { padding: 0px; margin: 0px; font: 12px/16px "Helvetica Neue",Roboto,"Segoe UI",Calibri,sans-serif; text-decoration: none; text-transform: none; vertical-align: baseline; list-style: none outside none; border: 0px none; outline: 0px none; }
+img { border: 0px none; }
+b, i { font-style: normal; font-weight: normal; }
+abbr { border-bottom: 0px none; }
+.p-author:before, .p-author:after, .cards-base:before, .cards-base:after { display: table; content: ""; }
+.p-author:after, .cards-base:after { clear: both; }
+.tweet, .root, .p-author {  }
+.root, .tweet, .footer, .detail-expander, .header, .timeline { position: relative; }
+button.load-more, .tweet-box-button, .no-tweets-pane .load-tweets { box-sizing: border-box; }
+.timeline-header .custom-timeline-summary, .timeline-header h1.summary { font-size: 18px; font-weight: bold; line-height: 18px; }
+.custom-timeline-owner-profile, .timeline .e-entry-title, .p-author .p-name, .cards-base h3, .new-tweets-bar button, .load-tweets, .no-more-pane { font-size: 14px; line-height: 16px; }
+.tweet-box-button { font-size: 13px; }
+.stats strong, .timeline-header- .byline, .timeline-header .list-description { font-size: 12px; line-height: 18px; }
+.stats span { font-size: 10px; }
+.custom-timeline-owner-profile .p-name, .p-author .profile .p-name, .cards-base .profile .p-name { font-weight: bold; }
+.p-author a, .e-entry-title, .cards-base h3, .cards-base .cards-content p { line-height: 18px; }
+.e-entry-title a { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+a, a:visited, a:active, a:hover, a:focus, .p-author .full-name, .p-author a.profile, .p-author a.profile:hover .p-nickname, .p-author a.profile:focus .p-nickname, .p-author a.profile:hover .p-nickname b, .p-author a.profile:focus .p-nickname b, .timeline-header .custom-timeline-owner-profile:hover, .timeline-header .custom-timeline-owner-profile:focus, .custom-timeline-owner-profile:hover .p-nickname, .custom-timeline-owner-profile:focus .p-nickname, .custom-timeline-owner-profile:hover .p-nickname b, .custom-timeline-owner-profile:focus .p-nickname b, .cards-base a.profile:hover .p-nickname, .cards-base a.profile:focus .p-nickname, .cards-base a.profile:hover .p-nickname b, .cards-base a.profile:focus .p-nickname b, .cards-base .byline-user .p-nickname { text-decoration: none; outline: 0px none; }
+a:hover b, a:focus b, a:hover span, a:focus span, h3 a:hover, h3 a:focus, .timeline-header a:hover, .timeline-header a:focus, .e-entry-title .link:hover, .e-entry-title .link:focus, .footer a.expand:hover, .footer a.expand:focus, a.permalink:hover, a.permalink:focus, a.long-permalink:hover, a.long-permalink:focus, .cards-base p a:hover, .cards-base p a:focus, .retweet-credit a:hover, .retweet-credit a:focus { text-decoration: underline; }
+html, .p-author .profile .p-name, .custom-timeline-owner-profile .p-name, .cards-base p, .cards-base p a, .timeline-header .custom-timeline-summary, .timeline-header .custom-timeline-summary a:link, .timeline-header .custom-timeline-summary a:visited, .timeline-header .summary, .timeline-header .summary a:link, .timeline-header .summary a:visited, .p-author a.profile:hover .p-name, .p-author a.profile:focus .p-name { color: rgb(41, 47, 51); }
+.customisable, .customisable:link, .customisable:visited, .customisable:hover, .customisable:focus, .customisable:active, .customisable-highlight:hover, .customisable-highlight:focus, a:hover .customisable-highlight, a:focus .customisable-highlight { color: rgb(0, 132, 180); }
+a:link, a:visited, .stats span, .byline, .retweet-credit, .no-more-pane, .no-tweets-pane p, .p-geo, .cards-base .byline-user, .timeline-header .list-description { color: rgb(112, 112, 112); }
+a:hover, a:focus, a:active, .p-author a.profile:hover, .p-author a.profile:focus, .retweet-credit .profile:hover, .retweet-credit .profile:focus, .stats strong, .no-tweets-pane .load-tweets, .nsfw { color: rgb(102, 117, 127); }
+.tweet-box-button { color: rgb(170, 170, 170); }
+.customisable-border { border: 1px solid rgb(232, 232, 232); }
+.verified b, .tweet-actions b, abbr.p-geo b, .ic-twitter-badge b, .e-entry-title a .tco-hidden, .collapse-geo .p-geo b, .collapse-media-tag .media-tag b { position: absolute; top: 0px; left: 0px; clip: rect(0px, 0px, 0px, 0px); }
+.verified, .ic-rt, .ic-mask, .ic-top, .ic-twitter-alert, .ic-twitter-badge, .ic-bird-flourish, .ic-button-bird { display: inline-block; vertical-align: middle; background: url('undefined') no-repeat scroll 0px 0px / 177px 191px transparent; }
+.ic-top { display: inline-block; width: 12px; height: 10px; margin: 2px 4px 0px 0px; vertical-align: top; background-position: 0px -181px; }
+.ic-bird-flourish { display: block; width: 32px; height: 20px; margin: 12px auto 0px; background-position: -40px -161px; }
+.ic-button-bird { width: 16px; height: 16px; margin: 0px 3px 0px 0px; background-position: -73px -160px; }
+.ic-mask { width: 12px; height: 13px; background-color: rgb(153, 153, 153); }
+a:hover .ic-mask, a:focus .ic-mask { background-color: rgb(0, 132, 180); }
+.ic-reply { width: 19px; height: 15px; background-position: 0px -87px; }
+.ic-retweet { width: 22px; height: 15px; background-position: -31px -87px; }
+.ic-fav { width: 16px; height: 15px; background-position: -60px -87px; }
+.ic-rt { width: 14px; height: 16px; margin-right: 4px; background-position: -20px -2px; }
+.timeline { margin-bottom: 10px; background-color: rgb(255, 255, 255); border-radius: 5px; }
+.timeline .stream { position: relative; width: 100%; overflow-x: hidden; overflow-y: scroll; }
+.timeline-header, .timeline-footer { position: relative; z-index: 100; }
+.timeline-header { padding: 12px; border-width: 0px 0px 1px; box-shadow: 0px 0px 0px -3px transparent; transition: box-shadow 0.3s ease-out 0s; }
+.timeline-header h1.summary { font-weight: bold; }
+.timeline-header .follow-button, .timeline-header .twitter-follow-button, .timeline-header .ic-twitter-badge { position: absolute; top: 10px; right: 10px; }
+.new-tweets-bar { position: absolute; right: 0px; left: 0px; z-index: 100; display: none; width: auto; margin-top: -2px; opacity: 0; transition: opacity 0.3s ease-in 0s; }
+.new-tweets-bar button { width: 100%; padding: 10px 0px; color: rgb(255, 255, 255); text-align: center; background-color: rgba(0, 0, 0, 0.87); border-width: 0px; }
+.new-tweets-bar button:hover, .new-tweets-bar button:focus { text-decoration: underline; cursor: pointer; }
+button.load-more { display: block; width: 100%; padding: 10px 0px; margin: 0px; text-align: center; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4); cursor: pointer; background-color: rgba(0, 0, 0, 0.02); border: 0px none; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05) inset; transition: background-color 0.2s ease-out 0s; }
+button.load-more:hover, button.load-more:focus { text-decoration: underline; background-color: rgba(0, 0, 0, 0.08); }
+.no-more-pane { display: none; padding: 12px; text-align: center; }
+.timeline-footer { padding: 6px 10px; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); }
+.tweet-box-button { display: block; width: 100%; padding: 6px; text-align: left; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-radius: 4px; }
+.tweet-box-button:hover, .tweet-box-button:focus { cursor: pointer; border-color: rgba(0, 0, 0, 0.4); }
+a.tweet-box-button { width: auto; }
+.tweet { padding: 12px 12px 10px 69px; border-width: 0px 0px 1px; }
+.tweet.with-expansion { cursor: pointer; }
+.header {  }
+.header .avatar { position: absolute; top: 0px; left: -57px; width: 48px; height: 48px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-radius: 4px; }
+.permalink { position: relative; z-index: 50; float: right; margin-top: 2px; }
+.tweet .e-entry-title { margin: 0px 5px 0px 0px; overflow: hidden; clear: both; word-wrap: break-word; white-space: pre-wrap; }
+.tweet .retweet-credit { margin: 3px 0px; }
+.footer { overflow: hidden; }
+.tweet-actions { position: absolute; right: 0px; bottom: 1px; background: none repeat scroll 0% 0% rgb(255, 255, 255); visibility: hidden; box-shadow: 0px 0px 10px 5px rgb(255, 255, 255); }
+.tweet-actions li { float: left; }
+.tweet-actions a i { margin: 1px 0px 0px 8px; overflow: hidden; }
+.tweet:hover .tweet-actions, .tweet:focus .tweet-actions, .expanded .tweet-actions { visibility: visible; }
+.tweet .tweet-actions a, .tweet .tweet-actions a b, .tweet .tweet-actions a i, .tweet .tweet-actions li { cursor: pointer; outline: 0px none; }
+.footer { min-height: 16px; padding-top: 1px; margin-top: 2px; overflow: hidden; border-width: 0px; transition: margin-top 0.2s ease-out 0s, padding-top 0.2s ease-out 0s; }
+.expand, .p-geo { float: left; }
+.stats-wide, .stats-narrow, .brand { display: none; margin-left: 0.3em; border-width: 0px; }
+.stats span { display: inline-block; margin-right: 3px; text-transform: uppercase; }
+.stats strong { font-weight: bold; }
+.follow-button:link, .follow-button:visited { display: inline-block; padding: 0px 5px 0px 3px; font: bold 11px/18px 'Helvetica Neue',Arial,sans-serif; color: rgb(51, 51, 51); text-decoration: none; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); white-space: nowrap; cursor: pointer; background-color: rgb(238, 238, 238); background-image: linear-gradient(rgb(255, 255, 255), rgb(222, 222, 222)); border: 1px solid rgb(204, 204, 204); border-radius: 3px; }
+.follow-button:focus, .follow-button:hover, .follow-button:active { color: rgb(51, 51, 51); text-decoration: none; background-color: rgb(217, 217, 217); background-image: linear-gradient(rgb(248, 248, 248), rgb(217, 217, 217)); border-color: rgb(187, 187, 187); box-shadow: none; }
+.timeline-header a.follow-button:link, .timeline-header a.follow-button:visited, .timeline-header a.follow-button:hover, .timeline-header a.follow-button:focus, .timeline-header a.follow-button:active, .thm-dark .timeline-header a.follow-button:link, .thm-dark .timeline-header a.follow-button:visited, .thm-dark .timeline-header a.follow-button:hover, .thm-dark .timeline-header a.follow-button:focus, .thm-dark .timeline-header a.follow-button:active { color: rgb(51, 51, 51); text-decoration: none; }
+.follow-button:active { background-color: rgb(239, 239, 239); box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1) inset; }
+.follow-button:focus { border-color: rgb(0, 137, 203); outline: 0px none; }
+.var-narrow .timeline-header .summary { font-size: 14px; }
+.var-narrow .header .profile .p-name, .var-narrow .timeline-header .byline, .var-narrow .timeline-header .list-description, .var-narrow .e-entry-title, .var-narrow .cards-base h3 { font-size: 12px; line-height: 16px; }
+.var-narrow .timeline-header { padding: 8px; }
+.var-narrow .timeline-footer { padding: 4px; }
+.var-narrow .timeline-header .follow-button, .var-narrow .timeline-header .twitter-follow-button { top: 6px; right: 6px; }
+.var-narrow .tweet { padding: 5px 8px 6px; }
+.var-narrow .tweet .header { position: relative; min-height: 32px; padding: 0px 0px 4px 36px; }
+.var-narrow .header .avatar { top: 2px; left: 0px; width: 32px; height: 32px; }
+.var-narrow .header .profile .p-nickname:before { white-space: pre; content: "\A "; }
+.var-narrow .header .p-name { display: inline; }
+.var-narrow .header .p-nickname { line-height: 16px; }
+.var-narrow .permalink { font-size: 11px; }
+.var-static .stream { overflow-y: visible; }
+.var-static .load-more { display: none; }
+.var-static .tweet.with-expansion { cursor: default; }
+.customisable, .customisable:link, .customisable:visited, .customisable:hover, .customisable:focus, .customisable:active, .customisable-highlight:hover, .customisable-highlight:focus, a:hover .customisable-highlight, a:focus .customisable-highlight { color: rgb(249, 110, 91); }
+a:hover .ic-mask, a:focus .ic-mask { background-color: rgb(249, 110, 91); }
+.customisable-border { border-color: rgb(232, 232, 232); }

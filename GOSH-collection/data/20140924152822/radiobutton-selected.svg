@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="35px" height="35.2px" viewBox="0 0 35 35.2" enable-background="new 0 0 35 35.2" xml:space="preserve">
+<g>
+	<circle fill="#FFFFFF" cx="17.8" cy="18.2" r="7.8"/>
+	<path fill="#0C0D0D" d="M17.8,26.5c-4.6,0-8.3-3.7-8.3-8.3c0-4.6,3.7-8.3,8.3-8.3c4.6,0,8.3,3.7,8.3,8.3
+		C26.1,22.7,22.4,26.5,17.8,26.5z M17.8,10.9c-4,0-7.3,3.3-7.3,7.3s3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S21.8,10.9,17.8,10.9z"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="12.2799" y1="13.8177" x2="16.7799" y2="17.3594">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.8853" style="stop-color:#0C0D0D"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="17.8" cy="18.2" r="4.4"/>
+</svg>

@@ -1,0 +1,38 @@
+/* ::::: http://www.intagme.com/in/css/combined.css?v=1.003 ::::: */
+
+html, body { margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; }
+ol, ul { list-style: none outside none; }
+html { overflow-y: scroll; font-size: 100%; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0px none; }
+audio:not([controls]) { display: none; }
+img { border: 0px none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+html, body { background-color: rgb(238, 238, 238); }
+body { margin: 0px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; line-height: 17px; color: rgb(68, 68, 68); }
+a { color: rgb(51, 105, 178); text-decoration: none; line-height: inherit; font-weight: inherit; }
+a:hover { color: rgb(0, 67, 138); text-decoration: underline; }
+ul, ol { margin: 0px; }
+ul { list-style: disc outside none; }
+li { line-height: 18px; color: rgb(128, 128, 128); }
+.zebra-striped tbody tr:nth-child(2n+1) td { background-color: rgb(249, 249, 249); }
+button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner { padding: 0px; border: 0px none; }
+.media-grid { margin-bottom: 0px; }
+.media-grid:before, .media-grid:after { display: table; content: ""; }
+.media-grid:after { clear: both; }
+.media-grid li { display: inline; }
+.media-grid a { float: left; border-right: 1px solid rgb(188, 188, 188); border-bottom: 1px solid rgb(188, 188, 188); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075); transition: all 0.2s ease-in-out 0s; }
+.media-grid a img { display: block; }
+.media-grid a:hover { border-color: rgb(0, 105, 214); box-shadow: 0px 1px 4px rgba(0, 105, 214, 0.25); }
+@media screen {
+}
+.media-grid a { position: relative; display: block; }
+.media-grid .item { position: relative; float: left; }
+.share-box { position: absolute; bottom: 5px; right: 5px; }
+.media-grid .item:hover .share-box .button { opacity: 0.7; }
+.share-box .button { background: url('social-buttons.png') no-repeat scroll 0% 0% transparent; height: 20px; width: 20px; display: inline-block; margin-right: 0px; opacity: 0; border-radius: 2px; transition: all 0.1s ease-in-out 0s; }
+.share-box .button:hover { cursor: pointer; opacity: 1 ! important; }
+.share-box .twitter { background-position: 0px -20px; }
+.share-box .google { background-position: 0px -40px; }
+html, body { margin: 0px; background: none repeat scroll 0% 0% transparent; overflow: hidden; }

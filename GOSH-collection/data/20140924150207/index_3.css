@@ -1,0 +1,41 @@
+html, body { margin: 0px; padding: 0px; min-height: 100%; }
+body { position: fixed; top: 0px; right: 0px; width: 100%; font: 600 12px/20px "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif; background: none repeat scroll 0% 0% transparent; visibility: visible; opacity: 1; }
+body { -moz-user-select: none; }
+a { text-decoration: none; }
+.tiny_avatar { position: relative; display: block; float: left; width: 25px; height: 25px; background-color: rgb(255, 255, 255); background-size: cover; border-radius: 2px; overflow: hidden; }
+.tiny_avatar img { display: none; width: 25px; height: 25px; border: 0px none; }
+.button { position: relative; display: block; float: left; height: 25px; margin: 0px 0px 0px 5px; padding: 0px 7px; font-family: "Helvetica Neue",Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-size: 13px; line-height: 25px; font-weight: bold; text-decoration: none; border-radius: 2px; background-color: rgb(172, 179, 187); -moz-user-select: none; cursor: pointer; }
+.tiny_avatar, .button { background-clip: padding-box; }
+.button:active { color: rgba(255, 255, 255, 0.8); }
+.button.follow:active:before, .button:active .logo { opacity: 0.8; }
+.tiny_avatar:active { box-shadow: none; }
+.button:active { box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2) inset; }
+.button.blue { background-color: rgb(85, 159, 202); }
+.button.follow { padding-left: 22px; }
+.button.follow:before { display: block; position: absolute; padding: 0px 4px; top: 0px; left: 4px; content: ""; font-size: 18px; font-family: 'tumblr-icons','Blank'; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; }
+.button.tumblr { background-color: rgb(45, 70, 97); }
+.button.tumblr .logo { position: relative; display: block; top: 1px; width: 64px; height: 26px; direction: ltr; text-indent: -9999px; padding-top: 0px; background: url('iframe_logo.png') no-repeat scroll 0px 5px transparent; }
+.clearfix:after { content: ""; display: block; clear: both; }
+.iframe_controls { position: absolute; top: 0px; right: 0px; margin: 5px; padding: 0px 2px; border-radius: 2px; white-space: nowrap; height: 26px; }
+body { transition: opacity 0.3s ease-in-out 0.2s; }
+.animated .button.tumblr { transition: padding 0.1s linear 0s; }
+.animated .iframe_controls .button.tumblr:before { transition: opacity 0.1s linear 0s; }
+@media not all, not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+	.button.tumblr .logo { background-image: url('iframe_logo@2x.png'); background-size: 64px 14px; }
+}
+@font-face {
+	font-family: "Blank";
+	src: url('undefined');
+}
+@font-face {
+	font-family: "tumblr-icons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6.eot') format("embedded-opentype"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6.woff') format("woff"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6.ttf') format("truetype"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6.svg') format("svg");
+}
+@media not all {
+	@font-face {
+	font-family: "tumblr-icons";
+	src: url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6.svg') format("svg");
+}
+}

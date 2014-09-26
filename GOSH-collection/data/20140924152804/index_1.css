@@ -1,0 +1,72 @@
+/* ::::: http://consent-pref.truste.com/EuPreferenceManager.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { background: none repeat scroll 0% 0% transparent; border: 0px none; margin: 0px; padding: 0px; vertical-align: baseline; }
+body { font-size: 12px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 20px; }
+.mainHeader {  }
+.mainHeader h1 { color: rgb(44, 45, 49); font-size: 18px; display: inline-block; }
+.mainContent { padding: 20px 20px 0px; position: relative; }
+.mainContent, .consentToAll { line-height: 18px; color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(255, 255, 255); border-top: 1px solid rgb(255, 255, 255); }
+.mainContent p, .consentToAll p { margin: 10px 0px; }
+.mainContent a, .consentToAll a { color: rgb(0, 102, 153); text-decoration: none; }
+.mainContent a:hover, .consentToAll a:hover { text-decoration: none; color: rgb(250, 127, 6); }
+.mainInner { padding: 10px; border: 1px solid rgb(221, 221, 221); background: none repeat scroll 0% 0% rgb(252, 252, 252); overflow: hidden; }
+.mainInner { border-radius: 2px; }
+.consent { padding: 20px 0px; }
+.warningMessage { padding: 7px 10px; background: none repeat scroll 0% 0% rgb(249, 237, 190); border: 1px solid rgb(240, 195, 109); margin: 11px 20px 13px; font-size: 11px; line-height: 16px; color: rgb(175, 117, 1); }
+#loading2 { position: absolute; top: 40%; width: 95%; text-align: center; z-index: 99999; }
+.mainInner, .submission, .shortNoticePanel { padding: 20px; }
+.footer { background: none repeat scroll 0px 0px rgb(247, 247, 247); border-top: 1px solid rgb(238, 238, 238); margin-top: 20px; padding: 10px 20px; color: rgb(153, 153, 153); font-size: 11px; overflow: hidden; }
+.footer .right { float: right; }
+.footer a { text-decoration: none; }
+.footer a img { display: inline-block; margin-left: 5px; vertical-align: middle; }
+.pdynamicbutton { margin: 20px; }
+.pdynamicbutton a { display: inline-block; margin-right: 5px; padding: 8px 15px 8px 35px; line-height: 15px; border-radius: 3px; }
+.pdynamicbutton a { text-align: right; text-transform: uppercase; font-weight: bold; font-size: 11px; color: rgb(255, 255, 255); opacity: 0.8; }
+.pdynamicbutton a:hover { text-decoration: none; cursor: pointer; color: rgb(255, 255, 255); opacity: 1; }
+.pdynamicbutton .call { background: url('gbutton.png') no-repeat scroll 0px 0px transparent; border: 1px solid rgb(155, 167, 79); text-shadow: 1px 1px rgb(152, 171, 27); float: left; }
+.pdynamicbutton .askmelater { background: url('obutton.png') no-repeat scroll 0px 0px transparent; border: 1px solid rgb(208, 125, 36); text-shadow: 1px 1px rgb(199, 125, 38); display: none; }
+.pdynamicbutton .shp { background: url('obutton.png') no-repeat scroll 0px 0px transparent; border: 1px solid rgb(208, 125, 36); text-shadow: 1px 1px rgb(199, 125, 38); }
+#debuggerContainer { height: 200px; overflow-x: hidden; overflow-y: auto; }
+/* ::::: http://consent-pref.truste.com/defaultpreferencemanager/css?layout=default_eu ::::: */
+
+.pdynamicbutton .call { background: none no-repeat scroll 0px 0px rgb(219, 219, 219); border: 1px solid rgb(219, 219, 219); text-shadow: none; }
+.mainHeader { border-bottom: 1px solid rgb(221, 221, 221); padding-bottom: 20px; }
+.mainHeader h1 { color: rgb(44, 45, 49); font-size: 18px; }
+.mainHeader .logo { float: right; }
+.mainContent, .consentToAll, .submitted { background: none repeat scroll 0px 0px rgb(255, 255, 255); border-top: 1px solid rgb(255, 255, 255); color: rgb(102, 102, 102); line-height: 18px; padding: 20px 20px 0px; }
+.mainContent a, .consentToAll a, .submitted a { color: rgb(0, 102, 153); text-decoration: none; }
+.mainContent a:hover, .consentToAll a:hover, .submitted a:hover { color: rgb(250, 127, 6); text-decoration: none; }
+.pdynamicbutton { margin: 0px; position: relative; }
+.pdynamicbutton a { display: inline-block; font-size: 11px; font-weight: bold; padding: 7px 10px 7px 14px; text-transform: uppercase; }
+.pdynamicbutton a { border-radius: 3px; color: rgb(255, 255, 255); }
+.pdynamicbutton a:hover { color: rgb(255, 255, 255); }
+.pdynamicbutton .shp { color: rgb(0, 102, 153); font-size: 12px; font-weight: normal; text-transform: none; background: none repeat scroll 0px center transparent; border: 0px none; text-shadow: none; position: absolute; top: 0px; right: 0px; }
+.pdynamicbutton a.shp:hover { color: rgb(0, 102, 153); text-decoration: underline; }
+.consent { font-size: 12px; }
+.consent p:first-child { margin-top: 0px; }
+.mainInner, .submission, .shortNoticePanel { padding: 20px; }
+.footer { background: none repeat scroll 0px 0px rgb(247, 247, 247); border-top: 1px solid rgb(238, 238, 238); font-size: 11px; margin-top: 20px; padding: 10px 20px; }
+.footer .left { display: none; }
+.pdynamicbutton .call { background: -moz-linear-gradient(center top , rgb(245, 245, 245), rgb(219, 219, 219)) repeat scroll 0% 0% transparent; border: 1px solid rgb(219, 219, 219); border-radius: 5px; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); color: rgb(0, 0, 0); cursor: pointer; font-family: Arial,Helvetica; margin-bottom: 20px; min-width: 120px; padding: 7px 20px; text-align: center; text-shadow: 0px 1px 0px rgb(255, 255, 255); text-transform: none; }
+.pdynamicbutton .call:hover { background: -moz-linear-gradient(center top , rgb(255, 255, 255), rgb(203, 203, 203)) repeat scroll 0px 0px transparent; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); color: rgb(0, 0, 0); }
+.pdynamicbutton a { display: inline-block; font-size: 12px; font-weight: 900; padding: 7px 10px 7px 14px; text-transform: none; }
+.mainInner, .pdynamicbutton .askmelater { display: none; }
+@media screen and (max-width: 767px) {
+	.mainHeader .logo { float: none; text-align: center; display: block; }
+	.mainHeader h1 { text-align: center; font-size: 16px; display: block; margin-top: 10px; }
+	.mainHeader { padding-bottom: 10px; }
+	.mainContent .mainHeader span img { position: relative; top: -11px; }
+	.mainContent .pdynamicbutton a, .consentToAll .pdynamicbutton a, .submitted .pdynamicbutton a { display: block; float: none; text-align: center; position: relative ! important; font-size: 12px ! important; padding: 10px 0px ! important; }
+	.pdynamicbutton a { margin-top: 10px; }
+	.pdynamicbutton a:first-child { margin-top: 0px; }
+	.pdynamicbutton a:hover { text-decoration: none ! important; }
+	.pdynamicbutton .call, .pdynamicbutton .submit, .pdynamicbutton .cancel { background: -moz-linear-gradient(center top , rgb(245, 245, 245), rgb(219, 219, 219)) repeat scroll 0px 0px transparent; color: rgb(0, 0, 0); }
+	.pdynamicbutton a.call:active, .pdynamicbutton .submit:active { box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset; }
+	.pdynamicbutton a.askmelater { padding: 10px 0px; border: 1px solid rgb(204, 204, 204); text-transform: uppercase; font-weight: bold; background: linear-gradient(to bottom, rgb(255, 255, 255) 0px, rgb(229, 229, 229) 100%) repeat scroll 0% 0% transparent; }
+	.pdynamicbutton .shp { color: rgb(0, 102, 153); font-size: 12px; font-weight: normal; text-transform: none; background: none repeat scroll 0px center transparent; border: 0px none; text-shadow: none; position: absolute; top: 0px; right: 0px; text-decoration: underline; }
+	.pdynamicbutton a.askmelater:active, .pdynamicbutton .shp:active, .pdynamicbutton .cancel:active { box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset; }
+}
+@media screen and (max-width: 480px) {
+	.mainHeader h1 { font-size: 12px; }
+	.consent { font-size: 11px; }
+}

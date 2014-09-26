@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<title>Arborescence en HTML - ScrapBook</title>
+	<link rel="stylesheet" type="text/css" href="./output.css" media="all">
+	<script type="text/javascript" language="JavaScript"><!--
+	function toggle(aID) {
+		var listElt = document.getElementById(aID);
+		listElt.style.display = ( listElt.style.display == "none" ) ? "block" : "none";
+	}
+	function toggleAll(willOpen) {
+		var ulElems = document.getElementsByTagName("UL");
+		for ( var i = 1; i < ulElems.length; i++ ) {
+			ulElems[i].style.display = willOpen ? "block" : "none";
+		}
+	}
+	//--></script>
+</head>
+
+<body onload="toggleAll(false);">
+
+<ul id="folder-root">
+<li class="depth1"><a href="../data/20140924145817/index.html" class=""><img src="../data/20140924145817/favicon-2_001.ico" width="16" height="16" alt="">MxNitro, el navegador web más rápido del mercado • artescritorio</a></li>
+</ul>
+
+</body>
+</html>

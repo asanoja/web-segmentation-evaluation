@@ -1,0 +1,116 @@
+/* ::::: https://www.zoho.com/wiki/css/styles.css ::::: */
+
+body { margin: 0px auto; font: 12px Arial,Helvetica,sans-serif; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+img, a { border: 0px none; outline: medium none; color: rgb(27, 107, 189); text-decoration: none; }
+img, a:hover { text-decoration: underline; }
+.flLeft { float: left; }
+.flRight { float: right; }
+.clearBoth { clear: both; }
+.resetMargin { margin: 0px auto; padding: 0px; list-style: none outside none; }
+.displayNone { display: none; }
+.normalText { font-size: 13px; line-height: 1.5; text-align: left; }
+.normalSmallText { font-size: 12px; }
+.heading { font-size: 2.6em; font-family: Georgia,"Times New Roman",Times,serif; font-weight: lighter; letter-spacing: 0.02em; line-height: 1.5; }
+.pageHeader .subHeading { font-size: 20px; }
+.subHeading { font-size: 26px; }
+.smallHeading { font-size: 18px; }
+.veryHeading { font-size: 14px; }
+.textDecoration { text-decoration: none; }
+.imgmainscreenshot { background: url('main-screenshot.png') no-repeat scroll 0% 0% transparent; width: 640px; height: 370px; }
+.imgLogo, .imgsignupbtn, .imgLeftcurve, .imgRighttcurve, .imgCenterBg, .imgicon1, .imgicon2, .imgicon3, .imgicon4, .imgscreenshot, .imgpre, .imgnext, .imgCustomerSupport, .imgGetInsights, .imgcontrolBrand, .imgQuickPanel, .imgQuickSetup, .imgzohoAdvantage, .imgBullet, .imgbigIcon1, .imgbigIcon2, .imgbigIcon3, .imgbigIcon4, .imgbigIcon5, .imgbigopenIcon, .imgSearch, .imgChat, .imgModeration, .imgTags, .imgtickicons, .imgStar, .imgpricing1, .imgZoom, .imgPublicforums, .imgEmailForum, .imgadduser, .imgMultilanguage, .featuresIcon1, .imgpricingtopLeft, .imgpricingtopRight, .imgpricingbottomleft, .imgpricingbottomright, .imgpricingtop, .imgpricingBottom, .imgpricingtopselected, .imgpricingBottomselected, .imgDatesafe, .imgDifferentplan, .imgAnnualcontract, .imgTrustelogo, .imgloginleft, .imglogincenter, .imgloginright, .imgBannerCustomerSupport, .imgBannerInnovation, .imgBannerPrivatePublic, .imgsign, .imgTwitter, .imglinkBg, .imgrecentBuzz, .imgVideo, .imgsingnupArrow, .imgFooterbg, .imgPower, .imgPricingrightmark, .imgPricingclosemark, .curveBoxheader, .imgtopleftcurve, .imgtopRightcurve, .curveBoxbottom, .imgbottomleftcurve, .imgbottomRightcurve, .homepageScreenshot .content li.selected, .homepageScreenshot .content li.selected :hover, .homepageScreenshot .content li a:hover, .pricingNewIcon, .innerheaderleftcurve, .innerheaderrightcurve, .moreBut ul li.imgmoreButleft, .moreBut a .imgmoreButleft, .moreBut a .imgmoreButCenter, .moreBut a .imgmoreButright, .moreBut a:hover .imgmoreButleft, .moreBut a:hover .imgmoreButCenter, .moreBut a:hover .imgmoreButright, .imgscreenshotLeftCuve, .imgscreenshottoprightCuve, .imgscreenshotRightCuve, .imgscreenshotbottomRightCuve, .imgimgCallout, .whiteCloseButton, .jqueryicon, .cornerIcon { background-image: url('zoho-wiki.png'); background-repeat: no-repeat; }
+.imgLogo { background-position: -1px -1118px; width: 208px; height: 48px; }
+.imgicon1 { background-position: -4px -1051px; width: 64px; height: 64px; margin-top: 3px; margin-right: 15px; }
+.imgicon2 { background-position: -73px -1051px; width: 64px; height: 64px; margin-top: 3px; margin-right: 15px; }
+.imgicon3 { background-position: -142px -1051px; width: 64px; height: 64px; margin-top: 3px; margin-right: 15px; }
+.imgicon4 { background-position: -211px -1051px; width: 64px; height: 64px; margin-top: 3px; margin-right: 15px; }
+.imgCustomerSupport { background-position: -118px -1644px; width: 63px; height: 53px; }
+.imgGetInsights { background-position: -191px -1644px; width: 63px; height: 53px; }
+.imgcontrolBrand { background-position: -118px -1704px; width: 63px; height: 53px; }
+.imgQuickPanel { background-position: -191px -1705px; width: 63px; height: 53px; }
+.imgQuickSetup { background-position: -45px -1643px; width: 63px; height: 53px; }
+.imgzohoAdvantage { background-position: -119px -1765px; width: 63px; height: 53px; }
+.imgsingnupArrow { background-position: -151px -1302px; width: 41px; height: 30px; margin: 13px; display: none; }
+.imgFooterbg { background-repeat: repeat-x; background-position: left -1567px; height: 10px; }
+.pagemainContainer {  }
+.pageHeader { background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 970px; margin: 0px auto; padding: 0px 0px 8px; }
+.pageHeader h2 { padding: 2px 0px 0px; margin: 0px; color: rgb(0, 82, 173); }
+.pageHeader .subMenu { text-align: right; float: right; padding-top: 10px; }
+.pageHeader .subMenu a { padding: 0px 0px 0px 20px; text-decoration: underline; }
+.pageHeader .subMenu a:hover { text-decoration: none; }
+.navigationList { width: 100%; background: url('zoho-wiki.png') repeat-x scroll left -2629px rgb(55, 137, 201); height: 32px; border-top: 1px solid rgb(5, 111, 195); border-bottom: 1px solid rgb(5, 111, 195); clear: both; }
+.navigationList .content { width: 970px; margin: 0px auto; }
+.navigationList .content ul li { font-weight: bold; float: left; text-align: center; cursor: pointer; border-right: 1px solid rgb(5, 111, 195); }
+.navigationList ul > li:first-child { border-left: 1px solid rgb(5, 111, 195); }
+.navigationList .content ul li a { min-width: 70px ! important; width: 70px; color: rgb(229, 229, 229); text-decoration: none; display: block; padding: 7px 20px 5px; font-size: 1em; height: 20px; overflow: hidden; }
+.navigationList .content ul li.selected a, .navigationList .content ul li.selected a:hover { color: rgb(0, 0, 0); background: url('zoho-wiki.png') repeat-x scroll left -20px rgb(255, 255, 255); }
+.navigationList .content ul li a:hover { background: none repeat scroll 0% 0% rgb(203, 223, 246); color: rgb(0, 0, 0); }
+.pagebannerArea { background: url('banner-bg3.png') repeat-x scroll center top transparent; margin: 0px auto; padding: 10px 0px 0px; overflow: hidden; height: 445px; }
+.pagebannerArea h1 { text-align: center; padding: 0px 0px 9px; margin: 0px; }
+.bannercontent { width: 960px; margin: 0px auto; padding: 0px; clear: both; }
+.bannerrightcontent { width: 300px; min-height: 270px; float: right; border-left: 1px dotted rgb(151, 185, 224); padding: 35px 0px 10px; margin-top: 0px; }
+.bannerrightcontent h2 { padding: 0px 0px 10px; margin: 0px; clear: both; }
+.bannerrightcontent .signupbutton { float: right; border: 3px solid rgb(255, 255, 255); padding: 0px 0px 10px; width: 265px; }
+.signupbutton h2 { margin: 0px; padding: 10px 0px 0px; color: rgb(255, 255, 255); line-height: 18px; }
+.signupbutton p { margin: 0px; padding: 2px 0px 0px; color: rgb(225, 225, 225); line-height: 18px; }
+.signupbuttonArea { margin: 15px 4px 7px 0px; text-align: center; }
+.footersignup .signupbuttonArea { margin: 0px 4px 7px 0px; text-align: center; }
+.signupbutton { background: url('zoho-wiki.png') repeat-x scroll left -59px rgb(171, 64, 36); cursor: pointer; border: 1px solid rgb(166, 50, 19); padding-left: 20px; width: 210px; float: left; }
+.signupbuttonArea a { text-decoration: none; }
+.curveBoxheader { height: 7px; background-repeat: repeat-x; background-position: left -121px; }
+.imgtopleftcurve { background-repeat: repeat-x; background-position: -1px -1399px; height: 7px; width: 9px; float: left; margin: 0px 0px 0px -2px; }
+.imgtopRightcurve { background-repeat: repeat-x; background-position: -18px -1399px; height: 9px; width: 9px; float: right; margin: 0px -2px 0px 0px; }
+.curveBoxbottom { background-repeat: repeat-x; background-position: left -137px; height: 8px; }
+.imgbottomleftcurve { background-repeat: repeat-x; background-position: -1px -1410px; height: 8px; width: 9px; float: left; margin: 0px 0px 0px -2px; }
+.imgbottomRightcurve { background-repeat: repeat-x; background-position: -18px -1410px; height: 8px; width: 9px; float: right; margin: 0px -2px 0px 0px; }
+.curveBoxcenterBorder { border-left: 1px solid rgb(229, 229, 229); border-right: 1px solid rgb(229, 229, 229); }
+.homepageScreenshot .curveBoxheader, .reasonscontent .curveBoxheader { background: url('zoho-wiki.png') repeat-x scroll left -121px rgb(247, 247, 247); height: 7px; }
+.footersignup { padding: 0px; border-right: 1px solid rgb(246, 246, 246); border-left: 1px solid rgb(246, 246, 246); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: none repeat scroll 0% 0% rgb(247, 247, 247); margin: 20px 0px 0px; border-width: medium 1px; border-style: none solid; border-color: -moz-use-text-color rgb(246, 246, 246); }
+.footersignup .content { padding: 8px 0px 0px 20px; float: left; }
+.footersignup .signupbutton { margin: 8px 10px 0px 0px; padding-bottom: 10px; }
+.footersignup a { text-decoration: none; }
+.homepageFooter { background: none repeat scroll 0% 0% rgb(212, 229, 252); width: 100%; padding: 0px; }
+.homepageFooterinner { width: 960px; margin: 0px auto; padding: 5px 0px; }
+.homepageFooterinner ul { float: left; min-width: 220px; padding: 0px; margin: 0px 0px 0px 25px; list-style: none outside none; }
+.homepageFooterinner > ul:first-child { margin-left: 0px; border: medium none; }
+.homepageFooterinner ul li { padding: 4px 0px; }
+.homepageFooterinner ul li h4 { padding: 0px; margin: 0px; border-bottom: 1px dotted rgb(0, 0, 0); }
+.copyRightcontentWrapper { background: none repeat scroll 0% 0% rgb(218, 233, 252); padding: 5px 0px; }
+.copyRightcontentWrapper .innerContent { width: 960px; margin: 0px auto; }
+.copyRightcontentWrapper .innerContent a { padding-right: 25px; }
+.hmoePageContent { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding-bottom: 20px; }
+.pagemainContent { width: 960px; margin: 0px auto; min-height: 500px; }
+.pagemainContentwrapper { min-height: 500px; }
+.featuresContent { border-left: 1px solid rgb(242, 242, 242); border-right: 1px solid rgb(242, 242, 242); margin: 20px 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-width: medium 1px; border-style: none solid; border-color: -moz-use-text-color rgb(242, 242, 242); }
+.featuresContent h3 { color: rgb(10, 96, 188); padding: 10px 0px; margin: 0px; font-weight: bold; font-size: 15px; min-height: 35px; }
+.featuresContent h3 a { text-decoration: none; }
+.featuresContent ul li { padding: 0px 20px; margin: 0px; width: 435px; float: left; line-height: 18px; }
+.featuresContent ul li p { padding: 0px; margin: 0px; min-height: 35px; color: rgb(107, 106, 106); }
+.featuresContent .curveBoxheader {  }
+.homepageScreenshot { padding: 0px; clear: both; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-right: 1px solid rgb(246, 246, 246); border-left: 1px solid rgb(246, 246, 246); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: medium 1px; border-style: none solid; border-color: -moz-use-text-color rgb(246, 246, 246); }
+.homepageScreenshot h2 { padding: 10px 10px 15px 20px; margin: 0px; background: none repeat scroll 0% 0% rgb(247, 247, 247); }
+.homepageScreenshot .content { background: none repeat scroll 0% 0% rgb(255, 255, 255); min-height: 500px; clear: both; padding: 0px 0px 0px 20px; }
+.homepageScreenshot .contentimageArea { float: left; width: 715px; min-height: 550px; border: 1px solid rgb(236, 236, 236); position: relative; margin-bottom: -5px; }
+.homepageScreenshot .contentimageArea img { border: 7px solid rgb(255, 255, 255); }
+.homepageScreenshot .contentimageArea .contenttext { background: none repeat scroll 0% 0% rgb(245, 245, 245); padding: 10px 17px; line-height: 18px; min-height: 73px; margin: 1px; }
+.homepageScreenshot .content ul { list-style: none outside none; padding: 20px 0px 0px; margin: 0px -17px 0px 0px; width: 227px; position: relative; top: 0px; }
+.homepageScreenshot .content li { list-style: none outside none; margin: 0px; }
+.homepageScreenshot .content li a { text-decoration: none; padding: 14px 10px; display: block; color: rgb(27, 107, 189); }
+.homepageScreenshot .content li.selected, .homepageScreenshot .content li.selected :hover { background-position: -2px -2060px; font-weight: bold; position: relative; z-index: 9; }
+.homepageScreenshot .content li.selected a { color: rgb(0, 0, 0); }
+.homepageScreenshot .content li a:hover { background-position: -4px -2204px; position: relative; z-index: 9999; }
+.reasonscontent { padding: 0px; line-height: 18px; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-top: 20px; border-right: 1px solid rgb(246, 246, 246); border-left: 1px solid rgb(246, 246, 246); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: medium 1px; border-style: none solid; border-color: -moz-use-text-color rgb(246, 246, 246); }
+.reasonscontent ul { padding: 15px 20px 0px; }
+.reasonscontent h4 { padding: 10px 0px 15px 20px; margin: 0px; background: none repeat scroll 0% 0% rgb(247, 247, 247); }
+.reasonscontent ul li ol li { float: left; width: 285px; padding: 0px 0px 10px; margin: 0px 0px 0px 30px; min-height: 215px; }
+.reasonscontent .resetMargin { margin-left: 0px; }
+.reasonscontent ul li ol li h5 { float: left; width: 170px; margin: 0px; padding: 0px 0px 0px 10px; color: rgb(71, 69, 69); min-height: 35px; overflow: hidden; font-size: 13px; }
+.reasonscontent ul ol { padding: 0px; margin: 0px; list-style: none outside none; float: left; }
+.reasonscontent ul li p { padding: 15px 0px 0px; margin: 0px; color: rgb(107, 106, 106); line-height: 20px; font-size: 13px; }
+.reasonscontent .header { border: 1px solid rgb(204, 204, 204); padding: 2px; clear: both; min-height: 53px; }
+.reasonscontent .header span { font: bold 44px Arial,Helvetica,sans-serif; float: right; color: rgb(244, 244, 244); display: block; position: relative; overflow: hidden; width: 30px; }
+h5 { font-size: 22px; color: rgb(20, 69, 142); margin: 0px; padding: 0px; font-weight: normal; }
+.clearBoth { clear: both; }
+img { border: 0px none; margin: 0px; vertical-align: middle; }
+h1 { margin: 0px 0px 6px; padding: 0px; font-size: 20px; color: rgb(51, 51, 51); font-weight: normal; }
+p.googleSignup a { color: rgb(27, 107, 189); font-size: 13px; font-weight: bold; line-height: 30px; padding-left: 80px; text-decoration: none; }
+p.googleSignup a:hover { text-decoration: underline; }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		
+		
+		<title>Cheshire image bank</title>
+	
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body>
+		<div id="header">
+			<h1>Cheshire image bank</h1>
+<form id="searchForm" action="http://cheshireimagebank.org.uk/frontend.php" onsubmit="if(document.getElementById('user_keywords').value==''){return true;};var keywordStr=[];var fields=['Ref_No_increment','Title','Location','Further_Information','Keywords'];var keywords=document.getElementById('user_keywords').value.split(' ');for(var i=0;i<keywords.length;i++){keywordStr.push(fields.join(',')+';MATCHES;(^|[^a-zA-Z])'+keywords[i].replace(/[^\w]/gi,'')+'($|[^a-zA-Z]);');};document.getElementById('keywords').value=keywordStr.join('AND;')">
+	<fieldset>
+		<label>Search Cheshire Image Bank</label>					
+		<input value="" name="searchterms" id="user_keywords" type="text">	
+		<input value="Go" type="submit">
+		<input name="action" value="search" type="hidden">
+		<input name="keywords" id="keywords" value="" type="hidden">
+	</fieldset>
+</form>
+		</div>
+		<div id="container">
+			
+			<ul id="navigation">				
+	<li><a href="http://cheshireimagebank.org.uk/index.php">Home</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/about.php">About us/What's new</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/frontend.php?action=alpha">Searching the image bank</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/themes.php">Popular collections</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/buy.php">How to obtain prints</a></li>
+    <li><a href="http://cheshireimagebank.org.uk/Donating.php">Donating Images</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/links.php">Links</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/contact.php">Contact us</a></li>
+	<li><img src="cheshire@20west@20logo.gif" alt="Chester West logo"></li>
+	<li><img src="cheshire-east-logo.gif" alt="Chester Council logo"></li>
+</ul>		
+				
+			<div id="mainContent">								
+				<div id="contentStretched">				
+					<h2>Popular Collections</h2>						
+					<ul class="themes">
+					  		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Chester_City_Walls">
+	                	<img src="chester_city_walls.jpg" alt="Chester_City_Walls" title="Chester_City_Walls">
+	                	Chester City Walls</a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;First_World_War">
+	                	<img src="first_world_war@20.jpg" alt="First_World_War " title="First_World_War ">
+	                	First World War </a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Fodens_of_Sandbach">
+	                	<img src="fodens_of_sandbach.jpg" alt="Fodens_of_Sandbach" title="Fodens_of_Sandbach">
+	                	Fodens of Sandbach</a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Historical_Pageant">
+	                	<img src="historical_pageant.jpg" alt="Historical_Pageant" title="Historical_Pageant">
+	                	Historical Pageant</a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Mystery_Images">
+	                	<img src="mystery_images.jpg" alt="Mystery_Images" title="Mystery_Images">
+	                	Mystery Images</a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Ship_Canal">
+	                	<img src="ship_canal.jpg" alt="Ship_Canal" title="Ship_Canal">
+	                	Ship Canal</a>
+		              </li>			                	            
+		            		           	  <li>
+	                	<a href="http://cheshireimagebank.org.uk/frontend.php?action=search&amp;keywords=Popular_Collections;EQUALS;Winter%20around%20Chester">
+	                	<img src="winter@20around@20chester.jpg" alt="Winter around Chester" title="Winter around Chester">
+	                	Winter around Chester</a>
+		              </li>			                	            
+		            		            </ul>
+			  </div>			  				
+			</div>			
+		</div>
+		<div id="footer">
+			<ul>
+	<li><a href="http://cheshireimagebank.org.uk/accessibility.php">Accessibility</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/disclaimer.php">Disclaimer</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/text.php">Text size</a></li>
+	<li><a href="http://cheshireimagebank.org.uk/terms.php">Terms &amp; conditions</a></li>
+</ul>		<table align="right" border="0" cellpadding="1" width="40%">
+		  <tbody><tr>
+		    <td align="right"><a href="http://www.hoimages.co.uk/">Site powered and designed by House of Images</a></td>
+	      </tr>
+		  </tbody></table>
+		</div>
+        
+	
+</body>
+</html>

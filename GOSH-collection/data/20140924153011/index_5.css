@@ -1,0 +1,31 @@
+body {  }
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: url('grlryt2bdkiyfmsohzd1ea.woff') format("woff");
+}
+/* ::::: https://apis.google.com/_/scs/apps-static/_/ss/k=oz.plusone.-uh8zwdafwtnt.L.F4.O/d=0/rs=AItRSTOn-aI6l-pLZpJ-kHL6B5hqdtBjwg ::::: */
+
+* html .d-k-l, :first-child + html .d-k-l { display: inline; }
+.FP { border: 1px solid rgba(0, 0, 0, 0.17); border-radius: 2px; box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05); box-sizing: border-box; transition: background-color 0.218s ease 0s, border-color 0.218s ease 0s, box-shadow 0.218s ease 0s; -moz-user-select: none; background-color: rgb(255, 255, 255); background-image: none; color: rgb(38, 38, 38); cursor: pointer; outline: medium none; overflow: hidden; position: relative; text-align: center; vertical-align: middle; white-space: nowrap; width: auto; }
+.FP:hover { border: 1px solid rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); }
+.FP:active { background-color: rgb(229, 229, 229); border: 1px solid rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 0px rgb(221, 221, 221) inset; color: rgb(38, 38, 38); }
+.s7 { float: left; }
+.u7 { display: block; }
+.Ul { height: 100%; width: 100%; }
+.q7, .GP { display: none; height: 100%; width: 100%; }
+.hva, .iva { margin-left: auto; margin-right: auto; }
+.zVaWQ { animation: 2s linear 0s normal none infinite ozWidgetRioButtonWorkingIconPathSpinKeyframes; transform-origin: 7px 7px 0px; }
+.HP, .HP:hover, .HP:active { color: rgb(221, 75, 57); }
+.uzlpSb { fill: rgb(221, 75, 56); }
+.dIa { float: left; white-space: nowrap; }
+.Ina { cursor: pointer; display: block; outline: 0px none; position: relative; text-decoration: none; }
+.B8 { vertical-align: top; color: rgb(102, 102, 102); font-family: Roboto,arial,sans-serif; }
+.b1 { text-align: center; margin-bottom: 8px; overflow: visible; width: 48px; height: 30px; position: relative; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-radius: 2px; }
+.b1:after, .b1:before { top: 100%; left: 50%; border: medium solid transparent; content: " "; height: 0px; width: 0px; position: absolute; pointer-events: none; }
+.b1:after { border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); border-width: 4px; margin-left: -4px; }
+.b1:before { border-color: rgb(204, 204, 204) rgba(192, 192, 192, 0) rgba(192, 192, 192, 0); border-width: 5px; margin-left: -5px; }
+.b1 .IY { padding-top: 6px; }
+.b1 { font-size: 15px; }
+.kv8eNc { background-color: transparent; margin: 0px; padding: 0px; }

@@ -1,0 +1,414 @@
+/* ::::: http://www.novartis.com/css/main.css ::::: */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; }
+html, body { height: 101%; }
+body { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 0.75em; }
+a, a:visited, a:hover, a:active { text-decoration: none; }
+ul { list-style-type: none; }
+a img { border: medium none; }
+a:focus { outline: medium none; }
+select { margin-bottom: 5px; }
+button { cursor: pointer; }
+button span, .btn b { position: relative; left: -900em; }
+.clearing { clear: both; height: 0px; font-size: 1px; line-height: 1px; overflow: hidden; }
+.content img.full { float: none; margin: 0px 0px 9px; display: block; }
+p.link-wrapper { margin-left: 20px; text-indent: -20px; color: rgb(102, 102, 102); }
+a.link, a.inline-link, div.content a, a.share-link { color: rgb(228, 76, 22); }
+a.link, #sub .content .accordion li div.acc_sub .inner a.link, #sub_no_left .content .accordion li div.acc_sub .inner a.link, #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link, #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link { padding-left: 20px; background: url('link.gif') no-repeat scroll 0px 0px transparent; }
+a.link.arrow-link-internal, #sub .content .accordion li div.acc_sub .inner a.link.arrow-link-internal, #sub_no_left .content .accordion li div.acc_sub .inner a.link.arrow-link-internal, #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal, #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.arrow-link-internal { background: url('link.gif') no-repeat scroll 0px 0px transparent; }
+a.link.podcast-link, #sub .content .accordion li div.acc_sub .inner a.link.podcast-link, #sub_no_left .content .accordion li div.acc_sub .inner a.link.podcast-link, #sub .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.podcast-link, #sub_no_left .content .accordion li div.acc_sub .inner .text-container ul.link-list a.link.link.podcast-link { background: url('podcast.gif') no-repeat scroll 0px 1px transparent; }
+a.inline-link:hover, div.content a:hover, a.link:hover, a.share-link:hover { text-decoration: underline; }
+a.facebook { background-position: 0px 0px; }
+a.twitter { background-position: 0px -125px; }
+a.googleplus { background-position: 0px -150px; }
+a.linkedin { background-position: 0px -200px; }
+a.grey { color: rgb(102, 102, 102); }
+a.grey:hover { text-decoration: none; color: rgb(228, 76, 22); }
+ul.tabs { display: none; width: 100%; margin-top: 20px; overflow: hidden; }
+#util-nav ul.tabs { display: block; }
+ul.tabs li { display: inline; float: left; }
+ul.tabs li a { float: left; display: block; width: 4.167em; height: 1.7em; margin-right: 2px; margin-top: 2px; padding: 0.583em 0px 0px 0.75em; background-color: rgb(240, 240, 240); font-size: 1em; font-weight: bold; color: rgb(136, 136, 136); }
+#util-nav img.siteicon { float: left; position: relative; top: -1px; left: -2px; }
+ul.tabs li a:hover { color: rgb(228, 76, 22); }
+ul.tabs li a.current { margin-top: 0px; height: 2em; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); color: rgb(99, 67, 41); }
+ul.tabs li a.current:hover { color: rgb(99, 67, 41); cursor: default; }
+div.panes { margin-top: -1px; border: 1px solid rgb(221, 221, 221); padding: 10px 8px 12px; font-size: 1em; }
+span.date { color: rgb(102, 102, 102); font-size: 0.917em; margin-right: 9px; }
+#home span.date { margin-right: 0px; font-size: 1em; }
+button.go { float: right; width: 26px; height: 14px; margin: 3px 0px 0px; padding: 0px; border: 0px none; background: url('go.gif') no-repeat scroll 0px 0px transparent; cursor: pointer; }
+button.go:active { background-position: 0px -14px; }
+ul.text-list { margin-bottom: 10px; }
+ul.text-list li { padding: 10px 0px; background: url('divider.gif') repeat-x scroll left bottom transparent; }
+ul.text-list li a { display: block; overflow: hidden; width: 100%; height: 100%; font-size: 1em; color: rgb(51, 51, 51); }
+ul.text-list li a:hover { text-decoration: underline; }
+ul.text-list li span.date { margin-right: 0px; }
+form.selector { margin-top: 5px; }
+#wrapper { width: 971px; height: auto; margin: 0px auto; }
+#util-nav-wrapper { position: relative; width: 100%; height: 41px; z-index: 4; }
+#util-nav { position: relative; width: 100%; margin-bottom: 21px; background: none repeat scroll 0% 0% blue; }
+#header { position: relative; width: 971px; height: auto; margin-bottom: 3px; z-index: 5; }
+#container { width: 100%; overflow: hidden; margin-bottom: 90px; }
+#footer { position: relative; clear: both; width: 100%; border-right: 1px solid rgb(234, 234, 234); border-width: 2px 1px 1px; border-style: solid; border-color: rgb(197, 197, 197) rgb(234, 234, 234) rgb(234, 234, 234); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 20px 0px 0px; background: none repeat scroll 0% 0% rgb(243, 243, 243); overflow: hidden; }
+.boxes { overflow: hidden; }
+.two-cols, .three-cols, .four-cols, .five-cols, .six-cols { float: left; margin-left: 9px; padding-right: 10px; margin-bottom: -32767px; padding-bottom: 32767px; }
+.two-cols { width: 179px; }
+.three-cols { width: 278px; }
+.four-cols { width: 377px; }
+.five-cols { width: 476px; }
+div.first { margin-left: 0px; }
+div.last { padding-right: 0px; }
+#util-nav .tab-head { position: relative; width: 969px; height: auto; border-left: 1px solid rgb(215, 215, 215); border-right: 1px solid rgb(215, 215, 215); background: url('bottom.png') repeat-x scroll 0px 100% rgb(224, 224, 224); z-index: 4; }
+.white #util-nav .tab-head { background-color: rgb(255, 255, 255); }
+#util-nav ul.tabs, #util-nav ul.lang-switch, #util-nav ul.size-switch { width: auto; height: 20px; margin: 0px; padding: 0px; }
+#util-nav ul.tabs { float: left; overflow: visible; }
+#util-nav #bw { background: url('dotted.gif') no-repeat scroll right 1px transparent; cursor: pointer; display: block; float: right; font-size: 11px; height: 18px; margin-right: 8px; padding: 2px 10px 0px 0px; }
+#util-nav ul.lang-switch, #util-nav ul.size-switch { float: right; }
+#util-nav ul.size-switch { padding-right: 11px; background: url('dotted.gif') no-repeat scroll right 1px transparent; }
+#util-nav ul.tabs li, #util-nav ul.lang-switch li, #util-nav ul.size-switch li { display: inline; float: left; height: 18px; }
+#util-nav ul.tabs li { background: url('dotted.gif') no-repeat scroll right 1px transparent; }
+#util-nav ul li.last { background: none repeat scroll 0% 0% transparent; }
+#util-nav ul.tabs li a, #util-nav ul.lang-switch li a, #util-nav ul.size-switch li a { color: rgb(102, 102, 102); text-decoration: none; font-size: 11px; }
+#util-nav ul.tabs li a { width: auto; height: 17px; margin-top: 0px; margin-right: 0px; padding: 2px 9px 0px 6px; background: none repeat scroll 0% 0% transparent; font-weight: normal; }
+#util-nav ul.tabs li a.country-select span strong { color: rgb(146, 50, 34); margin-left: 3px; }
+#util-nav ul.tabs li a span.arrow-button { background: url('utilnav-arrow-grey-right.png') no-repeat scroll 0px 4px transparent; padding-left: 11px; }
+#util-nav ul.tabs li a:hover span.arrow-button { background: url('utilnav-arrow-brown-down.png') no-repeat scroll 0px 4px transparent; padding-left: 11px; }
+#util-nav ul.tabs li a.country-select span.arrow-button { margin-left: 16px; }
+#util-nav ul.tabs li a:hover { height: 18px; cursor: pointer; background: none repeat scroll 0% 0% rgb(243, 243, 243); color: rgb(99, 67, 41); }
+#util-nav ul.lang-switch li a, #util-nav ul.size-switch li a { display: block; padding-top: 2px; position: relative; bottom: 0px; left: 0px; }
+#util-nav ul.lang-switch li a:hover, #util-nav ul.size-switch li a:hover { color: rgb(236, 128, 38); }
+#util-nav ul.size-switch li a { display: block; height: 9px; margin: 4px 5px 0px 0px; background-image: url('size-switch.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#util-nav ul.size-switch li a b { display: none; }
+#util-nav ul.size-switch li a#size-sml { width: 7px; }
+#util-nav ul.size-switch li a#size-sml:hover { background-position: 0px -20px; }
+#util-nav ul.size-switch li a#size-sml.active-util, #util-nav ul.size-switch li a#size-sml.active-util:hover { background-position: 0px -40px; }
+#util-nav ul.size-switch li a#size-med { width: 7px; background-position: -37px 0px; }
+#util-nav ul.size-switch li a#size-med:hover { background-position: -37px -20px; }
+#util-nav ul.size-switch li a#size-lrg { width: 8px; background-position: -73px 0px; }
+#util-nav ul.size-switch li a#size-lrg:hover { background-position: -73px -20px; }
+#util-nav ul li a.active-util { font-weight: bold; }
+#util-nav ul li a.active-util:hover { color: rgb(102, 102, 102); cursor: default; }
+#util-nav div.panes { display: none; clear: both; border: 0px none; padding: 0px; margin-top: 0px; }
+#util-nav div.panes div.pane-content { width: 969px; min-height: 310px; height: auto ! important; border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); background: url('bottom.png') repeat-x scroll 0px 100% rgb(243, 243, 243); padding-bottom: 20px; }
+#util-nav p.slider { position: absolute; top: -20px; width: 969px; height: 38px; margin: 0px; padding: 0px; border-left: 1px solid rgb(215, 215, 215); border-right: 1px solid rgb(215, 215, 215); background: url('bottom.png') repeat-x scroll 0px 100% rgb(243, 243, 243); z-index: 3; }
+#util-nav p.slider a { display: none; position: absolute; bottom: 0px; width: 100%; height: 16px; border-top: 2px solid rgb(195, 195, 195); background: url('slider1.gif') no-repeat scroll 460px -16px rgb(255, 255, 255); }
+#util-nav div.panes .slide-up { position: absolute; bottom: 0px; display: none; width: 51px; height: 16px; margin-left: 460px; background: url('slider1.gif') no-repeat scroll 0px 0px transparent; }
+#util-nav .boxes { width: 100%; }
+#util-nav div.last { margin-left: 7px; float: right; }
+#util-nav div.last .inner { padding-right: 8px; padding-left: 1px; }
+#util-nav .box-wrapper div.last .inner { padding-right: 0px; padding-left: 1px; }
+#util-nav .pane-content h6 { font-size: 17px; font-weight: normal; color: rgb(102, 102, 102); }
+#util-nav .pane1 .box-wrapper, #util-nav .pane2 .box-wrapper, #util-nav .pane3 .box-wrapper { float: left; width: 100%; }
+#util-nav .pane3 .box-wrapper { float: left; width: 100%; }
+#util-nav .pane1 .box-wrapper h6, #util-nav .pane1 .box-wrapper .first .inner, #util-nav .pane2 .box-wrapper h6, #util-nav .pane2 .box-wrapper .first .inner, #util-nav .pane3 .box-wrapper .first h6, #util-nav .pane3 .box-wrapper .first .inner, #util-nav .pane3 .last h6 { padding-left: 10px; }
+#util-nav .pane-content.pane1 h6, #util-nav .pane-content.pane2 h6, #util-nav .pane-content.pane3 h6 { margin-top: 30px; margin-bottom: 20px; }
+#util-nav .pane1 li, #util-nav .pane2 li { background: url('lists.gif') repeat-x scroll left bottom transparent; }
+#util-nav .pane1 .country a, #util-nav .pane-content .link-list a { display: block; padding-top: 3px; padding-bottom: 3px; color: rgb(102, 102, 102); }
+#util-nav .pane1 .country a:hover, #util-nav .pane-content .link-list a:hover { text-decoration: underline ! important; }
+#util-nav .pane1 .country a { background: url('flags.gif') no-repeat scroll -500px -500px transparent; padding-left: 27px; display: block; width: auto; }
+#util-nav .pane1 .country a.australia { background-position: 0px 4px; }
+#util-nav .pane1 .country a.austria { background-position: 0px -17px; }
+#util-nav .pane1 .country a.bangladesh { background-position: 0px -38px; }
+#util-nav .pane1 .country a.belgium { background-position: 0px -59px; }
+#util-nav .pane1 .country a.brazil { background-position: 0px -80px; }
+#util-nav .pane1 .country a.canada { background-position: 0px -101px; }
+#util-nav .pane1 .country a.china { background-position: 0px -122px; }
+#util-nav .pane1 .country a.colombia { background-position: 0px -818px; }
+#util-nav .pane1 .country a.denmark { background-position: 0px -143px; }
+#util-nav .pane1 .country a.egypt { background-position: 0px -164px; }
+#util-nav .pane1 .country a.finland { background-position: 0px -185px; }
+#util-nav .pane1 .country a.france { background-position: 0px -206px; }
+#util-nav .pane1 .country a.germany { background-position: 0px -227px; }
+#util-nav .pane1 .country a.greece { background-position: 0px -248px; }
+#util-nav .pane1 .country a.hongkong { background-position: 0px -269px; }
+#util-nav .pane1 .country a.hungary { background-position: 0px -290px; }
+#util-nav .pane1 .country a.indonesia { background-position: 0px -311px; }
+#util-nav .pane1 .country a.italy { background-position: 0px -332px; }
+#util-nav .pane1 .country a.japan { background-position: 0px -353px; }
+#util-nav .pane1 .country a.korea { background-position: 0px -374px; }
+#util-nav .pane1 .country a.mexico { background-position: 0px -395px; }
+#util-nav .pane1 .country a.netherlands { background-position: 0px -416px; }
+#util-nav .pane1 .country a.norway { background-position: 0px -775px; }
+#util-nav .pane1 .country a.pakistan { background-position: 0px -865px; }
+#util-nav .pane1 .country a.philippines { background-position: 0px -458px; }
+#util-nav .pane1 .country a.poland { background-position: 0px -479px; }
+#util-nav .pane1 .country a.portugal { background-position: 0px -500px; }
+#util-nav .pane1 .country a.russia { background-position: 0px -521px; }
+#util-nav .pane1 .country a.slovakia { background-position: 0px -796px; }
+#util-nav .pane1 .country a.spain { background-position: 0px -542px; }
+#util-nav .pane1 .country a.sweden { background-position: 0px -563px; }
+#util-nav .pane1 .country a.switzerland { background-position: 0px -584px; }
+#util-nav .pane1 .country a.taiwan { background-position: 0px -605px; }
+#util-nav .pane1 .country a.turkey { background-position: 0px -626px; }
+#util-nav .pane1 .country a.uk { background-position: 0px -647px; }
+#util-nav .pane1 .country a.usa { background-position: 0px -668px; }
+#util-nav .pane1 .country a.argentina { background-position: 0px -689px; }
+#util-nav .pane1 .country a.chile { background-position: 0px -710px; }
+#util-nav .pane1 .country a.venezuela { background-position: 0px -731px; }
+#util-nav .pane1 .country a.india { background-position: 0px -753px; }
+#util-nav .pane-content .link-list a { padding-left: 10px; background: url('arrow1.gif') no-repeat scroll 0px 7px transparent; }
+#util-nav .pane3 .two-cols { margin-left: 0px; padding-left: 0px; width: 234px; }
+#util-nav .pane3 .box-wrapper .last { width: 224px; float: left; }
+#util-nav .pane3 .two-cols .inner { position: relative; height: 20em; background: url('dotted_001.gif') repeat-y scroll right top transparent; }
+#util-nav .pane3 .last .inner { margin-left: 0px; padding-left: 9px; background: url('dotted_001.gif') repeat-y scroll 0px 0px transparent; }
+#util-nav .pane3 .box-wrapper .last .inner { background: none repeat scroll 0% 0% transparent; }
+#util-nav .pane3 .box-wrapper .last h6 { padding-left: 0px; }
+#util-nav .pane3 p { color: rgb(51, 51, 51); margin-bottom: 15px; line-height: 1.4; }
+#util-nav .pane3 a.link { color: rgb(51, 51, 51); }
+#util-nav .pane3 span.phone, #util-nav .pane3 span.fax { padding-left: 21px; height: 16px; }
+#util-nav .pane3 span.time { padding-left: 21px; height: auto; }
+#util-nav .pane3 span.time { display: block; }
+#util-nav .pane3 span.phone { background: url('utilnav.png') no-repeat scroll -54px 0px transparent; }
+#util-nav .pane3 span.fax { background: url('utilnav.png') no-repeat scroll -38px -17px transparent; }
+#util-nav .pane3 span.time { background: url('utilnav.png') no-repeat scroll -20px -33px transparent; }
+#util-nav .pane3 a.email { display: block; overflow: hidden; padding-left: 22px; width: auto; background: url('utilnav.png') no-repeat scroll 0px -54px transparent; color: rgb(51, 51, 51); }
+#util-nav .pane3 a.email:hover { text-decoration: underline; }
+#util-nav .pane3 .link-wrapper { position: absolute; bottom: 0px; margin-left: 21px; margin-bottom: 0px; }
+#logo { float: right; width: 220px; height: 60px; }
+#nav { clear: both; width: 100%; height: 41px; }
+#mainnav { position: relative; float: left; width: 789px; height: 38px; border-top: 1px solid rgb(225, 225, 225); border-bottom: 3px solid rgb(146, 50, 34); z-index: 500; }
+#mainnav ul { padding: 0px; margin: 0px; }
+#mainnav ul li { position: relative; float: left; }
+#mainnav ul li a, #mainnav ul li a:visited { display: block; height: 30px; margin-top: -1px; padding: 11px 0px 0px; border-top: 1px solid rgb(225, 225, 225); text-decoration: none; color: rgb(146, 50, 34); background-image: url('dotted_002.gif'); background-repeat: no-repeat; background-position: right top; font-size: 12px; font-weight: bold; overflow: hidden; }
+#mainnav ul li a.level01 { text-align: center; }
+#mainnav ul li.last-li a, #mainnav ul li.last-li a:visited, #mainnav ul li a.before-active, #mainnav ul li a.before-active:visited { background-image: none; }
+#mainnav ul li ul { display: none; }
+#mainnav ul#first-level { display: block; height: 38px; }
+#mainnav a.active { color: rgb(255, 255, 255); }
+#mainnav ul li:hover a { background-color: rgb(240, 240, 240); background-image: url('dotted_002.gif'); background-repeat: no-repeat; background-position: right top; height: 27px; border-bottom: 3px solid rgb(146, 50, 34); }
+#mainnav ul li a.active, #mainnav ul li a.active:hover { border-top: 1px solid rgb(146, 50, 34); color: rgb(255, 255, 255); background-color: rgb(146, 50, 34); background-image: none; }
+#mainnav ul li.last-li:hover a, #mainnav ul li a.before-active:hover { background-image: none; }
+#mainnav ul li:hover ul { display: block; position: absolute; top: 41px; left: 0px; width: 185px; }
+#mainnav ul li:hover ul li { border-left: 1px solid rgb(225, 225, 225); border-right: 1px solid rgb(225, 225, 225); }
+#mainnav ul li:hover ul li a, #mainnav ul li.last-li:hover ul li a, #mainnav ul.two-lines li:hover ul li a, #mainnav ul.two-lines li:hover ul li a:visited { display: block; width: 185px; height: auto; padding: 8px 10px 9px; margin-top: 0px; border-top: medium none; border-bottom: medium none; background-color: rgb(255, 255, 255); background-image: url('dropdown.gif'); background-repeat: no-repeat; background-position: 10px bottom; font-size: 13px; font-weight: normal; color: rgb(102, 102, 102); }
+#mainnav ul li:hover ul li.last-li a, #mainnav ul.two-lines li:hover ul li.last-li a { border-bottom: 1px solid rgb(225, 225, 225); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#mainnav ul li:hover ul li a:hover, #mainnav ul.two-lines li:hover ul li a:hover { background-color: rgb(240, 240, 240); color: rgb(146, 50, 34); }
+#search { position: relative; float: right; width: 179px; height: 39px; border-bottom: 3px solid rgb(251, 174, 23); z-index: 5; background: url('search.gif') no-repeat scroll 0px 0px transparent; }
+#search input { width: 134px; padding-top: 10px; padding-left: 5px; padding-right: 5px; border: 0px none; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(102, 102, 102); background: none repeat scroll 0% 0% transparent; }
+button.search { float: right; width: 35px; height: 35px; margin: 0px; padding: 0px; border: 0px none; background: url('search_001.gif') no-repeat scroll 0px 0px transparent; }
+button.search:active { background-position: 0px -35px; }
+.content { position: relative; float: left; width: 789px; color: rgb(51, 51, 51); line-height: 1.4; }
+h2, .content h1, .content h2, #home .right-column h2 { margin-bottom: 23px; font-size: 1.667em; font-weight: normal; color: rgb(99, 67, 41); }
+.content h2 { margin-bottom: 7px; }
+h6 { font-size: 1em; color: rgb(99, 67, 41); margin-bottom: 20px; }
+.teaser-box { border: 1px solid rgb(224, 217, 212); background: none repeat scroll 0% 0% rgb(251, 247, 239); padding: 0px 6px 10px 9px; }
+.right-column { float: right; width: 179px; }
+.right-column .stock-chart { padding-top: 3px; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-bottom: 4px; }
+#home .right-column .stock-chart { padding-left: 0px; padding-top: 0px; }
+.right-column .stock-chart ul.tabs { margin-top: 0px; }
+.right-column .stock-chart ul.tabs li { margin-top: 0px; margin-bottom: 0px; }
+.right-column .stock-chart div.panes { padding-top: 5px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.right-column .stock-chart div.panes .price { margin-bottom: 0px; }
+.right-column .stock-chart div.panes .perform { margin-bottom: 14px; }
+.right-column .stock-chart div.panes .date { margin-bottom: 8px; padding-bottom: 8px; }
+#home .stage { width: 971px; height: auto; }
+#home .content, #home .right-column { padding: 24px 0px 0px; }
+#home div.teaser-box img { float: left; margin: 0px 9px 9px 0px; }
+#home div.teaser-box img.full { float: none; margin: 0px 0px 9px; }
+#home div.teaser-box p a { color: rgb(51, 51, 51); }
+#home div.teaser-box ul p.link-wrapper a.link { color: rgb(228, 76, 22); }
+#home p.text { margin-bottom: 10px; }
+#home .link-list li p { margin-bottom: 10px; }
+#home .link-list li.last-li p { margin-bottom: 0px; }
+#home div.teaser-box p a:hover { text-decoration: underline; }
+#home .news-wrapper { margin-top: -17px; }
+.news-wrapper-settings { border: 1px solid rgb(255, 255, 255); }
+#home div.news ul.text-list li { height: 36px; overflow: hidden; }
+#home a.up, #home a.down { display: block; visibility: hidden; position: relative; width: 100%; height: 17px; }
+#home a.up { background: url('slider1.gif') no-repeat scroll 50% -15px transparent; border-top: 1px solid rgb(229, 229, 229); }
+#home a.down { background: url('slider1.gif') no-repeat scroll 50% 0px transparent; border-bottom: 1px solid rgb(229, 229, 229); }
+.stock-chart { width: 100%; }
+.price { margin-bottom: 6px; color: rgb(51, 51, 51); }
+.price span { margin-left: 7px; font-size: 1.417em; font-weight: bold; color: rgb(99, 67, 41); }
+.perform { margin-bottom: 16px; color: rgb(102, 102, 102); }
+.stock-chart .date { margin-bottom: 10px; padding-bottom: 12px; background: url('divider.gif') repeat-x scroll left bottom transparent; color: rgb(51, 51, 51); }
+.media-item-tooltip { display: none; position: absolute; width: 290px; height: auto; padding-bottom: 20px; z-index: 1000; }
+.media-item-tooltip .shadow { box-shadow: 6px 6px 25px 0px rgba(0, 0, 0, 0.3); }
+.media-item-tooltip .outer { border: 4px solid rgb(225, 225, 225); }
+.media-item-tooltip .container { padding: 15px 20px 20px; border: 1px solid rgb(199, 191, 184); background-color: rgb(255, 255, 255); }
+.media-item-tooltip .image { width: 240px; margin-bottom: 10px; overflow: hidden; }
+.media-item-tooltip .headline { font-size: 0.917em; font-weight: bold; color: rgb(99, 67, 41); margin-bottom: 10px; }
+.media-item-tooltip .description { font-size: 0.917em; font-weight: normal; color: rgb(33, 33, 33); }
+#footer .two-cols, #footer .three-cols, #footer .four-cols, #footer .five-cols, #footer .six-cols { background: url('dotted_001.gif') repeat-y scroll right top transparent; }
+#footer div.first .inner { padding-left: 10px; }
+#footer div.first .inner select { width: 236px; }
+#footer div.last { background: none repeat scroll 0% 0% transparent; }
+#footer .last .inner { padding-right: 5px; }
+#footer h6 { margin-bottom: 16px; font-size: 1.417em; font-weight: normal; color: rgb(102, 102, 102); }
+#footer a:hover, #footer a:focus { text-decoration: underline ! important; }
+#footer .social-icon { margin-right: 4px; margin-bottom: 12px; }
+#footer .legal-notice { position: relative; clear: both; left: 10px; height: 50px; font-size: 0.917em; color: rgb(102, 102, 102); }
+#footer .legal-notice p { position: absolute; bottom: 10px; }
+#footer .legal-notice a { margin-left: 14px; padding-left: 10px; color: rgb(102, 102, 102); background: url('arrow1.gif') no-repeat scroll 0px 4px transparent; }
+#footer .legal-notice a:hover { color: rgb(102, 102, 102); text-decoration: underline; }
+#footer ul.rss li { margin-bottom: 8px; }
+#footer ul.rss li a { padding-left: 20px; background: url('rss.gif') no-repeat scroll 0px 0px transparent; color: rgb(102, 102, 102); }
+#footer ul.rss li.email a { background: url('email.gif') no-repeat scroll 0px 0px transparent; }
+#world_map { display: block; width: 278px; height: 117px; margin-bottom: 10px; overflow: hidden; background-color: rgb(180, 180, 180); background-image: url('world.png'); background-repeat: no-repeat; background-position: 0px 0px; }
+#world_map:hover { background-position: 0px -117px; }
+#world_map b { display: none; }
+#footer a.grey { color: rgb(102, 102, 102); }
+#footer a.grey:hover { text-decoration: none; color: rgb(102, 102, 102); }
+/* ::::: http://www.novartis.com/css/nav.css ::::: */
+
+#mn_home { width: 60px; }
+#mn_products { width: 80px; }
+#mn_innovation { width: 93px; }
+#mn_corporate-responsibility { width: 180px; }
+#mn_about-novartis { width: 120px; }
+#mn_investors { width: 84px; }
+#mn_newsroom { width: 92px; }
+#mn_careers { width: 80px; }
+#mainnav ul li:last-child > a { background-image: none; }
+#mainnav ul li#mn_careers a[class~="level01"] { background-image: none; }
+/* ::::: http://www.novartis.com/css/jquery.fancybox-1.3.4.css ::::: */
+
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; }
+#fancybox-loading div { position: absolute; top: 0px; left: 0px; width: 40px; height: 480px; background-image: url('fancybox.png'); }
+#fancybox-overlay { position: absolute; top: 0px; left: 0px; width: 100%; z-index: 1100; display: none; }
+#fancybox-tmp { padding: 0px; margin: 0px; border: 0px none; overflow: auto; display: none; }
+#fancybox-wrap { position: absolute; top: 0px; left: 0px; padding: 20px; z-index: 1101; outline: medium none; display: none; }
+#fancybox-outer { position: relative; width: 100%; height: 100%; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#fancybox-content { width: 0px; height: 0px; padding: 0px; outline: medium none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid rgb(255, 255, 255); }
+#fancybox-close { position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: url('fancybox.png') repeat scroll -40px 0px transparent; cursor: pointer; z-index: 1103; display: none; }
+#fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: medium none; background: url('blank.gif') repeat scroll 0% 0% transparent; z-index: 1102; display: none; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block; }
+#fancybox-left-ico { background-image: url('fancybox.png'); background-position: -40px -30px; }
+#fancybox-right-ico { background-image: url('fancybox.png'); background-position: -40px -60px; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible; }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { position: absolute; padding: 0px; margin: 0px; border: 0px none; width: 20px; height: 20px; z-index: 1001; }
+#fancybox-bg-n { top: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); }
+#fancybox-bg-ne { top: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -162px; }
+#fancybox-bg-e { top: 0px; right: -20px; height: 100%; background-image: url('fancybox-y.png'); background-position: -20px 0px; }
+#fancybox-bg-se { bottom: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -182px; }
+#fancybox-bg-s { bottom: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); background-position: 0px -20px; }
+#fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -142px; }
+#fancybox-bg-w { top: 0px; left: -20px; height: 100%; background-image: url('fancybox-y.png'); }
+#fancybox-bg-nw { top: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -122px; }
+#fancybox-title { bottom: 9px; font-family: Arial; font-size: 12px; left: 0px; padding-left: 14px; position: absolute; text-align: left; z-index: 1102; }
+/* ::::: http://www.novartis.com/css/textsize_1.css ::::: */
+
+body { font-size: 0.75em; }
+ul.text-list li a { line-height: 17px; }
+@media not all {
+	#search input { width: 130px; }
+}
+/* ::::: http://www.novartis.com/css/custom.css ::::: */
+
+div#cookieoverlay { background-color: rgb(230, 230, 230); border-top: 2px solid rgb(153, 153, 153); bottom: 0px; color: rgb(51, 51, 51); left: 0px; padding: 15px 0px; position: fixed; text-align: center; width: 100%; z-index: 99999; }
+div#cookieoverlay div.cookiecontent { margin: 0px auto; padding: 0px; text-align: left; width: 971px; }
+div#cookieoverlay div.cookiecontent div { float: left; }
+div#cookieoverlay div.cookiecontent div.info { margin-right: 141px; width: 650px; }
+div#cookieoverlay div.cookiecontent div.info a { color: rgb(51, 51, 51) ! important; text-decoration: underline; }
+div#cookieoverlay div.cookiecontent div.close { width: 179px; }
+div#cookieoverlay div.cookiecontent div.close a { background-image: url('close.gif'); background-position: 0px 3px; background-repeat: no-repeat; color: rgb(228, 76, 22) ! important; padding-left: 19px; }
+#home div.teaser-box img.full { float: none; margin: 10px 0px 9px ! important; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2 a { font-size: 1.55em ! important; width: 400px ! important; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2 a.custom-right { width: 430px ! important; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.desc { width: 400px ! important; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.desc.custom { width: 370px ! important; }
+/* ::::: http://www.novartis.com/stories/css/carousel.css ::::: */
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container { font-family: Verdana,Arial,Helvetica,sans-serif; top: 20px; width: auto; height: 265px; overflow: hidden; color: rgb(255, 255, 255); position: absolute; display: table; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container.left { max-width: 500px; left: 75px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata { display: table-cell; text-align: left; vertical-align: middle; overflow: hidden; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2 a { color: rgb(255, 255, 255); font-size: 1.63em; margin: 0px 10px 0px 0px; width: auto; background: none repeat scroll 0% 0% transparent ! important; font-family: inherit; font-weight: bolder; line-height: inherit; padding: inherit; position: inherit; text-shadow: 1px 1px 2px rgb(0, 0, 0); }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.desc { color: rgb(255, 255, 255); font-size: 1.25em; font-weight: lighter; line-height: 1.2em; margin: 15px 10px 0px 0px; display: block; width: auto; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link { margin-top: 15px; bottom: 10px; height: 30px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:visited, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:active, div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:hover { color: rgb(255, 255, 255); text-decoration: none; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons { margin-top: 5px; overflow: auto; height: auto; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.date { margin-top: 10px; overflow: auto; height: auto; color: rgb(255, 255, 255); font-size: 0.9em; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a { background: url('social-icons.gif') no-repeat scroll 0px 0px transparent; display: block; float: left; height: 24px; width: 24px; margin-right: 10px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a.facebook { background-position: 0px 0px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a.twitter { background-position: 0px -29px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a.linkedin { background-position: 0px -58px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a.googleplus { background-position: 0px -87px; }
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a.email { background-position: 0px -116px; }
+#home div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div div.container div.lll-metadata h2 { filter: none ! important; }
+/* ::::: http://www.novartis.com/stories/css/stories.css ::::: */
+
+#home #container { margin-bottom: 0px; }
+#home .content { margin-bottom: 90px; }
+#story #container h1, #home #container h1 { font-weight: bold; padding: 0px; width: 643px; font-size: 3em; color: rgb(155, 133, 121); margin: 0px; }
+#home #container h1.nvs-LLL-small { font-size: 2.75em; margin: 20px 0px 10px; font-family: Arial; }
+#story #container h1 a, #archive #container h1 a, #home #container h1 a { color: rgb(155, 133, 121); }
+#story #container h1 a:hover, #archive #container h1 a:hover, #home #container h1 a:hover { color: rgb(228, 76, 22); }
+#story #container h2, #archive #container h2, #home #container h2 { color: rgb(255, 255, 255); font-family: Arial; font-weight: bold; font-size: 1.75em; line-height: 1.2em; padding: 13px 24px; background: linear-gradient(to bottom, rgb(155, 133, 121) 0%, rgb(120, 103, 95) 100%) repeat scroll 0% 0% transparent; margin: 20px 0px; position: relative; }
+#home #container .content h2, #home #container .right-column h2 { color: rgb(99, 67, 41); font-size: 1.667em; font-weight: normal; font-family: Verdana; margin: 0px 0px 7px; padding: 0px; background: none repeat scroll 0% 0% transparent; filter: none; line-height: 1.4em; }
+#story #container h2 span, #archive #container h2 span, #home #container h2 span { display: block; width: 100%; height: 100%; font-size: 0px; position: absolute; background: url('cr.png') no-repeat scroll 0% 0% transparent; }
+#story #container h2 span:first-child, #archive #container h2 span:first-child, #home #container h2 span:first-child { top: 0px; left: 0px; background-position: left top; }
+#story #container h2 span span:first-child, #archive #container h2 span span:first-child, #home #container h2 span span:first-child { bottom: 0px; left: 0px; background-position: left bottom; }
+#story #container h2 span span span:first-child, #archive #container h2 span span span:first-child, #home #container h2 span span span:first-child { top: 0px; right: 0px; background-position: right top; }
+#story #container h2 span span span span:first-child, #archive #container h2 span span span span:first-child, #home #container h2 span span span span:first-child { bottom: 0px; right: 0px; background-position: right bottom; }
+#story #container h3, #archive #container h3, #home #container h3 { color: rgb(99, 67, 41); font-size: 1.58em; line-height: 1.21em; font-weight: normal; margin: 17px 0px 5px; }
+#story #container h3 a, #archive #container h3 a, #home #container h3 a { color: rgb(99, 67, 41); }
+#story #container h3 a:hover, #archive #container h3 a:hover, #home #container h3 a:hover { text-decoration: underline; }
+#story #container h4, #archive #container h4, #home #container h4 { color: rgb(99, 67, 41); font-size: 1.33em; line-height: 1.44em; font-weight: normal; margin: 17px 0px 5px; }
+#story #container h4 a, #archive #container h4 a, #home #container h4 a { color: rgb(99, 67, 41); }
+#story #container h4 a:hover, #archive #container h4 a:hover, #home #container h4 a:hover { text-decoration: underline; }
+#story #container .nvs-LLL-cnt, #archive #container .nvs-LLL-cnt, #home #container .nvs-LLL-cnt { color: rgb(65, 65, 65); font-size: 1em; line-height: 1.75em; margin-bottom: 10px; font-style: normal; }
+#story #container .nvs-LLL-more, #archive #container .nvs-LLL-more, #home #container .nvs-LLL-more { color: rgb(241, 93, 42); display: inline-block; font-size: 0.83em; letter-spacing: 0.1em; line-height: 1.4em; margin-bottom: 12px; }
+#story #container .nvs-LLL-note, #archive #container .nvs-LLL-note, #home #container .nvs-LLL-note { color: rgb(128, 128, 128); display: block; font-size: 0.83em; }
+#archive #container .nvs-LLL-social, #home #container .nvs-LLL-social { background: none repeat scroll 0% 0% transparent ! important; padding-left: 0px ! important; font-size: 0.85em; height: 25px; margin: 10px 0px 15px; overflow: auto; }
+#archive #container .nvs-LLL-social a, #home #container .nvs-LLL-social a { background: url('social-icons-small.gif') no-repeat scroll 0px 0px transparent; color: rgb(109, 109, 109); display: inline-block; height: 22px; margin-left: 0px ! important; margin-top: 3px; padding-left: 22px; }
+#story #container .nvs-LLL-social a.nvs-LLL-Social-Facebook, #archive #container .nvs-LLL-social a.nvs-LLL-Social-Facebook, #home #container .nvs-LLL-social a.nvs-LLL-Social-Facebook { background-position: 0px 4px; }
+#story #container .nvs-LLL-social a.nvs-LLL-Social-Twitter, #archive #container .nvs-LLL-social a.nvs-LLL-Social-Twitter, #home #container .nvs-LLL-social a.nvs-LLL-Social-Twitter { background-position: 0px -18px; }
+#story #container .nvs-LLL-social a.nvs-LLL-Social-Linkedin, #archive #container .nvs-LLL-social a.nvs-LLL-Social-Linkedin, #home #container .nvs-LLL-social a.nvs-LLL-Social-Linkedin { background-position: 0px -40px; }
+#story #container .nvs-LLL-social a.nvs-LLL-Social-GooglePlus, #archive #container .nvs-LLL-social a.nvs-LLL-Social-GooglePlus, #home #container .nvs-LLL-social a.nvs-LLL-Social-GooglePlus { background-position: 0px -62px; }
+#story #container .nvs-LLL-social a.nvs-LLL-Social-Email, #archive #container .nvs-LLL-social a.nvs-LLL-Social-Email, #home #container .nvs-LLL-social a.nvs-LLL-Social-Email { background-position: 0px -84px; }
+#home .content .news { height: 168px; overflow: hidden; }
+.nvs-LLL-s-box { width: 316px; margin-bottom: 8px; position: relative; }
+.nvs-LLL-s-box a { position: relative; display: inline-block; }
+.nvs-LLL-s-box .nvs-LLL-play { left: 126px; top: 114px; }
+.nvs-LLL-l-box { width: 643px; }
+.nvs-LLL-left, .nvs-LLL-callout, .nvs-LLL-quote { float: left; margin-right: 11px; margin-bottom: 25px; }
+.nvs-LLL-right { float: right; margin-bottom: 25px; }
+.nvs-LLL-clear { clear: both; height: 0px; }
+.nvs-LLL-article img { background-color: rgb(247, 247, 247); background-image: url('loading.gif'); background-position: 50% 135px; background-repeat: no-repeat; color: rgb(128, 128, 128); display: block; height: 293px; line-height: 2em; text-align: center; width: 316px; }
+.nvs-LLL-video { margin: 0px 14px; width: 289px; height: 181px; overflow: hidden; }
+.nvs-LLL-video img { width: 289px; height: 181px; }
+.nvs-LLL-video .nvs-LLL-play { left: 112px; top: 54px; }
+.nvs-LLL-v-btn { top: 165px; width: 22px; height: 22px; font-size: 0px; background: none no-repeat scroll left top transparent; position: absolute ! important; z-index: 1000; }
+.nvs-LLL-s-box .nvs-LLL-prev { background: url('v_prev.png') no-repeat scroll left top transparent; left: 3px; top: 150px; }
+.nvs-LLL-s-box .nvs-LLL-next { background: url('v_next.png') no-repeat scroll left top transparent; left: 291px; top: 150px; }
+.nvs-LLL-popular, .nvs-LLL-categories, ul.nvs-LLL-tags { list-style-type: none; padding: 0px 20px 0px 18px; }
+.nvs-LLL-popular li { border-top: 1px solid rgb(205, 194, 188); padding: 14px 0px; }
+.nvs-LLL-popular li a { font-size: 1.25em; color: rgb(89, 89, 89); line-height: 1.5em; }
+.nvs-LLL-popular li a:hover { text-decoration: underline; }
+.nvs-LLL-popular li:first-child { border-top: 0px none; padding-top: 0px; }
+.nvs-LLL-pager { text-align: center; display: block; clear: both; }
+.nvs-LLL-pager a { color: rgb(228, 76, 22); display: inline-block; margin: 0px 5px; }
+.nvs-LLL-pager a:hover { text-decoration: underline; }
+.nvs-LLL-pager a.nvs-LLL-sel { color: rgb(0, 0, 0); text-decoration: none; }
+#nvs-LLL-carousel { height: 348px; width: 971px; overflow: hidden; position: relative; }
+.nvs-LLL-c-btn, .nvs-LLL-c-go { position: absolute; z-index: 10000; }
+.nvs-LLL-c-btn { top: 152px; width: 48px; height: 48px; display: block; font-size: 0px; background: none no-repeat scroll left top transparent; }
+.nvs-LLL-c-go { bottom: 14px; left: 0px; width: 970px; text-align: center; }
+.nvs-LLL-c-go a { width: 14px; height: 14px; display: inline-block; font-size: 0px; margin: 0px 2px; background: url('c_go.png') no-repeat scroll left top transparent; }
+.nvs-LLL-curr, .nvs-LLL-c-go a:hover { background: url('c_go_c.png') no-repeat scroll left top transparent ! important; }
+#nvs-LLL-carousel .nvs-LLL-prev { background: url('c_prev.png') no-repeat scroll left top transparent; left: 13px; }
+#nvs-LLL-carousel .nvs-LLL-next { background: url('c_next.png') no-repeat scroll left top transparent; left: 910px; }
+#nvs-LLL-carousel ul li { position: relative; }
+#nvs-LLL-carousel ul li img { width: 971px; height: 348px; }
+.nvs-LLL-c-cnt { position: absolute; left: 71px; top: 25px; z-index: 10; color: rgb(255, 255, 255); }
+.nvs-LLL-pagination-bar { padding-bottom: 10px; border-bottom: 2px solid rgb(230, 225, 222); }
+#nvs-LLL-carousel .nvs-LLL-prev:hover { background: url('c_prev_on.png') no-repeat scroll left top transparent; }
+#nvs-LLL-carousel .nvs-LLL-next:hover { background: url('c_next_on.png') no-repeat scroll left top transparent; }
+.nvs-LLL-s-box .nvs-LLL-prev:hover { background: url('v_prev_on.png') no-repeat scroll left top transparent; }
+.nvs-LLL-s-box .nvs-LLL-next:hover { background: url('v_next_on.png') no-repeat scroll left top transparent; }
+.nvs-LLL-featured .arrow-link-internal:hover { background-position: 0px 0px; }
+.nvs-LLL-shadow IMG:hover { box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5); }
+#standard-mode { border-top: 1px solid rgb(230, 230, 230); border-bottom: 1px solid rgb(230, 230, 230); }
+.nvs-LLL-ticker-container { margin-top: 3px; }
+ul.nvs-LLL-ticker { display: block; padding: 0px; margin: 0px; list-style: none outside none; line-height: 1; position: relative; overflow: hidden; height: 33px; background-color: rgb(236, 128, 38); }
+#standard-mode ul.nvs-LLL-ticker { background-color: rgb(255, 255, 255); }
+ul.nvs-LLL-ticker li { position: absolute; top: -999em; left: 0px; display: block; white-space: nowrap; font: 1em/1.44em Verdana; color: rgb(255, 255, 255); padding: 8px; }
+#standard-mode ul.nvs-LLL-ticker li { color: rgb(51, 51, 51); }
+#standard-mode ul.nvs-LLL-ticker li .date { color: rgb(153, 153, 153); }
+#standard-mode ul.nvs-LLL-ticker li p a:link, #standard-mode ul.nvs-LLL-ticker li p a:visited, #standard-mode ul.nvs-LLL-ticker li p a:hover, #standard-mode ul.nvs-LLL-ticker li p a:active { color: rgb(241, 93, 42); text-decoration: none; }
+ul.nvs-LLL-ticker li p a:link, ul.nvs-LLL-ticker li p a:visited, ul.nvs-LLL-ticker li p a:hover, ul.nvs-LLL-ticker li p a:active { color: rgb(255, 255, 255); text-decoration: underline; }
+.nvs-LLL-ticker-label { height: 17px; background: url('crisis_chevron.png') no-repeat scroll right 0px rgb(146, 50, 34); float: left; padding: 8px 30px 8px 5px; font-weight: bold; color: rgb(255, 255, 255); }
+#standard-mode .nvs-LLL-ticker-label { background: none repeat scroll 0% 0% transparent; color: rgb(228, 76, 22); padding: 8px 5px; }

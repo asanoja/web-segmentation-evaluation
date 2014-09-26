@@ -1,0 +1,271 @@
+/* ::::: http://s.ftcdn.net/r/v2010/31d18b8c8283b3a0fbfe328ff613527e8b7bf6eb/css/all_hashes.min.css ::::: */
+
+.ftl-style-1, .ftl-style-1 div, .ftl-style-1 dl, .ftl-style-1 dt, .ftl-style-1 dd, .ftl-style-1 ul, .ftl-style-1 ol, .ftl-style-1 li, .ftl-style-1 h1, .ftl-style-1 h2, .ftl-style-1 h3, .ftl-style-1 h4, .ftl-style-1 h5, .ftl-style-1 h6, .ftl-style-1 pre, .ftl-style-1 form, .ftl-style-1 fieldset, .ftl-style-1 input, .ftl-style-1 textarea, .ftl-style-1 p, .ftl-style-1 blockquote, .ftl-style-1 th, .ftl-style-1 td { margin: 0px; padding: 0px; }
+.ftl-style-1 table { border-collapse: collapse; border-spacing: 0px; }
+.ftl-style-1 fieldset, .ftl-style-1 img { border: 0px none; }
+.ftl-style-1 ol, .ftl-style-1 ul { list-style: none outside none; }
+.ftl-style-1 h1, .ftl-style-1 h2, .ftl-style-1 h3, .ftl-style-1 h4, .ftl-style-1 h5, .ftl-style-1 h6 { font-size: 100%; font-weight: normal; }
+.ftl-style-1 { background: none repeat scroll 0% 0% rgb(250, 250, 250); font-family: Arial,Verdana,sans-serif; font-size: 12px; line-height: 16px; }
+.ftl-style-1 a { cursor: pointer; text-decoration: none; }
+.ftl-style-1 a:hover { text-decoration: none; }
+.ftl-style-1 button, .ftl-style-1 input, .ftl-style-1 select, .ftl-style-1 textarea { font-family: Arial,Verdana,sans-serif; font-size: 12px; line-height: 16px; }
+.ftl-style-1 input::-moz-focus-inner, .ftl-style-1 button::-moz-focus-inner { border: 0px none; }
+.ftl-style-1 input[type="text"], .ftl-style-1 input[type="password"] { outline: 0px none; }
+.ftl-style-1 .free-label, .ftl-style-1 .nav-home-link, .ftl-style-1 .bar-logo, .ftl-style-1 .logo, .ftl-style-1 .notification-icon { overflow: hidden; text-indent: -290486px; }
+.ftl-style-1 .wrap { margin: 0px auto; position: relative; width: 1000px; }
+.ftl-style-1 .cl, .ftl-style-1 .cr, .ftl-style-1 .cb { display: block ! important; float: none ! important; height: 0px ! important; }
+.ftl-style-1 .cl { clear: left; }
+.ftl-style-1 .cb { clear: both; }
+.ftl-style-1 .header { background: none repeat scroll 0% 0% rgb(255, 255, 255); height: 75px; }
+.ftl-style-1 .header .logo { position: absolute; left: 0px; top: 0px; }
+.ftl-style-1 .phone-number { background: url('ico-phone.gif') no-repeat scroll left top transparent; font-size: 12px; font-weight: bold; left: 0px; line-height: 12px; padding-left: 16px; position: absolute; top: 50px; }
+.ftl-style-1 .tagline { font-size: 14px; font-weight: bold; left: 200px; line-height: 18px; position: absolute; top: 17px; }
+.ftl-style-1 .main { padding: 25px 0px; position: relative; }
+.ftl-style-1 .title { font-size: 24px; font-weight: bold; line-height: 24px; margin-bottom: 5px; }
+.ftl-style-1 .subtitle-link { font-size: 11px; }
+.ftl-style-1 .ftl-ad { overflow: hidden; }
+.ftl-style-1 .ftl-ad-339x90 { float: right; }
+.ftl-style-1 .menu { float: right; margin-top: 10px; }
+.ftl-style-1 .menu-link { border-left: 1px solid rgb(216, 216, 216); display: block; float: right; height: 52px; padding: 0px 10px 0px 12px; text-align: center; width: 80px; }
+.ftl-style-1 .signup-menu, .ftl-style-1 .login-menu { line-height: 55px; width: auto; }
+.ftl-style-1 .nav, .ftl-style-1 .submenu a:hover { background: url('headband-sprite.png') repeat-x scroll left top transparent; }
+.ftl-style-1 .nav { background-position: 0px -50px; height: 32px; position: relative; z-index: 10000; }
+.ftl-style-1 .nav-with-cover { position: absolute; float: left; z-index: 10000; }
+.ftl-style-1 .nav-links { border-right: 1px solid rgb(180, 180, 180); height: 32px; z-index: 10000; float: left; }
+.ftl-style-1 .nav .nav-links { position: relative; z-index: 100; }
+.ftl-style-1 .nav .nav-links:hover { z-index: 500; }
+.ftl-style-1 .nav .menu-cover { z-index: 250; display: block; position: absolute; float: left; top: 21px; width: 100%; height: 10px; border: 1px solid transparent; }
+.ftl-style-1 li.nav-links-item { float: left; border-left: 1px solid rgb(180, 180, 180); }
+.ftl-style-1 .nav-links-item a.nav-links-item { height: 31px; line-height: 31px; padding: 0px 14px; font-size: 12px; font-weight: bold; }
+.ftl-style-1 .submenu { display: none; position: absolute; margin-left: -1px; padding: 0px; }
+.ftl-style-1 .submenu li.first { padding-top: 7px; }
+.ftl-style-1 .submenu li { background-color: rgb(255, 255, 255); padding: 0px 10px 5px; display: block; border-right: 1px solid rgb(180, 180, 180); border-left: 1px solid rgb(180, 180, 180); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px; border-style: none solid; border-color: -moz-use-text-color rgb(180, 180, 180); }
+.ftl-style-1 .submenu li.last { height: 10px; padding: 0px; margin-top: -3px; border-right: 1px solid rgb(180, 180, 180); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(180, 180, 180) rgb(180, 180, 180); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px 0px 7px 7px; }
+.ftl-style-1 .submenu a { display: block; padding: 0px 10px; white-space: nowrap; }
+.ftl-style-1 .submenu a:hover { background-position: 0px -140px; }
+.ftl-style-1 .nav-links li.nav-links-item:hover .submenu { display: block; }
+.ftl-style-1 .search { border-bottom: 1px solid rgb(216, 216, 216); height: 39px; position: relative; background-position: left center; }
+.ftl-style-1 .search-field { width: 614px; background: url('search-input-bis-540x30.png') no-repeat scroll 7px top transparent; border-left: 1px solid rgb(237, 237, 237); float: left; height: 29px; margin: 5px 0px; position: relative; }
+.ftl-style-1 .search-input { background-color: transparent; border: 0px none; float: left; font-size: 13px; height: 19px; padding: 5px 0px 6px; margin-left: 32px; width: 508px; }
+.ftl-style-1 .search-submit { float: right; margin: 0px 0px 0px 10px; }
+.ftl-style-1 .search-filter { background: url('search-input-bis-540x30.png') no-repeat scroll right top transparent; min-height: 29px; position: absolute; right: 67px; text-align: right; top: 0px; z-index: 2000; }
+.ftl-style-1 .search-filter a, .ftl-style-1 .search-filter strong, .ftl-style-1 .search-filter label { cursor: pointer; display: block; }
+.ftl-style-1 .search-filter-choice { background: url('search-filter-border.gif') no-repeat scroll left center transparent; float: right; font-size: 12px; height: 29px; line-height: 29px; padding: 0px 9px 0px 10px; position: relative; }
+.ftl-style-1 .search-filter-choice strong { background: url('search-filter-arrow.png') no-repeat scroll right center transparent; display: block; font-weight: normal; padding-right: 16px; }
+.ftl-style-1 .search-filter-list { background: url('search-filter-list.png') no-repeat scroll right top transparent; clear: right; height: 114px; padding: 26px 3px 0px; position: absolute; right: 0px; top: 0px; width: 114px; display: none; }
+.ftl-style-1 .search-filter:hover .search-filter-list { display: block; }
+.ftl-style-1 .search-filter-list label { height: 20px; line-height: 20px; padding: 0px 8px 0px 2px; }
+.ftl-style-1 .search-filter-list .first { border-bottom: 1px solid rgb(238, 238, 238); }
+.ftl-style-1 .search-filter-list label:hover { background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+.ftl-style-1 .search-tips { float: left; }
+.ftl-style-1 .search-tips-help { margin: 12px 0px 0px 10px; float: left; }
+.ftl-style-1 .search-tips-help img { opacity: 0.7; }
+.ftl-style-1 .search-tips-help img:hover { opacity: 1; }
+.ftl-style-1 .html-tooltip { display: none; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); margin: 5px; padding: 5px; max-width: 500px; }
+.ftl-style-1 .item { float: left; padding-right: 20px; width: 121px; }
+.ftl-style-1 .item-thumbnail { background: url('thumbnail-110.png') no-repeat scroll left top transparent; display: block; height: 110px; line-height: 110px; padding: 5px 6px 6px 5px; position: relative; text-align: center; width: 110px; }
+.ftl-style-1 .item.infinite .item-thumbnail { background-position: 0px -130px; }
+.ftl-style-1 .item-meta { line-height: 13px; padding: 3px 4px 10px 5px; }
+.ftl-style-1 .item-id { cursor: pointer; float: left; font-size: 10px; line-height: 13px; margin-right: 6px; }
+.ftl-style-1 .footer { background: url('footer.gif') repeat-x scroll left top rgb(237, 237, 237); font-size: 12px; padding: 20px 0px; margin-top: 20px; }
+.ftl-style-1 .column { float: left; width: 132px; }
+.ftl-style-1 .column-title { font-size: 14px; font-weight: bold; line-height: 16px; margin-bottom: 4px; }
+.ftl-style-1 .bar { background: none repeat scroll 0% 0% rgb(245, 245, 245); border-top: 1px solid rgb(225, 225, 225); height: 27px; line-height: 20px; padding: 10px 0px; }
+.ftl-style-1 .bar-copyright { background: url('bar-border.gif') no-repeat scroll right top transparent; float: left; margin: 3px 10px 0px 0px; padding-right: 12px; }
+.ftl-style-1 .bar-logo { background: url('bar-logo.gif') no-repeat scroll left top transparent; float: right; height: 20px; margin: 3px 0px 0px 50px; width: 98px; }
+.ftl-style-1 .bar-links { float: right; margin-top: 3px; }
+.ftl-style-1 .bar-links li { background: url('bar-border.gif') no-repeat scroll right top transparent; float: right; padding: 0px 15px 0px 13px; }
+.ftl-style-1 .bar-links .first { background: none repeat scroll 0px center transparent; padding-right: 0px; }
+.ftl-style-1 .links-container { border-top: 1px solid rgb(235, 235, 235); display: block; float: left; position: relative; }
+.ftl-style-1 .links-container:hover { background-position: -100px 0px; }
+.ftl-style-1 .links-container a { display: block; height: 20px; font-size: 12px; line-height: 20px; padding-left: 10px; width: 150px; }
+.ftl-style-1 .links-hidden { display: none; left: 0px; position: absolute; width: 150px; z-index: 2000; background: none repeat scroll 0% 0% transparent; }
+.ftl-style-1 .links-container:hover .links-hidden { display: block; }
+.ftl-style-1 .links-hidden ul { display: block; float: left; width: 76px; height: 280px; }
+.ftl-style-1 .links-container a { background: none repeat scroll 0% 0% rgb(252, 252, 252); border-style: solid; border-color: rgb(235, 235, 235); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px 1px; overflow: hidden; width: 150px; }
+.ftl-style-1 .links-hidden a:hover { background: none repeat scroll 0% 0% rgb(239, 246, 250); }
+.ftl-style-1 .language { float: left; line-height: 27px; }
+.ftl-style-1 .language-label { float: left; font-size: 14px; font-weight: bold; padding-right: 8px; }
+.ftl-style-1 .language .links-container { background: url('language-select.png') no-repeat scroll left top transparent; }
+.ftl-style-1 .language .links-container:hover { background-position: -100px 0px; }
+.ftl-style-1 .language .links-container a { background: none repeat scroll 0px center transparent; border: 0px none; display: block; height: 28px; font-size: 14px; font-weight: bold; line-height: 28px; width: 67px; }
+.ftl-style-1 .language .links-container span { display: block; float: left; width: 24px; }
+.ftl-style-1 .language .links-hidden { width: 692px; padding-top: 2px; bottom: -84px; }
+.ftl-style-1 .language .links-container .flag { margin-top: 8px; }
+.ftl-style-1 .block { margin-bottom: 20px; position: relative; }
+.ftl-style-1 .block-bottom { background: url('block-bottom.png') no-repeat scroll left top transparent; height: 6px; margin-right: 10px; margin-bottom: 10px; position: relative; }
+.ftl-style-1 .col { float: left; }
+.ftl-style-1 .ftl-ad { display: block; position: relative; }
+.ftl-style-1 .display-keywords { clear: left; cursor: pointer; }
+.ftl-style-1 .display-keywords img { margin-right: 5px; }
+@media not all {
+}
+.ftl-style-1 .info { background: url('info.png') repeat-y scroll left top transparent; font-size: 12px; line-height: 16px; margin: 20px 0px 25px; padding: 5px 20px; position: relative; }
+.ftl-style-1 .info-top { background: url('info-top.png') no-repeat scroll left top transparent; height: 10px; left: 0px; position: absolute; top: -10px; width: 1000px; }
+.ftl-style-1 .info-bottom { background: url('info-bottom.png') no-repeat scroll left top transparent; bottom: -15px; height: 15px; left: 0px; position: absolute; width: 1000px; }
+.ftl-style-1 .info-resizeble { margin-right: 15px; }
+.ftl-style-1 .info-resizeble .info-top, .ftl-style-1 .info-resizeble .info-bottom { width: 100%; margin-right: 15px; }
+.ftl-style-1 .info-resizeble .info-right, .ftl-style-1 .info-resizeble .info-top .info-top-right, .ftl-style-1 .info-resizeble .info-bottom .info-bottom-right { width: 15px; height: 15px; position: absolute; right: -15px; }
+.ftl-style-1 .info-resizeble .info-right { height: 100%; top: 0px; background: url('info.png') repeat-y scroll right top transparent; }
+.ftl-style-1 .info-resizeble .info-top .info-top-right { background: url('info-top.png') no-repeat scroll right top transparent; }
+.ftl-style-1 .info-resizeble .info-bottom .info-bottom-right { background: url('info-bottom.png') no-repeat scroll right top transparent; }
+.ftl-style-1 .info-big-title { font-size: 20px; }
+.ftl-style-1 .info p { margin-bottom: 6px; }
+.ftl-style-1 .content { margin-bottom: 16px; }
+.ftl-style-1 .tab { width: 148px; height: 27px; line-height: 27px; margin: 0px -10px -1px 0px; display: block; float: left; position: relative; cursor: pointer; text-align: center; background: url('tabs-inline-148x27.png') no-repeat scroll 0px -40px transparent; z-index: 400; }
+.ftl-style-1 .tab-active { background: url('tabs-inline-148x27.png') no-repeat scroll 0px 0px transparent; z-index: 401; }
+.ftl-style-1 .tab .tab-block-title, .ftl-style-1 a.tab, .ftl-style-1 a.tab-active, .ftl-style-1 a.tab:hover, .ftl-style-1 a.tab-active:hover, .ftl-style-1 .tab-active .tab-block-title { font-size: 13px; font-weight: normal; text-align: center; color: inherit; }
+.ftl-style-1 .tab-content { display: none; }
+.ftl-style-1 .tab-content-active { display: block; }
+.ftl-style-1 .upper { text-transform: uppercase; }
+.ftl-style-1 .trunc-string { display: inline-block; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.ftl-style-1 .left { float: left; }
+.ftl-style-1 .clear { clear: both; }
+.ftl-style-1 .social_buttons { text-align: right; vertical-align: middle; margin-right: 1px; }
+.ftl-style-1 .social_buttons img { margin-right: 5px; }
+.ftl-style-1 .block-square-shadow-top-right { background: url('block-shadow-horizontals.png') no-repeat scroll 0px -60px rgb(255, 255, 255); height: 5px; width: 10px; position: relative; left: 101%; top: -6px; }
+.ftl-style-1 .block-square-shadow { background: url('block-shadow-verticals.png') repeat-y scroll right top rgb(255, 255, 255); border-style: solid; border-color: rgb(218, 218, 218); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px 1px 1px; padding: 5px 14px 8px; }
+.ftl-style-1 .block-square-shadow-bottom { background: url('block-shadow-horizontals.png') repeat-x scroll 0px -25px transparent; height: 10px; }
+.ftl-style-1 .block-square-shadow-bottom-left { width: 10px; height: 10px; margin: -5px 0px 0px; background: url('block-shadow-horizontals.png') no-repeat scroll 0px 0px transparent; float: left; }
+.ftl-style-1 .block-square-shadow-bottom-right { width: 10px; height: 10px; margin: -5px -10px 0px 0px; background: url('block-shadow-horizontals.png') no-repeat scroll 0px -40px transparent; float: right; }
+.ftl-style-1, .ftl-style-1 .hp-headline, .ftl-style-1 .free-title, .ftl-style-1 .seasonal-title, .ftl-style-1 .category-title, .ftl-style-1 .title span, .ftl-style-1 .subtitle, .ftl-style-1 .rss, .ftl-style-1 .news-rss a, .ftl-style-1 .post-title a, .ftl-style-1 .footer a, .ftl-style-1 .bloc-content, .ftl-style-1 .post-excerpt, .ftl-style-1 .twitter-content, .ftl-style-1 .facebook-content, .ftl-style-1 .card-activity, .ftl-style-1 .card-phone, .ftl-style-1 .notification-subtitle, .ftl-style-1 .landing-lead, .ftl-style-1 .size-credit, .ftl-style-1 .title.gray, .ftl-style-1 .stat, .ftl-style-1 .affiliate-tools-links .form-label, .ftl-style-1 .social-network-form .form-checkbox-line .form-label .ftl-style-1 .affiliate-tools-links .form-label .ftl-style-1 .subaccount-stat-form .form-label, .ftl-style-1 .subaccount-stat-form .form-text, .ftl-style-1 .subaccount-stat-form .form-select, .ftl-style-1 .column-title, .ftl-style-1 .subscription-box label, .ftl-style-1 .corporate-menu-title, .ftl-style-1 .editmulti-contents-main .form-label, .ftl-style-1 .editmulti-contents-main #index-contents-list .release-list .view-link, .ftl-style-1 .medium-form .form-label, .ftl-style-1 .transfer-service-main .form-label, .ftl-style-1 .discount-offer-box .title, .ftl-style-1 .dashboard-main .stats-block .dashboard-description, .ftl-style-1 .buy-credits-main .block-content-line-gradient .form-label, .ftl-style-1 .long-marketing-block h4.subtitle, .ftl-style-1 .subscription-option .subscription-options .title, .ftl-style-1 .subscription-option .subscription-duration .title, .ftl-style-1 .subscription-addon-upgrade-main .form-label, .ftl-style-1 .subscription-addon-upgrade-main .cart-summary, .ftl-style-1 .view-content-main .related-images-block h2, .ftl-style-1 .view-content-main table thead { color: rgb(84, 84, 84); }
+.ftl-style-1 a, .ftl-style-1 .html-tooltip-trigger, .ftl-style-1 span.blue, .ftl-style-1 .logged-as strong, .ftl-style-1 .nav-links a strong, .ftl-style-1 .search-order-select a:hover, .ftl-style-1 .results-filters a:hover, .ftl-style-1 .option-checkbox, .ftl-style-1 .view-checkbox, .ftl-style-1 .contact, .ftl-style-1 .search-filter-list .on, .ftl-style-1 .intro-title, .ftl-style-1 .display-keywords, .ftl-style-1 .table .actions span { color: rgb(41, 108, 145); }
+.ftl-style-1 a:hover, .ftl-style-1 .credits-menu strong, .ftl-style-1 .subscription-menu strong, .ftl-style-1 .nav-links a:hover, .ftl-style-1 .subnav-links a:hover, .ftl-style-1 .pagination a:hover, .ftl-style-1 .pagination .on { color: rgb(67, 128, 160); }
+.ftl-style-1 .tagline strong { color: rgb(60, 162, 59); }
+.ftl-style-1 .phone-number { color: rgb(76, 76, 76); }
+.ftl-style-1 .title, .ftl-style-1 .discount, .ftl-style-1 .count, .ftl-style-1 .rank-menu strong, .ftl-style-1 .option-link.on, .ftl-style-1 .tool .on, .ftl-style-1 .ok-notification .notification-title, .ftl-style-1 .cart-grid .cart-grid-free, .ftl-style-1 .pricing h2, .ftl-style-1 .stat .stat-credits, .ftl-style-1 .edit-content-main .form-section, .ftl-style-1 .section, .ftl-style-1 .side-section, .ftl-style-1 .detail-grid-keywords .selected, .ftl-style-1 .content-keywords-list .selected, .ftl-style-1 .soft-highlight, .ftl-style-1 .search_syntax, .ftl-style-1 .search_syntax:hover, .ftl-style-1 .on .corporate-menu-title, .ftl-style-1 .block-title-color-2, .ftl-style-1 .transfer-service-main #summary-info, .ftl-style-1 .offers .head h4, .ftl-style-1 .subscription-option .title, .ftl-style-1 .subscription-option .title span, .ftl-style-1 .subscription-addon-upgrade-main table .highlight, .ftl-style-1 .view-content-main table .subscription-header, .ftl-style-1 .lp-low-cost-bottom h2 { color: rgb(28, 133, 27); }
+.ftl-style-1 .logged-as, .ftl-style-1 .logged-as:hover, .ftl-style-1 .menu-link, .ftl-style-1 .nav-links a, .ftl-style-1 .subnav-links li, .ftl-style-1 .subnav-links a, .ftl-style-1 .login-label, .ftl-style-1 .login-remember, .ftl-style-1 .login-label, .ftl-style-1 .login-remember { color: rgb(51, 51, 51); }
+.ftl-style-1 .cart-menu strong, .ftl-style-1 .cart-summary .highlight { color: rgb(255, 131, 0); }
+.ftl-style-1 .login-menu strong { color: rgb(41, 108, 145); }
+.ftl-style-1 .signup-menu strong { color: rgb(41, 108, 145); }
+.ftl-style-1 .mode, .ftl-style-1 .bar-links a, .ftl-style-1 .results-filters, .ftl-style-1 .results-filters a, .ftl-style-1 .view-content-main .tab-block .tab-block-title, .ftl-style-1 .view-content-main table .credit-header, .ftl-style-1 .view-content-main .content-licenses-table td, .ftl-style-1 .view-content-main table { color: rgb(100, 100, 100); }
+.ftl-style-1 .mode.on, .ftl-style-1 .item-grid th, .ftl-style-1 .hp-three-cols .bloc-title, .ftl-style-1 .hp-one-two-cols .bloc-title, .ftl-style-1 .login-three-cols .bloc-title, .ftl-style-1 .bloc-title.small, .ftl-style-1 .become-contributor-bloc .bloc-title, .ftl-style-1 .contributor-info-bloc .bloc-title, .ftl-style-1 .twitter-title, .ftl-style-1 .facebook-title, .ftl-style-1 .bundle-list label, .ftl-style-1 .vat-label, .ftl-style-1 .vat-number, .ftl-style-1 .vat-input, .ftl-style-1 .view, .ftl-style-1 .gallery-title, .ftl-style-1 .gallery-title a, .ftl-style-1 .avatars-title, .ftl-style-1 .logos-title, .ftl-style-1 .card-name, .ftl-style-1 .similar-title, .ftl-style-1 .cart-summary th, .ftl-style-1 .cart-summary td, .ftl-style-1 .account-info th, .ftl-style-1 .account-info td, .ftl-style-1 .method, .ftl-style-1 .credits tbody, .ftl-style-1 .files tbody, .ftl-style-1 .folder-name, .ftl-style-1 .grid tbody, .ftl-style-1 .category-top, .ftl-style-1 .inbox-title a, .ftl-style-1 .stat, .ftl-style-1 .latest-title, .ftl-style-1 .form-label, .ftl-style-1 .form-text, .ftl-style-1 .form-checkbox, .ftl-style-1 .form-radio, .ftl-style-1 .search-filter-choice, .ftl-style-1 .price, .ftl-style-1 .news-title a, .ftl-style-1 .twitter, .ftl-style-1 .profile-main .affiliation-info, .ftl-style-1 .button-dropbox { color: rgb(36, 36, 36); }
+.ftl-style-1 .text-muted, .ftl-style-1 .search-input { color: rgb(140, 140, 140); }
+.ftl-style-1 .item-id, .ftl-style-1 .submenu a { color: rgb(148, 148, 148); }
+.ftl-style-1 .language-label, .ftl-style-1 .language .links-container a, .ftl-style-1 .price { color: rgb(98, 98, 98); }
+.ftl-style-1 .bar { color: rgb(79, 79, 79); }
+.ftl-style-1 .files tbody .file-date, .ftl-style-1 .form-help, .ftl-style-1 .info, .ftl-style-1 .disabled-line, .ftl-style-1 .disabled-line .form-label { color: rgb(123, 123, 123); }
+.ftl-style-1 .form-radio span { color: rgb(108, 108, 108); }
+.ftl-style-1 .img { background: none no-repeat scroll left top transparent; overflow: hidden; }
+.ftl-style-1 .item-meta .img { float: right; }
+.ftl-style-1 .img-16 { background-image: url('16x16.png'); height: 16px; vertical-align: bottom; width: 16px; }
+.ftl-style-1 .img-cart { background-position: 0px -120px; }
+.ftl-style-1 .img-download { background-position: 0px -260px; }
+.ftl-style-1 .img-download.on { background-position: 0px -280px; }
+.ftl-style-1 .img-small-breadcrumb { background-position: 0px -360px; }
+.ftl-style-1 .img-vertical-chevron { background-position: 0px -760px; }
+.ftl-style-1 .img-question-mark { background-position: 0px -820px; }
+.ftl-style-1 .img-info { background-position: 0px -1060px; }
+.ftl-style-1 .img-24 { background: url('24x24.png') no-repeat scroll 0% 0% transparent; height: 24px; vertical-align: bottom; width: 24px; }
+.ftl-style-1 .img-big-cart { background-position: 0px -120px; }
+.ftl-style-1 .small-logo { background-image: url('25x25.png'); height: 25px; width: 25px; }
+.ftl-style-1 .small-logo-linkedin { background-position: left -60px; }
+.ftl-style-1 .small-logo-twitter { background-position: left -30px; }
+.ftl-style-1 .small-logo-facebook { background-position: left top; }
+.ftl-style-1 .img-rank { background-image: url('ranks-37x23.png'); height: 23px; vertical-align: middle; width: 37px; }
+.ftl-style-1 .img-rank-4 { background-position: 0px -100px; }
+.ftl-style-1 .language .list-item-no-flag, .ftl-style-1 .language .links-hidden li a { height: 28px; border: 0px none; overflow: hidden; background: url('language-first-wide.png') no-repeat scroll 100px 0px rgb(252, 252, 252); }
+.ftl-style-1 .language .links-hidden li a:hover { background-color: rgb(239, 246, 250); }
+.ftl-style-1 .language .links-hidden li .first_zone_link { background-position: -600px 0px; }
+.ftl-style-1 .language .links-hidden li .first_zone_link:hover { background-position: -700px 0px; }
+.ftl-style-1 .language .links-hidden li .last_zone_link { background-position: -800px 0px; }
+.ftl-style-1 .language .links-hidden li .last_zone_link:hover { background-position: -900px 0px; }
+.ftl-style-1 .language .links-hidden .first_zone_column li a { background-position: -1200px 0px; }
+.ftl-style-1 .language .links-hidden .first_zone_column li a:hover { background-position: -1300px 0px; }
+.ftl-style-1 .language .links-hidden .first_zone_column li .first_zone_link { background-color: transparent; background-position: 0px 0px; }
+.ftl-style-1 .language .links-hidden .first_zone_column li .first_zone_link:hover { background-color: transparent; background-position: -100px 0px; }
+.ftl-style-1 .language .links-hidden .last_zone_column li a { background-position: -1400px 0px; }
+.ftl-style-1 .language .links-hidden .last_zone_column li a:hover { background-position: -1500px 0px; }
+.ftl-style-1 .language .links-hidden .last_zone_column li .first_zone_link { background-color: transparent; background-position: -200px 0px; }
+.ftl-style-1 .language .links-hidden .last_zone_column li .first_zone_link:hover { background-color: transparent; background-position: -299px 0px; }
+.ftl-style-1 .language .list-last-item, .ftl-style-1 .language .links-hidden .last_zone_column li.flag_column_break .last_zone_link { background-color: transparent; background-position: -400px 0px; }
+.ftl-style-1 .flag { background: url('flags.png') no-repeat scroll left top transparent; float: left; height: 11px; overflow: hidden; width: 16px; }
+.ftl-style-1 .flag-us { background-position: 0px -20px; }
+.ftl-style-1 .flag-fr { background-position: 0px -40px; }
+.ftl-style-1 .flag-de { background-position: 0px -60px; }
+.ftl-style-1 .flag-es { background-position: 0px -80px; }
+.ftl-style-1 .flag-it { background-position: 0px -100px; }
+.ftl-style-1 .flag-pt { background-position: 0px -120px; }
+.ftl-style-1 .flag-br { background-position: 0px -140px; }
+.ftl-style-1 .flag-jp { background-position: 0px -160px; }
+.ftl-style-1 .flag-eu { background-position: 0px -180px; }
+.ftl-style-1 .flag-pl { background-position: 0px -200px; }
+.ftl-style-1 .flag-ru { background-position: 0px -220px; }
+.ftl-style-1 .flag-cn { background-position: 0px -240px; }
+.ftl-style-1 .flag-tr { background-position: 0px -260px; }
+.ftl-style-1 .flag-kr { background-position: 0px -280px; }
+.ftl-style-1 .flag-au { background-position: 0px -300px; }
+.ftl-style-1 .flag-ar { background-position: 0px -320px; }
+.ftl-style-1 .flag-cl { background-position: 0px -340px; }
+.ftl-style-1 .flag-mx { background-position: 0px -360px; }
+.ftl-style-1 .flag-co { background-position: 0px -380px; }
+.ftl-style-1 .flag-za { background-position: 0px -400px; }
+.ftl-style-1 .flag-nl { background-position: 0px -420px; }
+.ftl-style-1 .flag-se { background-position: 0px -440px; }
+.ftl-style-1 .button, .ftl-style-1 .button input { background: url('buttons-color-1.png') no-repeat scroll left top transparent; border: 0px none; color: rgb(254, 254, 254); cursor: pointer; display: inline-block; font-size: 13px; font-weight: bold; height: 27px; line-height: 26px; margin: 0px auto; padding: 0px 10px 0px 20px; position: relative; text-align: center; text-shadow: 0px 1px 2px rgb(37, 121, 36); }
+.ftl-style-1 .button-right { background: url('buttons-color-1.png') no-repeat scroll right top transparent; height: 27px; position: absolute; right: -10px; top: 0px; width: 10px; }
+.ftl-style-1 .button:hover { color: rgb(255, 255, 255); }
+.ftl-style-1 input.button { background-position: 0px -300px; padding: 0px 20px; width: 100px; }
+.ftl-style-1 .button-S-M { width: 110px; }
+.ftl-style-1 input.button-S-M { background-position: 0px -350px; width: 150px; }
+.ftl-style-1 .button-M-variable { background-position: 0px -47px; height: 37px; line-height: 36px; }
+.ftl-style-1 .button-M-variable .button-right, .ftl-style-1 .button-M-S .button-right, .ftl-style-1 .button-M-M .button-right, .ftl-style-1 .button-M-L .button-right, .ftl-style-1 .button-M-XL .button-right { background-position: right -47px; height: 37px; }
+.ftl-style-1 .icon-cart-end { height: 37px; padding: 0px 0px 0px 30px; right: 0px; }
+.ftl-style-1 .icon-cart-end .button-right { background-position: right -47px; right: -60px; width: 60px; }
+.ftl-style-1 .form-radio { cursor: pointer; display: block; float: left; font-size: 13px; height: 40px; padding: 0px 16px; position: relative; }
+.ftl-style-1 .form-radio input { left: 0px; position: absolute; top: 1px; }
+.ftl-style-1 .form-radio span { font-weight: normal; }
+.ftl-style-1 .button-next .item-thumbnail { opacity: 0.7; }
+.ftl-style-1 .button-next .next-page-link { display: block; height: 121px; }
+.ftl-style-1 .button-next .next-button-content { display: block; position: relative; height: 110px; top: -121px; text-align: center; }
+.ftl-style-1 .item-for110 .pagination-next-ico { background: url('next_50.png') no-repeat scroll left top transparent; height: 50px; width: 50px; margin-top: 28px; }
+.ftl-style-1 .item-for110 .img-link-label { color: rgb(114, 114, 114); font-size: 12px; line-height: 12px; font-weight: bold; margin-top: 10px; }
+.ftl-style-1 .view-content-main .related-images-block { margin-bottom: 15px; }
+.ftl-style-1 .view-content-main .related-images-block p.content { margin-bottom: 15px; font-size: 13px; }
+.ftl-style-1 .view-content-main .related-images-block h2 { margin: 5px 0px; padding-bottom: 7px; font-size: 15px; font-weight: 300; line-height: 20px; background: url('bold-border.gif') repeat-x scroll left bottom transparent; }
+.ftl-style-1 .view-content-main #content-view-right { float: right; width: 560px; font-size: 12px; }
+.ftl-style-1 .view-content-main .content-licenses-table .col-1 { width: 110px; }
+.ftl-style-1 .view-content-main .content-licenses-table .col-2 { width: 200px; }
+.ftl-style-1 .view-content-main .content-licenses-table .col-3 { width: 100px; }
+.ftl-style-1 .view-content-main .content-licenses-table .col-4 { width: 80px; text-align: center; }
+.ftl-style-1 .view-content-main .content-licenses-table .form-radio { margin-right: 40px; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line .col-1 { width: 200px; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line .col-2 { width: 100px; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line .col-3 { width: 100px; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line .col-4 { width: 80px; text-align: center; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line.price-per-file .col-2 { width: 80px; }
+.ftl-style-1 .view-content-main .content-licenses-table .subscription-purchase-line.price-per-file .col-3 { width: 120px; }
+.ftl-style-1 .view-content-main .content-info-table .col-1 { width: 200px; }
+.ftl-style-1 .view-content-main .content-info-table .col-2 { width: 300px; }
+.ftl-style-1 .view-content-main .description { margin: 15px 0px; }
+.ftl-style-1 .view-content-main .description .content { margin-bottom: 30px; }
+.ftl-style-1 .view-content-main .subtitle-link { font-weight: normal; }
+.ftl-style-1 .view-content-main .license-line { cursor: pointer; }
+.ftl-style-1 .view-content-main .conten-view-title-block { font-size: 13px; font-weight: bold; line-height: 17px; margin-bottom: 20px; width: 400px; float: left; color: rgb(0, 0, 0); }
+.ftl-style-1 .view-content-main .content-view-title { font-size: 13px; font-weight: bold; line-height: 17px; display: inline; }
+.ftl-style-1 .view-content-main .conten-view-title-block img { margin-right: 10px; margin-top: 5px; float: left; }
+.ftl-style-1 .view-content-main .conten-view-title-block .trunc-string { width: 350px; float: left; }
+.ftl-style-1 .view-content-main .conten-view-title-block #content-view-title-contributor { width: auto; max-width: 160px; font-size: 12px; padding-right: 2px; }
+.ftl-style-1 .view-content-main #content-view-left { float: left; margin-right: 40px; width: 400px; }
+.ftl-style-1 .view-content-main .content-view-thumbnail { display: block; padding: 0px 0px 5px; text-align: center; width: 400px; margin: auto; float: left; }
+.ftl-style-1 .view-content-main .content-view-thumbnail .FotoliaZoom { margin: auto; }
+.ftl-style-1 .view-content-main .content-view-thumbnail-footer { float: left; width: 100%; }
+.ftl-style-1 .view-content-main .content-view-meta-right { padding-left: 10px; float: right; }
+.ftl-style-1 .view-content-main .content-actions-top { margin-bottom: 10px; }
+.ftl-style-1 .view-content-main .content-actions-top a { float: left; font-size: 14px; line-height: 35px; margin-right: 70px; }
+.ftl-style-1 .view-content-main .content-licenses-table thead tr { border-bottom: 0px none; }
+.ftl-style-1 .view-content-main .content-licenses-table thead td { padding: 15px 2px 5px; font-weight: normal; }
+.ftl-style-1 .view-content-main .content-licenses-table tr { border-bottom: 1px solid rgb(218, 218, 218); }
+.ftl-style-1 .view-content-main .content-licenses-table tr.on { background: none repeat scroll 0% 0% rgb(219, 236, 218); }
+.ftl-style-1 .view-content-main .content-licenses-table td { padding: 5px 2px; }
+.ftl-style-1 .view-content-main .content-info-table tr { border-bottom: 1px solid rgb(218, 218, 218); }
+.ftl-style-1 .view-content-main .content-info-table td { padding: 15px 2px; font-weight: normal; }
+.ftl-style-1 .view-content-main .content-info-table td span.portfolio { margin-left: 30px; }
+.ftl-style-1 .view-content-main .content-info-table tr.last, .ftl-style-1 .view-content-main .content-licenses-table tr.last, .ftl-style-1 .view-content-main .content-licenses-table tr.subhead { border-bottom: 0px none; }
+.ftl-style-1 .view-content-main .content-licenses-table label.form-radio { margin-top: 10px; }
+.ftl-style-1 .view-content-main .content-licenses-table span.green { color: rgb(60, 162, 59); }
+.ftl-style-1 .view-content-main .content-keywords-list a { float: left; margin: 0px 20px 4px 0px; }
+.ftl-style-1 .view-content-main .content-keywords-list.with_hidden_keywords a.dn { display: none; }
+.ftl-style-1 .view-content-main .choice-link { text-transform: capitalize; }
+.ftl-style-1 .view-content-main .choice-link-container .on { color: rgb(0, 0, 0); cursor: text; }
+.ftl-style-1 .display_none { display: none; }

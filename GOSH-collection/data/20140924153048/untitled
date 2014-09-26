@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head profile="http://purl.org/uF/2008/03/ http://purl.org/uF/hAtom/0.1/">
+		<title>fr.pg.com Home: societe, marques,developppement durable, innovation, communiqu&#233;s de presse</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="title" content="fr.pg.com Home: societe, marques,developpement durable, innovation, communiqu&#233;s de presse, rejoindre Procter &amp; Gamble" />
+		<meta name="keywords" content="soci&#233;t&#233;, marques, developpement durable, communiqu&#233;s de presse, innovation, recrutement, procter and gamble, procter &amp; gamble, grande consommation, lessives, couches, responsabilit&#233; sociale, responsabilit&#233; environnementale, piles, hygi&#232;ne, beaut&#233;" />
+		<meta name="description" content="Procter &amp; Gamble est une soci&#233;t&#233; multinationale qui commercialise des produits de grande consommation tels que lessives, d&#233;tergents, couches pour b&#233;b&#233;, shampooings, piles, parfums" />
+		<meta name="category" content="Home" />
+		<link type="text/css" rel="stylesheet" media="screen, projection" href="/fr_FR/_styles/screen.css" />
+	<link type="text/css" rel="stylesheet" media="print" href="/fr_FR/_styles/print.css" />
+	<link type="text/css" rel="stylesheet" href="/fr_FR/_styles/sifr.css" />
+	<!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="all" href="/fr_FR/_styles/ie.css" /><![endif]-->	
+			<script src="/fr_FR/_scripts/lib/modernizr.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/lib/jquery-1.3.2.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/lib/jquery.stylish-select-mod.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/lib/jquery.zoom.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/lib/jquery.bbq.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/lib/swfobject.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/site-tools.js" type="text/javascript"></script>
+	<script src="/fr_FR/_scripts/common.js" type="text/javascript"></script>
+   <!-- <script src="/fr_FR/_scripts/lib/rightclick-disabled.js" type="text/javascript"></script>-->
+    
+	<script src="/fr_FR/_scripts/lib/sifr.js" type="text/javascript"></script>
+    <script src="/fr_FR/_scripts/lib/sifr-config.js" type="text/javascript"></script>
+    <script src="/fr_FR/_scripts/navigation.js" type="text/javascript"></script>
+    <script src="/fr_FR/_scripts/NewsletterForm.js" type="text/javascript"></script>
+	
+	<!--[if IE]><script src="/fr_FR/_scripts/ie.js" type="text/javascript"></script><![endif]-->
+	
+		<link type="text/css" rel="stylesheet" href="/fr_FR/_styles/lib/home.css" />
+<script type="text/javascript" src="/fr_FR/_scripts/home.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="/fr_FR/_styles/lib/slide.css" />
+    
+    <script src="/fr_FR/_scripts/lib/jquery-1.7.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/fr_FR/_scripts/lib/slide.js"></script>
+
+<style>
+
+#leadimg {
+    height: 465px!important;}
+#home_marquee .slide-nav{margin-bottom: 14px!important;}
+#home_marquee li div.overlay .text1 {top:0;}
+.text1 {
+    padding: 51px 10px 0 31px;}
+
+.text1 .texthead {
+    font-size: 23px;
+    padding: 7px 0 20px;
+    width: 393px;
+}
+.texthead2 {
+    font-size: 14px;
+    line-height: 26px;
+}
+</style>
+	</head>
+	<body class="home">
+		<div id="wrapper">
+			<div class="corporate-header">
+	<div id="header" class="section">
+		<a href="#main-content" id="skip-link" class="move_">Skip to main content</a>
+		<div id="corporate-navigation">
+			<ul class="nav">
+				<li class="nav-careers"><a href="/fr_FR/">Fr.pg.com - Home page</a></li>
+				<li class="nav-investor-relations"><a href="http://www.pg.com/en_US/investors/index.shtml" class="ext">Le coin des actionnaires</a></li>
+			</ul>
+		</div>
+		<form id="site-search" method="get" action="/fr_FR/_php/search.php">
+			<div>
+				<label for="search-text">Rechercher</label>
+				<input id="search-text" name="searchtext" alt="searchtext" title="searchtext" type="text" class="text" aria-required="true" aria-autocomplete="list" aria-controls="header-results-list" />
+				<input type="submit" class="submit" value="Rechercher" />
+				<input type="hidden" name="category" value=""/>
+				<input type="hidden" name="numberOfRecord" value="10"/>
+				<input type="hidden" name="start" value="0"/>
+			</div>
+		</form>
+		<h1 id="logo"><a href="/fr_FR/index.shtml">
+			<img src="/fr_FR/_images/drapeau_francais.jpg" width=25 height=18 alt="France" class="_move"/>France</a>
+		</h1>
+		<div class="world_" id="corporate-navigation">
+                       <ul class="nav">
+                               <li style="
+   padding: 0px;
+" class="nav-worldwide-sites"><a tabindex="0" href="/fr_FR/worldwide-sites.shtml" target="_blank">Nos sites dans le monde</a></li>
+                               </ul>
+               </div>
+	</div>
+</div>
+<div id="header-results" ></div>
+			<div id="body" class="section home-page-flash">
+				<div class="PG-logo"><a href="http://www.pg.com/" class="ext" title=""><img src="/fr_FR/_images/skin/blank.gif" alt="P&amp;G" height="29" width="62" /></a><span class="move_">Home</span></div>
+<div id="site-navigation">
+	<p class="move_">Primary navigation</p>
+	<ul class="nav">
+		
+		<li id="nav-company" class="primary-nav-item"><a href="/fr_FR/company.shtml"><img src="/fr_FR/_images/skin/blank.gif" width="1" height="1" alt="La Soci&#233;t&#233;" /><span class="move_"></span></a><div class="subnav-container"><p><a href="/fr_FR/company.shtml"><strong>Guid&#233;s par notre mission</strong>
+<span>En savoir plus</span></a></p><ul class="sub-nav">
+					<li><a href="/fr_FR/company/mission-values-and-principles.shtml">Mission, valeurs et principes</a></li>
+					<li><a href="/fr_FR/company/heritage.shtml">Historique Monde</a></li>
+					<li><a href="/fr_FR/company/strength.shtml">Nos Forces</a></li>
+					<li><a href="/fr_FR/company/global-organization.shtml">Organisation Mondiale</a></li>
+					<li><a href="/fr_FR/company/pg-france.shtml">P&amp;G en France</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-brands" class="primary-nav-item"><a href="/fr_FR/brands.shtml"><img src="/fr_FR/_images/skin/blank.gif" width="1" height="1" alt="Les Marques" /><span class="move_"></span></a><div class="subnav-container"><p><a href="/fr_FR/brands.shtml"><strong>Bien connues des consommateurs</strong>
+<span>En savoir plus</span></a></p><ul class="sub-nav">
+					<li><a href="/fr_FR/brands/beauty-care.shtml">Les 4 cat&#233;gories de produits P&G :</a></li>
+					<li><a href="/fr_FR/brands/beauty-care.shtml#beaute">&#8226; Beaut&#233;</a></li>
+					<li><a href="/fr_FR/brands/beauty-care.shtml#soin">&#8226; Soin du b&#233;b&#233;, hygi&#232;ne f&#233;minine et soin de la famille</a></li>
+					<li><a href="/fr_FR/brands/beauty-care.shtml#soin-du">&#8226; Soin du linge et de la maison</a></li>
+					<li><a href="/fr_FR/brands/beauty-care.shtml#sante">&#8226; Sant&#233; et rasage</a></li>
+					<li><a href="/fr_FR/brands/beauty-care.shtml">Les marques commercialis&#233;es en France</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-sustainability" class="primary-nav-item"><a href="/fr_FR/sustainability.shtml"><img src="/fr_FR/_images/skin/blank.gif" width="1" height="1" alt="D&#233;veloppement Durable" /><span class="move_"></span></a><div class="subnav-container"><p><a href="/fr_FR/sustainability.shtml"><strong>Aujourd'hui et pour les g&#233;n&#233;rations futures</strong>
+<span>En savoir plus</span></a></p><ul class="sub-nav">
+					<li><a href="/fr_FR/sustainability/from-president.shtml">Le mot du Pr&#233;sident</a></li>
+					<li><a href="/fr_FR/sustainability/strategy.shtml">Strat&#233;gie et vision long-terme</a></li>
+					<li><a href="/fr_FR/sustainability/environmental-sustainability.shtml">La protection de l'environnement</a></li>
+					<li><a href="/fr_FR/sustainability/social-responsibility.shtml">La responsabilit&#233; sociale</a></li>
+					<li><a href="/fr_FR/sustainability/employee-engagement.shtml">La mobilisation des collaborateurs</a></li>
+					<li><a href="/fr_FR/sustainability/employee-engagement.shtml">L'engagement des partenaires</a></li>
+					<li><a href="/fr_FR/sustainability/product-safety.shtml">La s&#233;curit&#233; des produits</a></li>
+					<li><a href="/fr_FR/sustainability/long-history.shtml">Une longue histoire</a></li>
+					<li><a href="/fr_FR/sustainability/sponsorship-and-partnership.shtml">M&#233;c&#233;nat et partenariats en France</a></li>
+					<li><a href="/fr_FR/news-views/sutainability-reports.shtml">Rapports D&#233;veloppement Durable</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-innovations" class="primary-nav-item"><a href="/fr_FR/innovations.shtml"><img src="/fr_FR/_images/skin/blank.gif" width="1" height="1" alt="Innovation" /><span class="move_"></span></a><div class="subnav-container"><p><a href="/fr_FR/innovations.shtml"><strong>Un des piliers de notre strat&#233;gie</strong>
+<span>En savoir plus</span></a></p><ul class="sub-nav">
+					<li><a href="/fr_FR/innovations/expertise.shtml">Une expertise reconnue</a></li>
+					<li><a href="/fr_FR/innovations/connect-plus-development.shtml">Program C+D</a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="nav-news-and-views" class="primary-nav-item"><a href="/fr_FR/news-views.shtml"><img src="/fr_FR/_images/skin/blank.gif" width="1" height="1" alt="News" /><span class="move_"></span></a><div class="subnav-container"><p><a href="/fr_FR/news-views.shtml"><strong>Gardons le contact</strong>
+<span>En savoir plus</span></a></p><ul class="sub-nav">
+					<li><a href="/fr_FR/news-views/pg-views.php">Communiqu&#233;s</a></li>
+					<li><a href="/fr_FR/news-views/annual-reports.shtml">Rapports annuels</a></li>
+					<li><a href="/fr_FR/news-views/sutainability-reports.shtml">Rapports D&#233;veloppement Durable</a></li>
+					<li><a href="/fr_FR/news-views/newsletter.shtml">E-Newsletter ”Au Cœur de P&G France” </a></li>
+					<li><a href="/fr_FR/news-views/bilans_des_emissions_de_gaz_a_effet_de_serre.shtml">Bilans des &#xe9;missions de gaz &#xe0; effet de serre</a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="content-top-border">&nbsp;</div>
+				<div id="content" class="section">
+					<div id="main-content">
+                    <div id="leadimg"><div id="home_marquee" class="marquee fade autoplay">
+		<div class="marquee-viewport">
+	        <ol id="marquee-panels" class="marquee-panels">
+             <li class="marquee-panel">
+            <img width="935" height="390" alt="" src="/fr_FR/_images/content/home/ar2014_bg.jpg" border="0" usemap="#Map8" />
+            <map name="Map8">
+<area shape="rect" coords="47,297,313,312" href="http://www.pginvestor.com/interactive/lookandfeel/4004124/PG_Annual_Report_2014.pdf" target="_blank">
+<area shape="rect" coords="47,318,530,335" href="http://www.pginvestor.com/interactive/lookandfeel/4004124/PG_Proxy_Statement_2014.pdf" target="_blank"><area shape="rect" coords="46,343,227,358" href="https://east-online.proxyvote.com/pv/web.do" target="_blank">
+</map></li>
+            	     <li class="marquee-panel current">
+                  
+                  <div id="overlay24" class="overlay TeaserPG_DankeMama">
+                  
+                  <div class="text1">
+                  <div class="logo-head"><img src="/fr_FR/_images/slides/tag-logo.png" align="absmiddle" style="vertical-align:middle" /></div>
+                  <div><p class="texthead">Découvrez de nouvelles façons<br> 
+d’embellir vos journées.</p>
+
+
+
+<p class="texthead2">Pensé pour vous par P&G, Envie De Plus vous<br> propose des idées, astuces et des offres de<br> réduction 
+pour embellir vos journées!
+ </p>
+                  </div>
+                
+                  <br>
+                  <div class="links">
+                  
+                  <a href="http://www.enviedeplus.com/" target="_blank"><img src="/fr_FR/_images/slides/home-marquee-arrow.png" align="absmiddle" />En savoir plus sur Envie De Plus  </a></div> 
+                    </div>
+                  
+                  
+                  <div class="bgoverlay1"></div>
+                  </div>
+           	  </li> 
+              <li class="marquee-panel">
+                  
+                  <div id="overlay23" class="overlay TeaserPG_DankeMama">
+                  
+                  <div class="text1">
+                  <div class="logo-head"><img src="/fr_FR/_images/slides/tag-logo.png" align="absmiddle" style="vertical-align:middle" />
+</div>
+                  <div><p class="texthead">Simplifiez votre quotidien.</p>
+
+
+
+<p class="texthead2">Surfez sur Envie De Plus et bénéficiez d’offres <br>exclusives sur vos produits préférés.
+
+ </p>
+                  </div>
+                
+                  <br>
+                  <div class="links">
+                  
+                  <a href="http://www.enviedeplus.com" target="_blank"><img src="/fr_FR/_images/slides/home-marquee-arrow.png" align="absmiddle" />En savoir plus sur Envie De Plus
+  </a></div> 
+                               </div>
+                  
+                  
+                  <div class="bgoverlay1"></div>
+                  </div>
+           	  </li>
+              <li class="marquee-panel">
+                  
+                  <div id="overlay22" class="overlay TeaserPG_DankeMama">
+                  
+                  <div class="text1">
+                  <div class="logo-head"><img src="/fr_FR/_images/slides/tag-logo.png" align="absmiddle" style="vertical-align:middle" />
+</div>
+                  <div><p class="texthead">De nouvelles idées pour vous inspirer cet été. 
+</p>
+
+
+
+<p class="texthead2">Envie De Plus vous propose des idées, <br>bons plans et 
+conseils beauté.
+ </p>
+                  </div>
+                
+                  <br>
+                  <div class="links">
+                  
+                  <a href="http://www.enviedeplus.com/" target="_blank"><img src="/fr_FR/_images/slides/home-marquee-arrow.png" align="absmiddle" />En savoir plus sur Envie De Plus  </a></div> 
+                               </div>
+                  
+                  
+                  <div class="bgoverlay1"></div>
+                  </div>
+           	  </li>
+                       
+                  <!--<li class="marquee-panel">
+                  
+                  <div id="overlay1">
+                  <img src="/fr_FR/_images/sochi_fr.jpg" alt="Proctor &amp; Gamble" width="935" height="390" usemap="#Map1" />
+<map name="Map1" id="Map1">
+<area shape="rect" alt=" " coords="65,175,195,210" href="http://www.youtube.com/watch?v=yi2bOPmnTE8" target="_blank" />
+</map>
+                  <div class="text1">
+                  
+                  
+                                    </div>
+                  
+                  </div>
+           	  </li>-->
+                <li class="marquee-panel">
+                 <div id="overlay2">
+                 
+                 <img width="935" height="390" alt="" src="/fr_FR/_images/slides/SR_fr.jpg" border="0" usemap="#Map" >
+<map name="Map">
+<area shape="rect" coords="45,190,360,230" href="/fr_FR/news-views/sutainability-reports.shtml">
+<area shape="rect" coords="45,245,410,255" href="/fr_FR/sustainability.shtml">
+
+</map>
+                 
+
+                 <div class="text1">
+                 
+                  
+                                    </div>
+
+                 </div>
+				 </li>
+            
+                  
+                                             
+	         </ol>
+	    </div>
+
+        <div class="slide-nav">
+        <div class="slide-info-background"></div>
+        	            <div class="slide-loc">
+                <ol class="controls marquee-nav" style="padding-left:10px;">
+                    
+                   <li class="current">
+                    	<a href="#" class="slide-selector">
+                    		<img src="/fr_FR/_images/content/home/ar2014_thumb.jpg" />
+
+                    	</a>
+                    	<div class="slide-info">RAPPORT ANNUEL 2014</div>
+                    	
+                    </li>
+                   
+                     <li class="current slide-selector">
+                    	<a href="#" class="slide-selector">
+                    		<img src="/fr_FR/_images/slides/new-ways-thumb.jpg" />
+
+                    	</a>
+                    	<div class="slide-info"></div>
+                    	
+                    </li>
+                    <li class="slide-selector">
+                    	<a href="#" class="slide-selector">
+                    		<img src="/fr_FR/_images/slides/everyday-thumb.jpg" />
+
+                    	</a>
+                    	<div class="slide-info"></div>
+                    	
+                    </li>
+                    <li class="slide-selector">
+                    	<a href="#" class="slide-selector">
+                    		<img src="/fr_FR/_images/slides/everyday-ideas-thumb.jpg" />
+
+                    	</a>
+                    	<div class="slide-info"></div>
+                    	
+                    </li>
+                    <!--<li class="slide-selector">
+                    	<a href="#overlay2"  class="slide-selector">
+                    		<img src="/fr_FR/_images/slides/thumb_pages.jpg" alt="" >
+                    	</a>
+                    <div class="slide-info">Merci Maman</div>
+                        <div class="slide-indicator"></div>
+                   	</li>-->
+                     <li class="slide-selector ">
+                    	<a href="#overlay1"  class="slide-selector">
+                    		<img src="/fr_FR/_images/slides/thumb_page.jpg" alt="" >
+                    	</a>
+                    	<div class="slide-info">Rapport Développement <br/>Durable 2013</div>
+                        <div class="slide-indicator"></div>
+                   	</li>
+					
+                    
+              </ol>
+            </div>
+        </div>       
+    </div>
+ <div style="clear:both"></div>
+</div>
+
+                    <div class="page-section">
+				<div class="container" style="width:217px">
+					<h3><img src="/fr_FR/_images/content/home/annual-reports.gif" alt="E-Newsletters &#xab;&#xa0;Au C&#x153;ur de P&amp;G France&#xa0;&#xbb;" /></h3>
+					<p>Suivez l&#8217;actualit&#233; de P&G France</p>
+					<ul class="links">
+						<li><a href="/fr_FR/news-views/newsletter.shtml">En savoir plus</a></li>
+					</ul>
+				</div>
+				<div class="container" style="width:200px">
+					<h3><img src="/fr_FR/_images/content/home/annual-reports_backup.png" alt="Nos rapports annuels" /></h3>
+					<p>Le point sur l'ann&#233;e &#233;coul&#233;e. Les perspectives d'avenir</p>
+					<ul class="links">
+						<li><a href="/fr_FR/news-views/annual-reports.shtml">En savoir plus</a></li>
+					</ul>
+				</div>
+				<div class="container" style="width:160px">
+					<h3><img src="/fr_FR/_images/content/home/join-us.jpg" alt="Nous rejoindre" /></h3>
+					<p>Un nouveau d&#233;fi chaque jour</p>
+					<ul class="links">
+						<li><a href="/fr_FR/careers.shtml"><br />En savoir plus</a></li>
+					</ul>
+				</div>
+				<div class="container" style="width:270px">
+					<h3><img src="/fr_FR/_images/content/home/je-prefere-callout.jpg" alt="P&#38;G soutient la campagne" /></h3>
+					<p></p>
+					<p><img src="/fr_FR/_images/content/home/je-prefere.jpg"/></p>
+					<ul class="links">
+						<li><a href="http://iprefer30.eu/fr" class="ext">En savoir plus</a></li>
+					</ul>
+				</div>
+			</div>
+			
+	</div>
+				</div>
+                
+			</div>
+            <div id="footer" class="section">
+	<p class="tagline">
+		<img src="/fr_FR/" alt="Au plus pr&#232;s de la vie, P&amp;G" class="move_" />
+		<strong class="move_">Au plus pr&#232;s de la vie, P&amp;G</strong>
+	</p>
+	<ul class="nav">
+	
+
+<li class="nav-contact"><a href="http://www.pg.com/privacy/french/privacy_notice.html" class="ext">Protection de la vie priv&#233;e</a></li>
+
+<li class="nav-contact"><a href="http://www.pg.com/en_US/privacy/french/cookie_notice.shtml" class="ext">Informations sur les cookies</a></li>
+
+<li class="nav-legal"><a href="/fr_FR/terms-conditions.shtml">Mentions L&#233;gales</a></li>
+
+<li class="nav-contact nav-oba"><a href="http://www.pg.com/en_US/privacy/french/cookie_notice.shtml#IBA" class="ext">Choix de la publicit&#233;</a></li>
+
+<li class="nav-terms"><a href="/fr_FR/contact-us.shtml">Nous contacter</a></li>
+
+    
+  
+	</ul>
+	<p class="copyright">© 2013 Toutes mentions valables uniquement pour la France</p>
+</div>
+
+            	</div>
+            <!--<div class="page-section-header">&nbsp;</div>-->
+			
+	<script src="//s.btstatic.com/tag.js">{ site: "AK7okjI" }</script>
+<noscript><iframe src="//s.thebrighttag.com/iframe?c=AK7okjI" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></noscript>
+</body>
+</html>

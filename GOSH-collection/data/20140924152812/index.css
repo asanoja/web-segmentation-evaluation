@@ -1,0 +1,57 @@
+/* ::::: http://www.imagebank.sweden.se/css/nivo-slider.css ::::: */
+
+/* ::::: http://www.imagebank.sweden.se/css/jquery.fancybox.css ::::: */
+
+/* ::::: http://www.imagebank.sweden.se/css/style.css ::::: */
+
+img { -moz-user-select: none; }
+html, body { margin: 0px; background-color: rgb(234, 234, 234); }
+body { margin: 0px auto; width: 960px; }
+img { border: medium none; }
+html, body, select, input, textarea, th, td { font-family: helvetica,arial,sans-serif; font-size: 14px; color: rgb(100, 100, 100); }
+h1, h2, h3, h4, h5, h6 { color: rgb(51, 51, 51); }
+h1 { font-size: 36px; font-weight: normal; margin: 18px 0px 10px; }
+h2 { font-size: 26px; font-weight: normal; margin: 20px 0px; }
+a { color: rgb(0, 145, 218); }
+.hr { border-top: 1px solid rgb(214, 215, 215); border-bottom: 1px solid rgb(255, 255, 255); }
+div#header { height: 68px; margin-top: 25px; position: relative; }
+div#header div#header-right { float: right; width: 235px; position: absolute; right: 0px; top: 0px; }
+div#header div#my-selection { width: 230px; height: 19px; }
+div#header div#my-selection img { margin: -6px 0px 0px -7px; float: left; }
+div#header div#my-selection div { float: left; line-height: 22px; }
+div#header div#my-selection a { text-decoration: none; color: rgb(0, 145, 218); }
+div#header form { margin-top: 10px; }
+div#header form input[type="submit"] { background: url('search-button.png') repeat scroll 0% 0% transparent; width: 64px; height: 24px; padding: 1px 8px; position: relative; top: 1px; border: 0px none; }
+div#header form input[type="text"] { width: 157px; height: 17px; }
+.footer { position: static; z-index: 100; bottom: 0px; left: 0px; height: 41px; width: 100%; color: rgb(99, 99, 99); clear: both; font-size: 12px; background-color: rgb(234, 234, 234); padding-bottom: 15px; }
+.footer #gototop { position: fixed; bottom: 34px; right: 50%; width: 11px; display: none; }
+.footer div { padding: 8px 0px; width: 960px; margin: 10px auto 0px; border-top: 4px solid rgb(210, 210, 210); }
+.footer div a { color: rgb(0, 144, 218); text-decoration: none; }
+.footer div span { float: right; }
+#selection-empty { display: none; }
+body#terms p, body#terms ul { width: 700px; }
+body#terms h2 { font-size: 1.4em; margin: 20px 0px 5px; }
+body#terms li { margin-bottom: 20px; }
+body#about p, body#terms ul, body#resources p, body#resources ul { width: 700px; }
+a.back { background: url('back.png') no-repeat scroll left center transparent; padding-left: 10px; font-size: 12px; text-decoration: none; position: absolute; top: 75px; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	div#header div#header-right { width: 245px; }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	div#header div#header-right { width: 245px; }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+#fdbk_overlay { width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1000000; position: absolute; }
+#fdbk_screen { top: 0px; left: 0px; z-index: 1; width: 100%; position: absolute; background-color: black; opacity: 0.45; }
+#fdbk_container { width: 680px; height: 640px; margin: 0px auto; z-index: 2; position: relative; }
+#fdbk_container iframe { width: 658px; height: 100%; margin: 20px; background: none repeat scroll 0% 0% transparent; }
+#fdbk_container iframe.loading { background: url('fb_loading-69ae70a0488c96730fb4a43785fd97b7.png') no-repeat scroll 0% 0% transparent; }
+a#fdbk_tab { top: 25%; left: 0px; width: 42px; height: 102px; color: white; cursor: pointer; text-indent: -100000px; overflow: hidden; position: fixed; z-index: 100000; margin-left: -7px; background-image: url('feedback_trans_tab-fa5bd26fde4425fd8102f4380980fc11.png'); }
+a#fdbk_tab:hover { margin-left: -4px; }
+a.fdbk_tab_right { right: 0px ! important; left: auto ! important; margin-right: 0px ! important; margin-left: auto ! important; width: 35px ! important; }
+a.fdbk_tab_right:hover { width: 38px ! important; margin-right: 0px ! important; margin-left: auto ! important; }
+a#fdbk_close { position: absolute; cursor: pointer; outline: medium none; top: 0px; left: 0px; z-index: 4; width: 42px; height: 42px; overflow: hidden; background-image: url('feedback-close-28150549f7cfbad294bff4e64334c01a.png'); }
+a#fdbk_close:hover { background-position: -42px 0px; }

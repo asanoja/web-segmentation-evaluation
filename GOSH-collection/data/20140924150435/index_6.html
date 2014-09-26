@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+	<title>ShareThis</title>
+	
+</head>
+<body>
+<div id="closeX" class="closeX_replace"></div>
+<div id="borderContainer">
+	<div id="outercontainer">
+			
+		<div class="clear"></div>
+		<div id="header_div"><h3 id="header_title"></h3></div>
+		<div id="main">
+			<div id="emailshareHeading" class="hideNewEmail">
+				<span id="emailshareMsg" class="popular">
+					<span id="emailShareTopLine" class="helvet12 stBold"></span>
+					<a id="pageInfoLink" href="http://support.sharethis.com/customer/portal/articles/1164544-faqs-for-consumers#emailprivacy" target="_top"><span class="_">&nbsp;</span></a>
+				</span>
+				<a href="javascript:void(0);" onclick="javascript:emailGoBackClick();" id="goBackLink" class="goBackLink" data-value="email" title="Go Back">Go Back</a>
+			</div>
+			<span class="notYou" id="notYou"></span>
+			<span class="popular" id="popular">Partagez avec vos amis</span>
+			<div id="modalPage" class="pageContainer" style="display: none;">
+				<div id="modal_box">
+					<div id="modal_text"></div>
+					<div id="modal_ok"><div class="button_holder" id="modal_button">OK</div></div>
+				</div>
+			</div>
+			<div id="mainPage" class="pageContainer" style="display: none;">	
+				<div id="all_chicklets">
+					<ul id="top_chicklets"><li><a href="javascript:void(0);" onclick="getEmailService();" id="post_email_link" title="Courriel" class="email rpChicklet">Courriel<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_email"></div></a></li><li><a onclick="serviceClicked(this);" stservice="facebook" id="post_facebook_link" title="Facebook" href="javascript:void(0);" class="facebook rpChicklet">Facebook<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_facebook"></div></a></li><li><a onclick="serviceClicked(this);" stservice="twitter" id="post_twitter_link" title="Twitter" href="javascript:void(0);" class="twitter rpChicklet">Twitter<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_twitter"></div></a></li><li><a onclick="serviceClicked(this);" stservice="pinterest" id="post_pinterest_link" title="Pinterest" href="javascript:void(0);" class="pinterest rpChicklet">Pinterest<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_pinterest"></div></a></li><li><a onclick="serviceClicked(this);" stservice="linkedin" id="post_linkedin_link" title="LinkedIn" href="javascript:void(0);" class="linkedin rpChicklet">LinkedIn<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_linkedin"></div></a></li><li><a onclick="serviceClicked(this);" stservice="googleplus" id="post_googleplus_link" title="Google +" href="javascript:void(0);" class="googleplus rpChicklet">Google +<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_googleplus"></div></a></li><li><a onclick="serviceClicked(this);" stservice="digg" id="post_digg_link" title="Digg" href="javascript:void(0);" class="digg rpChicklet">Digg<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_digg"></div></a></li><li><a onclick="serviceClicked(this);" stservice="stumbleupon" id="post_stumbleupon_link" title="StumbleUpon" href="javascript:void(0);" class="stumbleupon rpChicklet">StumbleUpon<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_stumbleupon"></div></a></li><li><a onclick="serviceClicked(this);" stservice="reddit" id="post_reddit_link" title="Reddit" href="javascript:void(0);" class="reddit rpChicklet">Reddit<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_reddit"></div></a></li><li><a onclick="serviceClicked(this);" stservice="tumblr" id="post_tumblr_link" title="Tumblr" href="javascript:void(0);" class="tumblr rpChicklet">Tumblr<div style="background-image: url('sprite_32_small.png');" class="largeChicklet lc_tumblr"></div></a></li><li><a onclick="serviceClicked(this);" stservice="adfty" id="post_adfty_link" title="Adfty" href="javascript:void(0);" class="adfty rpChicklet">Adfty<div class="largeChicklet lc_adfty"></div></a></li><li><a onclick="serviceClicked(this);" stservice="allvoices" id="post_allvoices_link" title="Allvoices" href="javascript:void(0);" class="allvoices rpChicklet">Allvoices<div class="largeChicklet lc_allvoices"></div></a></li><li><a onclick="serviceClicked(this);" stservice="amazon_wishlist" id="post_amazon_wishlist_link" title="Amazon Wishlist" href="javascript:void(0);" class="amazon_wishlist rpChicklet">Amazon Wishlist<div class="largeChicklet lc_amazon_wishlist"></div></a></li><li><a onclick="serviceClicked(this);" stservice="arto" id="post_arto_link" title="Arto" href="javascript:void(0);" class="arto rpChicklet">Arto<div class="largeChicklet lc_arto"></div></a></li><li><a onclick="serviceClicked(this);" stservice="att" id="post_att_link" title="AT&amp;T" href="javascript:void(0);" class="att rpChicklet">AT&amp;T<div class="largeChicklet lc_att"></div></a></li><li><a onclick="serviceClicked(this);" stservice="baidu" id="post_baidu_link" title="Baidu" href="javascript:void(0);" class="baidu rpChicklet">Baidu<div class="largeChicklet lc_baidu"></div></a></li><li><a onclick="serviceClicked(this);" stservice="blinklist" id="post_blinklist_link" title="Blinklist" href="javascript:void(0);" class="blinklist rpChicklet">Blinklist<div class="largeChicklet lc_blinklist"></div></a></li><li><a onclick="serviceClicked(this);" stservice="blip" id="post_blip_link" title="Blip" href="javascript:void(0);" class="blip rpChicklet">Blip<div class="largeChicklet lc_blip"></div></a></li><li><a onclick="serviceClicked(this);" stservice="blogmarks" id="post_blogmarks_link" title="Blogmarks" href="javascript:void(0);" class="blogmarks rpChicklet">Blogmarks<div class="largeChicklet lc_blogmarks"></div></a></li><li><a onclick="serviceClicked(this);" stservice="blogger" id="post_blogger_link" title="Blogger" href="javascript:void(0);" class="blogger rpChicklet">Blogger<div class="largeChicklet lc_blogger"></div></a></li><li><a onclick="serviceClicked(this);" stservice="buddymarks" id="post_buddymarks_link" title="BuddyMarks" href="javascript:void(0);" class="buddymarks rpChicklet">BuddyMarks<div class="largeChicklet lc_buddymarks"></div></a></li><li><a onclick="serviceClicked(this);" stservice="buffer" id="post_buffer_link" title="Buffer" href="javascript:void(0);" class="buffer rpChicklet">Buffer<div class="largeChicklet lc_buffer"></div></a></li><li><a onclick="serviceClicked(this);" stservice="care2" id="post_care2_link" title="Care2" href="javascript:void(0);" class="care2 rpChicklet">Care2<div class="largeChicklet lc_care2"></div></a></li><li><a onclick="serviceClicked(this);" stservice="chiq" id="post_chiq_link" title="chiq" href="javascript:void(0);" class="chiq rpChicklet">chiq<div class="largeChicklet lc_chiq"></div></a></li><li><a onclick="serviceClicked(this);" stservice="citeulike" id="post_citeulike_link" title="CiteULike" href="javascript:void(0);" class="citeulike rpChicklet">CiteULike<div class="largeChicklet lc_citeulike"></div></a></li><li><a onclick="serviceClicked(this);" stservice="corkboard" id="post_corkboard_link" title="Corkboard" href="javascript:void(0);" class="corkboard rpChicklet">Corkboard<div class="largeChicklet lc_corkboard"></div></a></li><li><a onclick="serviceClicked(this);" stservice="dealsplus" id="post_dealsplus_link" title="Dealspl.us" href="javascript:void(0);" class="dealsplus rpChicklet">Dealspl.us<div class="largeChicklet lc_dealsplus"></div></a></li><li><a onclick="serviceClicked(this);" stservice="delicious" id="post_delicious_link" title="Delicious" href="javascript:void(0);" class="delicious rpChicklet">Delicious<div class="largeChicklet lc_delicious"></div></a></li><li><a onclick="serviceClicked(this);" stservice="digg" id="post_digg_link" title="Digg" href="javascript:void(0);" class="digg rpChicklet">Digg<div class="largeChicklet lc_digg"></div></a></li><li><a onclick="serviceClicked(this);" stservice="diigo" id="post_diigo_link" title="Diigo" href="javascript:void(0);" class="diigo rpChicklet">Diigo<div class="largeChicklet lc_diigo"></div></a></li><li><a onclick="serviceClicked(this);" stservice="dzone" id="post_dzone_link" title="DZone" href="javascript:void(0);" class="dzone rpChicklet">DZone<div class="largeChicklet lc_dzone"></div></a></li><li><a onclick="serviceClicked(this);" stservice="edmodo" id="post_edmodo_link" title="Edmodo" href="javascript:void(0);" class="edmodo rpChicklet">Edmodo<div class="largeChicklet lc_edmodo"></div></a></li><li><a href="javascript:void(0);" onclick="getEmailService();" id="post_email_link" title="Courriel" class="email rpChicklet">Courriel<div class="largeChicklet lc_email"></div></a></li><li><a onclick="serviceClicked(this);" stservice="evernote" id="post_evernote_link" title="Evernote" href="javascript:void(0);" class="evernote rpChicklet">Evernote<div class="largeChicklet lc_evernote"></div></a></li><li><a onclick="serviceClicked(this);" stservice="facebook" id="post_facebook_link" title="Facebook" href="javascript:void(0);" class="facebook rpChicklet">Facebook<div class="largeChicklet lc_facebook"></div></a></li><li><a onclick="serviceClicked(this);" stservice="fark" id="post_fark_link" title="Fark" href="javascript:void(0);" class="fark rpChicklet">Fark<div class="largeChicklet lc_fark"></div></a></li><li><a onclick="serviceClicked(this);" stservice="fashiolista" id="post_fashiolista_link" title="Fashiolista" href="javascript:void(0);" class="fashiolista rpChicklet">Fashiolista<div class="largeChicklet lc_fashiolista"></div></a></li><li><a onclick="serviceClicked(this);" stservice="folkd" id="post_folkd_link" title="folkd.com" href="javascript:void(0);" class="folkd rpChicklet">folkd.com<div class="largeChicklet lc_folkd"></div></a></li><li><a onclick="serviceClicked(this);" stservice="foodlve" id="post_foodlve_link" title="FoodLve" href="javascript:void(0);" class="foodlve rpChicklet">FoodLve<div class="largeChicklet lc_foodlve"></div></a></li><li><a onclick="serviceClicked(this);" stservice="fresqui" id="post_fresqui_link" title="Fresqui" href="javascript:void(0);" class="fresqui rpChicklet">Fresqui<div class="largeChicklet lc_fresqui"></div></a></li><li><a onclick="serviceClicked(this);" stservice="friendfeed" id="post_friendfeed_link" title="FriendFeed" href="javascript:void(0);" class="friendfeed rpChicklet">FriendFeed<div class="largeChicklet lc_friendfeed"></div></a></li><li><a onclick="serviceClicked(this);" stservice="funp" id="post_funp_link" title="Funp" href="javascript:void(0);" class="funp rpChicklet">Funp<div class="largeChicklet lc_funp"></div></a></li><li><a onclick="serviceClicked(this);" stservice="fwisp" id="post_fwisp_link" title="fwisp" href="javascript:void(0);" class="fwisp rpChicklet">fwisp<div class="largeChicklet lc_fwisp"></div></a></li><li><a onclick="serviceClicked(this);" stservice="google" id="post_google_link" title="Google" href="javascript:void(0);" class="google rpChicklet">Google<div class="largeChicklet lc_google"></div></a></li><li><a onclick="serviceClicked(this);" stservice="googleplus" id="post_googleplus_link" title="Google +" href="javascript:void(0);" class="googleplus rpChicklet">Google +<div class="largeChicklet lc_googleplus"></div></a></li><li><a onclick="serviceClicked(this);" stservice="google_bmarks" id="post_google_bmarks_link" title="Bookmarks" href="javascript:void(0);" class="google_bmarks rpChicklet">Bookmarks<div class="largeChicklet lc_google_bmarks"></div></a></li><li><a onclick="serviceClicked(this);" stservice="google_reader" id="post_google_reader_link" title="Google Reader" href="javascript:void(0);" class="google_reader rpChicklet">Google Reader<div class="largeChicklet lc_google_reader"></div></a></li><li><a onclick="serviceClicked(this);" stservice="google_translate" id="post_google_translate_link" title="Google Translate" href="javascript:void(0);" class="google_translate rpChicklet">Google Translate<div class="largeChicklet lc_google_translate"></div></a></li><li><a onclick="serviceClicked(this);" stservice="hatena" id="post_hatena_link" title="Hatena" href="javascript:void(0);" class="hatena rpChicklet">Hatena<div class="largeChicklet lc_hatena"></div></a></li><li><a onclick="serviceClicked(this);" stservice="instapaper" id="post_instapaper_link" title="Instapaper" href="javascript:void(0);" class="instapaper rpChicklet">Instapaper<div class="largeChicklet lc_instapaper"></div></a></li><li><a onclick="serviceClicked(this);" stservice="jumptags" id="post_jumptags_link" title="Jumptags" href="javascript:void(0);" class="jumptags rpChicklet">Jumptags<div class="largeChicklet lc_jumptags"></div></a></li><li><a onclick="serviceClicked(this);" stservice="kaboodle" id="post_kaboodle_link" title="Kaboodle" href="javascript:void(0);" class="kaboodle rpChicklet">Kaboodle<div class="largeChicklet lc_kaboodle"></div></a></li><li><a onclick="serviceClicked(this);" stservice="linkagogo" id="post_linkagogo_link" title="linkaGoGo" href="javascript:void(0);" class="linkagogo rpChicklet">linkaGoGo<div class="largeChicklet lc_linkagogo"></div></a></li><li><a onclick="serviceClicked(this);" stservice="linkedin" id="post_linkedin_link" title="LinkedIn" href="javascript:void(0);" class="linkedin rpChicklet">LinkedIn<div class="largeChicklet lc_linkedin"></div></a></li><li><a onclick="serviceClicked(this);" stservice="livejournal" id="post_livejournal_link" title="LiveJournal" href="javascript:void(0);" class="livejournal rpChicklet">LiveJournal<div class="largeChicklet lc_livejournal"></div></a></li><li><a onclick="serviceClicked(this);" stservice="mail_ru" id="post_mail_ru_link" title="mail.ru" href="javascript:void(0);" class="mail_ru rpChicklet">mail.ru<div class="largeChicklet lc_mail_ru"></div></a></li><li><a onclick="serviceClicked(this);" stservice="meneame" id="post_meneame_link" title="Meneame" href="javascript:void(0);" class="meneame rpChicklet">Meneame<div class="largeChicklet lc_meneame"></div></a></li><li><a onclick="serviceClicked(this);" stservice="messenger" id="post_messenger_link" title="Messenger" href="javascript:void(0);" class="messenger rpChicklet">Messenger<div class="largeChicklet lc_messenger"></div></a></li><li><a onclick="serviceClicked(this);" stservice="mister_wong" id="post_mister_wong_link" title="Mr Wong" href="javascript:void(0);" class="mister_wong rpChicklet">Mr Wong<div class="largeChicklet lc_mister_wong"></div></a></li><li><a onclick="serviceClicked(this);" stservice="moshare" id="post_moshare_link" title="moShare" href="javascript:void(0);" class="moshare rpChicklet">moShare<div class="largeChicklet lc_moshare"></div></a></li><li><a onclick="serviceClicked(this);" stservice="myspace" id="post_myspace_link" title="MySpace" href="javascript:void(0);" class="myspace rpChicklet">MySpace<div class="largeChicklet lc_myspace"></div></a></li><li><a onclick="serviceClicked(this);" stservice="n4g" id="post_n4g_link" title="N4G" href="javascript:void(0);" class="n4g rpChicklet">N4G<div class="largeChicklet lc_n4g"></div></a></li><li><a onclick="serviceClicked(this);" stservice="netlog" id="post_netlog_link" title="Netlog" href="javascript:void(0);" class="netlog rpChicklet">Netlog<div class="largeChicklet lc_netlog"></div></a></li><li><a onclick="serviceClicked(this);" stservice="netvouz" id="post_netvouz_link" title="Netvouz" href="javascript:void(0);" class="netvouz rpChicklet">Netvouz<div class="largeChicklet lc_netvouz"></div></a></li><li><a onclick="serviceClicked(this);" stservice="newsvine" id="post_newsvine_link" title="Newsvine" href="javascript:void(0);" class="newsvine rpChicklet">Newsvine<div class="largeChicklet lc_newsvine"></div></a></li><li><a onclick="serviceClicked(this);" stservice="nujij" id="post_nujij_link" title="NUjij" href="javascript:void(0);" class="nujij rpChicklet">NUjij<div class="largeChicklet lc_nujij"></div></a></li><li><a onclick="serviceClicked(this);" stservice="odnoklassniki" id="post_odnoklassniki_link" title="Odnoklassniki" href="javascript:void(0);" class="odnoklassniki rpChicklet">Odnoklassniki<div class="largeChicklet lc_odnoklassniki"></div></a></li><li><a onclick="serviceClicked(this);" stservice="oknotizie" id="post_oknotizie_link" title="Oknotizie" href="javascript:void(0);" class="oknotizie rpChicklet">Oknotizie<div class="largeChicklet lc_oknotizie"></div></a></li><li><a onclick="serviceClicked(this);" stservice="pinterest" id="post_pinterest_link" title="Pinterest" href="javascript:void(0);" class="pinterest rpChicklet">Pinterest<div class="largeChicklet lc_pinterest"></div></a></li><li><a onclick="serviceClicked(this);" stservice="raise_your_voice" id="post_raise_your_voice_link" title="Raise Your Voice" href="javascript:void(0);" class="raise_your_voice rpChicklet">Raise Your Voice<div class="largeChicklet lc_raise_your_voice"></div></a></li><li><a onclick="serviceClicked(this);" stservice="reddit" id="post_reddit_link" title="Reddit" href="javascript:void(0);" class="reddit rpChicklet">Reddit<div class="largeChicklet lc_reddit"></div></a></li><li><a onclick="serviceClicked(this);" stservice="segnalo" id="post_segnalo_link" title="Segnalo" href="javascript:void(0);" class="segnalo rpChicklet">Segnalo<div class="largeChicklet lc_segnalo"></div></a></li><li><a onclick="serviceClicked(this);" stservice="sina" id="post_sina_link" title="Sina" href="javascript:void(0);" class="sina rpChicklet">Sina<div class="largeChicklet lc_sina"></div></a></li><li><a onclick="serviceClicked(this);" stservice="sonico" id="post_sonico_link" title="Sonico" href="javascript:void(0);" class="sonico rpChicklet">Sonico<div class="largeChicklet lc_sonico"></div></a></li><li><a onclick="serviceClicked(this);" stservice="startaid" id="post_startaid_link" title="Startaid" href="javascript:void(0);" class="startaid rpChicklet">Startaid<div class="largeChicklet lc_startaid"></div></a></li><li><a onclick="serviceClicked(this);" stservice="startlap" id="post_startlap_link" title="Startlap" href="javascript:void(0);" class="startlap rpChicklet">Startlap<div class="largeChicklet lc_startlap"></div></a></li><li><a onclick="serviceClicked(this);" stservice="stumbleupon" id="post_stumbleupon_link" title="StumbleUpon" href="javascript:void(0);" class="stumbleupon rpChicklet">StumbleUpon<div class="largeChicklet lc_stumbleupon"></div></a></li><li><a onclick="serviceClicked(this);" stservice="stumpedia" id="post_stumpedia_link" title="Stumpedia" href="javascript:void(0);" class="stumpedia rpChicklet">Stumpedia<div class="largeChicklet lc_stumpedia"></div></a></li><li><a onclick="serviceClicked(this);" stservice="typepad" id="post_typepad_link" title="TypePad" href="javascript:void(0);" class="typepad rpChicklet">TypePad<div class="largeChicklet lc_typepad"></div></a></li><li><a onclick="serviceClicked(this);" stservice="tumblr" id="post_tumblr_link" title="Tumblr" href="javascript:void(0);" class="tumblr rpChicklet">Tumblr<div class="largeChicklet lc_tumblr"></div></a></li><li><a onclick="serviceClicked(this);" stservice="twitter" id="post_twitter_link" title="Twitter" href="javascript:void(0);" class="twitter rpChicklet">Twitter<div class="largeChicklet lc_twitter"></div></a></li><li><a onclick="serviceClicked(this);" stservice="viadeo" id="post_viadeo_link" title="Viadeo" href="javascript:void(0);" class="viadeo rpChicklet">Viadeo<div class="largeChicklet lc_viadeo"></div></a></li><li><a onclick="serviceClicked(this);" stservice="virb" id="post_virb_link" title="Virb" href="javascript:void(0);" class="virb rpChicklet">Virb<div class="largeChicklet lc_virb"></div></a></li><li><a onclick="serviceClicked(this);" stservice="vkontakte" id="post_vkontakte_link" title="Vkontakte" href="javascript:void(0);" class="vkontakte rpChicklet">Vkontakte<div class="largeChicklet lc_vkontakte"></div></a></li><li><a onclick="serviceClicked(this);" stservice="voxopolis" id="post_voxopolis_link" title="VOXopolis" href="javascript:void(0);" class="voxopolis rpChicklet">VOXopolis<div class="largeChicklet lc_voxopolis"></div></a></li><li><a href="javascript:void(0);" onclick="createPoster(&quot;wordpress&quot;)" id="post_wordpress_link" title="WordPress" class="wordpress rpChicklet">WordPress<div class="largeChicklet lc_wordpress"></div></a></li><li><a onclick="serviceClicked(this);" stservice="xerpi" id="post_xerpi_link" title="Xerpi" href="javascript:void(0);" class="xerpi rpChicklet">Xerpi<div class="largeChicklet lc_xerpi"></div></a></li><li><a onclick="serviceClicked(this);" stservice="xing" id="post_xing_link" title="Xing" href="javascript:void(0);" class="xing rpChicklet">Xing<div class="largeChicklet lc_xing"></div></a></li><li><a onclick="serviceClicked(this);" stservice="yammer" id="post_yammer_link" title="Yammer" href="javascript:void(0);" class="yammer rpChicklet">Yammer<div class="largeChicklet lc_yammer"></div></a></li></ul>
+					<div id="sts_slider">
+						<div style="top: -1px; background-image: url('scroll.png');" id="sts_sliderKnob"></div>
+					</div>
+				</div>
+				<div id="chicklet_search">
+					<input value="Chercher un service" id="chicklet_search_field" onkeyup="searchAndDisplay(this.value);" type="text">
+				</div>
+			</div>
+			
+			<div id="emailPage" class="pageContainer" style="display: none;">	
+				<div id="email_main">
+					<div id="emailAuthentication" class="hideNewEmail divAlignCenter">
+						<div class="leftSection divAlignCenter">
+							<div class="paddingBottom20"><span class="stBold helvet12 clrBlack">Send it via your <br>email provider:</span></div>
+							<div class="externalEmailDiv">
+								<a href="javascript:void(0);" onclick="javascript:emailShareExternal(this);" class="externalEmailService" data-value="gmail"><span class="gmail">&nbsp;</span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareExternal(this);" class="externalEmailService" data-value="yahoo"><span class="yahoo"></span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareExternal(this);" class="externalEmailService" data-value="outlook"><span class="outlook">&nbsp;</span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareExternal(this);" class="externalEmailService" data-value="mailto"><span class="mailto">&nbsp;</span></a>
+							</div>
+						</div>
+						<div class="middleSection divAlignCenter">
+							<span class="OR_5X">&nbsp;</span>
+						</div>
+						<div class="rightSection divAlignCenter">
+							<div class="paddingBottom20"><span class="stBold helvet12 clrBlack"><br>Sign in via:</span></div>
+							<div id="login-accounts">
+								<a href="javascript:void(0);" onclick="javascript:emailShareOAuth(this);" class="oAuthService" data-value="facebook"><span class="oFacebook">&nbsp;</span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareOAuth(this);" class="oAuthService" data-value="linkedin"><span class="oLinkedin">&nbsp;</span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareOAuth(this);" class="oAuthService" data-value="twitter"><span class="oTwitter">&nbsp;</span></a>						
+								<a href="javascript:void(0);" onclick="javascript:emailShareOAuth(this);" class="oAuthService" data-value="yahoo"><span class="oYahoo">&nbsp;</span></a>
+								<a href="javascript:void(0);" onclick="javascript:emailShareOAuth(this);" class="oAuthService" data-value="google"><span class="oGoogle">&nbsp;</span></a>
+							</div>
+							<div class="paddingBottom20 helvet12 marginTop20 clrBlack">to authenticate your <br>email account and <br>continue sharing</div>
+						</div>
+					</div>
+			
+					<div id="emailcontainer">						
+						<div id="heading_div" class="heading">
+							<h1 id="emailheading"></h1>
+						</div>
+						<div id="recents">
+							<span id="recents_label" class="recent_label">Recents:</span>
+							<span id="recents_list"></span>
+						</div>
+						<div id="to_div" class="field">
+							<div class="input_holder">
+								<div id="toString" class="label"></div>
+								<textarea wrap="soft" class="text" id="txtYourAddr" autocomplete="OFF"></textarea>
+							</div>
+						</div>
+						<div id="import_div">
+							<span id="importDivLavel"> </span>:
+							<span id="import_contacts_link_google">Google&nbsp;&nbsp;</span>|
+							<span id="import_contacts_link_yahoo">&nbsp;Yahoo</span>
+						</div>
+						<div id="from_div" class="field">
+							<div class="input_holder">
+								<div id="fromString" class="label"></div>
+								<input value="" id="txtFromAddr" class="text" autocomplete="off" type="text">
+							</div>
+						</div>
+						<div id="message_div" class="field">
+							<div class="input_holder">
+								<div id="messageString" class="label"></div>
+								<textarea rows="3" cols="10" id="txtMessage"></textarea>
+							</div>
+						</div>
+						<div id="counter_div"></div>
+						<div id="buttons_div" class="field">
+							<div id="btnShareSend" class="button_holder">Send</div>
+							<div class="button_holder" id="btnShareCancel">Cancel</div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						<div id="errorMsg" class="sts-dn errorMessageWidget"></div>
+						<div id="emailCookieErrorMessage" class="errorMessageWidget" style="display: none;">
+							Your browser does not accept 3rd party cookies. Some of the ShareThis <a href="http://support.sharethis.com/customer/portal/articles/1164544-faqs-for-consumers#firefox22" target="_top">features</a> require 3rd party cookies. 			
+						</div>
+						<div class="email_box" id="email_box"></div>
+						<div class="wait_box" id="wait_box">
+							<div id="waitingBoxDiv" class="waiting_div"></div>
+							<div class="centeredImage">
+								<!-- <img src="http://w.sharethis.com/images/spinner.gif"> -->
+								<span class="imgSpinner">&nbsp;</span>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="captchaPage" class="pageContainer" style="display: none;">
+				<div id="captcha_info"></div>
+				<div id="captcha"></div>
+				<div id="captchaSubmit" class="button_holder">Submit</div>
+				<div id="captchaCancel" class="button_holder">Cancel</div>				
+				<div id="emailCaptchaTPCMessage" class="errorMessageWidgetCaptcha" style="display: none;">
+							Since your browser does not accept <a href="http://support.sharethis.com/customer/portal/articles/1164544-faqs-for-consumers#firefox22" target="_top">3rd party cookies</a>. The system does not work as expected and captcha will be requested every time.
+				</div>
+			</div>
+			
+			<div id="donePage" class="pageContainer" style="display: none;">
+				<div class="againContainer" id="successBox">
+					<div class="success" id="msg_share_success">Votre message a bien été partagé !</div>
+					<div class="center">
+						<div id="btnShareAgain" class="button_holder" style="display: none;">Nouveau partage</div>
+						<div id="btnFastShare" class="button_holder">Activer FastShare</div>
+					</div>
+				</div>
+				<div class="againContainer" id="fsDoneBox" style="display: none;">
+					<div class="success" id="msg_fs_done">
+						<h5>You have successfully enabled FastShare!</h5>
+						<p style="font-size: 1.1em;">Now, sharing is just one click away. Just look for the white check in the green circle.</p>
+						<img id="fsExampleImg">
+					</div>
+				</div>
+				<div id="done_screen">
+					
+					<div class="clear"></div>
+					<div id="doneScreenContent">
+						<div class="relatedText" id="relatedText">Contenu similaire</div>
+						<div id="relatedShares"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			<div id="posterPage" class="pageContainer" style="display: none;">	
+				<div id="poster_main">
+					<div id="poster_heading"><span id="msg_post_to">Publier sur</span> <span id="poster_heading_service"></span>:</div>
+					<div id="comment_box">
+						<div id="poster_message">Message:</div>
+						<textarea id="poster_textArea" name="poster_textArea" cols="10" rows="3"></textarea>
+					</div>
+					<div id="poster_input_div">
+						<div id="poster_message2">Url du blog:</div>http://<input value="" id="poster_inputBox" autocomplete="off" type="text">/
+					</div>
+					<div id="poster_att_div">
+						<div id="poster_message3">Client ID</div><input value="" id="poster_inputBox_att" style="width: 295px ! important;" autocomplete="off" type="text">
+					</div>					
+					<div class="clear"></div>
+					<div id="poster_message_counter"><span id="counter">117</span> Characters Left</div>
+					<div class="poster_buttons">
+						<div id="posterSubmit" class="button_holder" onclick="poster.post()">Soumettre</div>
+						<div id="posterCancel" class="button_holder" onclick="poster.cancel()">Cancel</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="loadingPage" class="pageContainer" style="display: none;">	
+				<div class="loading_box" id="loading_box">
+					<div class="loading_container">
+						<div id="loading">Loading...</div>
+						<div id="loading_img">
+							<!-- <img src="http://w.sharethis.com/images/spinner.gif"> -->
+							<span class="imgSpinner">&nbsp;</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer">
+			<div id="signIn">
+				<span id="signIn_text">Connexion</span>
+			</div>
+			<div id="footer_info">
+				<a id="signOut" href="#" title="Sign Out">Déconnexion</a>
+			</div>
+			<div id="footer_p">
+				<a id="doNotTrack" href="http://sharethis.com/privacy" target="_top">Do Not Track</a>
+				<!-- <a id="trackPrivacySeperator" style="text-decoration:none;">&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+				<a id="privacy" href="http://sharethis.com/privacy" target="_blank"> Privacy </a> -->
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>
+<div id="segmentDiv" style="display: none;"></div>	
+
+<!-- end of body add js here -->
+
+
+
+
+
+
+</body>
+</html>

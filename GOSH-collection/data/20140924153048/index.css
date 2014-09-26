@@ -1,0 +1,183 @@
+/* ::::: http://www.pg.com/fr_FR/_styles/screen.css ::::: */
+
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/baseline.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr { margin: 0px; padding: 0px; border: 0px none; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; font-size: 1em; }
+:focus {  }
+body { background: none repeat scroll 0% 0% white; }
+ol, ul { list-style: none outside none; }
+body { line-height: 1; color: rgb(68, 68, 68); font-family: Arial,Helvetica,sans-serif; }
+html { overflow-y: scroll ! important; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/common.css ::::: */
+
+.search-result:after, .section:after, .page-section:after, .block:after { clear: both; content: "."; height: 0px; visibility: hidden; display: block; }
+.move_ { position: absolute; left: -9999px; }
+#leadimg { width: 935px; height: 390px; }
+h1, h2, h3, h4, h5, h6 {  }
+p, dl, ul, ol, table, fieldset {  }
+a { text-decoration: none; color: rgb(0, 70, 173); }
+a:hover { text-decoration: underline; }
+.page-section a { font-weight: bold; }
+.page-section p, ol.body-list li, ul.body-list li { font-size: 1.0825em; }
+p, li, th, td, .vcard { margin: 0px; padding: 0px; line-height: 1.4; }
+.page-section p { margin: 0px 0px 18px; }
+h1, h2, h3, h4, h5, h6 {  }
+label { margin-right: 15px; line-height: 1; }
+input.text { margin: 0px; padding: 5px 3px; border: 1px solid rgb(204, 204, 204); height: 13px; line-height: 13px; display: block; color: rgb(153, 153, 153); font-family: Arial; font-size: 13px; font-weight: normal; }
+dl, ul, ol { line-height: 1.36; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/navigation.css ::::: */
+
+.nav li { float: left; }
+div#site-navigation {  }
+#site-navigation ul.nav { position: absolute; margin: 0px 0px 0px 2px; }
+#site-navigation li.primary-nav-item { margin: 0px; padding: 0px; width: 155px; height: 42px; float: left; background-position: 0px 0px; background-repeat: no-repeat; overflow: hidden; cursor: pointer; }
+#site-navigation li#nav-innovations { background-image: url('spr-innovations.png'); background-position: 0px -35px; }
+#site-navigation li#nav-company { background-image: url('spr-company.png'); background-position: 0px -35px; }
+#site-navigation li#nav-brands { background-image: url('spr-brands.png'); background-position: 0px -35px; }
+#site-navigation li#nav-sustainability { background-image: url('spr-sustainability.png'); background-position: 0px -35px; }
+#site-navigation li#nav-news-and-views { background-image: url('spr-news-and-views.png'); background-position: 0px -35px; width: 157px; }
+#site-navigation li:hover, #site-navigation li.hover_ { background-position: 0px -35px; }
+#site-navigation li a { display: block; width: 157px; height: 42px; float: left; text-decoration: none; position: relative; z-index: 90; color: rgb(0, 0, 0); }
+#site-navigation #nav-innovations li a { color: rgb(240, 105, 0); }
+#site-navigation #nav-company li a { color: rgb(0, 70, 173); }
+#site-navigation #nav-brands li a { color: rgb(240, 105, 0); }
+#site-navigation #nav-sustainability li a { color: rgb(110, 184, 32); }
+#site-navigation #nav-news-and-views li a { color: rgb(0, 70, 173); }
+#site-navigation #nav-innovations a:hover, #site-navigation #nav-company a:hover, #site-navigation #nav-brands a:hover, #site-navigation #nav-sustainability a:hover, #site-navigation #nav-news-and-views a:hover { color: rgb(51, 51, 51); }
+#site-navigation li div { margin: 0px 0px 0px -1px; padding: 0px 9px 30px; width: 138px; height: auto; border-right: 1px solid rgb(204, 204, 204); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(204, 204, 204) rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); background-position: 0px -84px; background-repeat: no-repeat; color: rgb(153, 153, 153); position: absolute; top: 0px; z-index: 89; }
+#site-navigation li#nav-innovations div { background-image: url('spr-innovations.png'); background-position: 0px -119px; }
+#site-navigation li#nav-company div { background-image: url('spr-company.png'); background-position: 0px -119px; }
+#site-navigation li#nav-brands div { background-image: url('spr-brands.png'); background-position: 0px -119px; }
+#site-navigation li#nav-sustainability div { background-image: url('spr-sustainability.png'); background-position: 0px -119px; }
+#site-navigation li#nav-news-and-views div { background-image: url('spr-news-and-views.png'); background-position: 0px -119px; }
+#site-navigation li div a { margin: 0px; padding: 7px 0px; width: 138px; height: auto; border-bottom: 1px solid rgb(229, 229, 229); float: none; font-size: 1.075em; text-indent: 0px; }
+#site-navigation li div p { margin: 50px 0px 30px; padding: 15px 0px 0px; line-height: 1; }
+#site-navigation li div p a:link, #site-navigation li div p a:visited { background-position: 0px 0px; background-repeat: no-repeat; border: medium none; display: block; margin: 0px; overflow: hidden; padding: 0px; }
+#site-navigation li div p a:focus, #site-navigation li div p a:hover, #site-navigation li div p a:active { background-position: 0px -60px; cursor: pointer; }
+#site-navigation li#nav-company div p a { background-image: url('navtxt-company.png'); color: rgb(0, 70, 173); }
+#site-navigation li#nav-brands div p a { background-image: url('navtxt-brands.png'); color: rgb(240, 105, 0); }
+#site-navigation li#nav-sustainability div p a { background-image: url('navtxt-sustainability.png'); color: rgb(110, 184, 32); }
+#site-navigation li#nav-news-and-views div p a { background-image: url('navtxt-news-and-views.png'); color: rgb(0, 70, 173); }
+#site-navigation li#nav-innovations div p a { background-image: url('navtxt-innovations.png'); color: rgb(240, 105, 0); }
+#site-navigation li div p strong { background: none repeat scroll 0% 0% transparent; display: block; height: 0px; overflow: hidden; padding: 60px 0px 0px; width: 138px; }
+#site-navigation li div p span { background: none repeat scroll 0% 0% rgb(255, 255, 255); display: block; font-size: 0.875em; font-weight: bold; padding-top: 7px; text-transform: uppercase; width: 100%; }
+#site-navigation li div ul { margin: 0px; padding: 0px; width: 138px; position: relative; top: 0px; left: 0px; border-top: 1px solid rgb(229, 229, 229); }
+#site-navigation li div li { margin: 0px; padding: 0px; width: 138px; float: none; list-style: none outside none; line-height: 1.1; }
+#site-navigation li div { top: -4444px; }
+#site-navigation li:hover div, #site-navigation li.current:hover div { top: 0px; }
+.js-enabled #site-navigation li div { display: none; top: 0px; }
+.js-enabled #site-navigation li:hover div, .js-enabled #site-navigation li.current:hover div { display: block; }
+#corporate-navigation {  }
+#corporate-navigation li { margin: 0px; padding: 0px 15px 0px 0px; float: left; }
+#corporate-navigation li a { margin: 0px; padding: 0px; width: auto; height: 16px; display: block; background-position: 0px 0px; background-repeat: no-repeat; float: left; color: white; font-size: 0.9em; font-weight: bold; line-height: 16px; text-decoration: none; }
+#corporate-navigation li.nav-worldwide-sites a { padding-left: 19px; background-image: url('ico-worldwide.png'); background-position: 0px 0px; background-repeat: no-repeat; text-transform: uppercase; }
+#corporate-navigation li a:hover { text-decoration: underline; }
+#footer .nav { clear: both; margin: 9px 0px; padding: 0px 20px 0px 0px; float: right; font-size: 0.9em; line-height: 16px; }
+#footer .nav li { display: block; margin: 0px; padding: 0px 9px; width: auto; height: 16px; line-height: 16px; border-right: 1px solid rgb(153, 181, 222); }
+#footer .nav li:last-child { padding-right: 0px; border: 0px none; }
+#footer .nav li a { color: rgb(255, 255, 255); }
+.world_ { float: right; padding: 15px 3px 0px 0px ! important; position: inherit ! important; }
+#footer .nav li.nav-oba { background: url('oba_icon.png') no-repeat scroll right center transparent; padding: 0px 15px 0px 9px; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/shell.css ::::: */
+
+body { background: none repeat scroll 0% 0% rgb(0, 70, 173); padding: 0px 0px 24px; margin: 0px; }
+#wrapper { margin: 0px auto; padding: 0px 0px 50px; background-image: url('bg-wrapper-blue.png') ! important; background-position: 50% 100%; background-repeat: no-repeat; }
+.corporate-header { background: url('corporate-header-bg.png') repeat scroll 0% 0% transparent; min-width: 945px; }
+#header { width: 940px; position: relative; z-index: 9; margin: 0px auto; text-align: left; height: 42px; }
+#logo { height: 29px; margin-top: -7px; margin-right: 2px; position: absolute; right: -29px; width: 109px; }
+#logo a { color: rgb(255, 255, 255); display: block; font-size: 1.25em; font-weight: bold; margin: 0px; padding: 10px 0px; width: 110px; }
+#logo a img { vertical-align: bottom; margin-right: 5px; }
+#skip-link { position: absolute; left: -9999px; top: 11px; color: white; font-size: 0.9em; font-weight: bold; line-height: 16px; }
+#skip-link:focus { left: 100px; }
+#site-search { margin: 0px; padding: 0px; position: absolute; top: 7px; left: 450px; width: 300px ! important; height: 25px; }
+#site-search label { display: none; }
+#site-search input.text { margin: 0px 10px; padding: 5px 0px 3px 22px; width: 157px; height: 15px; background: url('ico-search.png') no-repeat scroll 4px 3px transparent; border: 1px solid rgb(77, 126, 198); color: rgb(255, 255, 255); font-family: Arial; font-size: 13px; font-weight: bold; float: left; }
+#site-search input.submit { margin: 4px 0px 0px; padding-right: 10px ! important; width: auto; height: 16px; background: none repeat scroll 0px center transparent; border: 0px none; color: white; font-family: Arial; font-size: 0.9em; font-weight: bold; line-height: 16px; text-decoration: none; text-transform: uppercase; float: right; }
+#site-search input.submit:hover { text-decoration: underline; }
+#site-search input.text:focus { outline: 0px none; }
+#corporate-navigation { height: 16px; position: absolute; top: 10px; left: 0px; margin: 0px; padding: 1px 0px; }
+.PG-logo { left: 20px; margin-top: -38px; position: absolute; background-image: url('logo.png'); background-repeat: no-repeat; background-position: 0px 0px; width: 62px; height: 29px; }
+.PG-logo a { display: block; width: 60px; height: 29px; }
+#body { margin: 65px auto 0px; width: 945px; background: url('bg-content.png') repeat-y scroll 0px 0px transparent ! important; min-height: 300px; position: relative; z-index: 10; }
+#site-navigation { left: 161px; margin-top: -51px; position: absolute; z-index: 11; height: 84px; width: 787px; }
+.home .content-top-border { background-image: url('bg-content-top-border.png'); background-position: 0px 0px; }
+.content-top-border { background-image: url('bg-content-top-border.png'); background-position: 0px 0px; background-repeat: no-repeat; position: absolute; top: -4px; width: 945px; height: 4px; }
+#content { margin: -5px 5px -4px; padding: 20px; position: relative; z-index: 1; background-image: none; background-position: 100% 0px; background-repeat: no-repeat; }
+#footer { background: url('bg-content-bottom.png') no-repeat scroll 0px 0px transparent; margin: 0px auto; padding: 10px 5px; width: 935px; height: auto; color: rgb(255, 255, 255); text-align: right; }
+#footer p { color: rgb(255, 255, 255); }
+#footer p.tagline { margin: 24px 0px 14px; padding: 0px 4px 0px 0px; font-size: 1.125em; line-height: 1.2; background: url('tagline.png') no-repeat scroll 0px 0px transparent; width: 269px; height: 19px; display: block; float: right; }
+#footer p.copyright { margin: 0px; padding: 0px 20px 0px 0px; clear: right; float: right; font-size: 0.975em; color: rgb(153, 181, 222); }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/layout.css ::::: */
+
+#content {  }
+#main-content { margin: 0px; width: 661px; height: auto; float: right; position: relative; }
+.page-section { margin: 0px; padding: 10px 0px 0px; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/blocks.css ::::: */
+
+#header-results { clear: both; overflow: hidden; width: 945px; margin: 15px auto; padding: 10px 0px; border-top: 1px solid rgb(77, 126, 198); display: none; }
+.container { margin: 0px 0px 20px; padding: 0px 10px; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/brands.css ::::: */
+
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/mini-features.css ::::: */
+
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/overlay.css ::::: */
+
+body { font-size: 0.75em; }
+html { overflow-y: scroll ! important; }
+/* ::::: http://www.pg.com/fr_FR/_styles/sifr.css ::::: */
+
+@media screen {
+}
+@media screen {
+	@media screen {
+}
+}
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/home.css ::::: */
+
+#content { padding: 0px; }
+#main-content { width: 935px; float: none; margin-bottom: 20px ! important; }
+.page-section { margin: 0px auto; padding: 0px; border-top: 0px none; overflow: hidden; }
+.page-section h3 { font-weight: bold; margin-bottom: 8px; }
+.page-section p { padding: 0px; clear: both; line-height: 1.4; }
+.container p { margin-bottom: 5px; }
+.container { float: left; width: 215px; padding: 17px 10px 0px; }
+/* ::::: http://www.pg.com/fr_FR/_styles/lib/slide.css ::::: */
+
+#marquee-panels, #marquee-panels li, .marquee-nav { list-style: none outside none; margin: 0px; padding: 0px; }
+#marquee-panels li { display: none; position: relative; }
+.text1 { padding: 93px 10px 0px 31px; z-index: 9 ! important; position: absolute; }
+.logo-head { font-size: 12px; font-weight: bold; }
+.text1 .texthead { font-weight: bold; font-size: 23px; width: 393px; padding: 7px 0px 20px; }
+.texthead2 { font-size: 12px; padding: 17px 0px 12px; }
+#leadimg a { margin: 0px ! important; }
+.bgoverlay1 { background: url('feature_everyday_circle.png') no-repeat scroll 0% 0% transparent ! important; width: 477px; height: 391px; }
+#marquee-panels li:first-child { display: block; }
+#marquee-panels li.marquee-panel > div, #home_marquee .marquee-viewport { width: 935px; height: 390px; font-family: "Frutiger Next Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; line-height: 26px; color: rgb(255, 255, 255); }
+#home_marquee .slide-nav { position: relative; float: left; margin-bottom: 34px; }
+#home_marquee .marquee-nav { overflow: hidden; padding-top: 25px; }
+#home_marquee .marquee-nav > * { float: left; margin-left: 15px; width: 85px; }
+#home_marquee .marquee-nav li:first-child { margin-left: 0px; }
+#home_marquee .marquee-nav li > a > img { display: block; opacity: 0.5; }
+#home_marquee .marquee-nav li .slide-indicator { opacity: 0; }
+#home_marquee .marquee-nav li.current .slide-indicator, #home_marquee .marquee-nav li.current img { opacity: 1; }
+#home_marquee .slide-info-background { width: 130px; height: 45px; background: url('home-marquee-box.png') no-repeat scroll 0px 0px white; position: absolute; top: -47px; left: 0px; z-index: 999999; color: white; font: 11px/14px Helvetica,Arial,sans-serif; padding: 10px; display: none; opacity: 0; }
+#home_marquee .marquee-nav li .slide-indicator { width: 75px; height: 1px; background: none repeat scroll 0% 0% black; margin-right: 10px; margin-top: 5px; }
+#home_marquee .marquee-nav li .slide-info { position: absolute; top: -61px; left: 0px; z-index: 100; background: url('home-marquee-box_001.png') no-repeat scroll 0px 0px white; width: 130px; height: 31px; display: none; }
+#home_marquee li div.overlay .text1 { opacity: 0; top: 150px; }
+#home_marquee li div.overlay > div[class*="text"], #home_marquee li div.overlay > a { color: rgb(255, 255, 255); position: relative; left: 30px; width: 440px; opacity: 0; }
+#home_marquee li div.overlay a { color: rgb(255, 255, 255); }
+#home_marquee li div.overlay .bgoverlay1 { background: url('bg_overlay_1_001.png') no-repeat scroll 0px 0px transparent; position: absolute; top: 0px ! important; left: -478px; height: 403px; width: 481px; }
+#overlay24 { background: url('new-ways.jpg') no-repeat scroll 0% 0% transparent ! important; }
+#overlay23 { background: url('everyday.jpg') no-repeat scroll 0% 0% transparent ! important; }
+#overlay22 { background: url('everyday-ideas.jpg') no-repeat scroll 0% 0% transparent ! important; }
+#leadimg { height: 465px ! important; }
+#home_marquee .slide-nav { margin-bottom: 14px ! important; }
+#home_marquee li div.overlay .text1 { top: 0px; }
+.text1 { padding: 51px 10px 0px 31px; }
+.text1 .texthead { font-size: 23px; padding: 7px 0px 20px; width: 393px; }
+.texthead2 { font-size: 14px; line-height: 26px; }
+#bt-privacy-header { width: 100%; min-width: 1150px; top: 0px; left: 0px; position: relative; z-index: 100500; }
+#bt-privacy-overlay { visibility: hidden; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; text-align: center; z-index: 100500; }
+#bt-privacy-matte { visibility: hidden; background: none repeat scroll 0% 0% white; opacity: 0.9; display: block; position: fixed; top: 0px; left: 0px; width: 100%; height: 0px; z-index: 100500; }
+#bt-privacy-footer { min-width: 1000px; position: relative; z-index: 100500; clear: both; }
+body.bt-privacy-opted-out, body.bt-privacy-implicit-opt-in, body.bt-privacy-cookies-disabled { margin: 0px; padding-top: 0px; }

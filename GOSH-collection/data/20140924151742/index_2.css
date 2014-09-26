@@ -1,0 +1,43 @@
+/* ::::: http://dbm1.tiqiq.com/tiqiq/general.css ::::: */
+
+body { font-family: Arial; }
+#wrapper { margin: 0px; width: 938px; height: 100%; }
+a:visited { color: rgb(29, 112, 208); }
+a:link { color: rgb(29, 112, 208); }
+a:hover { color: rgb(29, 112, 208); }
+div { border-style: none; outline: medium none; }
+div:focus { border-style: none; outline: medium none; }
+div:active { border-style: none; outline: medium none; }
+a:active { border-style: none; outline: medium none; }
+a:focus { border-style: none; }
+/* ::::: http://dbm1.tiqiq.com/JScripts/Jquery/css/ui-lightness/jquery-ui-1.8.1.custom.css ::::: */
+
+/* ::::: http://dbm1.tiqiq.com/TiqIq/WidgetCss/dynamic/default_dark.css ::::: */
+
+body { font-family: Verdana; color: rgb(37, 60, 135); height: 100%; }
+html { height: 100%; }
+form { height: 100%; }
+#wrapper { width: 100%; }
+.wheader { height: 56px; display: block; text-decoration: none; }
+.wfooter { height: 56px; position: absolute; bottom: 0px; width: 100%; }
+.bspace { height: 56px; margin-top: 6px; }
+.wdiv { font-size: 12px; padding-left: 2px; padding-right: 2px; position: relative; border-collapse: collapse; }
+@font-face {
+	font-family: "gothamr";
+	font-style: normal;
+	font-weight: normal;
+	src: url('league_gothic-webfont.eot') format("embedded-opentype"), url('league_gothic-webfont.woff') format("woff"), url('league_gothic-webfont.ttf') format("truetype"), url('league_gothic-webfont.svg') format("svg");
+}
+.VVwidgetDate { color: rgb(33, 77, 134); padding-right: 10px; font-size: 13px; float: left; width: 30px; margin-left: 5px; margin-top: 6px; padding-bottom: 3px; margin-bottom: 1px; }
+.EventPchange { float: left; margin-left: 16px; color: rgb(33, 77, 134); font-size: 12px; padding-left: 11px; }
+.EventFrom { float: left; margin-bottom: 6px; color: rgb(33, 77, 134); font-size: 12px; width: 87px; }
+a.event_line:hover { color: rgb(33, 77, 134); text-decoration: underline; }
+.EventName { float: left; margin-right: 10px; }
+.EventBuy { float: right; width: 44px; margin-top: 5px; margin-right: 8px; }
+.sep { clear: both; height: 0px; font-size: 0px; }
+.preloader1 { background: url('go-but-h.png') no-repeat scroll 0% 0% transparent; width: 0px; height: 0px; }
+#tiqcontainer { margin-bottom: 0px; margin-top: 11px; }
+.down { background: url('dynamic_downarrow.png') no-repeat scroll 0px 3px transparent; }
+a.event_line { font-weight: bold; }
+a.event_line, .EventBuy a { margin-top: 6px; padding-bottom: 3px; display: block; color: rgb(33, 77, 134); text-decoration: none; margin-bottom: 1px; }
+.EventBuy a { text-decoration: underline; background: url('dynamic_buy.png') no-repeat scroll 0% 0% transparent; display: inline-block; width: 44px; height: 24px; }

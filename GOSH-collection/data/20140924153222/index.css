@@ -1,0 +1,79 @@
+/* ::::: http://www.accessifyforum.com/templates/AccessifyForum/AccessifyForum.css ::::: */
+
+body { background-color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; padding: 0px; margin: 0px; }
+label { cursor: pointer; }
+form { padding: 0px; margin: 0px; }
+a, a:visited { color: rgb(57, 85, 159); text-decoration: underline; }
+a:focus, a:hover, a:active { color: rgb(57, 85, 159); text-decoration: none; }
+img { border: 0px none; }
+.clearer { clear: both; font-size: 0px; height: 0px; padding: 0px; margin: 0px; }
+input[type="text"], input[type="password"], textarea { padding: 5px; }
+div#top { background: none repeat scroll 0% 0% rgb(243, 243, 245); border-bottom: 1px solid rgb(222, 228, 242); color: rgb(84, 115, 188); padding: 0px; }
+div#top div#skip-link { width: auto; padding: 5px 0px 5px 10px; }
+div#top div#skip-link p { width: auto; padding: 0px; margin: 0px; font-size: 0.8em; }
+div#top a, div#top a:link, div#top a:visited { color: rgb(57, 85, 159); text-decoration: none; }
+div#top a:focus, div#top a:hover, div#top a:active { color: rgb(57, 85, 159); text-decoration: underline; background: none repeat scroll 0% 0% transparent; }
+div#top div.session_info { float: right; padding: 0px; margin: -2px 10px 0px 0px; width: auto; color: rgb(84, 115, 188); background: url('user.png') no-repeat scroll 0% 0% transparent; text-align: right; }
+div#top div.session_info p { padding: 0px; margin: 7px 0px 0px 30px; font-size: 0.8em; }
+div#top_menu { padding: 0px; margin: 0px; clear: both; }
+div.forum_information h3 { margin: 3px 0px; }
+div.forum_information { padding: 10px; text-align: left; margin: 1px 0px 10px; background-color: rgb(239, 239, 239); border: 1px solid rgb(206, 206, 206); }
+div.forum_index_login { padding: 10px 0px; margin: 1px 0px; background-color: rgb(239, 239, 239); border: 1px solid rgb(206, 206, 206); }
+p.forum_index_login { padding: 0px; text-align: center; margin: 0px; }
+h2.forumtitle a, h2.forumtitle a:hover { text-decoration: none; background-color: transparent; }
+div.icon { float: left; padding: 14px 0px 0px; width: 46px; }
+div.index_forum { margin: 1px 0px; padding: 7px 0px; border: 1px solid rgb(206, 206, 206); }
+div.index_forum.row1 { background: none repeat scroll 0% 0% rgb(249, 249, 251); }
+div.index_forum.row2 { background: none repeat scroll 0% 0% rgb(249, 249, 249); }
+div.index_forum_intro { padding: 0px 0px 0px 48px; }
+div.index_forum_intro h3 { font-size: 80%; padding: 0px; margin: 0px; }
+div.index_forum_intro p { font-size: 75%; padding: 0px 10px 0px 0px; margin: 0px; }
+div.index_forum_intro ul { padding: 2px 0px 0px; margin: 0px; list-style: none outside none; font-size: 80%; color: rgb(68, 68, 68); }
+div.index_forum_intro ul li { display: inline; padding-right: 10px; }
+.index_forum_intro a:link, .index_forum_intro a:visited { text-decoration: none; }
+.index_forum_intro a:focus, .index_forum_intro a:hover, .index_forum_intro a:active { text-decoration: underline; }
+.index_forum_intro ul a:link, .index_forum_intro ul a:visited { color: rgb(68, 68, 68); }
+div#footer_box { clear: both; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); padding: 10px 10px 0px; text-align: center; margin: 10px 0px; border-radius: 15px; }
+div#footer_box p { padding: 0px; margin: 0px 0px 10px; }
+div#top_menu h1 { float: left; width: 468px; height: 95px; color: rgb(51, 51, 51); padding: 0px; margin: 0px; font-size: 1.4em; overflow: hidden; }
+div#top_menu h1 a { position: absolute; display: block; width: 468px; height: 95px; background: url('logo.jpg') no-repeat scroll 0% 0% transparent; z-index: 100; }
+div.tool_bar { padding: 5px; margin: 1px 0px; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); }
+div.tool_bar table { width: 100%; }
+div.tool_bar p { padding: 0px; margin: 0px; }
+div.tool_bar p { padding: 0px; margin: 0px; color: rgb(85, 85, 85); }
+div.tool_bar a:focus, div.tool_bar a:hover, div.tool_bar a:active { background: none repeat scroll 0% 0% transparent; text-decoration: none; }
+h3 { padding: 0px; margin: 0px; color: rgb(55, 81, 152); font-weight: bold; font-size: 80%; }
+p { font-size: 80%; padding: 0px; margin: 0px; }
+div#overall_sidebar { position: absolute; top: 0px; right: 0px; padding: 15px 10px 0px 0px; margin: 0px; width: 220px; }
+div#overall_sidebar a { text-decoration: none; }
+div.widget.twitter { margin: 0px 0px 10px; height: 600px; }
+div#overall_sidebar div.widget h2 { color: rgb(55, 81, 152); font-size: 0.9em; font-weight: bold; padding: 5px 5px 0px; margin: 0px 0px 10px; }
+div#overall_sidebar div.widget p { padding: 0px 5px 5px; margin: 0px; }
+div#overall_sidebar div.widget ul { padding: 0px; margin: 0px 0px 5px; }
+div#overall_sidebar div.widget ul li { list-style: none outside none; padding: 0px 5px 5px; margin: 0px; font-size: 0.8em; }
+div#overall_sidebar div.widget a:focus, div#overall_sidebar div.widget a:hover, div#overall_sidebar div.widget a:active { text-decoration: underline; }
+div#overall_sidebar div.widget.register { text-align: center; padding: 10px 5px; margin: 0px 0px 5px; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); }
+#overall_sidebar .widget.control_box { padding: 5px; margin: 0px 0px 5px; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); }
+#overall_sidebar .widget.control_box ul { padding: 0px; margin: 0px; }
+#overall_sidebar .widget.control_box ul li { padding: 0px; margin: 0px; }
+#overall_sidebar .widget.control_box ul li a { display: block; padding: 5px 10px; margin: 0px; }
+#overall_sidebar .widget.control_box ul li a:focus, #overall_sidebar .widget.control_box ul li a:hover, #overall_sidebar .widget.control_box ul li a:active { background: none repeat scroll 0% 0% white; text-decoration: none; }
+#overall_sidebar .widget.partner { padding: 15px 5px; margin: 0px 0px 10px; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); text-align: center; }
+#overall_sidebar .widget.partner p { margin-top: 5px; }
+div#overall_sidebar div.widget.currently_online { padding: 5px; margin: 0px 0px 10px; border: 1px solid rgb(206, 206, 206); background: none repeat scroll 0% 0% rgb(239, 239, 239); }
+div#overall_sidebar div.widget.syndication { padding: 0px; margin: 0px 0px 5px; }
+div#overall_sidebar div.widget.syndication div.item { clear: both; padding: 0px; margin: 0px 0px 5px; border: 1px solid rgb(206, 206, 206); }
+div#overall_sidebar div.widget.syndication a:focus, div#overall_sidebar div.widget.syndication a:hover, div#overall_sidebar div.widget.syndication a:active { text-decoration: none; }
+div#overall_sidebar div.widget.syndication p { font-size: 0.75em; padding: 0px; margin: 0px; line-height: 1.4em; }
+div#overall_sidebar div.widget.syndication p a { display: block; background: none no-repeat scroll 8px center rgb(239, 239, 239); padding: 8px 5px 8px 44px; margin: 0px; }
+div#overall_sidebar div.widget.syndication p a:focus, div#overall_sidebar div.widget.syndication p a:hover, div#overall_sidebar div.widget.syndication p a:active { background-color: white; }
+div#mainWrapper { position: relative; padding: 0px; margin: 0px; }
+div.main { clear: left; right: 0px; padding: 15px 10px 0px; margin: 0px 230px 0px 0px; text-align: left; z-index: 50; }
+h1.forumtitle, h2.forumtitle { background-image: url('cattitle.gif'); color: rgb(55, 81, 152); background-color: rgb(219, 225, 242); font-weight: normal; font-size: 120%; padding: 8px 5px; margin: 0px; border: 1px solid rgb(169, 182, 218); }
+h2.forumtitle { text-align: left; margin: 0px; }
+.gensmall { font-size: 70%; }
+.gen, .genmed, .gensmall { color: rgb(0, 0, 0); }
+input, textarea, select { color: rgb(0, 0, 0); font: 11px Verdana,Arial,Helvetica,sans-serif; border-color: rgb(0, 0, 0); }
+input.post, textarea.post, select { background-color: rgb(255, 255, 255); }
+input { text-indent: 2px; }
+input.mainoption { background-color: rgb(250, 250, 250); font-weight: bold; }

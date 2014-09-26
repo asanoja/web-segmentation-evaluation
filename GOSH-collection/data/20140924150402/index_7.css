@@ -1,0 +1,3 @@
+html * { margin: 0px; padding: 0px; cursor: pointer; }
+div { text-align: center; font-family: "Helvetica Neue",Helvetica,sans-serif; border: 2px solid rgb(204, 204, 204); background: none repeat scroll 0% 0% rgb(244, 244, 244); color: rgb(119, 119, 119); padding: 7px 0px; opacity: 0.9; font-size: 13px; line-height: 1; z-index: 1000; }
+div.north { border-top: 0px none; border-radius: 0px 0px 4px 4px; }

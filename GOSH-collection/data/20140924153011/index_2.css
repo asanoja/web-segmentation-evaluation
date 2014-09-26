@@ -1,0 +1,29 @@
+/* ::::: http://discussion.theguardian.com/static/assets/d2.1350bb68.min.css ::::: */
+
+body { padding: 30px; }
+.d2 { background-color: rgb(255, 255, 255); max-width: 620px; }
+body { padding: 30px; }
+.d2 { background-color: rgb(255, 255, 255); max-width: 620px; }
+.d2 { color: rgb(51, 51, 51); font: 13px/1.2 Helvetica,Arial,sans-serif; padding-bottom: 10px; }
+.d2 a { color: rgb(0, 86, 137); text-decoration: none; }
+.d2 a:hover { text-decoration: underline; }
+.d2-clearfix {  }
+.d2-clearfix:before, .d2-clearfix:after { display: table; content: ""; line-height: 0; }
+.d2-clearfix:after { clear: both; }
+.d2-options { margin-top: 10px; margin-bottom: 10px; }
+.d2-options--standalone { margin-top: 13px; margin-bottom: 13px; }
+.js .d2-options button { display: none; }
+.d2-options-wrap { margin-bottom: 10px; }
+.d2-comment-count { font-weight: bold; margin-bottom: 5px; }
+.d2-comments { list-style: none outside none; margin: 10px 0px 0px; padding: 0px; }
+.d2-comments .d2-comment { position: relative; }
+.d2-permalink-url textarea:focus, input:focus { outline: medium none; }
+.d2-picks-about { font-family: Georgia,serif; font-size: 15px; }
+.d2-tabs { border-bottom: 1px solid rgb(153, 153, 153); font-size: 0px; margin-bottom: 10px; margin-top: 10px; }
+.d2-tab { background: none repeat scroll 0% 0% rgb(237, 237, 237); border-width: 1px; border-style: solid; border-color: rgb(169, 169, 169) rgb(169, 169, 169) rgb(153, 153, 153); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(0, 86, 137); cursor: pointer; display: inline-block; font-size: 12px; margin-left: 5px; padding: 5px 10px; position: relative; top: 1px; }
+.d2-tab:first-child { border-left: 1px solid rgb(169, 169, 169); }
+.d2-tab--selected { background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); cursor: default; border-bottom: medium none rgb(153, 153, 153); border-color: rgb(153, 153, 153); font-weight: bold; padding-left: 7px; padding-right: 7px; padding-bottom: 6px; text-decoration: none; }
+[data-tab] { display: none; }
+.d2-active-tab { display: block; }
+.d2-bar { background: none repeat scroll 0% 0% rgb(237, 237, 237); font-weight: bold; margin: 10px 0px; padding: 10px; }
+.iframe body { margin: 0px; padding: 0px; }

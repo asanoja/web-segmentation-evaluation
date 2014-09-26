@@ -1,0 +1,97 @@
+/* ::::: http://bits.wikimedia.org/meta.wikimedia.org/load.php?debug=false&lang=en&modules=ext.gadget.wm-portal&only=styles&skin=vector&* ::::: */
+
+body { background-color: white; font: 13px/1.5 sans-serif; margin: 0.3em 0px; }
+a, a:active, a:focus { unicode-bidi: embed; white-space: nowrap; outline: 0px none; color: rgb(6, 69, 173); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { border: medium none; vertical-align: middle; }
+hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 170, 170); border: 0px none; margin: 0.2em 0px; }
+.central-textlogo { margin: 1em 0px 0.3em; text-align: center; font-size: 30px; line-height: 110%; font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif; font-weight: normal; padding: 10px 0px; -moz-font-feature-settings: "ss05"; }
+.central-featured { position: relative; text-align: center; vertical-align: middle; max-width: 100%; width: 42em; margin: 0px auto; height: 26em; }
+.central-featured-logo { position: absolute; left: 50%; top: 50%; width: 0px; height: 0px; }
+.central-featured-lang { position: absolute; width: 12em; }
+.central-featured-lang .link-box { display: block; padding: 0px; text-decoration: none; }
+.central-featured-lang .link-box:hover strong { text-decoration: underline; }
+.central-featured-lang .link-box em, .central-featured-lang .link-box small { color: black; text-decoration: none; }
+.central-featured-lang strong { font-size: larger; }
+.central-featured-lang em { font-style: italic; }
+.central-featured-lang em.emNonItalicLang { font-style: normal; }
+.lang1 { top: 0%; right: 60%; }
+.lang2 { top: 0%; left: 60%; }
+.lang3 { top: 20%; right: 70%; }
+.lang4 { top: 20%; left: 70%; }
+.lang5 { top: 40%; right: 72%; }
+.lang6 { top: 40%; left: 72%; }
+.lang7 { top: 60%; right: 70%; }
+.lang8 { top: 60%; left: 70%; }
+.lang9 { top: 80%; right: 60%; }
+.lang10 { top: 80%; left: 60%; }
+.search-container { float: none; margin: 1em auto 1.5em; max-width: 95%; padding: 0.3em; text-align: center; vertical-align: middle; width: 540px; }
+.search-form fieldset { background-color: rgb(249, 249, 249); border: 1px solid rgb(170, 170, 170); margin-top: 0.5em; padding: 0.7em; width: auto; }
+.search-form #searchInput { font-size: 1.2em; margin: 0px; padding: 0px; vertical-align: top; }
+.search-form select { margin: 0px 0.4em; padding: 0px; vertical-align: middle; }
+.bookshelf-container { width: 100%; overflow: hidden; margin: 2em 0px 0.5em; }
+.bookshelf { width: 300%; overflow: hidden; position: relative; left: -100%; text-align: center; white-space: nowrap; }
+.langlist { text-align: center; margin: 0.5em 3em 2.5em; }
+.langlist-large { font-size: larger; }
+.langlist-tiny { margin: 0.5em 3em 3em; }
+.otherprojects { float: left; font-weight: bold; margin: 1.5em 0px; text-align: center; vertical-align: middle; width: 100%; }
+.otherprojects-item { float: left; height: 60px; min-width: 12em; width: 33%; }
+.wm-site-info { clear: both; margin: 2.5em 0px 2em; text-align: center; }
+@media all and (max-width: 480px) {
+	.central-textlogo { line-height: normal; padding: 0px 0px 0px 84px; margin: 0px; height: 70px; text-align: left; position: relative; }
+	.central-textlogo img { height: 35px; width: auto; margin-top: 22.5px; }
+	.central-featured { width: auto; height: auto; padding-top: 2em; text-align: left; font-size: 0.8em; margin-top: 4em; }
+	.central-featured-logo { right: 0px; left: 0.8em; top: -70px; margin-top: -4em; }
+	.central-featured-logo, .central-featured-logo-inner img, .central-featured-logo-inner { width: 70px; height: 70px; }
+	.central-featured-lang { right: auto; top: auto; position: relative; left: auto; text-align: left; margin-left: 1em; display: block; float: left; width: 40%; height: 5em; }
+	.search-container { margin-top: 0px; height: 6em; position: absolute; top: 5em; left: 0px; right: 0px; max-width: 100%; width: auto; padding: 0px; text-align: left; }
+	.search-container label { display: none; }
+	.search-form #searchInput { max-width: 40%; }
+	.search-form #searchLanguage, .search-form .formBtn { max-width: 25%; vertical-align: middle; }
+	form fieldset { margin: 0px; border-left: medium none; border-right: medium none; }
+	.search-form #searchInput { vertical-align: middle; }
+	.language-search { display: none; }
+	.bookshelf { width: auto; left: auto; overflow: hidden; text-align: left; }
+	.langlist a { word-wrap: break-word; white-space: normal; }
+	.langlist { font-size: 0.7em; }
+	.otherprojects-item { width: 50%; text-align: left; }
+	.bookshelf-container, .langlist { margin: 1em 1em 0em; text-align: left; width: auto; }
+	.divider { clear: both; padding: 0.5em 1em 0px ! important; }
+}
+@media all and (max-width: 240px) {
+	.central-featured-lang, .otherprojects-item { width: 100%; }
+	.central-textlogo img { width: 100px; height: auto; }
+}
+.central-featured-logo { background: url('wikipedia-logo-v2_1x.png') no-repeat scroll center center / 200px auto transparent; left: 0px; top: 0px; width: 100%; height: 100%; }
+.bookshelf { display: block; }
+.bookshelf-container { font-size: 13px; font-weight: 700; line-height: 20px; }
+.bookshelf-container .text { padding: 0px 0.5em; }
+.bookshelf-container .bookend { display: inline-block; background-image: url('bookshelf-40x201_6.png'); background-size: 40px auto; background-repeat: repeat-x; width: 480px; height: 20px; vertical-align: top; }
+.otherprojects { text-align: left; float: none; width: 90%; margin-left: auto; margin-right: auto; }
+.otherprojects-item { width: 24.75%; line-height: 60px; }
+.otherprojects-item a { display: block; width: 10em; margin-left: auto; margin-right: auto; }
+.otherprojects-item .icon { display: inline-block; width: 47px; text-align: center; }
+.wm-site-info { padding-top: 1.5em; }
+@media not all, (min--moz-device-pixel-ratio: 1.5), not all, (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	.central-featured-logo { background-image: url('wikipedia-logo-v2_1.5x.png'); }
+	.bookshelf-container .bookend { background-image: url('bookshelf-40x20_1.5x.png'); }
+}
+@media not all, (min--moz-device-pixel-ratio: 2), not all, (min-resolution: 2dppx), (min-resolution: 192dpi) {
+	.central-featured-logo { background-image: url('wikipedia-logo-v2_2x.png'); }
+	.bookshelf-container .bookend { background-image: url('bookshelf-40x20_2x.png'); }
+}
+@media all and (max-width: 480px) {
+	.central-featured-logo { background-size: 70px auto; left: 0.8em; top: -70px; width: 70px; height: 70px; }
+	.bookshelf-container .bookend { width: 40px ! important; }
+	.bookshelf-container .bookend:last-child { display: none; }
+}
+@media all and (max-width: 45em) {
+	.otherprojects { width: 100%; }
+	.otherprojects-item { width: 33.33%; }
+}
+@media all and (max-width: 30em) {
+	.otherprojects-item { width: 50%; }
+}
+@media all and (max-width: 20em) {
+	.otherprojects-item { width: 100%; }
+}

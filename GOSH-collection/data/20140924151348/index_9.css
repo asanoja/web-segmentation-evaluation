@@ -1,0 +1,24 @@
+/* ::::: http://zor.fyre.co/wjs/v3.0.1411086787/css/editor.css ::::: */
+
+body.editable.fyre-editor-field { background: none repeat scroll 0% 0% transparent; border: medium none; box-shadow: none; box-sizing: border-box; color: rgb(76, 76, 76); font: 13px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; height: 100%; margin: 0px; padding: 10px 8px; width: 100%; }
+body.editable.fyre-editor-field > p { margin: 0px; }
+.fyre-editor .fyre-editor-toolbar .goog-toolbar > div.fyre-button-left:nth-child(2) { border-bottom: 1px solid rgb(161, 161, 161); border-left: 1px solid rgb(161, 161, 161); border-radius: 0px 0px 0px 5px; }
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}
+.fyre-editor .fyre-editor-toolbar .fyre-format-toolbar .goog-toolbar > div:nth-child(5n+2), .fyre-editor .fyre-editor-toolbar .fyre-format-toolbar .goog-toolbar > div:nth-child(5n+5) { width: 35px; }
+.fyre-editor .fyre-editor-toolbar .fyre-format-toolbar .goog-toolbar > div:nth-child(n+4) { border-bottom: 1px solid rgb(231, 231, 231); }
+.fyre-editor .fyre-editor-toolbar .fyre-format-toolbar .goog-toolbar > div:nth-child(3n+3) { border-right: medium none; }
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}
+@media not all, (min-resolution: 192dpi) {
+}

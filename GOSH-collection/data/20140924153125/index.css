@@ -1,0 +1,43 @@
+/* ::::: http://www.skyscrapercity.com/clientscript/vbulletin_css/style-07231ebe-00002.css ::::: */
+
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); font: 10pt verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; margin: 5px 10px 10px; }
+a:link, body_alink { color: rgb(34, 34, 156); }
+a:visited, body_avisited { color: rgb(34, 34, 156); }
+a:hover, a:active, body_ahover { color: rgb(255, 68, 0); }
+.page { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); }
+td, th, p, li { font: 10pt verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.tborder { background: none repeat scroll 0% 0% rgb(209, 209, 225); color: rgb(0, 0, 0); border: 1px solid rgb(11, 25, 140); }
+.tcat { background: url('gradient_tcat.gif') repeat-x scroll left top rgb(134, 155, 191); color: rgb(255, 255, 255); font: bold 10pt verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.thead { background: url('gradient_thead.gif') repeat-x scroll left top rgb(92, 112, 153); color: rgb(255, 255, 255); font: bold 8pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.thead a:link, .thead_alink { color: rgb(255, 255, 255); }
+.thead a:visited, .thead_avisited { color: rgb(255, 255, 255); }
+.thead a:hover, .thead a:active, .thead_ahover { color: rgb(255, 255, 0); }
+.tfoot { background: none repeat scroll 0% 0% rgb(62, 92, 146); color: rgb(224, 224, 246); }
+.tfoot a:link, .tfoot_alink { color: rgb(224, 224, 246); }
+.tfoot a:visited, .tfoot_avisited { color: rgb(224, 224, 246); }
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover { color: rgb(255, 255, 102); }
+.alt1, .alt1Active { background: none repeat scroll 0% 0% rgb(245, 245, 255); color: rgb(0, 0, 0); }
+.alt2, .alt2Active { background: none repeat scroll 0% 0% rgb(225, 228, 242); color: rgb(0, 0, 0); }
+textarea, .bginput { font: 10pt verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.button { font: 11px verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+select { font: 11px verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+option, optgroup { font-size: 11px; font-family: verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.smallfont { font: 11px verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.time { color: rgb(102, 102, 134); }
+.navbar { font: 11px verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; }
+.vbmenu_control { background: none repeat scroll 0% 0% rgb(115, 143, 191); color: rgb(255, 255, 255); font: bold 11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; padding: 3px 6px; white-space: nowrap; }
+.vbmenu_control a:link, .vbmenu_control_alink { color: rgb(255, 255, 255); text-decoration: none; }
+.vbmenu_control a:visited, .vbmenu_control_avisited { color: rgb(255, 255, 255); text-decoration: none; }
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color: rgb(255, 255, 255); text-decoration: underline; }
+.vbmenu_popup { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); border: 1px solid rgb(11, 25, 140); }
+.vbmenu_option { background: none repeat scroll 0% 0% rgb(187, 199, 206); color: rgb(0, 0, 0); font: 11px verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; white-space: nowrap; cursor: pointer; }
+.vbmenu_option a:link, .vbmenu_option_alink { color: rgb(34, 34, 156); text-decoration: none; }
+.vbmenu_option a:visited, .vbmenu_option_avisited { color: rgb(34, 34, 156); text-decoration: none; }
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color: rgb(255, 255, 255); text-decoration: none; }
+.bigusername { font-size: 14pt; }
+td.thead, th.thead, div.thead { padding: 4px; }
+/* ::::: http://www.skyscrapercity.com/clientscript/vbulletin_important.css?v=388b1 ::::: */
+
+form { margin: 0px; }
+label { cursor: default; }
+.inlineimg { vertical-align: middle; }

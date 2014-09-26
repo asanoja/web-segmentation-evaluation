@@ -1,0 +1,19 @@
+/* ::::: https://translate.googleapis.com/translate_static/css/translateelement.css ::::: */
+
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active { font-size: 12px; font-weight: bold; color: rgb(68, 68, 68); text-decoration: none; }
+.goog-te-banner .goog-logo-link, .goog-close-link { display: block; margin: 0px 10px; }
+.goog-te-banner .goog-logo-link { padding-top: 2px; padding-left: 4px; }
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * { font-family: arial; font-size: 10pt; }
+.goog-te-banner { margin: 0px; background-color: rgb(228, 239, 251); overflow: hidden; }
+.goog-te-banner img { border: medium none; }
+.goog-te-banner-content { color: rgb(0, 0, 0); }
+.goog-te-banner-content img { vertical-align: middle; }
+.goog-te-banner-margin { width: 8px; }
+.goog-te-button { border-color: rgb(231, 231, 231); border-style: none solid solid none; border-width: 0px 1px 1px 0px; }
+.goog-te-button div { border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); border-style: solid; border-width: 1px; height: 20px; }
+.goog-te-button button { background: none repeat scroll 0% 0% transparent; border: medium none; cursor: pointer; height: 20px; overflow: hidden; margin: 0px; vertical-align: top; white-space: nowrap; }
+.goog-te-button button:active { background: none repeat scroll 0px 0px rgb(204, 204, 204); }
+.goog-te-menu-value { text-decoration: none; color: rgb(0, 0, 204); white-space: nowrap; margin-left: 4px; margin-right: 4px; }
+.goog-te-menu-value span { text-decoration: underline; }
+.goog-te-menu-value img { margin-left: 2px; margin-right: 2px; }
+#goog-gt-tt input::-moz-focus-inner { border: 0px none; }

@@ -1,0 +1,35 @@
+/* ::::: https://privacy.thebrighttag.com/pandgv2/css/opt-in-new.css ::::: */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+html { font-family: sans-serif; }
+body { margin: 0px; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+body { font: 12px/18px Verdana,Helvetica,Arial,sans-serif; }
+body.with-side-padding { padding: 0px 10px; }
+header, footer, section { margin: 0px; padding: 0px; }
+a:link, a:visited { color: rgb(10, 105, 178); text-decoration: underline; }
+a:hover { text-decoration: none; }
+ul { color: rgb(115, 115, 115); font: 11px/16px Verdana,Helvetica,Arial,sans-serif; }
+nav > ul { list-style: none outside none; margin: 0px; padding: 0px; overflow: hidden; }
+nav > ul li { float: left; }
+.button:link, .button:visited { background: url('buttons.png') no-repeat scroll 0px 0px transparent; color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; overflow: hidden; cursor: pointer; display: block; height: 23px; padding: 6px 12px 0px 40px; border-radius: 10px; }
+.float-left { float: left; }
+.float-right { float: right; }
+.banner { background-color: rgb(213, 237, 255); padding: 5px; border-radius: 8px; width: 1000px; margin: 10px auto; position: relative; overflow: hidden; }
+.banner.full-width { width: auto; }
+.banner p { color: rgb(69, 69, 69); margin-top: 0px; max-width: 600px; }
+.banner.full-width p { max-width: none; }
+.min-banner-wrapper { min-width: 940px; overflow: hidden; padding: 10px 30px 0px 10px; }
+.banner nav { margin-bottom: 10px; }
+.banner nav li { margin-right: 15px; }
+.banner .plain-link-wrapper { padding-top: 6px; }
+.banner-close:link, .banner-close:visited { background-position: 0px -104px; text-indent: -9000px; height: 25px; width: 27px; position: absolute; top: 5px; right: 8px; padding: 0px; }
+.change-settings:link, .change-settings:visited { background-position: 0px -41px; height: 23px; }
+.banner.simple { min-width: 1100px; }
+.banner.simple p { margin-bottom: 0px; padding: 12px 15px 10px 5px; }
+.banner.simple nav { margin: 5px 30px 0px 0px; }
+.banner.simple .min-banner-wrapper { padding: 0px; }

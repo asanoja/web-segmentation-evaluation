@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop-view not-mobile-device  js no-touch discourse-no-touch" style="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <title>Accessing and collecting post[] data from an array in PHP - The SitePoint Forums</title>
+    <meta name="description" content="I have a form like the one below which is posted to processForm.php, and the user can dynamically add more with jQuery. 
+
+&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;subject[ ]&amp;quot; /&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;grade[ ]&amp;quot; /&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; n&amp;hellip;">
+    
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="">
+    <meta name="generator" content="Discourse 1.1.0.beta2 - https://github.com/discourse/discourse version c9cf3003eb076c604ee1276ff03a8a83ea559899">
+
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="http://www.sitepoint.com/wp-content/themes/sitepoint/assets/images/apple-touch-icon-144x144-precomposed.png">
+
+    <link href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" rel="canonical">
+
+    
+
+
+
+
+      
+
+
+  
+
+
+    
+
+
+    <meta name="fragment" content="!">
+
+    
+    
+    
+    
+
+    
+
+    
+
+
+      <link href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459.rss" rel="alternate" title="RSS feed of 'Accessing and collecting post[] data from an array in PHP'" type="application/rss+xml">
+  <meta content="The SitePoint Forums" property="og:site_name">
+<meta content="summary" name="twitter:card"><meta content="http://sitepoint-discourse.global.ssl.fastly.net/letter_avatar/erabxes/45/2.png" property="og:image">
+<meta content="http://sitepoint-discourse.global.ssl.fastly.net/letter_avatar/erabxes/45/2.png" name="twitter:image">
+<meta content="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" property="og:url">
+<meta content="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" name="twitter:url">
+<meta content="Accessing and collecting post[] data from an array in PHP" property="og:title">
+<meta content="Accessing and collecting post[] data from an array in PHP" name="twitter:title">
+<meta content="I have a form like the one below which is posted to processForm.php, and the user can dynamically add more with jQuery.    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;year[ ]&quot; /&amp;gt;    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;year[ ]&quot; /&amp;gt;    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;..." property="og:description">
+<meta content="I have a form like the one below which is posted to processForm.php, and the user can dynamically add more with jQuery.    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;year[ ]&quot; /&amp;gt;    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;year[ ]&quot; /&amp;gt;    &amp;lt;input type=&quot;text&quot; name=&quot;subject[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;grade[ ]&quot; /&amp;gt; &amp;lt;input type=&quot;..." name="twitter:description">
+
+
+  
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body class="category-31 docked">
+    
+
+    <!--[if IE 9]><script type="text/javascript">ie = "new";</script><![endif]-->
+
+      <div class="top-crawler-links">
+  <a href="http://www.sitepoint.com/">Articles</a>
+  <a href="https://learnable.com/topics/all/book">Books</a>
+  <a href="https://learnable.com/topics/all/course">Courses</a>
+  </div>
+
+    <section class="ember-application" id="main">
+    <div class="ember-view" id="ember1019"><header id="ember1127" class="ember-view d-header clearfix">
+
+<div class="container">
+  <div class="contents clearfix">
+
+    
+    <a class="logomark" href="http://community.sitepoint.com/" tabindex="">
+      <!--<img src="http://www.sitepoint.com/wp-content/themes/sitepoint/assets/svg/sitepoint-forums.svg" alt="SitePoint Forums">-->
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150.518px" height="20px" viewBox="0 0 150.518 20" enable-background="new 0 0 150.518 20" xml:space="preserve">
+        
+        <path d="M23.191,12.352c0.147,0.23,0.341,0.416,0.579,0.553c0.239,0.137,0.51,0.232,0.812,0.293
+        c0.3,0.06,0.609,0.09,0.929,0.09c0.246,0,0.503-0.018,0.773-0.055c0.27-0.035,0.519-0.101,0.745-0.194
+        c0.229-0.095,0.414-0.233,0.562-0.419c0.146-0.184,0.221-0.419,0.221-0.705c0-0.391-0.152-0.688-0.46-0.891
+        c-0.307-0.201-0.689-0.364-1.15-0.49c-0.46-0.124-0.961-0.237-1.5-0.338C24.16,10.093,23.66,9.951,23.2,9.767
+        c-0.46-0.185-0.844-0.443-1.151-0.776c-0.307-0.332-0.46-0.794-0.46-1.389c0-0.463,0.106-0.861,0.321-1.193
+        c0.216-0.333,0.49-0.603,0.83-0.812c0.337-0.208,0.718-0.362,1.141-0.462c0.424-0.102,0.845-0.152,1.261-0.152
+        c0.541,0,1.038,0.044,1.492,0.134C27.088,5.205,27.49,5.36,27.84,5.58c0.351,0.219,0.629,0.516,0.838,0.89
+        c0.208,0.375,0.331,0.841,0.367,1.399h-1.564c-0.024-0.297-0.104-0.543-0.238-0.74c-0.136-0.197-0.308-0.353-0.517-0.473
+        c-0.208-0.118-0.438-0.204-0.689-0.257c-0.251-0.055-0.505-0.08-0.764-0.08c-0.232,0-0.471,0.017-0.709,0.053
+        C24.324,6.408,24.105,6.47,23.91,6.56c-0.197,0.088-0.356,0.208-0.479,0.355c-0.123,0.149-0.184,0.342-0.184,0.579
+        c0,0.262,0.095,0.479,0.285,0.651c0.189,0.173,0.433,0.315,0.727,0.428c0.295,0.113,0.626,0.208,0.995,0.285
+        c0.368,0.077,0.737,0.158,1.104,0.241c0.394,0.083,0.776,0.184,1.151,0.303c0.374,0.119,0.706,0.275,0.994,0.473
+        c0.289,0.196,0.521,0.443,0.699,0.74c0.179,0.297,0.268,0.664,0.268,1.105c0,0.559-0.12,1.021-0.36,1.389
+        c-0.238,0.369-0.552,0.666-0.938,0.892s-0.823,0.383-1.307,0.474c-0.484,0.088-0.968,0.133-1.445,0.133
+        c-0.528,0-1.031-0.053-1.509-0.159c-0.479-0.107-0.903-0.283-1.271-0.526c-0.369-0.244-0.664-0.562-0.885-0.963
+        c-0.221-0.396-0.344-0.883-0.368-1.452h1.565C22.963,11.838,23.043,12.12,23.191,12.352z"></path>
+        <rect x="31.292" y="5.196" width="1.563" height="9.213"></rect>
+        <path d="M39.357,5.196v1.336h-1.897v5.721c0,0.179,0.017,0.321,0.046,0.427c0.03,0.108,0.089,0.19,0.175,0.25
+        c0.086,0.062,0.206,0.098,0.359,0.116c0.152,0.017,0.354,0.026,0.599,0.026h0.718v1.337H38.16c-0.405,0-0.752-0.027-1.041-0.08
+        c-0.289-0.054-0.522-0.152-0.7-0.295c-0.178-0.144-0.312-0.345-0.396-0.604c-0.086-0.262-0.13-0.605-0.13-1.033V6.532h-1.619V5.196
+        h1.619V2.434h1.565v2.762H39.357z"></path>
+        <path d="M47.825,13.82c-0.713,0.522-1.609,0.783-2.688,0.783c-0.761,0-1.42-0.117-1.978-0.355
+        c-0.56-0.237-1.029-0.568-1.409-0.997c-0.381-0.428-0.666-0.938-0.857-1.532c-0.189-0.595-0.297-1.242-0.322-1.944
+        c0-0.7,0.111-1.341,0.332-1.924c0.222-0.582,0.531-1.086,0.931-1.514c0.397-0.428,0.871-0.76,1.417-0.998
+        c0.546-0.237,1.145-0.356,1.795-0.356c0.847,0,1.549,0.169,2.107,0.508c0.559,0.338,1.007,0.769,1.345,1.292
+        c0.338,0.523,0.571,1.095,0.699,1.711c0.129,0.619,0.182,1.207,0.156,1.765h-7.125c-0.012,0.403,0.038,0.787,0.147,1.149
+        c0.109,0.361,0.288,0.684,0.533,0.962c0.245,0.28,0.559,0.502,0.938,0.669s0.829,0.249,1.344,0.249c0.663,0,1.207-0.149,1.63-0.445
+        c0.424-0.297,0.703-0.747,0.839-1.354h1.546C48.998,12.52,48.537,13.299,47.825,13.82z M47.447,7.904
+        c-0.14-0.32-0.33-0.596-0.569-0.828c-0.239-0.231-0.522-0.416-0.848-0.552c-0.324-0.137-0.684-0.205-1.077-0.205
+        c-0.405,0-0.771,0.068-1.095,0.205c-0.325,0.137-0.604,0.323-0.838,0.562c-0.232,0.237-0.417,0.513-0.552,0.829
+        c-0.136,0.314-0.216,0.65-0.24,1.006h5.468C47.671,8.564,47.588,8.226,47.447,7.904z"></path>
+        <path d="M52.594,5.196v1.248h0.036c0.258-0.512,0.664-0.883,1.216-1.115c0.553-0.232,1.16-0.348,1.823-0.348
+        c0.735,0,1.378,0.131,1.924,0.392c0.545,0.261,1,0.615,1.361,1.06c0.361,0.446,0.636,0.959,0.818,1.542
+        c0.187,0.583,0.277,1.2,0.277,1.854c0,0.653-0.09,1.271-0.269,1.853s-0.447,1.09-0.81,1.523c-0.361,0.434-0.817,0.775-1.363,1.023
+        c-0.545,0.25-1.181,0.375-1.904,0.375c-0.233,0-0.494-0.023-0.783-0.07c-0.287-0.049-0.573-0.125-0.855-0.231
+        c-0.281-0.106-0.55-0.252-0.801-0.438c-0.251-0.185-0.463-0.412-0.636-0.687h-0.036v4.739h-1.564V5.196H52.594z M58.219,8.466
+        c-0.117-0.41-0.296-0.775-0.534-1.096c-0.24-0.321-0.546-0.576-0.921-0.767c-0.375-0.189-0.812-0.284-1.315-0.284
+        c-0.527,0-0.977,0.101-1.345,0.303c-0.369,0.202-0.669,0.466-0.901,0.792c-0.233,0.327-0.402,0.699-0.507,1.114
+        c-0.104,0.416-0.156,0.837-0.156,1.266c0,0.452,0.056,0.888,0.167,1.31c0.108,0.422,0.284,0.793,0.523,1.113s0.548,0.579,0.93,0.775
+        c0.381,0.195,0.841,0.294,1.381,0.294c0.539,0,0.99-0.103,1.354-0.304c0.363-0.2,0.654-0.469,0.874-0.801
+        c0.223-0.334,0.381-0.714,0.479-1.142c0.099-0.427,0.146-0.867,0.146-1.319C58.393,9.294,58.336,8.875,58.219,8.466z"></path>
+        <path d="M61.67,7.914c0.197-0.588,0.491-1.099,0.884-1.533c0.393-0.433,0.876-0.774,1.456-1.025
+        c0.576-0.249,1.238-0.374,1.987-0.374c0.761,0,1.426,0.125,1.997,0.374c0.571,0.251,1.053,0.592,1.445,1.025
+        c0.393,0.435,0.688,0.945,0.884,1.533s0.295,1.22,0.295,1.896c0,0.678-0.099,1.308-0.295,1.89s-0.491,1.091-0.884,1.524
+        c-0.394,0.434-0.874,0.771-1.445,1.015c-0.571,0.243-1.236,0.364-1.997,0.364c-0.749,0-1.411-0.121-1.987-0.364
+        c-0.58-0.243-1.063-0.581-1.456-1.015c-0.393-0.435-0.687-0.942-0.884-1.524s-0.294-1.212-0.294-1.89
+        C61.376,9.134,61.473,8.502,61.67,7.914z M63.263,11.3c0.153,0.433,0.365,0.796,0.635,1.087c0.271,0.29,0.586,0.514,0.948,0.67
+        c0.362,0.151,0.747,0.229,1.151,0.229c0.403,0,0.788-0.078,1.149-0.229c0.363-0.156,0.68-0.38,0.947-0.67
+        c0.271-0.291,0.482-0.654,0.637-1.087c0.152-0.434,0.23-0.93,0.23-1.489c0-0.558-0.078-1.054-0.23-1.487
+        c-0.153-0.434-0.365-0.799-0.637-1.096c-0.269-0.296-0.584-0.523-0.947-0.678c-0.361-0.153-0.746-0.23-1.149-0.23
+        c-0.404,0-0.789,0.077-1.151,0.23c-0.362,0.155-0.678,0.381-0.948,0.678c-0.27,0.297-0.48,0.662-0.635,1.096
+        c-0.152,0.434-0.23,0.93-0.23,1.487C63.031,10.37,63.11,10.866,63.263,11.3z"></path>
+        <rect x="72.551" y="5.196" width="1.566" height="9.213"></rect>
+        <path d="M78.02,5.196v1.46h0.036c0.651-1.116,1.682-1.675,3.094-1.675c0.626,0,1.148,0.084,1.563,0.25
+        c0.418,0.167,0.757,0.397,1.014,0.694c0.258,0.298,0.44,0.652,0.544,1.061c0.104,0.41,0.156,0.864,0.156,1.363v6.059h-1.564V8.172
+        c0-0.57-0.173-1.022-0.517-1.354S81.531,6.32,80.929,6.32c-0.479,0-0.893,0.07-1.243,0.213c-0.35,0.144-0.642,0.345-0.874,0.606
+        c-0.232,0.262-0.409,0.567-0.524,0.917c-0.115,0.351-0.176,0.733-0.176,1.15v5.203h-1.564V5.196H78.02z"></path>
+        <path d="M90.852,5.196v1.336h-1.896v5.721c0,0.179,0.015,0.321,0.046,0.427c0.03,0.108,0.088,0.19,0.174,0.25
+        c0.086,0.062,0.208,0.098,0.36,0.116c0.151,0.017,0.353,0.026,0.598,0.026h0.718v1.337h-1.197c-0.403,0-0.751-0.027-1.039-0.08
+        c-0.288-0.054-0.521-0.152-0.699-0.295c-0.179-0.144-0.311-0.345-0.396-0.604c-0.086-0.262-0.129-0.605-0.129-1.033V6.532H85.77
+        V5.196h1.621V2.434h1.565v2.762H90.852z"></path>
+        <path d="M0.406,8.728l1.442,1.401l4.565,4.26L8.38,12.49c0.18-0.247,0.168-0.583-0.038-0.817l-1.796-1.575
+        l0.006-0.001L4.616,8.219c-0.228-0.257-0.222-0.64,0.019-0.89l5.21-5.032L7.478,0L1.855,5.43L0.408,6.826
+        C-0.135,7.352-0.135,8.203,0.406,8.728z"></path>
+        <path d="M15.947,11.162l-1.443-1.4L9.939,5.5L7.973,7.4c-0.18,0.246-0.168,0.582,0.038,0.816l1.796,1.576
+        L9.801,9.793l1.936,1.878c0.228,0.257,0.222,0.64-0.02,0.89l-5.21,5.031l2.368,2.299l5.622-5.432l1.446-1.396
+        C16.488,12.539,16.49,11.688,15.947,11.162z"></path>
+        <ellipse cx="32.074" cy="3.316" rx="0.911" ry="0.882"></ellipse>
+        <ellipse cx="73.334" cy="3.316" rx="0.912" ry="0.882"></ellipse>
+        <path d="M97.351,14.396V7.208h-1.27V5.936h1.27V5.499c0-1.292,0.303-2.47,1.08-3.211
+        c0.625-0.608,1.459-0.854,2.218-0.854c0.606,0,1.099,0.133,1.421,0.266l-0.208,1.292c-0.266-0.114-0.588-0.209-1.081-0.209
+        c-1.402,0-1.781,1.254-1.781,2.66v0.494h2.218v1.273h-2.198v7.188H97.351z"></path>
+        <path d="M112.528,8.071c0-1.083-0.019-2.014-0.076-2.869h1.46l0.075,1.805h0.058
+        c0.417-1.234,1.439-2.014,2.558-2.014c0.171,0,0.304,0.019,0.455,0.057v1.558c-0.189-0.019-0.36-0.038-0.587-0.038
+        c-1.176,0-2.009,0.893-2.236,2.127c-0.038,0.247-0.058,0.513-0.058,0.798v4.901h-1.667L112.528,8.071z"></path>
+        <path d="M127.546,7.691c0-0.969-0.038-1.729-0.076-2.489h1.459l0.076,1.482h0.057
+        c0.512-0.874,1.364-1.691,2.899-1.691c1.232,0,2.18,0.76,2.578,1.843h0.037c0.284-0.532,0.664-0.912,1.043-1.197
+        c0.55-0.418,1.137-0.646,2.009-0.646c1.231,0,3.032,0.798,3.032,3.99v5.414h-1.63V9.192c0-1.786-0.663-2.831-1.99-2.831
+        c-0.967,0-1.687,0.703-1.989,1.5c-0.076,0.247-0.133,0.551-0.133,0.836v5.699h-1.63V8.888c0-1.482-0.645-2.526-1.914-2.526
+        c-1.023,0-1.801,0.836-2.066,1.671c-0.095,0.247-0.132,0.532-0.132,0.817v5.547h-1.63V7.691z"></path>
+        <path d="M144.239,12.252c0.147,0.23,0.341,0.416,0.579,0.553c0.239,0.137,0.51,0.232,0.812,0.293
+        c0.3,0.06,0.609,0.09,0.929,0.09c0.246,0,0.503-0.018,0.773-0.055c0.27-0.035,0.519-0.101,0.745-0.194
+        c0.229-0.095,0.414-0.233,0.562-0.419c0.146-0.184,0.221-0.419,0.221-0.705c0-0.391-0.152-0.688-0.46-0.891
+        c-0.307-0.201-0.689-0.364-1.15-0.49c-0.46-0.124-0.961-0.237-1.5-0.339c-0.541-0.102-1.041-0.243-1.501-0.428
+        s-0.844-0.442-1.151-0.775c-0.307-0.332-0.46-0.794-0.46-1.389c0-0.463,0.106-0.861,0.321-1.193c0.216-0.333,0.49-0.603,0.83-0.812
+        c0.337-0.208,0.718-0.362,1.141-0.462c0.424-0.102,0.845-0.152,1.261-0.152c0.541,0,1.038,0.044,1.492,0.134
+        c0.454,0.088,0.856,0.243,1.206,0.463c0.351,0.219,0.629,0.516,0.838,0.89c0.208,0.375,0.331,0.841,0.367,1.399h-1.564
+        c-0.024-0.297-0.104-0.543-0.238-0.74c-0.136-0.197-0.308-0.353-0.517-0.473c-0.208-0.118-0.438-0.204-0.689-0.257
+        c-0.251-0.055-0.505-0.08-0.764-0.08c-0.232,0-0.471,0.017-0.709,0.053c-0.239,0.036-0.459,0.098-0.653,0.188
+        c-0.197,0.088-0.356,0.208-0.479,0.355c-0.123,0.149-0.184,0.342-0.184,0.579c0,0.262,0.095,0.479,0.285,0.651
+        c0.189,0.173,0.433,0.315,0.727,0.428c0.295,0.113,0.626,0.208,0.995,0.285c0.368,0.077,0.737,0.158,1.104,0.241
+        c0.394,0.083,0.776,0.184,1.151,0.302c0.374,0.119,0.706,0.275,0.994,0.474c0.289,0.196,0.521,0.442,0.699,0.74
+        c0.179,0.297,0.268,0.664,0.268,1.105c0,0.559-0.12,1.021-0.36,1.389c-0.238,0.369-0.552,0.666-0.938,0.892
+        s-0.823,0.383-1.307,0.474c-0.484,0.088-0.968,0.133-1.445,0.133c-0.528,0-1.031-0.053-1.509-0.159
+        c-0.479-0.107-0.903-0.283-1.271-0.526c-0.369-0.244-0.664-0.562-0.885-0.963c-0.221-0.396-0.344-0.883-0.368-1.452h1.565
+        C144.011,11.738,144.091,12.021,144.239,12.252z"></path>
+        <path d="M102.364,7.816c0.197-0.588,0.491-1.099,0.884-1.533c0.393-0.433,0.876-0.774,1.456-1.025
+        c0.576-0.249,1.238-0.374,1.987-0.374c0.761,0,1.426,0.125,1.997,0.374c0.571,0.251,1.053,0.592,1.445,1.025
+        c0.393,0.435,0.688,0.945,0.884,1.533s0.295,1.22,0.295,1.896c0,0.678-0.099,1.308-0.295,1.89s-0.491,1.091-0.884,1.524
+        c-0.394,0.434-0.874,0.771-1.445,1.015c-0.571,0.243-1.236,0.364-1.997,0.364c-0.749,0-1.411-0.121-1.987-0.364
+        c-0.58-0.243-1.063-0.581-1.456-1.015c-0.393-0.435-0.687-0.942-0.884-1.524s-0.294-1.212-0.294-1.89
+        C102.07,9.036,102.166,8.404,102.364,7.816z M103.956,11.202c0.153,0.433,0.365,0.796,0.635,1.087
+        c0.271,0.29,0.586,0.514,0.948,0.67c0.362,0.151,0.747,0.229,1.151,0.229c0.403,0,0.788-0.078,1.149-0.229
+        c0.363-0.156,0.68-0.38,0.947-0.67c0.271-0.291,0.482-0.654,0.637-1.087c0.152-0.434,0.23-0.93,0.23-1.489
+        c0-0.558-0.078-1.054-0.23-1.487c-0.153-0.434-0.365-0.799-0.637-1.096c-0.269-0.296-0.584-0.523-0.947-0.678
+        c-0.361-0.153-0.746-0.23-1.149-0.23c-0.404,0-0.789,0.077-1.151,0.23c-0.362,0.155-0.678,0.381-0.948,0.678
+        c-0.27,0.297-0.48,0.662-0.635,1.096c-0.152,0.434-0.23,0.93-0.23,1.487C103.725,10.272,103.803,10.769,103.956,11.202z"></path>
+        <path d="M124.467,14.303v-1.461h-0.036c-0.651,1.115-1.682,1.676-3.094,1.676c-0.626,0-1.148-0.084-1.563-0.25
+        c-0.418-0.168-0.757-0.398-1.014-0.695c-0.258-0.297-0.44-0.652-0.544-1.061c-0.104-0.41-0.156-0.863-0.156-1.363V5.089h1.564v6.237
+        c0,0.57,0.173,1.021,0.517,1.354s0.814,0.498,1.417,0.498c0.479,0,0.893-0.07,1.243-0.213c0.35-0.145,0.642-0.346,0.874-0.605
+        c0.232-0.262,0.409-0.568,0.524-0.918c0.115-0.352,0.176-0.732,0.176-1.15V5.088h1.564v9.214H124.467z"></path>
+      </svg>
+    </a>
+
+    <div class="panel clearfix">
+      
+        <button data-ember-action="1" class="btn btn-primary btn-small login-button">
+          <i class="fa fa-user"></i> Log In
+        </button>
+      
+      <ul class="icons clearfix" role="navigation">
+        
+        <li>
+          
+            <a id="search-button" class="icon expand" href="#" data-dropdown="search-dropdown" title="search topics, posts, users, or categories">
+               <i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">search topics, posts, users, or categories</span>
+            </a>
+          
+        </li>
+        <li class="categories dropdown">
+          
+            <a class="icon" data-dropdown="site-map-dropdown" data-render="renderSiteMap" href="#" title="go to another topic list or category" id="site-map">
+               <i class="fa fa-bars" aria-hidden="true"></i><span class="sr-only">go to another topic list or category</span>
+            </a>
+          
+          
+        </li>
+        
+      </ul>
+
+      <div style="display: none;" id="search-dropdown" class="ember-view d-dropdown"><input value="" id="search-term" class="ember-view ember-text-field" placeholder="search topics, posts, users, or categories" type="text">
+
+<div class="search-context">
+  <label>
+  <input id="ember1168" class="ember-view ember-checkbox" name="searchContext" type="checkbox"> Search this topic
+  </label>
+</div>
+
+
+  
+    
+  
+
+</div>
+
+      <section style="display: none;" class="d-dropdown" id="notifications-dropdown">
+  
+    
+      <div class="none">You have no notifications right now.</div>
+    
+  
+</section>
+
+
+      
+
+      <section style="display: none;" class="d-dropdown" id="user-dropdown">
+  <ul class="user-dropdown-links">
+    <li><a id="ember1209" class="ember-view user-activity-link loading" href="#">Profile</a></li>
+    <li>
+    <a id="ember1210" class="ember-view user-messages-link loading" href="#">
+      Messages
+    </a>
+    </li>
+    <li><a id="ember1212" class="ember-view loading" href="#">Bookmarks</a></li>
+    <li><a id="ember1213" class="ember-view loading" href="#">Preferences</a></li>
+    <li><button data-ember-action="2" class="btn btn-danger right logout"><i class="fa fa-sign-out"></i>Log Out</button></li>
+  </ul>
+</section>
+
+
+    </div>
+
+    
+      <div class="header-links-wrapper clearfix">
+        <a class="header-link" href="http://www.sitepoint.com/" tabindex="">Articles</a>
+        <a class="header-link" target="_top" href="https://learnable.com/topics/all/book?utm_source=sitepoint&amp;utm_medium=link&amp;utm_content=top-nav" tabindex="">Books</a>
+        <a class="header-link" target="_top" href="https://learnable.com/topics/all/course?utm_source=sitepoint&amp;utm_medium=link&amp;utm_content=top-nav" tabindex="">Courses</a>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+</header>
+
+<div id="main-outlet" class="" data-bindattr-3="3">
+  <div id="ember1064" class="ember-view regular category-php"><div class="container">
+  
+  <div id="ember1230" class="ember-view"></div>
+  <div id="ember1237" class="ember-view">
+  <div class="row">
+    <div id="banner">
+      <div id="banner-content">
+        <div class="close" data-ember-action="4"><i class="fa fa-times" title="Dismiss this banner."></i></div>
+        <h2>Welcome to The New SitePoint Forums.</h2>
+
+<hr>
+
+<h3>Some helpful posts to read.</h3>
+
+<ol>
+<li>
+<strong>Where can I find the rules?</strong> Click the <a href="http://community.sitepoint.com/faq">FAQ</a> link in the top navigation bar. </li>
+<li>
+<strong>Where should I post?</strong> You'll find a document explaining all the categories and tags <a href="http://community.sitepoint.com/t/help-where-should-i-post-my-topic/794">here</a>.</li>
+<li>
+<strong>How do I [do something] in Discourse?</strong> Here is a handy <a href="http://community.sitepoint.com/t/discourse-cheat-sheet/733">Discourse Cheat Sheet</a>.</li>
+<li>
+<strong>What are Trust Levels?</strong> Here is <a href="http://community.sitepoint.com/t/documentation-an-explanation-of-trust-levels/724">an explanation of Trust Levels</a>.</li>
+</ol>
+
+<h3>More help and feedback</h3>
+
+<p>If you have feedback, questions or concerns, please <a href="http://community.sitepoint.com/t/feedback-about-sitepoint-on-discourse/742">post them in this feedback thread</a>.<br>If you would like to contact our Community Manager personally, feel free to <a href="http://community.sitepoint.com/users/hawk/activity">send a private message</a> or <a href="mailto:hawk@sitepoint.com">an email</a>.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+  
+    <div id="topic-title">
+      <div class="container">
+        <div class="inner">
+
+          
+
+          
+            <h1>
+              
+                <span class="private-message-glyph"><i class="fa fa-envelope"></i></span>
+              
+              
+                
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              
+              
+                <div id="ember1253" class="ember-view topic-statuses"></div>
+                <a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" data-ember-action="5">
+                  
+                    Accessing and collecting post[] data from an array in PHP
+                  
+                </a>
+              
+
+
+              
+            </h1>
+          
+          <div id="ember1264" class="ember-view">
+    
+
+</div>
+        </div>
+      </div>
+    </div>
+  
+
+  <div class="container posts">
+
+    <div id="selected-posts" class="ember-view hidden"><p><span id="ember1278" class="ember-view">You have selected <b>0</b> posts.</span></p>
+
+
+  <p><a href="#" data-ember-action="6">select all</a></p>
+
+
+
+
+
+
+
+
+
+
+<p class="cancel"><a href="#" data-ember-action="7">cancel selecting</a></p>
+</div>
+
+    <div class="row">
+      <section class="topic-area" id="topic" data-topic-id="96459">
+        <div class="posts-wrapper">
+
+          <div id="topic-progress-wrapper" class="ember-view">
+<nav id="topic-progress" title="topic progress" class="" data-bindattr-8="8">
+  <div class="nums">
+    <h4>1</h4><span class="" data-bindattr-9="9"> <span>/</span> <h4>6</h4></span>
+  </div>
+  <i class="fa fa-sort" data-bindattr-10="10"></i>
+  <div style="border-right-width: 1px; width: 24.1667px;" class="bg">&nbsp;</div>
+</nav>
+</div>
+
+          
+
+          
+            <div id="ember1300" class="ember-view"><div id="post-cloak-1" class="ember-view post-cloak"><div id="ember1317" class="ember-view topic-post clearfix regular"><div id="ember1334" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1341" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_1" data-bindattr-11="11" data-post-id="752506" data-bindattr-12="12" data-user-id="214748">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents topic-creator" data-bindattr-13="13">
+          <a id="ember1348" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/erabxes"><img src="2.png" class="avatar" title="erabxes" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1355" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/erabxes" data-auto-route="true">erabxes</a></span><span class="user-title">SitePoint Member</span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" data-post-number="1" data-bindattr-14="14">
+              <span class="relative-date" title="September 8, 2014 2:51pm" data-time="1410180670000" data-format="tiny">16d</span>&nbsp;&nbsp;#1
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-15="15" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-16="16">
+        <button data-ember-action="17" class="" data-bindattr-18="18">select +replies</button>
+        <button data-ember-action="19" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-20="20">
+        <div class="cooked">
+          <p>I have a form like the one below which is posted to processForm.php, and the user can dynamically add more with jQuery.</p>
+
+<p>&lt;input type="text" name="subject[ ]" /&gt;<br>&lt;input type="text" name="grade[ ]" /&gt;<br>&lt;input type="text" name="year[ ]" /&gt;</p>
+
+<p>&lt;input type="text" name="subject[ ]" /&gt;<br>&lt;input type="text" name="grade[ ]" /&gt;<br>&lt;input type="text" name="year[ ]" /&gt;</p>
+
+<p>&lt;input type="text" name="subject[ ]" /&gt;<br>&lt;input type="text" name="grade[ ]" /&gt;<br>&lt;input type="text" name="year[ ]" /&gt;</p>
+
+<p>Please How can i access those arrays from subject[], grade[] and year[] inputs by the user?</p>
+        </div>
+        
+        
+        <section id="ember1363" class="ember-view post-menu-area clearfix"><nav class="post-controls"><button class="show-replies btn" data-action="replies"><span class="badge-posts">1</span>Reply<i class="fa fa-caret-down"></i></button><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1381" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1388" class="ember-view post-actions hidden"></section>
+      <div id="ember1397" class="ember-view topic-map"><div id="ember1400" class="ember-view"><nav class="buttons">
+  <button class="btn" data-ember-action="21" title="toggle topic details">
+    <i class="fa fa fa-chevron-down" data-bindattr-22="22"></i>
+  </button>
+</nav>
+
+<section class="map map-collapsed" data-bindattr-23="23">
+  <ul class="clearfix">
+    <li>
+      <a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459">
+      <h4>created</h4>
+      <img src="2_001.png" class="avatar" title="erabxes" height="20" width="20">
+      <span class="relative-date date" title="September 8, 2014 2:51pm" data-time="1410180670000" data-format="medium">Sep 8</span>
+      </a>
+    </li>
+    <li>
+      <a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/6" data-bindattr-24="24">
+      <h4>last post</h4>
+      <img src="2_001.png" class="avatar" title="erabxes" height="20" width="20">
+      <span class="relative-date date" title="September 12, 2014 4:31pm" data-time="1410532287259" data-format="medium">Sep 12</span>
+      </a>
+    </li>
+    <li>
+      <span id="ember1407" class="ember-view posts heatmap-" title="This topic has 6 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">6</a></span>
+      <h4>posts</h4>
+    </li>
+    <li class="secondary">
+      <span class="number null" title="204">204</span>
+      <h4>views</h4>
+    </li>
+    <li class="secondary">
+      <span class="number" title="3">3</span>
+      <h4>users</h4>
+    </li>
+    
+    
+    
+      <li class="avatars" data-bindattr-25="25">
+        <div id="ember1414" class="ember-view"><a href="#" class="poster" data-bindattr-26="26" data-ember-action="27" title="tpunt">
+  
+    <span class="post-count">2</span>
+  
+  <img src="17685.png" class="avatar" title="tpunt" height="32" width="32">
+</a>
+</div><div id="ember1415" class="ember-view"><a href="#" class="poster" data-bindattr-28="28" data-ember-action="29" title="erabxes">
+  
+    <span class="post-count">2</span>
+  
+  <img src="2_002.png" class="avatar" title="erabxes" height="32" width="32">
+</a>
+</div><div id="ember1416" class="ember-view"><a href="#" class="poster" data-bindattr-30="30" data-ember-action="31" title="BlackScorp">
+  
+    <span class="post-count">2</span>
+  
+  <img src="17866.png" class="avatar" title="BlackScorp" height="32" width="32">
+</a>
+</div>
+      </li>
+    
+  </ul>
+</section>
+
+
+</div></div>
+    </div>
+
+    <div id="ember1423" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1424" class="ember-view gap hidden"></div>
+
+</div></div><div id="post-cloak-2" class="ember-view post-cloak"><div id="ember1319" class="ember-view topic-post clearfix regular"><div id="ember1425" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1426" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_2" data-bindattr-32="32" data-post-id="753468" data-bindattr-33="33" data-user-id="161922">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents" data-bindattr-34="34">
+          <a id="ember1427" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/tpunt"><img src="17685_001.png" class="avatar" title="tpunt" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1428" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/tpunt" data-auto-route="true">tpunt</a></span><span class="user-title">SitePoint Enthusiast</span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/2" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/2" data-post-number="2" data-bindattr-35="35">
+              <span class="relative-date" title="September 8, 2014 4:50pm" data-time="1410187848000" data-format="tiny">16d</span>&nbsp;&nbsp;#2
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-36="36" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-37="37">
+        <button data-ember-action="38" class="hidden" data-bindattr-39="39">select +replies</button>
+        <button data-ember-action="40" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-41="41">
+        <div class="cooked">
+          <p>The square brackets in PHP denote an array, and so when you perform a var_dump() upon the $_POST array, you'll get something like the following (with dummy data):</p>
+
+<p></p><pre><code class="lang-auto hljs php"><span class="hljs-keyword">array</span>(<span class="hljs-number">4</span>) {
+  [<span class="hljs-string">"subject"</span>]=&gt;
+  <span class="hljs-keyword">array</span>(<span class="hljs-number">3</span>) {
+    [<span class="hljs-number">0</span>]=&gt;
+    string(<span class="hljs-number">1</span>) <span class="hljs-string">"a"</span>
+    [<span class="hljs-number">1</span>]=&gt;
+    string(<span class="hljs-number">2</span>) <span class="hljs-string">"aa"</span>
+    [<span class="hljs-number">2</span>]=&gt;
+    string(<span class="hljs-number">3</span>) <span class="hljs-string">"aaa"</span>
+  }
+  [<span class="hljs-string">"grade"</span>]=&gt;
+  <span class="hljs-keyword">array</span>(<span class="hljs-number">3</span>) {
+    [<span class="hljs-number">0</span>]=&gt;
+    string(<span class="hljs-number">1</span>) <span class="hljs-string">"b"</span>
+    [<span class="hljs-number">1</span>]=&gt;
+    string(<span class="hljs-number">2</span>) <span class="hljs-string">"bb"</span>
+    [<span class="hljs-number">2</span>]=&gt;
+    string(<span class="hljs-number">3</span>) <span class="hljs-string">"bbb"</span>
+  }
+  [<span class="hljs-string">"year"</span>]=&gt;
+  <span class="hljs-keyword">array</span>(<span class="hljs-number">3</span>) {
+    [<span class="hljs-number">0</span>]=&gt;
+    string(<span class="hljs-number">1</span>) <span class="hljs-string">"c"</span>
+    [<span class="hljs-number">1</span>]=&gt;
+    string(<span class="hljs-number">2</span>) <span class="hljs-string">"cc"</span>
+    [<span class="hljs-number">2</span>]=&gt;
+    string(<span class="hljs-number">3</span>) <span class="hljs-string">"ccc"</span>
+  }
+  [<span class="hljs-string">"submit"</span>]=&gt;
+  string(<span class="hljs-number">6</span>) <span class="hljs-string">"Submit"</span>
+}
+
+</code></pre>
+
+<p>This means you can access the <span class="bbcode-i">subject</span>, <span class="bbcode-i">grade</span>, and <span class="bbcode-i">year</span> arrays via <span class="bbcode-b">$_POST['subject']</span>, <span class="bbcode-b">$_POST['grade'</span>], and <span class="bbcode-b">$_POST['year']</span> respectively.</p>
+        </div>
+        
+        
+        <section id="ember1429" class="ember-view post-menu-area clearfix"><nav class="post-controls"><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1437" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1438" class="ember-view post-actions hidden"></section>
+      <div id="ember1439" class="ember-view hidden topic-map"></div>
+    </div>
+
+    <div id="ember1440" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1441" class="ember-view gap hidden"></div>
+
+</div></div><div id="post-cloak-3" class="ember-view post-cloak"><div id="ember1321" class="ember-view topic-post clearfix regular"><div id="ember1442" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1443" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_3" data-bindattr-42="42" data-post-id="755139" data-bindattr-43="43" data-user-id="215049">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents" data-bindattr-44="44">
+          <a id="ember1444" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/BlackScorp"><img src="17866_001.png" class="avatar" title="BlackScorp" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1445" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/BlackScorp" data-auto-route="true">BlackScorp</a></span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/3" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/3" data-post-number="3" data-bindattr-45="45">
+              <span class="relative-date" title="September 10, 2014 5:45pm" data-time="1410363922652" data-format="tiny">14d</span>&nbsp;&nbsp;#3
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-46="46" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-47="47">
+        <button data-ember-action="48" class="" data-bindattr-49="49">select +replies</button>
+        <button data-ember-action="50" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-51="51">
+        <div class="cooked">
+          <aside style="cursor: pointer;" class="quote" data-post="1" data-topic="96459"><div class="title">
+<div class="quote-controls"><i class="fa fa-chevron-down" title="expand/collapse"></i><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/1" title="go to the quoted post" class="back"></a></div>
+<img src="2_003.png" class="avatar" height="20" width="20">erabxes said:</div>
+<blockquote>
+<p>&lt;input type="text" name="subject[ ]" /&gt;&lt;input type="text" name="grade[ ]" /&gt;&lt;input type="text" name="year[ ]" /&gt;</p>
+<p>&lt;input type="text" name="subject[ ]" /&gt;&lt;input type="text" name="grade[ ]" /&gt;&lt;input type="text" name="year[ ]" /&gt;</p>
+<p>&lt;input type="text" name="subject[ ]" /&gt;&lt;input type="text" name="grade[ ]" /&gt;&lt;input type="text" name="year[ ]" /&gt;</p>
+</blockquote></aside>
+
+<p>try to do something like</p>
+
+<pre><code class=" hljs bash">&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">"text"</span> name=<span class="hljs-string">"input[&lt;?= <span class="hljs-variable">$i</span> ?&gt;]['subject']"</span>&gt;
+&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">"text"</span> name=<span class="hljs-string">"input[&lt;?= <span class="hljs-variable">$i</span> ?&gt;]['grade']"</span>&gt;
+&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">"text"</span> name=<span class="hljs-string">"input[&lt;?= <span class="hljs-variable">$i</span> ?&gt;]['year']"</span>&gt;</code></pre>
+        </div>
+        
+        
+        <section id="ember1446" class="ember-view post-menu-area clearfix"><nav class="post-controls"><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1454" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1455" class="ember-view post-actions hidden"></section>
+      <div id="ember1456" class="ember-view hidden topic-map"></div>
+    </div>
+
+    <div id="ember1457" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1458" class="ember-view gap hidden"></div>
+
+</div></div><div id="post-cloak-4" class="ember-view post-cloak"><div id="ember1323" class="ember-view topic-post clearfix regular"><div id="ember1459" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1460" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_4" data-bindattr-52="52" data-post-id="755209" data-bindattr-53="53" data-user-id="161922">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents" data-bindattr-54="54">
+          <a id="ember1461" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/tpunt"><img src="17685_001.png" class="avatar" title="tpunt" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1462" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/tpunt" data-auto-route="true">tpunt</a></span><span class="user-title">SitePoint Enthusiast</span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/4" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/4" data-post-number="4" data-bindattr-55="55">
+              <span class="relative-date" title="September 10, 2014 7:51pm" data-time="1410371464012" data-format="tiny">14d</span>&nbsp;&nbsp;#4
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-56="56" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-57="57">
+        <button data-ember-action="58" class="" data-bindattr-59="59">select +replies</button>
+        <button data-ember-action="60" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-61="61">
+        <div class="cooked">
+          <p>Using iteration to output the required input boxes would reduce OP's repetition. Though you need to switch your two square brackets around in order to get the same POST data format as in the original post. I'd also advise <strong>against</strong> quoting keys in HTML, because when dealing with this data in the $_POST array, you must also remember to put quotes onto the array keys (since it's part of their name):<br></p>
+
+<p></p><pre><code class="lang-auto hljs bash"><span class="hljs-variable">$_POST</span>[<span class="hljs-string">'\'</span>subject\<span class="hljs-string">''</span>]
+// or
+<span class="hljs-variable">$_POST</span>[<span class="hljs-string">"'subject'"</span>]</code></pre>
+
+<p>That also reduces legibility and is just a pain in general to handle.</p>
+        </div>
+        
+        
+        <section id="ember1463" class="ember-view post-menu-area clearfix"><nav class="post-controls"><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1471" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1472" class="ember-view post-actions hidden"></section>
+      <div id="ember1473" class="ember-view hidden topic-map"></div>
+    </div>
+
+    <div id="ember1474" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1475" class="ember-view gap hidden"></div>
+
+</div></div><div id="post-cloak-5" class="ember-view post-cloak"><div id="ember1325" class="ember-view topic-post clearfix regular"><div id="ember1476" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1477" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_5" data-bindattr-62="62" data-post-id="755251" data-bindattr-63="63" data-user-id="215049">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents" data-bindattr-64="64">
+          <a id="ember1478" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/BlackScorp"><img src="17866_001.png" class="avatar" title="BlackScorp" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1479" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/BlackScorp" data-auto-route="true">BlackScorp</a></span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/5" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/5" data-post-number="5" data-bindattr-65="65">
+              <span class="relative-date" title="September 10, 2014 8:54pm" data-time="1410375294057" data-format="tiny">14d</span>&nbsp;&nbsp;#5
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-66="66" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-67="67">
+        <button data-ember-action="68" class="hidden" data-bindattr-69="69">select +replies</button>
+        <button data-ember-action="70" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-71="71">
+        <div class="cooked">
+          <p>agree with <a class="mention" href="http://community.sitepoint.com/users/tpunt">@tpunt</a> but at least i would create a two dimensional array</p>
+        </div>
+        
+        
+        <section id="ember1480" class="ember-view post-menu-area clearfix"><nav class="post-controls"><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1488" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1489" class="ember-view post-actions hidden"></section>
+      <div id="ember1490" class="ember-view hidden topic-map"></div>
+    </div>
+
+    <div id="ember1491" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1492" class="ember-view gap hidden"></div>
+
+</div></div><div id="post-cloak-6" class="ember-view post-cloak"><div id="ember1327" class="ember-view topic-post clearfix regular"><div id="ember1493" class="ember-view gap hidden"></div>
+
+<div class="row">
+  <section id="ember1494" class="ember-view embedded-posts top topic-body offset2 hidden"></section>
+</div>
+
+<article class="boxed" id="post_6" data-bindattr-72="72" data-post-id="756592" data-bindattr-73="73" data-user-id="214748">
+  <div class="row">
+    
+    <div class="topic-avatar">
+      
+        <div class="contents topic-creator" data-bindattr-74="74">
+          <a id="ember1495" class="ember-view trigger-expansion main-avatar" href="http://community.sitepoint.com/users/erabxes"><img src="2.png" class="avatar" title="erabxes" height="45" width="45"></a>
+        </div>
+      
+      
+    </div>
+
+    <div class="topic-body">
+      <div class="topic-meta-data">
+        <div id="ember1496" class="ember-view names trigger-expansion"><span class="username"><a href="http://community.sitepoint.com/users/erabxes" data-auto-route="true">erabxes</a></span><span class="user-title">SitePoint Member</span></div>
+        <div class="post-info">
+          
+
+            <a class="post-date" href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/6" data-share-url="/t/accessing-and-collecting-post-data-from-an-array-in-php/96459/6" data-post-number="6" data-bindattr-75="75">
+              <span class="relative-date" title="September 12, 2014 4:31pm" data-time="1410532287259" data-format="tiny">12d</span>&nbsp;&nbsp;#6
+            </a>
+
+          
+        </div>
+        
+        <div class="read-state read" data-bindattr-76="76" title="Post is unread"><i class="fa fa-circle"></i></div>
+      </div>
+
+      <div class="select-posts hidden" data-bindattr-77="77">
+        <button data-ember-action="78" class="hidden" data-bindattr-79="79">select +replies</button>
+        <button data-ember-action="80" class="select-post">select</button>
+      </div>
+
+      <div class="bottom-round contents regular" data-bindattr-81="81">
+        <div class="cooked">
+          <p>Thanks to you guys , I got all i need! That's what I think!</p>
+        </div>
+        
+        
+        <section id="ember1497" class="ember-view post-menu-area clearfix"><nav class="post-controls"><div class="actions"></div></nav></section>
+      </div>
+      <section id="ember1505" class="ember-view embedded-posts bottom"></section>
+      <section id="ember1506" class="ember-view post-actions hidden"></section>
+      <div id="ember1507" class="ember-view hidden topic-map"></div>
+    </div>
+
+    <div id="ember1508" class="ember-view gutter"></div>
+  </div>
+
+</article>
+
+<div id="ember1509" class="ember-view gap hidden"></div>
+
+</div></div></div>
+          
+
+          
+        </div>
+        <div id="topic-bottom"></div>
+
+        
+          
+
+            <div id="topic-closing-info" class="ember-view"></div>
+            <div id="topic-footer-buttons" class="ember-view"><button id="ember1537" class="ember-view btn btn-primary create standard" title="Log In to Reply"><i class="fa fa-user"></i>Log In to Reply</button></div>
+
+            
+              <div id="suggested-topics">
+                <h3>Suggested Topics</h3>
+                <div class="topics">
+                  <div id="ember1546" class="ember-view">
+  
+    <table class="topic-list">
+      <thead>
+        <tr>
+          <th class="default">Topic</th>
+          
+            <th class="category">Category</th>
+          
+          <th class="num posts">Posts</th>
+          
+          <th class="num views">Views</th>
+          <th class="num activity">Activity</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        
+          <tr class="" data-bindattr-82="82">
+            <td class="main-link">
+              <div id="ember1551" class="ember-view topic-statuses"></div>
+              <a class="title" href="http://community.sitepoint.com/t/using-checkbox-to-delete-a-file/1417">Using checkbox To Delete A File</a>
+              <span id="ember1558" class="ember-view topic-post-badges"></span>
+            </td>
+
+            
+              <td class="category">
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              </td>
+            
+
+            <td id="ember1559" class="ember-view num posts heatmap-" title="This topic has 8 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">8</a></td>
+
+            
+
+            <td class="num views" data-bindattr-83="83">
+              <span class="number" title="this topic has been viewed 28 times">28</span>
+            </td>
+
+            <td id="ember1566" class="ember-view num activity" title="First post: September 16, 2003 1:33pm
+Last post: September 16, 2003 2:25pm"><a href="http://community.sitepoint.com/t/using-checkbox-to-delete-a-file/1417/8"><span class="relative-date with-year" data-time="1063715142000" data-format="tiny">Sep '03</span></a></td>
+          </tr>
+        
+          <tr class="" data-bindattr-84="84">
+            <td class="main-link">
+              <div id="ember1567" class="ember-view topic-statuses"></div>
+              <a class="title" href="http://community.sitepoint.com/t/need-help-with-member-profiles/15447">Need help with Member Profiles</a>
+              <span id="ember1568" class="ember-view topic-post-badges"></span>
+            </td>
+
+            
+              <td class="category">
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              </td>
+            
+
+            <td id="ember1569" class="ember-view num posts heatmap-" title="This topic has 9 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">9</a></td>
+
+            
+
+            <td class="num views" data-bindattr-85="85">
+              <span class="number" title="this topic has been viewed 4 times">4</span>
+            </td>
+
+            <td id="ember1570" class="ember-view num activity" title="First post: May 3, 2012 12:35am
+Last post: May 3, 2012 10:39pm"><a href="http://community.sitepoint.com/t/need-help-with-member-profiles/15447/9"><span class="relative-date with-year" data-time="1336077542000" data-format="tiny">May '12</span></a></td>
+          </tr>
+        
+          <tr class="" data-bindattr-86="86">
+            <td class="main-link">
+              <div id="ember1571" class="ember-view topic-statuses"></div>
+              <a class="title" href="http://community.sitepoint.com/t/table-not-updating-unless-form-is-resent/23587">Table not updating unless form is resent</a>
+              <span id="ember1572" class="ember-view topic-post-badges"></span>
+            </td>
+
+            
+              <td class="category">
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              </td>
+            
+
+            <td id="ember1573" class="ember-view num posts heatmap-" title="This topic has 11 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">11</a></td>
+
+            
+
+            <td class="num views" data-bindattr-87="87">
+              <span class="number" title="this topic has been viewed 23 times">23</span>
+            </td>
+
+            <td id="ember1574" class="ember-view num activity" title="First post: November 16, 2012 10:22am
+Last post: November 16, 2012 2:56pm"><a href="http://community.sitepoint.com/t/table-not-updating-unless-form-is-resent/23587/11"><span class="relative-date with-year" data-time="1353074199000" data-format="tiny">Nov '12</span></a></td>
+          </tr>
+        
+          <tr class="" data-bindattr-88="88">
+            <td class="main-link">
+              <div id="ember1575" class="ember-view topic-statuses"></div>
+              <a class="title" href="http://community.sitepoint.com/t/i-need-help-in-embedding-my-website-with-php-code/20424">I need help in embedding my website with php code</a>
+              <span id="ember1576" class="ember-view topic-post-badges"></span>
+            </td>
+
+            
+              <td class="category">
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              </td>
+            
+
+            <td id="ember1577" class="ember-view num posts heatmap-" title="This topic has 11 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">11</a></td>
+
+            
+
+            <td class="num views" data-bindattr-89="89">
+              <span class="number" title="this topic has been viewed 14 times">14</span>
+            </td>
+
+            <td id="ember1578" class="ember-view num activity coldmap-low" title="First post: August 27, 2012 1:23am
+Last post: September 19, 2012 12:18pm"><a href="http://community.sitepoint.com/t/i-need-help-in-embedding-my-website-with-php-code/20424/11"><span class="relative-date with-year" data-time="1348049930000" data-format="tiny">Sep '12</span></a></td>
+          </tr>
+        
+          <tr class="" data-bindattr-90="90">
+            <td class="main-link">
+              <div id="ember1579" class="ember-view topic-statuses"></div>
+              <a class="title" href="http://community.sitepoint.com/t/auto-filling-form/23546">Auto filling form</a>
+              <span id="ember1580" class="ember-view topic-post-badges"></span>
+            </td>
+
+            
+              <td class="category">
+                <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a>
+              </td>
+            
+
+            <td id="ember1581" class="ember-view num posts heatmap-" title="This topic has 3 posts"><a href="http://community.sitepoint.com/t/accessing-and-collecting-post-data-from-an-array-in-php/96459" class="badge-posts heatmap-">3</a></td>
+
+            
+
+            <td class="num views" data-bindattr-91="91">
+              <span class="number" title="this topic has been viewed 13 times">13</span>
+            </td>
+
+            <td id="ember1582" class="ember-view num activity" title="First post: November 15, 2012 4:57pm
+Last post: November 18, 2012 4:23am"><a href="http://community.sitepoint.com/t/auto-filling-form/23546/3"><span class="relative-date with-year" data-time="1353209016000" data-format="tiny">Nov '12</span></a></td>
+          </tr>
+        
+      </tbody>
+
+    </table>
+  
+
+</div>
+                </div>
+                <h3>Want to read more? Browse other topics in <a href="http://community.sitepoint.com/category/php" data-drop-close="true" class="badge-category" title="PHP has established itself as the Open Source programming language of choice for many developers. Need help with your program? Trying to fix a tricky parse error?" style="background-color: rgb(89, 89, 134); color: rgb(255, 255, 255);">PHP</a> or <a href="http://community.sitepoint.com/latest">view latest topics</a>.</h3>
+              </div>
+            
+          
+        
+
+
+      </section>
+    </div>
+
+  </div>
+
+
+
+<div id="share-link" class="ember-view"><h3>share a link to this topic</h3>
+
+
+
+<div><input value="" type="text"></div>
+
+<div id="ember1694" class="ember-view social-link">
+  <a href="#" data-ember-action="109" title="share this link on Twitter" data-bindattr-110="110"><i class="fa fa-twitter" data-bindattr-111="111"></i></a>
+
+</div><div id="ember1695" class="ember-view social-link">
+  <a href="#" data-ember-action="112" title="share this link on Facebook" data-bindattr-113="113"><i class="fa fa-facebook-square" data-bindattr-114="114"></i></a>
+
+</div><div id="ember1696" class="ember-view social-link">
+  <a href="#" data-ember-action="115" title="share this link on Google+" data-bindattr-116="116"><i class="fa fa-google-plus" data-bindattr-117="117"></i></a>
+
+</div><div id="ember1697" class="ember-view social-link">
+  <a href="mailto:?to=&amp;subject=%5BThe%20SitePoint%20Forums%5D%20Accessing%20and%20collecting%20post%5B%5D%20data%20from%20an%20array%20in%20PHP&amp;body=" data-bindattr-118="118" title="send this link in an email" data-bindattr-119="119" target="_top"><i class="fa fa-envelope" data-bindattr-120="120"></i></a>
+
+</div>
+
+<div class="link">
+  <a href="#" data-ember-action="104" title="close"><i class="fa fa-times-circle"></i></a>
+</div>
+</div>
+
+
+
+
+</div>
+  <div id="user-expansion" class="ember-view hidden show-badges">
+</div>
+</div>
+
+<div id="discourse-modal" class="ember-view modal hidden"><div class="modal-outer-container">
+  <div class="modal-middle-container">
+    <div class="modal-inner-container">
+
+      <div class="modal-header">
+        <a class="close" data-ember-action="105"><i class="fa fa-times"></i></a>
+        <h3></h3>
+        <div class="clearfix"></div>
+      </div>
+      <div id="modal-alert"></div>
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+</div>
+<div id="topic-entrance" class="ember-view hidden"><button data-ember-action="106" class="btn full no-text jump-top">
+  <i class="fa fa-caret-up"></i> Jan 1, '70 <br>1:00 AM
+</button>
+<button data-ember-action="107" class="btn full no-text jump-bottom">
+  Jan 1, '70 <br>1:00 AM <i class="fa fa-caret-down"></i>
+</button>
+</div>
+<div id="reply-control" class="ember-view closed processed"><div class="grippie"></div><div class="spinner">Uploading...</div>
+
+<div class="contents">
+
+  <div id="ember1679" class="ember-view composer-popup-container hidden"></div>
+
+  <div class="control">
+    <a href="#" class="toggler" data-ember-action="108" title="hide or show the composer panel"></a>
+
+    
+      <div class="row">
+        <div class="span24">
+          <div class="saving-text">
+            
+              Saving...
+            
+          </div>
+          <div class="draft-text">
+            You have a post draft in progress. Select this bar to resume editing.
+          </div>
+        </div>
+      </div>
+    
+
+  </div>
+</div>
+
+</div></div></section>
+
+      <form id="hidden-login-form" method="post" action="http://community.sitepoint.com/login" style="display: none;">
+        <input value="" name="username" id="signin_username" type="text">
+        <input name="password" id="signin_password" type="password">
+        <input name="redirect" type="hidden">
+        <input id="signin-button" value="Log In" type="submit">
+      </form>
+
+      
+
+    
+
+    <footer id="bottom"></footer>
+
+    
+
+
+
+
+
+
+
+
+    
+  
+
+</body>
+</html>

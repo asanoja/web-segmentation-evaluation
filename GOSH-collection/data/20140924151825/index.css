@@ -1,0 +1,44 @@
+/* ::::: http://www.imagebank.ie/css/styles.css ::::: */
+
+/* ::::: http://www.imagebank.ie/css/layout.css ::::: */
+
+div#allwrap { margin: 0px; padding: 0px; background: url('cl_tp2.gif') repeat-y scroll left center rgb(255, 255, 255); width: 700px; }
+div#wrapper { position: relative; margin: 0px 0px 0px 30px; padding: 0px; background: url('cr_tp2.gif') repeat-y scroll right center rgb(255, 255, 255); width: 733px; }
+.clear { clear: both; display: block; height: 1px; overflow: hidden; margin: 0px; padding: 0px; }
+/* ::::: http://www.imagebank.ie/css/forms.css ::::: */
+
+form { font: 9.5pt arial,verdana,sans-serif; margin: 0px; padding: 0px; }
+form input, form textarea { margin: 5px 0px 0px; }
+form br { clear: left; }
+body { background-color: rgb(235, 235, 235); font-family: Arial,"Trebuchet MS",Verdana,sans-serif; font-size: 9.5pt; margin: 0px; padding: 0px; }
+#header { background: url('bg_header.gif') no-repeat scroll 0% 0% rgb(235, 235, 235); height: 130px; min-width: 763px; }
+#footer { min-width: 750px; width: 750px; }
+#ccl { position: relative; left: 25px; top: -50px; font-size: 90%; width: 530px; }
+#Return_Link { position: absolute; left: 524px; }
+.Crumbs { position: relative; left: -118px; top: 7px; font-size: 8pt; }
+.Crumbs A { font-size: 8pt; font-variant: normal; }
+#Main_Nav { position: absolute; left: 144px; top: 79px; }
+.more_info { font-size: 0.9em; color: rgb(8, 99, 146); background: url('arrow.gif') no-repeat scroll right center transparent; padding-right: 12px; text-decoration: none; }
+.more_info:hover { text-decoration: underline; }
+#footer_nav { position: relative; top: -110px; left: 40px; }
+#footer_nav A { font-size: 9pt; color: rgb(153, 153, 153); background: url('arrow.gif') no-repeat scroll left center transparent; padding-left: 12px; text-decoration: none; }
+#footer_nav A:hover { text-decoration: underline; color: rgb(8, 99, 146); }
+.fp_searchphoto { position: absolute; left: 50px; top: 132px; width: 160px; height: 20px; }
+.findresults #mainColumn { margin: 0px; padding: 0px; font-size: 9.5pt; background-color: rgb(255, 255, 255); width: 700px; }
+.findresults #im_header { background: url('frame_02.gif') no-repeat scroll left bottom rgb(255, 255, 255); width: 150px; height: 14px; }
+.findresults #im_main { width: 150px; height: 122px; padding-top: 0px; font-size: 9.5pt; background-color: rgb(255, 255, 255); border-left: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); }
+.findresults #im_footer { background: url('frame_04.gif') no-repeat scroll 0% 0% rgb(255, 255, 255); width: 150px; height: 14px; }
+.findresults #im_searchbox { width: 695px; height: 105px; }
+.findresults .im_blightbox { position: relative; top: -8px; left: -40px; }
+.findresults .im_bzoom { position: relative; top: -8px; left: 42px; }
+.findresults #im_main a img {  }
+.findresults .fp_searchphoto { position: absolute; left: 360px; top: 61px; width: 160px; height: 20px; }
+.findresults .fp_searchmain { position: absolute; left: 184px; top: 12px; width: 160px; height: 20px; }
+.findresults #fp_bsearch { position: absolute; left: 524px; top: 60px; }
+.findresults #fp_bgo { position: absolute; left: 358px; top: 13px; }
+.findresults #Catselected { position: absolute; left: 140px; top: 50px; }
+.findresults #pagelinks, .findresults #pagelinks_bottom { background: url('fp_page_bg.gif') no-repeat scroll 70px 7px rgb(255, 255, 255); width: 631px; height: 40px; font-size: 9.5pt; position: relative; left: 10px; top: 10px; }
+.findresults #bpreviouspage, .findresults #bpreviouspage_bottom { position: absolute; left: 0px; }
+.findresults #bnextpage, .findresults #bnextpage_bottom { position: relative; left: 564px; }
+.findresults #pagestats, #pagestats_bottom { position: absolute; top: 6px; left: 250px; background-color: rgb(255, 255, 255); width: 130px; text-align: center; }
+#popup { width: 405px; visibility: hidden; position: absolute; z-index: 998; }

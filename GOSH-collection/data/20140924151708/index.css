@@ -1,0 +1,218 @@
+/* ::::: http://d36xtkk24g8jdx.cloudfront.net/bluebar/f37a926/cache/public/public-main.css ::::: */
+
+@font-face {
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: bold;
+	src: url('proximanova-bold-webfont.eot') format("embedded-opentype"), url('proximanova-bold-webfont.woff') format("woff"), url('proximanova-bold-webfont.ttf') format("truetype"), url('proximanova-bold-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "proxima-nova";
+	font-style: italic;
+	font-weight: bold;
+	src: url('proximanova-boldit-webfont.eot') format("embedded-opentype"), url('proximanova-boldit-webfont.woff') format("woff"), url('proximanova-boldit-webfont.ttf') format("truetype"), url('proximanova-boldit-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: normal;
+	src: url('proximanova-reg-webfont.eot') format("embedded-opentype"), url('proximanova-reg-webfont.woff') format("woff"), url('proximanova-reg-webfont.ttf') format("truetype"), url('proximanova-reg-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "proxima-nova";
+	font-style: italic;
+	font-weight: normal;
+	src: url('proximanova-regit-webfont.eot') format("embedded-opentype"), url('proximanova-regit-webfont.woff') format("woff"), url('proximanova-regit-webfont.ttf') format("truetype"), url('proximanova-regit-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: 600;
+	src: url('proximanova-sbold-webfont.eot') format("embedded-opentype"), url('proximanova-sbold-webfont.woff') format("woff"), url('proximanova-sbold-webfont.ttf') format("truetype"), url('proximanova-sbold-webfont.svg') format("svg");
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio:not([controls]) { display: none; }
+html { font-size: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin: 0px; }
+h1 { font-size: 2em; }
+b, strong { font-weight: bold; }
+ul, ol { margin-left: 0px; padding: 0px 0px 0px 40px; }
+nav ul, nav ol { list-style: none outside none; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+html, body { height: 100%; }
+html { font-size: 62.5%; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+a img, fieldset { border: medium none; }
+.clear:after, .page-footer:after, .jobs-intro:after, .resumator-buttons ul:after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; font-size: 0.01em ! important; line-height: 0.01em ! important; }
+.clear, .page-footer, .jobs-intro, .resumator-buttons ul { display: inline-block; }
+.clear, .page-footer, .jobs-intro, .resumator-buttons ul { display: block; }
+@media screen and (max-device-width: 480px) {
+	html {  }
+}
+body { line-height: 20px; color: rgb(34, 34, 34); }
+.proxima-nova, .card h2, .top-bar h2, .legal-body h3, body, input, select, textarea { font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif; }
+.freight-sans-pro, h1, h2, h3, .three-step blockquote, h1, h2, h3 { font-family: 'freight-sans-pro','proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif; }
+body { font-size: 1.4rem; }
+h1 { font-size: 36px; line-height: 40px; }
+h1, h2, h3, h4, h5, h6, th { font-weight: bold; }
+h1 { margin: 40px 0px 20px -1px; }
+h1:first-child, h2:first-child { margin-top: 0px; }
+p { margin: 0px 0px 10px; }
+ul, ol { margin: 0px 0px 20px; }
+li { margin: 0px 0px 5px; }
+a, a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a, a:visited { color: rgb(63, 114, 155); }
+a:hover { color: rgb(28, 83, 128); }
+.page-footer { font-size: 12px; line-height: 16px; }
+.page-footer nav, .page-footer p { text-transform: uppercase; font-weight: bold; }
+.page-footer p { color: rgba(0, 0, 0, 0.3); }
+.page-footer-chromeless, .page-footer-dark, .page-home .page-footer { text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); }
+a {  }
+.main form.bordered input:not([type="submit"]), .main form.bordered span { width: 50%; display: inline-block; }
+.main form.bordered span > input:not([type="submit"]) { width: 100%; }
+ol, ul { padding-left: 20px; list-style-position: outside; }
+ul { list-style-type: square; }
+[type="submit"], .button, .page-home .content .home-login { cursor: pointer; font-weight: bold; line-height: 1em; text-decoration: none ! important; color: rgb(17, 17, 17); -moz-user-select: none; display: inline-block; position: relative; background-color: rgb(238, 238, 238); border-radius: 4px; }
+[type="submit"]:hover, .button:hover, .page-home .content .home-login:hover { background-color: rgb(238, 238, 238); }
+.ButtonActive[type="submit"], .ButtonActive.button, .page-home .content .ButtonActive.home-login, .button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .active[type="submit"], .active.button, .page-home .content .active.home-login, [type="submit"]:active, .button:active, .page-home .content .home-login:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login { background-color: rgb(221, 221, 221); }
+[type="submit"], .button, .page-home .content .home-login { border: 1px solid rgb(187, 187, 187); }
+.ButtonActive[type="submit"], .ButtonActive.button, .page-home .content .ButtonActive.home-login, .button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .active[type="submit"], .active.button, .page-home .content .active.home-login, [type="submit"]:active, .button:active, .page-home .content .home-login:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login { border-color: rgb(162, 162, 162); }
+[type="button"], [type="submit"], .button, .page-home .content .home-login, .button-medium { font-size: 1.4rem; padding: 7px 10px 8px; border-radius: 3px; }
+[type="submit"], .button, .page-home .content .home-login, .button-light, .resumator-forward-button, [type="submit"]:visited, .button:visited, .page-home .content .home-login:visited, .button-light:visited, .resumator-forward-button:visited { color: rgb(15, 53, 86); }
+[type="submit"]:hover, .button:hover, .page-home .content .home-login:hover, .button-light:hover, .resumator-forward-button:hover { color: rgb(6, 37, 64); }
+.button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .button-active.button-light, .button-active.resumator-forward-button, .active[type="submit"], .active.button, .page-home .content .active.home-login, .active.button-light, .active.resumator-forward-button, [type="submit"]:active, .button:active, .page-home .content .home-login:active, .button-light:active, .resumator-forward-button:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-light, html.touch .pressed.resumator-forward-button { color: rgb(6, 37, 64); }
+.button-blue, .resumator-apply-button, .page-home .content .home-login, .button-headerblue, .card header .button, .button-gray, .button-green, .tooltip .button.positive, .button-altgreen, .job-details header .button, .button-red, .tooltip .button.negative, .button-darkred, .card header .negative, .button-brown, .button-yellow, .button-altblue, .button-blue:visited, .resumator-apply-button:visited, .page-home .content .home-login:visited, .button-headerblue:visited, .card header .button:visited, .button-gray:visited, .button-green:visited, .tooltip .button.positive:visited, .button-altgreen:visited, .job-details header .button:visited, .button-red:visited, .tooltip .button.negative:visited, .button-darkred:visited, .card header .negative:visited, .button-brown:visited, .button-yellow:visited, .button-altblue:visited { color: rgb(255, 255, 255); }
+.button-blue:hover, .resumator-apply-button:hover, .page-home .content .home-login:hover, .button-headerblue:hover, .card header .button:hover, .button-gray:hover, .button-green:hover, .tooltip .button.positive:hover, .button-altgreen:hover, .job-details header .button:hover, .button-red:hover, .tooltip .button.negative:hover, .button-darkred:hover, .card header .negative:hover, .button-brown:hover, .button-yellow:hover, .button-altblue:hover { color: rgb(255, 255, 255); }
+.ButtonActive.button-blue, .ButtonActive.resumator-apply-button, .page-home .content .ButtonActive.home-login, .ButtonActive.button-headerblue, .card header .ButtonActive.button, .ButtonActive.button-gray, .ButtonActive.button-green, .tooltip .ButtonActive.button.positive, .ButtonActive.button-altgreen, .job-details header .ButtonActive.button, .ButtonActive.button-red, .tooltip .ButtonActive.button.negative, .ButtonActive.button-darkred, .card header .ButtonActive.negative, .ButtonActive.button-brown, .ButtonActive.button-yellow, .ButtonActive.button-altblue, .button-active.button-blue, .button-active.resumator-apply-button, .page-home .content .button-active.home-login, .button-active.button-headerblue, .card header .button-active.button, .button-active.button-gray, .button-active.button-green, .tooltip .button-active.button.positive, .button-active.button-altgreen, .job-details header .button-active.button, .button-active.button-red, .tooltip .button-active.button.negative, .button-active.button-darkred, .card header .button-active.negative, .button-active.button-brown, .button-active.button-yellow, .button-active.button-altblue, .active.button-blue, .active.resumator-apply-button, .page-home .content .active.home-login, .active.button-headerblue, .card header .active.button, .active.button-gray, .active.button-green, .tooltip .active.button.positive, .active.button-altgreen, .job-details header .active.button, .active.button-red, .tooltip .active.button.negative, .active.button-darkred, .card header .active.negative, .active.button-brown, .active.button-yellow, .active.button-altblue, .button-blue:active, .resumator-apply-button:active, .page-home .content .home-login:active, .button-headerblue:active, .card header .button:active, .button-gray:active, .button-green:active, .tooltip .button.positive:active, .button-altgreen:active, .job-details header .button:active, .button-red:active, .tooltip .button.negative:active, .button-darkred:active, .card header .negative:active, .button-brown:active, .button-yellow:active, .button-altblue:active, html.touch .pressed.button-blue, html.touch .pressed.resumator-apply-button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-headerblue, html.touch .card header .pressed.button, .card header html.touch .pressed.button, html.touch .pressed.button-gray, html.touch .pressed.button-green, html.touch .tooltip .pressed.button.positive, .tooltip html.touch .pressed.button.positive, html.touch .pressed.button-altgreen, html.touch .job-details header .pressed.button, .job-details header html.touch .pressed.button, html.touch .pressed.button-red, html.touch .tooltip .pressed.button.negative, .tooltip html.touch .pressed.button.negative, html.touch .pressed.button-darkred, html.touch .card header .pressed.negative, .card header html.touch .pressed.negative, html.touch .pressed.button-brown, html.touch .pressed.button-yellow, html.touch .pressed.button-altblue { color: rgba(255, 255, 255, 0.8); text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
+[type="submit"], .button, .page-home .content .home-login, .button-light, .resumator-forward-button, .button-grey { text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 1px 0px 0px rgba(255, 255, 255, 0.05) inset, -1px 0px 0px rgba(255, 255, 255, 0.05) inset, 0px 1px 0px rgba(255, 255, 255, 0.2) inset; }
+.ButtonActive[type="submit"], .ButtonActive.button, .page-home .content .ButtonActive.home-login, .ButtonActive.button-light, .ButtonActive.resumator-forward-button, .ButtonActive.button-grey, .button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .button-active.button-light, .button-active.resumator-forward-button, .button-active.button-grey, .active[type="submit"], .active.button, .page-home .content .active.home-login, .active.button-light, .active.resumator-forward-button, .active.button-grey, [type="submit"]:active, .button:active, .page-home .content .home-login:active, .button-light:active, .resumator-forward-button:active, .button-grey:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-light, html.touch .pressed.resumator-forward-button, html.touch .pressed.button-grey { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08) inset, 0px 0px 1px rgba(0, 0, 0, 0.08) inset, 0px 1px 0px rgba(255, 255, 255, 0.9); }
+.button-blue, .resumator-apply-button, .page-home .content .home-login, .button-gray, .button-brown, .button-red, .tooltip .button.negative, .button-green, .button-yellow, .button-altblue, .button-altgreen, .job-details header .button { text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 1px 0px 0px rgba(255, 255, 255, 0.05) inset, -1px 0px 0px rgba(255, 255, 255, 0.05) inset, 0px 1px 0px rgba(255, 255, 255, 0.2) inset; }
+.ButtonActive.button-blue, .ButtonActive.resumator-apply-button, .page-home .content .ButtonActive.home-login, .ButtonActive.button-gray, .ButtonActive.button-brown, .ButtonActive.button-red, .tooltip .ButtonActive.button.negative, .ButtonActive.button-green, .ButtonActive.button-yellow, .ButtonActive.button-altblue, .ButtonActive.button-altgreen, .job-details header .ButtonActive.button, .button-active.button-blue, .button-active.resumator-apply-button, .page-home .content .button-active.home-login, .button-active.button-gray, .button-active.button-brown, .button-active.button-red, .tooltip .button-active.button.negative, .button-active.button-green, .button-active.button-yellow, .button-active.button-altblue, .button-active.button-altgreen, .job-details header .button-active.button, .active.button-blue, .active.resumator-apply-button, .page-home .content .active.home-login, .active.button-gray, .active.button-brown, .active.button-red, .tooltip .active.button.negative, .active.button-green, .active.button-yellow, .active.button-altblue, .active.button-altgreen, .job-details header .active.button, .button-blue:active, .resumator-apply-button:active, .page-home .content .home-login:active, .button-gray:active, .button-brown:active, .button-red:active, .tooltip .button.negative:active, .button-green:active, .button-yellow:active, .button-altblue:active, .button-altgreen:active, .job-details header .button:active, html.touch .pressed.button-blue, html.touch .pressed.resumator-apply-button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-gray, html.touch .pressed.button-brown, html.touch .pressed.button-red, html.touch .tooltip .pressed.button.negative, .tooltip html.touch .pressed.button.negative, html.touch .pressed.button-green, html.touch .pressed.button-yellow, html.touch .pressed.button-altblue, html.touch .pressed.button-altgreen, html.touch .job-details header .pressed.button, .job-details header html.touch .pressed.button { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15) inset, 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 0px rgba(255, 255, 255, 0.8); }
+[type="submit"], .button, .page-home .content .home-login, .button-light, .resumator-forward-button { background-color: rgb(249, 250, 251); background-image: -moz-linear-gradient(center top , rgb(249, 250, 251), rgb(238, 241, 244)); background-position: 50% 50%; }
+.ButtonActive[type="submit"], .ButtonActive.button, .page-home .content .ButtonActive.home-login, .ButtonActive.button-light, .ButtonActive.resumator-forward-button, .button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .button-active.button-light, .button-active.resumator-forward-button, .active[type="submit"], .active.button, .page-home .content .active.home-login, .active.button-light, .active.resumator-forward-button, [type="submit"]:active, .button:active, .page-home .content .home-login:active, .button-light:active, .resumator-forward-button:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-light, html.touch .pressed.resumator-forward-button { background: none repeat scroll 0% 0% rgb(232, 236, 240); }
+[type="submit"], .button, .page-home .content .home-login, .button-light, .resumator-forward-button { border: 1px solid rgb(198, 218, 236); }
+.ButtonActive[type="submit"], .ButtonActive.button, .page-home .content .ButtonActive.home-login, .ButtonActive.button-light, .ButtonActive.resumator-forward-button, .button-active[type="submit"], .button-active.button, .page-home .content .button-active.home-login, .button-active.button-light, .button-active.resumator-forward-button, .active[type="submit"], .active.button, .page-home .content .active.home-login, .active.button-light, .active.resumator-forward-button, [type="submit"]:active, .button:active, .page-home .content .home-login:active, .button-light:active, .resumator-forward-button:active, html.touch .pressed[type="submit"], html.touch .pressed.button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login, html.touch .pressed.button-light, html.touch .pressed.resumator-forward-button { border-color: rgb(179, 206, 230); }
+.button-blue, .resumator-apply-button, .page-home .content .home-login { background-color: rgb(111, 151, 182); background-image: -moz-linear-gradient(center top , rgb(111, 151, 182), rgb(63, 114, 155)); background-position: 50% 50%; text-shadow: 0px 1px 1px rgb(28, 83, 128); }
+.ButtonActive.button-blue, .ButtonActive.resumator-apply-button, .page-home .content .ButtonActive.home-login, .button-active.button-blue, .button-active.resumator-apply-button, .page-home .content .button-active.home-login, .active.button-blue, .active.resumator-apply-button, .page-home .content .active.home-login, .button-blue:active, .resumator-apply-button:active, .page-home .content .home-login:active, html.touch .pressed.button-blue, html.touch .pressed.resumator-apply-button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login { background: none repeat scroll 0% 0% rgb(60, 109, 148); }
+.button-blue, .resumator-apply-button, .page-home .content .home-login { border: 1px solid rgb(28, 83, 128); }
+.ButtonActive.button-blue, .ButtonActive.resumator-apply-button, .page-home .content .ButtonActive.home-login, .button-active.button-blue, .button-active.resumator-apply-button, .page-home .content .button-active.home-login, .active.button-blue, .active.resumator-apply-button, .page-home .content .active.home-login, .button-blue:active, .resumator-apply-button:active, .page-home .content .home-login:active, html.touch .pressed.button-blue, html.touch .pressed.resumator-apply-button, html.touch .page-home .content .pressed.home-login, .page-home .content html.touch .pressed.home-login { border-color: rgb(19, 56, 86); }
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+.root { height: 100%; min-width: 320px; }
+.page, .dialog-outer { position: relative; min-height: 100%; }
+.page-footer { position: relative; margin-top: -48px; z-index: 20; }
+.wrapper { margin: 0px auto; padding: 0px 16px; position: relative; width: 992px; }
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+.page-footer { clear: both; overflow: hidden; padding: 8px 0px 7px; border-top: 1px solid rgb(221, 221, 221); background: none repeat scroll 0% 0% rgb(255, 255, 255); text-align: center; }
+.page-footer nav, .page-footer nav ul, .page-footer .copyright { margin: 0px; padding: 0px; }
+.page-footer nav, .page-footer .copyright, .page-footer li { display: inline-block; }
+.page-footer li { margin: 0px; }
+.page-footer a { display: block; padding: 8px 6px; }
+.page-footer .copyright { padding: 8px 6px; margin: 0px 0px 0px 8px; }
+.page-footer-chromeless, .page-footer-dark, .page-home .page-footer { background: none repeat scroll 0% 0% transparent; border: medium none; }
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+@media screen and (max-width: 460px) {
+}
+@media screen and (max-width: 990px) {
+	body, .root { width: 100%; }
+	.wrapper { width: 100%; box-sizing: border-box; }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+@media screen and (min-device-width: 990px) and (min-width: 990px) {
+}
+@media screen and (max-width: 990px) {
+	.main form.bordered input:not([type="submit"]), .main form.bordered span { max-width: 356px; }
+}
+@media screen and (max-width: 820px) {
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 580px) {
+}
+@media screen and (max-width: 800px) {
+	.main form.adjacent.wide input:not([type="submit"]), .main form.adjacent.wide textarea, .main form.adjacent.wide span { width: 100%; max-width: 356px; }
+}
+@media screen and (max-width: 710px) {
+}
+@media screen and (min-width: 641px) {
+}
+@media screen and (max-width: 640px) {
+	.nav-page-content form.adjacent input:not([type="submit"]), .nav-page-content form.adjacent textarea, .nav-page-content form.adjacent span { width: 100%; }
+	h1 { font-size: 27px; }
+	ol, ul { padding-left: 25px; }
+	.page-footer .copyright { float: none; clear: both; margin-top: 10px; display: block; }
+}
+@media screen and (max-width: 640px) {
+}
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}
+@media screen and (max-width: 1020px) {
+}
+h1 { position: relative; top: 0px; }
+h1, h2, h3 { color: rgb(6, 54, 95); }
+body { background: url('body_noise.png') repeat scroll 50% 50% transparent; }
+.main { padding-bottom: 0px; }
+@media screen and (max-width: 830px) {
+}
+@media screen and (max-width: 720px) {
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 360px) {
+}
+.page-home {  }
+.page-home #home-bg { width: 100%; height: 280px; position: absolute; top: 0px; left: 0px; right: 0px; background-color: rgb(81, 127, 164); background-image: url('noise-1.png'), -moz-linear-gradient(center top , rgb(81, 127, 164), rgb(48, 96, 136)); background-position: 50% 50%; }
+.page-home .wrap { position: relative; width: 880px; margin: 0px auto; }
+.page-home .wrap:before, .page-home .wrap:after { content: ""; display: block; overflow: hidden; }
+.page-home .wrap:after { clear: both; }
+.page-home .wrap {  }
+.page-home .home-phones { position: absolute; left: 0px; bottom: 46px; width: 318px; height: 512px; padding-top: 80px; margin-left: 4px; background: url('home-phones.png') no-repeat scroll 0px 80px transparent; }
+.page-home #iphone-overlay { position: absolute; top: 159px; left: 98px; }
+.page-home #iphone-overlay img { position: absolute; width: 200px ! important; z-index: 8; }
+.page-home #iphone-overlay img.active { z-index: 10; }
+.page-home .home-phones-glare { position: absolute; right: 20px; top: 159px; width: 94px; height: 192px; background: url('home-phones-glare.png') no-repeat scroll 100% 0px transparent; z-index: 10; }
+.page-home .content { float: right; position: relative; width: 520px; margin-top: 30px; }
+.page-home .content .instagram-title { position: absolute; top: 40px; left: 10px; width: 314px; height: 78px; background: url('brand-header-simple.png') no-repeat scroll 0px 0px transparent; text-indent: -9999em; }
+.page-home .content .tab { margin-top: 170px; background: url('content-background.png') no-repeat scroll 6px 6px transparent; }
+.page-home .content .tab-content { padding: 40px 56px 128px 48px; }
+.page-home .content .home-login { box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 1px 0px 0px rgba(255, 255, 255, 0.05) inset, -1px 0px 0px rgba(255, 255, 255, 0.05) inset, 0px 1px 0px rgba(255, 255, 255, 0.1) inset; position: absolute; right: 18px; top: 96px; padding: 13px 13px 12px 42px; font-size: 16px; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
+.page-home .content .home-login.ButtonActive, .page-home .content .home-login.button-active, .page-home .content .home-login.active, .page-home .content .home-login:active, html.touch .page-home .content .home-login.pressed { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15) inset, 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 0px rgba(255, 255, 255, 0.2); }
+.page-home .content .home-login i { position: absolute; left: 0px; top: 0px; display: block; width: 40px; height: 40px; background: url('shared-assets.png') no-repeat scroll 4px -196px transparent; }
+.page-home h1 { color: rgb(63, 114, 155); font-size: 1.8em; line-height: 1em; }
+.page-home .platform-badge-container { position: absolute; margin-top: 25px; }
+.page-home .platform-badge { margin-right: 16px; }
+.page-home .page { min-height: 600px; }
+.page-home .page-footer { margin-top: 0px; }
+.page-home .page-footer .wrapper { width: 840px; }
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+	.page-home .content .instagram-title { background-image: url('brand-header-simple@2x.png'); background-size: 314px 78px; }
+	.page-home .content .tab { background-image: url('content-background@2x.png'); background-size: 505px 284px; }
+}
+.tab-content h1 { font-size: 27px; line-height: 32px; margin-right: 35%; color: rgb(6, 54, 95); }
+.tab-content p { font-size: 16px; line-height: 24px; }
+.page-accounts .password-reset p:not(.form-text):not(.form-actions) { display: none; }
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
+}
+@media not all, not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+}

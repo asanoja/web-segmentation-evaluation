@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    
+    
+    
+<link rel="stylesheet" type="text/css" href="index_6.css" media="all">
+</head>
+<body dir="ltr">
+    <div class="goog-app" id="peg" style=""><div jstcache="1" class="fc-members" jsvars="friendReqs:(friendRequests &amp;&amp; friendRequests.size() > 0)">
+      <div jstcache="17" class="fc-topcap-color" jsvars="isSlimTop: hasMenuMode('profile') ||
+                                    isBottomMenu();
+                                   isSlimEmpty: hasMenuMode('members') &amp;&amp;
+                                    isBottomMenu();
+                                   isNoTop: hasMenuMode('members') &amp;&amp;
+                                    !isBottomMenu();">
+        <div jstcache="18" class="fc-topcap" jsdisplay="!isNoTop">
+          <div style="display: none;" jstcache="19" jsdisplay="viewer">
+            <div jstcache="21" jsdisplay="!isSlimTop">
+              <div jstcache="24" transclude="zoomy-tpl"></div>
+              <div jstcache="22" class="fc-userpic" jsselect="viewer">
+                <div jstcache="27" transclude="member-thumb-tpl"></div>
+              </div>
+            </div>
+            <div jstcache="22" class="fc-userpic-caption" jsselect="viewer">
+              <div jstcache="25" class="fc-username" jscontent="getDisplayName()" jsdisplay="!isSlimTop"></div>
+              <div jstcache="23" class="fc-members-options-menu" jsdisplay="!isSlimEmpty"><div tabindex="-1" aria-haspopup="true" role="menu" style="display: none; -moz-user-select: none;" class="goog-menu"><div id=":0" style="-moz-user-select: none;" role="menuitem" class="goog-menuitem menuaction-settings"><div class="goog-menuitem-content">Configuración del sitio</div></div><div id=":1" style="-moz-user-select: none;" role="menuitem" class="goog-menuitem menuaction-signout"><div class="goog-menuitem-content">Salir</div></div><div id=":2" role="separator" style="-moz-user-select: none;" class="goog-menuseparator fc-menuseparator-line"></div><div id=":3" style="-moz-user-select: none;" role="menuitem" class="goog-menuitem menuaction-aboutfc"><div class="goog-menuitem-content"><span class="fc-small-menu-link">Acerca de Google Friend Connect</span></div></div></div><span class="fc-cap-link-big fc-menu-button"><a class="fc-cap-link-big">Opciones</a><span><img src="dimage" class="fc-menutriangle-down" align="top" height="4" width="8"><img src="dimage_001.dat" class="fc-menutriangle-up" align="top" height="4" width="8"></span></span></div>
+            <div jstcache="0" class="clear"></div>
+            </div>
+          </div>
+          <div jstcache="20" jsdisplay="!viewer">
+            <div jstcache="23" jsdisplay="!isSlimEmpty">
+              <div jstcache="0" class="clear"></div>
+              <div jstcache="0" style="float: right;">
+        <a jstcache="28" href="javascript:void(0);" jsvalues="$h:handle(this,'gotoCanvasMode')">
+          <img src="dimage_002.dat" jstcache="29" jsvalues=".src:getZoomyImageUrl()" border="0" height="12" width="12">
+        </a>
+      </div>
+              <div jstcache="30" class="fc-button" jseval="generateSignInButton(this, MSG_JOIN, 'standard');"><table jstcache="0" class="gfc-button-base-v2 gfc-button" cellpadding="0" cellspacing="0"><tbody jstcache="0" class=""><tr jstcache="0" class=""><td jstcache="0" class="gfc-button-base-v2 gfc-button-1"></td><td jstcache="0" class="gfc-button-base-v2 gfc-button-2">Participar en este sitio</td><td jstcache="0" class="gfc-button-base-v2 gfc-button-3"></td></tr></tbody></table><div jstcache="0" class="gfc-footer-msg">Google Friend Connect</div></div>
+              <div jstcache="0" class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;" jstcache="31" class="fc-waitingmsg" jsdisplay="showWaitingMessages">
+      <div jstcache="0">
+        <table jstcache="0"><tbody jstcache="0"><tr jstcache="0">
+            <td jstcache="0" valign="top"><img jstcache="0" src="smallenvelope.jpg"></td>
+            <td jstcache="0">
+              <div jstcache="32" jscontent="MSG_NUM_WAITING_MESSAGES"></div>
+              <div jstcache="0"><a jstcache="33" href="javascript:void(0);" jscontent="MSG_VIEW_AND_CONFIGURE_MESSAGING" jseval="handle(this,'acceptMessages')">
+                </a>
+              </div>
+            </td>
+        </tr></tbody></table>
+      </div>
+    </div>
+      <div style="display: none;" jstcache="34" class="fc-promo-main" jsdisplay="promoHtml">
+      <div jstcache="35" jseval="insertHtml(this, promoHtml);"></div>
+    </div>
+      <div jstcache="0">
+      <div style="display: none;" jstcache="36" jsdisplay="showInvitedBy()">
+        <div jstcache="37" jsselect="invitedBy" jsvalues=".className:(isCanvasMode() ? 'fc-invitedby-canvas' : 'fc-invitedby')">
+          <div jstcache="0" class="fc-userpic">
+            <div jstcache="27" transclude="member-thumb-tpl"></div>
+          </div>
+          <div jstcache="38" class="fc-invitedby-text" jscontent="MSG_INVITED_YOU"></div>
+          <div jstcache="0" class="fc-invitedby-link-container"><a jstcache="39" class="fc-invitedby-link" href="javascript:void(0);" jscontent="MSG_VIEW_INVITER_PROFILE" jsvalues="$h:handle(this,'viewProfile')"></a></div>
+        </div>
+      </div>
+    </div>
+      <div jstcache="0">
+      <div style="display: none;" jsinstance="*0" jstcache="40" jsdisplay="$this.size()" jsselect="friendRequests" jsvalues=".className:(isCanvasMode() ? 'fc-friendreqs-canvas' : 'fc-friendreqs')">
+        <div jstcache="41" class="fc-userpic" jsselect="asArray()[0].getField(google.FriendConnect.Invite.Field.INVITER)">
+          <div jstcache="27" transclude="member-thumb-tpl"></div>
+        </div>
+        <a jstcache="42" class="fc-friendreqs-link" href="javascript:void(0);" jscontent="MSG_NEW_FRIEND_REQUESTS" jsvalues="$h:handle(this,'viewFriendRequests')"></a>
+      </div>
+    </div>
+      <div jstcache="7" jsvars="dropARow:(friendReqs || showInvitedBy() || showWaitingMessages || promoHtml)">
+        <div class="fc-content-bg fc-noscroll" jstcache="9" jsvalues=".className:(dropARow ? 'fc-content-bg fc-noscroll-friendreq' : 'fc-content-bg fc-noscroll')">
+          <div class="fc-content" jstcache="10" jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')" style="padding-bottom: 0px;">
+            <div style="display: none;" jstcache="11" class="fc-no-elements" jsdisplay="!members || !members.getTotalSize()">
+              <div jstcache="14" jscontent="MSG_NO_SITE_MEMBERS">
+              </div>
+              <a jstcache="15" href="javascript:void(0);" jscontent="MSG_BE_THE_FIRST" jsvalues="$h:handle(this,'signin')"></a>
+            </div>
+            <div jsinstance="*0" jstcache="12" jsselect="members" jsvars="label:MSG_SITE_MEMBERS;showAllHandler:showAllMembers;numPreviewItems:numPreviewMembers(dropARow);showBlockedFilter:false;needsZoomyForNoTop:hasMenuMode('members')">
+              <div jstcache="43" class="fc-mem-grid" jsdisplay="$this &amp;&amp; $this.size() &amp;&amp; numPreviewItems > 0">
+        <div style="display: none;" jstcache="44" jsdisplay="needsZoomyForNoTop">
+          <div jstcache="24" transclude="zoomy-tpl"></div>
+        </div>
+      <div class="fc-sectitle" jstcache="45" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')">
+        <span jstcache="47" jscontent="label">Miembros</span>&nbsp;(<span jstcache="48" jscontent="$this.getTotalSize() || '0'">479</span>)
+        <a jstcache="49" class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="$this.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)">Más »</a>
+        <span style="display: none;" jstcache="50" jsdisplay="showBlockedFilter">
+          <a jstcache="51" class="fc-see-all" href="javascript:void(0);" jscontent="MSG_SHOW_BLOCKED" jsvalues="$h:handle(this,showBlockedMembers)"></a>
+        </span>
+      </div>
+      <div jstcache="0" class="clear"></div>
+      <div jsinstance="0" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="red15a15kk_400x400.jpg" title="RED15A " jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="1" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="vrtxpkndt-uiz8oki-yi9yr4lfdpq7vpj17w8xkoiiocom4va52dt59fywcczv0ofbmzbmfs0long-v9vqny_yge3ibics_31zz-xo9ikbt8bstnyn5ytubr06ch_kzgxlcnkmjnz750_bizsecziauoab3fljpqsoeewpv4qqe" title="Irene Cabrera" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="2" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="jxzehef4.jpeg" title="RickyAndreutti" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="3" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="ueqby2n5plo9uswvc4gezapxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo1025wnvnrwfj8umygmxktd42bxhsko1tnapfvxteti4ciw5ha6ik-b_x5xlb_0t4qyud9qrob42ihfrqjlen2tjwyi051adqdziif0iaqkwbu7yxkgsy8p7dzuj7ohpq7vf1qcr2ojqimmptknidtz7rsl44ld19_7myzekxkpv9uhzmbv1f8jky" title="Miley Dy" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="4" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="ugjdi-65iqwiz8oki-yi9yr4lfdpq7vpazk2s1hvhrwcom4va52dt59fywcczv0ogfdjelgbpqmjmynwh7subsge3ibics_31zz-xo9ikbvmenwja1gxbbtidyrqcvjylhoqqpgsyzj0_bizsecziauoab3fljpqsoeewpv4qqe" title="daymar cueto" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="5" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="4k4zv46h4siiz8oki-yi9yr4lfdpq7vpj17w8xkoiiocom4va52dt59fywcczv0ocylo1v6tthrjg_nbmp4cnige3ibics_31zz-xo9ikbvitrikrplabeqx6f6phqpomjihkm2brnp0_bizsecziauoab3fljpqsoeewpv4qqe" title="Amílcar Enrique González P." jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="6" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="+" title="La MaYeUtiK" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="7" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="dgmf7kylcreiz8oki-yi9yr4lfdpq7vpj17w8xkoiiocom4va52dt59fywcczv0owomykvef9x35pgjykkvucyge3ibics_31zz-xo9ikbtollfwn_yuzbo-b9ocgutbyueplnxh5ej0_bizsecziauoab3fljpqsoeewpv4qqe" title="Ema Bustamante" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="8" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="cgpp.gif" title="Constantino" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="9" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="e2wtwiixxtlmqihilk5b_ogzt645jckzyqr1lkefsmwcfperfsihy6lswnaotewg7-dwjvqzmqtwlkiasmnylyo-wisg704wbamm--q2iqy" title="ocarina" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="10" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="y1plja2w8_9o53tu-0twc_xf1krgpzws6jws2jfz-qfr2_koyt1e-emuqofuzyfbcnqytogjkdp-ya.jpg" title="Zoila" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="11" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="f59de81bfc9eaab783bc6d5608230b90.jpeg" title="María José Mujica" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="12" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="poesxgkdupy9uswvc4gezapxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo104icy8iswwnyiwx1gfjawwa13sibqppr7pfvxteti4ci-xr4yvx5asbaghdbfahozrwfvbtebrwqigqlhbcleikblxuged5umeqmguayshc8lkhvqlmujdybgzjebt9iuzv_znptfsqdfeua9rfl3b05hbxqy8ludgyzekxkpv9uhzmbv1f8jky" title="Grecia Hernández Cornieles" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="13" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="reportera.jpg" title="Eliscartt Ramos" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="14" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="fo_b_cw_lbciz8oki-yi9yr4lfdpq7vptrs7-gvdqrecom4va52dt59fywcczv0o_0paulna7ksbvpwohx4-usge3ibics_31zz-xo9ikbuxrkxj15d9gxjpo0o01t0m3l-qsk-gf010_bizsecziauoab3fljpqsoeewpv4qqe" title="Darailys Romero" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="15" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="w7jjdljgbx29uswvc4gezapxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo103pxfkhmj2d6dc35_epg4rqnyetr31thk_fvxteti4cit1ohyzgz-xfbnuna6e6nwrjn0squjgnreeggz2fs-cu9-byt1ejicgf3clpcrfeseqhtodhbxjhbkppgxdic5hupwuu69ej1kryygpaaukf2a-h5kf_4ygyzekxkpv9uhzmbv1f8jky" title="wassakk" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="16" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="ojs2kbthch9zl2v4gv5mdqpxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo10z0myi_rnybdbivyvaasdecb2v1lg0zp2u3jdgtwkqemdp_lgfcczb-mckqhoqievgpft7o_nz4d9cvelhnoanjwpstlejdb5pwk1pakasqqlwnitrgpmunilqfrclbseibixmbutppx0qhsu6lkq775c5wo823xjfsf-vlfw2h3lal4wa0a3ck" title="Beatriz Adelaida Ugas Gil" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="17" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="k-7i4cgabqieang6jxvcuoj8yhx76vo4s_nw1hmlx1y0ygj1lulm-xz_3qdnbubh3zkovz3r4lvjrociv2xpanssvhqbcxksoskoqo_y3hg" title="Mayleh Sanchez" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="18" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="24032_1394628471687_5033700_n.jpg" title="W.R." jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="19" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="awo0xjmxtgw9uswvc4gezapxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo10zcrv9ftltueihu8qp58i1vcmwcf01mjavfvxteti4cijl5c7wu89gpm_ale-2nclwierau-27rxd74tsgsaonnzlnjsodgzyah1xosbiabiy5-ygmne8dyxkbopbqag34a_hkcr654cmyvhszf4b7zuf4ymbgliswyzekxkpv9uhzmbv1f8jky" title="Freddy Arévalo Medina" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="20" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="smercet-ndqiz8oki-yi9yr4lfdpq7vpj17w8xkoiiocom4va52dt59fywcczv0o414f1bhyjl8trtfo2mwrpige3ibics_31zz-xo9ikbs3s7jgc-ywbanpaecjyodtyueplnxh5ej0_bizsecziauoab3fljpqsoeewpv4qqe" title="Massimo Marengo" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="21" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="vmqhlk5qx8seang6jxvcuoj8yhx76vo4v2ojam4raf-17ueiilfgqbubsrcan1tdsvdly4tejyk_v-gxlsos7tssvhqbcxksoskoqo_y3hg" title="Oliva" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="22" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="vmkdruvqpdc9uswvc4gezapxhqwll_mf2n_-4tsur_7dpp14wvsxwotb6vd9ngtzglz8kaalslt_v-4i2mo108viukmeamg7emefxfbjk5tnndienosmdffvxteti4ciudvf6zcguse8_mt5dlrf8kawrfqbqayivr2xl2_vqpwpykh7pbsay0iwrguhu3nk3vhatxhg9yvwls9mwosceeo3ckwjbs2nvz2ccbbqzsi16kqbd0dza2yzekxkpv9uhzmbv1f8jky" title="Samuel Yejan" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div><div jsinstance="*23" jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <img src="i9h-iqwenkaiz8oki-yi9yr4lfdpq7vpj17w8xkoiiocom4va52dt59fywcczv0ohfc6exjlzs2jjocfyotzdcge3ibics_31zz-xo9ikbtes97nkgukznme88invzqw3l-qsk-gf010_bizsecziauoab3fljpqsoeewpv4qqe" title="Newton Avelino" jstcache="52" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      </div>
+      <div jstcache="0" class="clear"></div>
+    </div>
+            </div>
+            <div style="display: none;" jsinstance="*0" jstcache="13" jsselect="friends" jsvars="label:MSG_YOUR_FRIENDS;showAllHandler:showAllViewerFriends;numPreviewItems:numPreviewFriends(dropARow);showBlockedFilter:false;needsZoomyForNoTop:false">
+              <div jstcache="16" transclude="faces-preview-tpl">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div jstcache="0" class="fc-subtle-botcap">
+      <div jstcache="53" jsdisplay="viewer == null">
+        <span jstcache="54" class="fc-botcap-text" jscontent="MSG_ALREADY_MEMBER">¿Ya eres miembro?</span>
+        <span jstcache="0" class="fc-content-link">
+          <a jstcache="55" href="javascript:void(0);" jscontent="MSG_SIGN_IN" jsvalues="$h:handle(this,'signin')">Iniciar sesión</a>
+        </span>
+      </div>
+    </div>
+    </div></div>
+
+    <!-- place holder for templates -->
+    <div style="display: none;">
+      <!-- template for a link that browses to a member's profile. $this is an opensocial.Person. -->
+      <img jstcache="52" id="member-thumb-tpl" jsvalues=".src:getThumbnail($this,32);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      <img id="member-thumb-54-tpl" jsvalues=".src:getThumbnail($this,54);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+      <img id="member-thumb-65-tpl" jsvalues=".src:getThumbnail($this,65);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;" height="65" width="65">
+
+      <img id="member-thumb-large-tpl" jsvalues=".src:getThumbnail($this,45);$h:handle(this,'viewProfile');title:getDisplayName()" style="cursor: pointer;">
+
+      <div jstcache="0" id="zoomy-tpl" style="float: right;">
+        <a jstcache="28" href="javascript:void(0);" jsvalues="$h:handle(this,'gotoCanvasMode')">
+          <img jstcache="29" jsvalues=".src:getZoomyImageUrl()" border="0" height="12" width="12">
+        </a>
+      </div>
+
+      <div id="zoomy-profile-tpl" style="float: right;">
+        <!--
+        <a href="javascript:void(0);" jsvalues="$h:handle(this,'gotoProfileMode')">
+          <img border="0" jsvalues=".src:getZoomyImageUrl()" width="12" height="12">
+        </a> -->
+      </div>
+
+      <div class="fc-member-large-thumb" id="member-thumb-large-tpl:canvas">
+        <img class="fc-member-large-thumb-img" jsvalues="src:getThumbnail($this,45);$h:handle(this,'viewProfile');title:getDisplayName()" height="45" width="45">
+        <div class="fc-member-large-thumb-name" jscontent="getDisplayName()"></div>
+      </div>
+
+      <div id="item-tpl" jsvalues=".className:(isCanvasMode() ? 'fc-item fc-item-canvas' : 'fc-item')">
+        <div class="fc-item-body" style="padding-left: 20px;">
+          <img jsvalues="src:icon" style="margin-left: -20px; margin-right: 2px; position: relative;" align="top" height="16" width="16">
+          <a jscontent="title" jsdisplay="title" jsvalues="href:link;.className:(isCanvasMode() ? 'fc-item-link fc-item-link-canvas' : 'fc-item-link')" target="_blank"></a>
+          <span jsvalues=".innerHTML:typeof(innerHTML) != 'undefined' ? innerHTML : ''"></span>
+          <span class="fc-item-body" jsdisplay="body"> - <span jsvalues=".innerHTML:typeof(body) != 'undefined' ? body : ''"></span></span>
+          <span class="fc-on-other-site" jsdisplay="siteTitle">
+            &nbsp;<img class="delete-button" jsdisplay="typeof($this.deleteHandler) != 'undefined' &amp;&amp; $this.deleteHandler != null" jsvalues="$h:handle(this, $this.deleteHandler);alt:MSG_DELETE_THIS;title:MSG_DELETE_THIS" src="trash.gif">
+          </span>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="profile-extension-tpl" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-itemlist fc-userpage-itemlist-canvas' : 'fc-userpage-itemlist')">
+        <span class="fc-sectitle">
+          <span jscontent="title"></span>
+        </span>
+        <div jsselect="body">
+          <div class="fc-about-me" jscontent="$this"></div>
+        </div>
+      </div>
+
+
+      <!-- Top panel in the members gadget -->
+      <div jstcache="17" class="fc-topcap-color" id="topcap-tpl" jsvars="isSlimTop: hasMenuMode('profile') ||
+                                    isBottomMenu();
+                                   isSlimEmpty: hasMenuMode('members') &amp;&amp;
+                                    isBottomMenu();
+                                   isNoTop: hasMenuMode('members') &amp;&amp;
+                                    !isBottomMenu();">
+        <div jstcache="18" class="fc-topcap" jsdisplay="!isNoTop">
+          <div jstcache="19" jsdisplay="viewer">
+            <div jstcache="21" jsdisplay="!isSlimTop">
+              <div jstcache="24" transclude="zoomy-tpl"></div>
+              <div jstcache="22" class="fc-userpic" jsselect="viewer">
+                <div jstcache="27" transclude="member-thumb-tpl"></div>
+              </div>
+            </div>
+            <div jstcache="22" class="fc-userpic-caption" jsselect="viewer">
+              <div jstcache="25" class="fc-username" jscontent="getDisplayName()" jsdisplay="!isSlimTop"></div>
+              <div jstcache="23" class="fc-members-options-menu" jsdisplay="!isSlimEmpty">
+              </div>
+            <div jstcache="0" class="clear"></div>
+            </div>
+          </div>
+          <div jstcache="20" jsdisplay="!viewer">
+            <div jstcache="23" jsdisplay="!isSlimEmpty">
+              <div jstcache="0" class="clear"></div>
+              <div jstcache="24" transclude="zoomy-tpl"></div>
+              <div jstcache="26" transclude="signin-button-tpl"></div>
+              <div jstcache="0" class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fc-topcap" id="topcap-nav-tpl">
+        <div jsdisplay="viewer">
+          <div class="fc-userpic" jsselect="viewer">
+            <div transclude="member-thumb-tpl"></div>
+          </div>
+          <div class="fc-userpic-caption" jsselect="viewer">
+            <div class="fc-username" jscontent="getDisplayName()"></div>
+            <div>
+              <span id="nav-links-tpl" style="font-weight: bold;">
+                <a class="fc-topcap-link" href="javascript:void(0);" jscontent="MSG_BACK_TO_TOP" jsvalues="$h:handle(this,'goBackToHome')"></a>&nbsp;|&nbsp;<a class="fc-topcap-link" href="javascript:void(0);" jscontent="MSG_BACK" jsvalues="$h:handle(this,'goBack')"></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div jsdisplay="!viewer" jsvars="buttonLabel:MSG_JOIN;buttonHandler:signin">
+          <div transclude="zoomy-tpl"></div>
+          <div transclude="button-tpl"></div>
+          <div transclude="nav-links-tpl"></div>
+        </div>
+      </div>
+
+      <div id="topcap-nav-tpl:canvas">
+        <div transclude="top-paging-tpl"></div>
+      </div>
+
+      <div id="topcap-nav-home-tpl">
+        <div class="fc-topverb" style="border-bottom: medium none;">
+          <span jsvalues=".className:(isCanvasMode() ? 'fc-left-verb fc-left-verb-canvas' : 'fc-left-verb')">
+            <span transclude="view-my-profile-tpl"></span>
+          </span>
+          <div transclude="zoomy-profile-tpl"></div>
+        </div>
+      </div>
+
+    <div jstcache="30" class="fc-button" id="signin-button-tpl" jseval="generateSignInButton(this, MSG_JOIN, 'standard');">
+    </div>
+
+
+    <div class="fc-button" id="button-tpl" jseval="handle(this,buttonHandler);decorateButton(this);">
+      <span jscontent="buttonLabel" style="font-size: 14px; font-weight: bold;"></span>
+    </div>
+
+    <div class="fc-members" id="profile-tpl">
+      <div transclude="topcap-tpl"></div>
+      <div class="fc-scroll-botnav fc-content-bg">
+        <div class="fc-content fc-minheight fc-profile">
+          <div jsselect="profile">
+            <div transclude="profile-summary-tpl"></div>
+            <div jsselect="person" jsvars="aboutMe:getField(opensocial.Person.Field.ABOUT_ME)">
+              <div class="fc-userpage-itemlist" jsdisplay="aboutMe != null &amp;&amp; aboutMe.length > 0">
+                <span class="fc-sectitle">
+                  <span jscontent="MSG_ABOUT_ME"></span>
+                </span>
+                <div class="fc-about-me" jscontent="aboutMe">
+                </div>
+              </div>
+            </div>
+            <div jsselect="profileExtensions">
+              <div transclude="profile-extension-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="links" jsvars="numPreviewItems:3;heading:MSG_LINKS;items:$this;showAllHandler:showAllLinks;transform:transformLink">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="sites" jsvars="numPreviewItems:3;heading:MSG_SITES;items:$this;showAllHandler:showAllSites;transform:transformSite">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div class="fc-userpage-itemlist" jsdisplay="size() > 0" jsselect="friends" jsvars="label:MSG_PROFILE_FRIENDS;showAllHandler:showAllProfileFriends;numPreviewItems:facesPerRow">
+              <div transclude="faces-preview-tpl">
+              </div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="activities" jsvars="numPreviewItems:2;heading:MSG_ACTIVITIES;items:$this;showAllHandler:showAllActivities;transform:transformActivity">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl"></div>
+    </div>
+
+    <div class="fc-members-canvas" id="profile-tpl:canvas">
+      <div jsdisplay="!hideNavigation()"> <div transclude="top-paging-tpl"></div></div>
+      <div class="fc-content-canvas fc-content-bg fc-minheight">
+        <div jsselect="profile" style="position: relative;">
+          <div>
+            <div transclude="profile-summary-tpl"></div>
+            <div jsselect="person" jsvars="aboutMe:getField(opensocial.Person.Field.ABOUT_ME)">
+              <div class="fc-userpage-itemlist-canvas" jsdisplay="aboutMe &amp;&amp; aboutMe.length > 0">
+                <span class="fc-sectitle fc-sectitle-canvas">
+                  <span jscontent="MSG_ABOUT_ME"></span>
+                </span>
+                <div class="fc-about-me" jscontent="aboutMe">
+                </div>
+              </div>
+            </div>
+
+            <div jsselect="profileExtensions">
+              <div transclude="profile-extension-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="links" jsvars="numPreviewItems:5;heading:MSG_LINKS;items:$this;showAllHandler:showAllLinks;transform:transformLink">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="sites" jsvars="numPreviewItems:5;heading:MSG_SITES;items:$this;showAllHandler:showAllSites;transform:transformSite">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+            <div class="fc-userpage-itemlist" jsdisplay="size() > 0" jsselect="friends" jsvars="label:MSG_PROFILE_FRIENDS;showAllHandler:showAllProfileFriends;numPreviewItems:16">
+              <div transclude="faces-preview-tpl"></div>
+            </div>
+            <div jsdisplay="size() > 0" jsselect="activities" jsvars="numPreviewItems:2;heading:MSG_ACTIVITIES;items:$this;showAllHandler:showAllActivities;transform:transformActivity">
+              <div transclude="item-list-preview-tpl"></div>
+            </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+      </div>
+      <div jsdisplay="!hideNavigation()"> <div transclude="bottom-paging-tpl"></div></div>
+    </div>
+
+    <div class="fc-userpage-itemlist" id="item-list-preview-tpl">
+      <span class="fc-sectitle" jscontent="heading"></span>
+      <span class="fc-userpage-itemlist-paging">
+        <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="items.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+      </span>
+      <div class="fc-itemlist-table" jsselect="map(items, transform).slice(0, numPreviewItems)">
+        <div transclude="item-tpl"></div>
+      </div>
+    </div>
+
+    <div class="fc-userpage-itemlist-canvas" id="item-list-preview-tpl:canvas">
+      <span class="fc-sectitle fc-sectitle-canvas" jscontent="heading" style="font-size: 14px;"></span>&nbsp;
+      <span class="fc-userpage-itemlist-paging">
+        <a class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="items.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+      </span>
+      <div class="fc-itemlist-table" jsselect="map(items, transform).slice(0, numPreviewItems)">
+        <div transclude="item-tpl"></div>
+      </div>
+    </div>
+
+    <div id="profile-summary-tpl">
+      <div jsselect="person">
+        <span class="fc-userpage-pic">
+          <div jsdisplay="!isCanvasMode()">
+            <div transclude="member-thumb-54-tpl"></div>
+          </div>
+          <div jsdisplay="isCanvasMode()">
+            <div transclude="member-thumb-65-tpl"></div>
+          </div>
+        </span>
+      </div>
+      <div class="fc-userpic-caption">
+        <div jsselect="person">
+          <a jsdisplay="externalProfileUrl" jsvalues="href:externalProfileUrl" target="_blank">
+            <div jscontent="getDisplayName()" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-name fc-userpage-name-canvas' : 'fc-userpage-name')"></div>
+          </a>
+          <span jsdisplay="!externalProfileUrl || typeof(externalProfileUrl)==undefined">
+            <div jscontent="getDisplayName()" jsvalues=".className:(isCanvasMode() ? 'fc-userpage-name fc-userpage-name-canvas' : 'fc-userpage-name')"></div>
+          </span>
+        </div>
+        <div style="padding-bottom: 2px;">
+          <div jsdisplay="typeof(isFriend) != 'undefined' &amp;&amp; !isFriend &amp;&amp; typeof(isInvited) == 'undefined'">
+            <a href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'goToInviteFriend');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+              <img class="fc-plus-pic" src="plus.gif">
+              <span jscontent="MSG_ADD_AS_FRIEND"></span>
+            </a>
+          </div>
+          <div jscontent="MSG_IS_INVITED" jsdisplay="typeof(isInvited) != 'undefined' &amp;&amp; isInvited">
+          </div>
+          <div jscontent="MSG_IS_FRIEND" jsdisplay="isFriend">
+          </div>
+        </div>
+        <div jsdisplay="isMessagingEnabled &amp;&amp; canSendMessage">
+          <a href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'sendMessageDialog');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+            <img class="fc-envelope-pic" src="smallenvelope.jpg">
+              <span jscontent="MSG_SEND_MESSAGE"></span>
+            </a>
+        </div>
+        <div jsdisplay="isViewingSelf &amp;&amp; communityHasProfile">
+          <a class="fc-faded-link" href="javascript:void(0);" jsvalues="$h:handle(this,'goToEditProfile')">
+            <img class="fc-edit-pic" src="fc-edit.png">
+            <span jscontent="MSG_EDIT_PROFILE"></span>
+          </a>
+        </div>
+
+        <div jsdisplay="isViewerAdmin">
+          <div jsdisplay="!isAdmin &amp;&amp; (typeof(isBlocked) != 'undefined' &amp;&amp; !isBlocked)">
+            <a class="fc-faded-link" href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'goToBlockMember')">
+              <img class="fc-do-not-enter-pic" src="do-not-enter.gif">
+              <span jscontent="MSG_BLOCK_USER"></span>
+            </a>
+          </div>
+          <div jsdisplay="isBlocked">
+            <a class="fc-faded-link-small" href="javascript:void(0);" jsselect="person" jsvalues="$h:handle(this,'unblockUser')">
+              <img class="fc-plus-pic" src="unblock.gif">
+              <span jscontent="MSG_UNBLOCK_USER"></span>
+            </a>
+          </div>
+          <div class="fc-profile-summary" jscontent="MSG_USER_IS_ADMIN" jsdisplay="isAdmin"></div>
+        </div>
+      </div>
+      <div class="clear">
+      </div>
+    </div>
+
+    <div class="fc-members" id="activities-tpl" jsvars="label:MSG_ALL_ACTIVITIES; previous:MSG_NEWER;next:MSG_OLDER;items:profile.activities;transform:transformActivity;nextHandler:nextActivities;prevHandler:prevActivities">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="members-page-tpl" jsvars="label:MSG_ALL_SITE_MEMBERS;items:members;nextHandler:nextMembers;prevHandler:previousMembers">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="blocked-members-page-tpl" jsvars="label:MSG_ALL_BLOCKED_MEMBERS;items:blockedMembers;nextHandler:nextBlockedMembers;prevHandler:previousBlockedMembers;noneMessage:MSG_NO_BLOCKED_MEMBERS;showAllFilter:true">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="profile-friends-page-tpl" jsvars="label:MSG_ALL_PROFILE_FRIENDS;items:profile.friends;nextHandler:nextProfileFriends;prevHandler:previousProfileFriends">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="viewer-friends-page-tpl" jsvars="label:MSG_ALL_YOUR_FRIENDS;items:friends;nextHandler:nextViewerFriends;prevHandler:previousViewerFriends">
+      <div transclude="faces-page-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="faces-page-tpl" jsvars="previous:MSG_PREVIOUS;next:MSG_NEXT">
+      <div transclude="topcap-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-noscroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div class="fc-mem-grid" style="padding-bottom: 0px;">
+            <div class="clear"></div>
+            <div jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')">
+              <span class="fc-right-verb" jsdisplay="showAllFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_ALL" jsvalues="$h:handle(this,showUnblockedMembers)"></a></span>
+              <span jscontent="label"></span>&nbsp;(<span jscontent="items.getTotalSize() || '0'"></span>)
+            </div>
+            <div class="clear"></div>
+            <div class="fc-no-elements" jscontent="noneMessage" jsdisplay="!items.getTotalSize() &amp;&amp; noneMessage">
+            </div>
+            <div class="fc-thumbnail" jsselect="items.asArray()">
+              <div transclude="member-thumb-large-tpl"></div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="faces-page-tpl:canvas" jsvars="previous:MSG_PREVIOUS;next:MSG_NEXT">
+      <div transclude="top-paging-tpl"></div>
+      <div class="fc-minheight fc-content-bg">
+        <div class="fc-members-header" style="border-top: medium none;">
+          <span class="fc-right-verb" jsdisplay="showAllFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_ALL" jsvalues="$h:handle(this,showUnblockedMembers)"></a></span>
+          <span class="fc-header-sectitle" jscontent="label"></span>&nbsp;(<span jscontent="items.getTotalSize() || '0'"></span>)
+        </div>
+        <div class="fc-mem-grid" style="padding-bottom: 0px;">
+          <div class="fc-no-elements" jscontent="noneMessage" jsdisplay="!items.getTotalSize() &amp;&amp; noneMessage">
+          </div>
+          <div class="fc-thumbnail" jsselect="items.asArray()">
+            <div transclude="member-thumb-large-tpl"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="links-tpl" jsvars="label:MSG_ALL_LINKS;previous:MSG_PREVIOUS;next:MSG_NEXT;items:profile.links;transform:transformLink;nextHandler:nextLinks;prevHandler:previousLinks">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="sites-tpl" jsvars="label:MSG_ALL_SITES;previous:MSG_PREVIOUS;next:MSG_NEXT;items:profile.sites;transform:transformSite;nextHandler:nextSites;prevHandler:previousSites">
+      <div transclude="items-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="items-tpl">
+      <div jsdisplay="isCanvasMode()">
+        <div transclude="topcap-nav-tpl"></div>
+      </div>
+      <div jsdisplay="!isCanvasMode()">
+        <div transclude="topcap-tpl"></div>
+      </div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile">
+            <div transclude="profile-summary-tpl">
+            </div>
+            <div class="fc-userpage-itemlist">
+              <span jscontent="label" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')"></span>&nbsp;
+              
+              <div class="fc-itemlist-table" jsselect="map(items, transform)">
+                <div transclude="item-tpl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="invite-friend-tpl" jsvars="sendHandler:sendInvite">
+      <div transclude="topcap-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile.person">
+            <span class="fc-userpage-pic">
+              <div transclude="member-thumb-54-tpl"></div>
+            </span>
+            <div class="fc-userpic-caption">
+              <div class="fc-userpage-name" jscontent="getDisplayName()"></div>
+            </div>
+            <div class="fc-message">
+              <div jscontent="MSG_INVITATION" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')"></div>
+              <textarea class="fc-textarea" jsvalues="id:'inviteMessage'" name="textarea" rows="2"></textarea>
+              <div class="fc-helpful" jscontent="MSG_HELP_FRIENDINVITE"></div>
+              <div jsvars="buttonHandler:sendHandler;buttonLabel:MSG_SEND">
+                <div transclude="button-tpl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div class="fc-members" id="block-member-tpl" jsvars="sendHandler:blockMember">
+      <div jsdisplay="isCanvasMode()">
+        <div transclude="topcap-nav-tpl"></div>
+      </div>
+      <div jsdisplay="!isCanvasMode()">
+        <div transclude="topcap-tpl"></div>
+      </div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg' : 'fc-scroll-botnav fc-content-bg')">
+        <div jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')">
+          <div jsselect="profile.person">
+            <span class="fc-userpage-pic">
+              <div transclude="member-thumb-54-tpl"></div>
+            </span>
+            <div class="fc-userpic-caption">
+              <div class="fc-userpage-name" jscontent="getDisplayName()"></div>
+            </div>
+            <div class="fc-message">
+              <div jscontent="MSG_HELP_BLOCKMEMBER" jsvalues=".className:(isCanvasMode()
+                     ? 'fc-blocked-helpful-msg-canvas'
+                     : 'fc-blocked-helpful-msg-gadget')">
+              </div>
+              <span jsvars="buttonHandler:sendHandler;buttonLabel:MSG_BLOCK">
+                <div transclude="button-tpl"></div>
+              </span>
+              &nbsp; &nbsp;
+              <a href="javascript:void(0);" jscontent="MSG_CANCEL" jsvalues="$h:handle(this,'goBack');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <span class="fc-send" id="send-button-tpl" jscontent="MSG_SEND" jsvalues="$h:handle(this,sendHandler)"></span>
+
+    <div class="fc-botcap-short" id="bottom-paging-tpl">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-botcap-short fc-botcap-short-canvas" id="bottom-paging-tpl:canvas">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-topverb" id="top-paging-tpl">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <div class="fc-topverb fc-topverb-canvas" id="top-paging-tpl:canvas">
+      <div transclude="paging-tpl"></div>
+    </div>
+
+    <a href="javascript:void(0);" id="goback-tpl" jscontent="MSG_BACK" jsdisplay="!isHome()" jsvalues="$h:handle(this,'goBack')"></a>
+
+    <a href="javascript:void(0);" id="gobacktop-tpl" jscontent="MSG_BACK_TO_TOP" jsdisplay="!hasMenuMode('profile')" jsvalues="$h:handle(this,'goBackToHome')"></a>
+
+    <a href="javascript:void(0);" id="view-my-profile-tpl" jscontent="MSG_VIEW_MY_PROFILE" jsdisplay="viewer.getId() &amp;&amp; isCanvasMode()" jsvalues="$h:handle(this,'goToViewerProfile')"></a>
+
+    <div id="paging-tpl">
+      <span jsvalues=".className:(isCanvasMode() ? 'fc-left-verb fc-left-verb-canvas' : 'fc-left-verb')">
+        <span transclude="gobacktop-tpl"></span>&nbsp;&nbsp;
+        <span transclude="goback-tpl"></span>&nbsp;&nbsp;
+      </span>
+      <span jsselect="items" jsvalues=".className:(isCanvasMode() ? 'fc-right-verb fc-right-verb-canvas' : 'fc-right-verb')" style="margin-right: 4px;">
+        <a href="javascript:void(0);" jscontent="previous" jsdisplay="$this.getOffset() > 0" jsvalues="$h:handle(this,prevHandler)" style="padding-right: 4px;"></a>
+        <span jscontent="previous" jsdisplay="$this.getOffset() == 0" style="visibility: hidden; padding-right: 4px;"></span>
+        <a href="javascript:void(0);" jscontent="next" jsdisplay="$this.getTotalSize() > ($this.size() + $this.getOffset())" jsvalues="$h:handle(this,nextHandler)"></a>
+        <span jscontent="next" jsdisplay="$this.getTotalSize() <= ($this.size() + $this.getOffset())" style="visibility: hidden;"></span>
+      </span>&nbsp;
+      <div class="clear"></div>
+    </div>
+
+    <div jstcache="31" class="fc-waitingmsg" id="waiting-messages-tpl" jsdisplay="showWaitingMessages">
+      <div jstcache="0">
+        <table jstcache="0"><tbody jstcache="0"><tr jstcache="0">
+            <td jstcache="0" valign="top"><img jstcache="0" src="smallenvelope.jpg"></td>
+            <td jstcache="0">
+              <div jstcache="32" jscontent="MSG_NUM_WAITING_MESSAGES"></div>
+              <div jstcache="0"><a jstcache="33" href="javascript:void(0);" jscontent="MSG_VIEW_AND_CONFIGURE_MESSAGING" jseval="handle(this,'acceptMessages')">
+                </a>
+              </div>
+            </td>
+        </tr></tbody></table>
+      </div>
+    </div>
+
+    <div jstcache="34" class="fc-promo-main" id="promo-tpl" jsdisplay="promoHtml">
+      <div jstcache="35" jseval="insertHtml(this, promoHtml);"></div>
+    </div>
+
+    <div class="fc-members" id="friend-requests-tpl">
+      <div transclude="topcap-tpl"></div>
+      <div class="fc-scroll-botnav fc-content-bg">
+        <div class="fc-friendreq" jsselect="friendRequests.asArray()">
+          <div class="fc-userpic" jsselect="$this.getField(google.FriendConnect.Invite.Field.INVITER)">
+            <div transclude="member-thumb-tpl"></div>
+          </div>
+          <div class="fc-userpic-caption">
+            <span jsselect="$this.getField(google.FriendConnect.Invite.Field.INVITER)">
+              <div class="fc-username" jscontent="getDisplayName()"></div>
+              <a href="javascript:void(0);" jscontent="MSG_ADD_AS_FRIEND" jsvalues="$h:handle(this,'acceptFriendRequest');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')"></a> |
+              <a href="javascript:void(0);" jscontent="MSG_IGNORE" jsvalues="$h:handle(this,'ignoreFriendRequest');.className:(isCanvasMode() ? 'fc-default-link fc-default-link-canvas' : 'fc-default-link')"></a>
+            </span>
+            <div class="fc-friendreq-text" jscontent="$this" jsselect="$this.getField(google.FriendConnect.Invite.Field.MESSAGE)">
+            </div>
+          </div>
+        </div>
+        <div jsvalues=".className:(isCanvasMode() ? '' : 'fc-content')">
+          <span class="fc-helpful" jscontent="MSG_HELP_FRIENDREQUEST"></span>
+        </div>
+      </div>
+      <div transclude="bottom-paging-tpl">
+      </div>
+    </div>
+
+    <div jstcache="0" id="invitedby-tpl">
+      <div jstcache="36" jsdisplay="showInvitedBy()">
+        <div jstcache="37" jsselect="invitedBy" jsvalues=".className:(isCanvasMode() ? 'fc-invitedby-canvas' : 'fc-invitedby')">
+          <div jstcache="0" class="fc-userpic">
+            <div jstcache="27" transclude="member-thumb-tpl"></div>
+          </div>
+          <div jstcache="38" class="fc-invitedby-text" jscontent="MSG_INVITED_YOU"></div>
+          <div jstcache="0" class="fc-invitedby-link-container"><a jstcache="39" class="fc-invitedby-link" href="javascript:void(0);" jscontent="MSG_VIEW_INVITER_PROFILE" jsvalues="$h:handle(this,'viewProfile')"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div jstcache="0" id="friendreqs-tpl">
+      <div jstcache="40" jsdisplay="$this.size()" jsselect="friendRequests" jsvalues=".className:(isCanvasMode() ? 'fc-friendreqs-canvas' : 'fc-friendreqs')">
+        <div jstcache="41" class="fc-userpic" jsselect="asArray()[0].getField(google.FriendConnect.Invite.Field.INVITER)">
+          <div jstcache="27" transclude="member-thumb-tpl"></div>
+        </div>
+        <a jstcache="42" class="fc-friendreqs-link" href="javascript:void(0);" jscontent="MSG_NEW_FRIEND_REQUESTS" jsvalues="$h:handle(this,'viewFriendRequests')"></a>
+      </div>
+    </div>
+
+    <div jstcache="1" class="fc-members" id="faces-tpl" jsvars="friendReqs:(friendRequests &amp;&amp; friendRequests.size() > 0)">
+      <div jstcache="2" transclude="topcap-tpl"></div>
+      <div jstcache="3" transclude="waiting-messages-tpl"></div>
+      <div jstcache="4" transclude="promo-tpl"></div>
+      <div jstcache="5" transclude="invitedby-tpl"></div>
+      <div jstcache="6" transclude="friendreqs-tpl"></div>
+      <div jstcache="7" jsvars="dropARow:(friendReqs || showInvitedBy() || showWaitingMessages || promoHtml)">
+        <div jstcache="9" jsvalues=".className:(dropARow ? 'fc-content-bg fc-noscroll-friendreq' : 'fc-content-bg fc-noscroll')">
+          <div jstcache="10" jsvalues=".className:(isCanvasMode() ? 'fc-content-canvas fc-minheight' : 'fc-content')" style="padding-bottom: 0px;">
+            <div jstcache="11" class="fc-no-elements" jsdisplay="!members || !members.getTotalSize()">
+              <div jstcache="14" jscontent="MSG_NO_SITE_MEMBERS">
+              </div>
+              <a jstcache="15" href="javascript:void(0);" jscontent="MSG_BE_THE_FIRST" jsvalues="$h:handle(this,'signin')"></a>
+            </div>
+            <div jstcache="12" jsselect="members" jsvars="label:MSG_SITE_MEMBERS;showAllHandler:showAllMembers;numPreviewItems:numPreviewMembers(dropARow);showBlockedFilter:false;needsZoomyForNoTop:hasMenuMode('members')">
+              <div jstcache="16" transclude="faces-preview-tpl">
+              </div>
+            </div>
+            <div jstcache="13" jsselect="friends" jsvars="label:MSG_YOUR_FRIENDS;showAllHandler:showAllViewerFriends;numPreviewItems:numPreviewFriends(dropARow);showBlockedFilter:false;needsZoomyForNoTop:false">
+              <div jstcache="16" transclude="faces-preview-tpl">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div jstcache="8" transclude="footer-text-tpl"></div>
+    </div>
+
+    <div class="fc-members" id="faces-tpl:canvas" jsvars="friendReqs:(friendRequests &amp;&amp; friendRequests.size() > 0)">
+      <div transclude="waiting-messages-tpl"></div>
+      <div transclude="promo-tpl"></div>
+      <div transclude="invitedby-tpl"></div>
+      <div transclude="friendreqs-tpl"></div>
+      <div jsvalues=".className:(isCanvasMode() ? 'fc-content-bg fc-minheight' : 'fc-content')">
+        <div jsselect="members" jsvars="label:MSG_SITE_MEMBERS;showAllHandler:showAllMembers;numPreviewItems:numPreviewMembers(friendReqs);showBlockedFilter:isViewerAdmin">
+          <div transclude="faces-preview-large-tpl">
+          </div>
+        </div>
+        <div class="fc-no-elements" jscontent="MSG_NO_SITE_MEMBERS" jsdisplay="!members || !members.getTotalSize()">
+        </div>
+        <div jsselect="friends" jsvars="label:MSG_YOUR_FRIENDS;showAllHandler:showAllViewerFriends;numPreviewItems:numPreviewFriends(friendReqs);showBlockedFilter:false">
+          <div transclude="faces-preview-large-tpl">
+          </div>
+        </div>
+      </div>
+      <div transclude="footer-text-tpl"></div>
+    </div>
+
+    <div jstcache="43" class="fc-mem-grid" id="faces-preview-tpl" jsdisplay="$this &amp;&amp; $this.size() &amp;&amp; numPreviewItems > 0">
+        <div jstcache="44" jsdisplay="needsZoomyForNoTop">
+          <div jstcache="24" transclude="zoomy-tpl"></div>
+        </div>
+      <div jstcache="45" jsvalues=".className:(isCanvasMode() ? 'fc-sectitle fc-sectitle-canvas' : 'fc-sectitle')">
+        <span jstcache="47" jscontent="label"></span>&nbsp;(<span jstcache="48" jscontent="$this.getTotalSize() || '0'"></span>)
+        <a jstcache="49" class="fc-see-all" href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="$this.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+        <span jstcache="50" jsdisplay="showBlockedFilter">
+          <a jstcache="51" class="fc-see-all" href="javascript:void(0);" jscontent="MSG_SHOW_BLOCKED" jsvalues="$h:handle(this,showBlockedMembers)"></a>
+        </span>
+      </div>
+      <div jstcache="0" class="clear"></div>
+      <div jstcache="46" class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <div jstcache="27" transclude="member-thumb-tpl"></div>
+      </div>
+      <div jstcache="0" class="clear"></div>
+    </div>
+
+    <div class="fc-mem-grid" id="faces-preview-large-tpl:canvas" jsdisplay="($this &amp;&amp; $this.size() &amp;&amp; numPreviewItems > 0) || showBlockedFilter">
+      <div class="fc-members-header">
+        <span class="fc-header-sectitle" jscontent="label" style="font-size: 15px;"></span>&nbsp;(<span jscontent="$this.getTotalSize() || '0'"></span>)
+        <span class="fc-see-all">
+          <span jsdisplay="showBlockedFilter"><a href="javascript:void(0);" jscontent="MSG_SHOW_BLOCKED" jsvalues="$h:handle(this,showBlockedMembers)"></a></span>
+          <a href="javascript:void(0);" jscontent="MSG_MORE" jsdisplay="$this.getTotalSize() > numPreviewItems" jsvalues="$h:handle(this,showAllHandler)"></a>
+        </span>
+      </div>
+      <div class="fc-thumbnail" jsselect="safeSlice($this.asArray(), 0, numPreviewItems)">
+        <div transclude="member-thumb-large-tpl"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div jstcache="0" class="fc-subtle-botcap" id="footer-text-tpl">
+      <div jstcache="53" jsdisplay="viewer == null">
+        <span jstcache="54" class="fc-botcap-text" jscontent="MSG_ALREADY_MEMBER"></span>
+        <span jstcache="0" class="fc-content-link">
+          <a jstcache="55" href="javascript:void(0);" jscontent="MSG_SIGN_IN" jsvalues="$h:handle(this,'signin')"></a>
+        </span>
+      </div>
+    </div>
+
+    </div>
+
+    <div id="gadget_js_log" style="display: none;"><div>Wed Sep 24 2014 15:05:05 GMT+0200 (CEST) -- requesting promo</div><div>Wed Sep 24 2014 15:05:06 GMT+0200 (CEST) -- processing promo</div></div>
+
+    
+    
+    
+  </body>
+</html>

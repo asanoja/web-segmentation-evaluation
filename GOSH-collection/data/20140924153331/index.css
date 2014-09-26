@@ -1,0 +1,314 @@
+/* ::::: http://www.websitebabble.com/css.php?styleid=2&langid=1&d=1407098654&td=ltr&sheet=bbcode.css,editor.css,popupmenu.css,reset-fonts.css,vbulletin.css,vbulletin-chrome.css,vbulletin-formcontrols.css, ::::: */
+
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button .cke_icon { background: url('sprite.png') no-repeat scroll left top transparent; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_openAttachmentWindow .cke_icon { background-position: 0px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_enhancedsource .cke_icon { background-position: -1597px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_pastetext .cke_icon { background-position: -2480px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_pastefromword .cke_icon { background-position: -2430px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_removeFormat .cke_icon { background-position: -1447px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_bold .cke_icon { background-position: -50px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_italic .cke_icon { background-position: -897px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_underline .cke_icon { background-position: -2247px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_subscript .cke_icon { background-position: -2147px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_superscript .cke_icon { background-position: -2197px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_table .cke_icon { background-position: -2047px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbTableProperties .cke_icon { background-position: -1797px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_tableDelete .cke_icon { background-position: -1847px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbRowInsertBefore .cke_icon { background-position: -1997px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbRowInsertAfter .cke_icon { background-position: -1947px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbRowDelete .cke_icon { background-position: -1897px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbColumnInsertBefore .cke_icon { background-position: -1747px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbColumnInsertAfter .cke_icon { background-position: -1697px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbColumnDelete .cke_icon { background-position: -1647px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_horizontalrule .cke_icon { background-position: -2097px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_smiley .cke_icon { background-position: -1497px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_iespell .cke_icon { background-position: -1547px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_link .cke_icon { background-position: -300px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_Email .cke_icon { background-position: -401px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_unlink .cke_icon { background-position: -2346px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_image .cke_icon, .cke_skin_kama span:not(.cke_browser_ie) .cke_button_vbimage .cke_icon { background-position: -747px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_videotag .cke_icon { background-position: -2397px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_Quote .cke_icon { background-position: -1347px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_Code .cke_icon { background-position: -151px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_Html .cke_icon { background-position: -451px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_Php .cke_icon { background-position: -1297px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_PageBreak .cke_icon { background-position: -1147px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_PreviewBreak .cke_icon { background-position: -100px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_textcolor .cke_icon { background-position: -201px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_undo .cke_icon { background-position: -2297px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_undo .cke_icon { background-position: -1397px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_redo .cke_icon { background-position: -1397px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_redo .cke_icon { background-position: -2297px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_numberedlist .cke_icon { background-position: -797px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_bulletedlist .cke_icon { background-position: -847px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_outdent .cke_icon { background-position: -1097px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_indent .cke_icon { background-position: -697px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_justifyleft .cke_icon { background-position: -997px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_justifycenter .cke_icon { background-position: -947px 0px; }
+.cke_skin_kama span:not(.cke_browser_ie) .cke_button_justifyright .cke_icon { background-position: -1047px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_undo .cke_icon { background-position: -1397px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_redo .cke_icon { background-position: -2297px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_outdent .cke_icon { background-position: -697px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_indent .cke_icon { background-position: -1097px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_columnInsertBefore .cke_icon { background-position: -1697px 0px; }
+.cke_skin_kama .cke_rtl span:not(.cke_browser_ie) .cke_button_columnInsertAfter .cke_icon { background-position: -1747px 0px; }
+.popupmenu { position: relative; }
+.popupmenu a.popupctrl { background-image: url('black_downward_arrow.png'); background-position: right center; background-repeat: no-repeat; padding-right: 15px; }
+.popupgroup .popupmenu a.popupctrl { font-size: 11px; padding: 2px 15px 2px 4px; border: 0px none; background-color: transparent; text-decoration: none; margin-left: 5px; }
+.popupgroup .popupmenu:hover a.popupctrl { border: 0px none; background-color: transparent; }
+.popupgroup .popupmenu { float: left; }
+.popupbody { font: 11px Tahoma,Calibri,Verdana,Geneva,sans-serif; color: rgb(62, 62, 62); padding: 2px; background: none repeat scroll 0% 0% rgb(225, 225, 225); border: 1px solid rgb(225, 225, 225); position: absolute; z-index: 1000; top: 1.5em; left: 0px; display: none; min-width: 200px; }
+.popupbody li { border-top: 1px solid rgb(225, 225, 225); }
+.popupbody > li:first-child { border-top: medium none; }
+.popupbody li a, .popupbody li label { display: block; color: rgb(62, 62, 62); background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 6.235px 10px; text-decoration: none; text-align: left; white-space: nowrap; }
+.popupbody li > a:hover, .popupbody li > label:hover { color: rgb(62, 62, 62); background: none repeat scroll 0% 0% rgb(255, 235, 144); }
+.memberaction_body.popupbody li a:hover { color: rgb(62, 62, 62); background-color: rgb(255, 235, 144); }
+.memberaction.popupmenu { position: relative; top: 0px; display: inline-block; }
+.memberaction.popupmenu a.popupctrl { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+.memberaction_body.popupbody { width: 280px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-radius: 5px; box-shadow: 0px 4px 7px rgb(200, 200, 200); }
+.memberaction_body.popupbody li { border: medium none; width: 140px; }
+.memberaction_body.popupbody li.left { float: left; clear: left; }
+.memberaction_body.popupbody li.right { float: right; clear: right; }
+.memberaction_body.popupbody li .siteicon_profile { background: url('profile.png') no-repeat scroll left 2px transparent; }
+.memberaction_body.popupbody li .siteicon_forum { background: url('forum.png') no-repeat scroll left 2px transparent; }
+.memberaction_body.popupbody li .siteicon_message { background: url('message.png') no-repeat scroll left 2px transparent; }
+.memberaction_body.popupbody li .siteicon_homepage { background: url('homepage.png') no-repeat scroll left 2px transparent; }
+.memberaction_body.popupbody li > a { padding: 4px 4px 4px 20px; }
+html { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+li { list-style: none outside none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input, button, textarea, select {  }
+body { font: 13px/1.231 arial,helvetica,clean,sans-serif; }
+select, input, button, textarea, button { font: 99% arial,helvetica,clean,sans-serif; }
+html { background: none repeat scroll 0% 0% rgb(242, 242, 242); }
+strong {  }
+body { width: 1000px; min-width: 650px; margin: 0px auto; font-size: 14px; color: rgb(62, 62, 62); line-height: 1.23; }
+a:active, a:focus { outline: 0px none; }
+body a { color: rgb(108, 129, 141); text-decoration: none; }
+body a:hover, body a:hover .time, body a:hover .shade, body a:hover .understate { color: rgb(65, 115, 148); text-decoration: underline; }
+.body_wrapper { padding: 10px 20px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-radius: 5px; }
+input, textarea, button, select { font-family: Tahoma,Calibri,Verdana,Geneva,sans-serif; }
+body, legend { font-family: Tahoma,Calibri,Verdana,Geneva,sans-serif; }
+.shade { color: rgb(119, 119, 119); }
+.time { color: rgb(62, 62, 62); }
+.block { clear: both; }
+.blockhead { font: 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; color: rgb(255, 255, 255); background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(147, 148, 147); padding: 4px 10px; border: 1px solid rgb(90, 127, 151); border-top-right-radius: 5px; border-top-left-radius: 5px; }
+.blockhead a { color: rgb(255, 255, 255); }
+.blockhead a:hover { color: rgb(255, 255, 255); }
+.blockhead img { margin-bottom: -4px; }
+.blockbody { background: none no-repeat scroll 0% 0% rgb(255, 255, 255); padding-left: 0px; padding-right: 0px; }
+.cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_ok, .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_cancel, .textcontrols a, a.textcontrol { position: relative; padding: 3px 5px; font: bold 11px/1.23 Tahoma,Calibri,Verdana,Geneva,sans-serif; text-decoration: none; border: 1px solid rgb(168, 168, 168); color: rgb(66, 66, 66); background: url('generic_button.png') repeat-x scroll left top rgb(233, 233, 233); border-radius: 0px; }
+.textcontrols a img, a.textcontrol img { position: absolute; bottom: 2px; left: -2px; }
+.textcontrols a:hover img, a.textcontrol:hover img { position: absolute; bottom: 2px; left: -2px; }
+.textcontrols a:hover, a.textcontrol:hover { background: url('generic_button.png') repeat-x scroll 0% 0% rgb(239, 239, 239); text-decoration: none; color: rgb(65, 115, 148); }
+.textcontrols a:hover, a.textcontrol:hover { text-decoration: none; }
+.navpopupmenu { text-align: right; float: right; display: block; padding: 3px 0px 0px; clear: left; margin-left: 10px; font-size: 12px; margin-top: 0px; }
+* html .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu a.textcontrol, .navpopupmenu a.popupctrl, .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu.popupmenu.nohovermenu a.popupctrl { text-decoration: none; color: rgb(66, 66, 66); border: 1px solid rgb(168, 168, 168); background: url('generic_button.png') repeat-x scroll left top rgb(233, 233, 233); font: bold 11px Tahoma,Calibri,Verdana,Geneva,sans-serif; padding: 3.33333px 6.66667px; border-radius: 0px; }
+.navpopupmenu a.textcontrol:hover, .navpopupmenu a.popupctrl:hover, .navpopupmenu.popupmenu.nohovermenu a.textcontrol:hover, .navpopupmenu.popupmenu.nohovermenu a.popupctrl:hover { background: url('generic_button.png') repeat-x scroll 0% 0% rgb(239, 239, 239); color: rgb(65, 115, 148); }
+.navpopupmenu .popupctrl .ctrlcontainer { background: url('black_downward_arrow.png') no-repeat scroll left center transparent; padding-left: 15px; white-space: nowrap; }
+.navpopupbody { width: auto; max-height: 350px; text-align: left; overflow-y: scroll; left: auto; right: 0px; }
+.navpopupbody li { overflow: hidden; min-width: 200px; }
+.navpopupbody li.optionlabel { text-align: center; font-weight: bold; color: rgb(62, 62, 62); }
+.navpopupbody .d1 a { text-indent: 20px; }
+.navpopupbody .d2 a { text-indent: 40px; }
+a.collapse { float: right; right: 10px; top: 20px; position: absolute; }
+.blockhead a.collapse { top: 10px; }
+#forumrules { margin-bottom: 10px; border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(196, 196, 196) rgb(196, 196, 196); background: url('gradient-greytowhite.png') repeat-x scroll 0% 0% rgb(255, 255, 255); }
+#forumrules ul.youcandoblock { float: left; width: 55%; overflow: hidden; margin: 0px 10px 10px 0px; }
+#forumrules .rules_link { margin-top: 10px; width: 42%; padding-left: 55%; }
+.hidden { display: none ! important; }
+.floatcontainer:after, .formcontrols .blockrow:after, dl.stats:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.floatcontainer, .formcontrols .blockrow, dl.stats { display: inline-block; font-weight: normal; }
+.floatcontainer, .formcontrols .blockrow, dl.stats { display: block; }
+.navlinks { background: none repeat scroll 0% 0% rgb(245, 245, 245); border-top: 1px solid rgb(231, 231, 231); padding: 10px 0px; text-align: center; color: rgb(93, 93, 93); font-size: 14px; margin-top: 20px; margin-bottom: 20px; width: 100%; clear: both; }
+.clear, .cleardiv { clear: both; }
+.above_body { background: url('gradient-blue-down.png') repeat-x scroll 0% 0% rgb(209, 222, 230); margin: 0px 0px 10px; padding: 0px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.doc_header { color: rgb(0, 0, 0); font: 11px Arial,Tahoma,Calibri,Verdana,Geneva,sans-serif; position: relative; min-height: 35px; }
+.doc_header a { color: rgb(0, 0, 0); }
+.doc_header a:hover {  }
+.doc_header hr { display: none; }
+.logo-image { float: left; clear: right; min-height: 2em; height: auto ! important; }
+.toplinks { position: absolute; right: 20px; top: 0px; color: rgb(0, 0, 0); font: 11px Arial,Tahoma,Calibri,Verdana,Geneva,sans-serif; text-align: right; background: none repeat scroll 0% 0% transparent; }
+.toplinks ul.isuser, .toplinks ul.nouser { display: block; float: right; clear: left; list-style: none outside none; }
+.toplinks ul.nouser li { display: inline; }
+.toplinks ul.nouser li a { display: block; float: right; clear: left; color: rgb(0, 0, 0); position: relative; padding: 6px 10px 0px; background: none repeat scroll 0% 0% rgb(113, 146, 168); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; height: 21px; font-weight: bold; font-size: 12px; margin-right: 10px; }
+.toplinks ul.nouser li a:hover { background: none repeat scroll 0% 0% rgb(113, 146, 168); color: rgb(255, 255, 255); }
+.toplinks form { min-width: 220px; display: block; margin-right: 10px; text-align: left; float: right; clear: left; }
+.toplinks .logindetails { padding: 0px 10px; text-align: center; background: none repeat scroll 0% 0% rgb(113, 146, 168); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; height: 27px; }
+.toplinks form input { margin: 3px 0px 0px; vertical-align: baseline; font-size: 12px; padding: 1px; border: 0px none; }
+.toplinks form input.textbox { color: rgb(0, 0, 0); }
+.toplinks form input.default-value { color: rgb(119, 119, 119); }
+.toplinks .remember { margin: -3.33333px 0px 0px 20px; font-size: 11px; color: rgb(255, 255, 255); }
+.toplinks .remember input { vertical-align: baseline; }
+.cb_cookieuser_navbar { position: relative; top: 2px; }
+.notifications a.popupctrl:link, .notifications a.popupctrl:visited, .toplinks a:link, .toplinks a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+.navbar { position: relative; height: 53px; background: none repeat scroll 0% 0% rgb(209, 222, 230); margin: 10px 0px 0px; color: rgb(255, 255, 255); font: 11px Arial,Calibri,Verdana,Geneva,sans-serif; border: 0px solid rgb(255, 255, 255); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.navbar a { color: rgb(0, 0, 0); }
+.navbar a:hover { color: rgb(237, 28, 36); }
+.navtabs { background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(139, 140, 139); padding: 0px 0px 0px 20px; height: 26px; }
+.navtabs li:first-child { border-left: 1px solid rgb(255, 255, 255); }
+.navtabs ul { position: absolute; top: 26px; left: 0px; width: 100%; border-top: 1px solid rgb(255, 255, 255); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; margin-right: -80px; direction: ltr; }
+.navtabs li { float: left; border-right: 1px solid rgb(255, 255, 255); }
+.navtabs ul li:first-child { margin-left: 20px; border-left: 0px none; }
+#navtabs .popupmenu ul li:first-child { margin-left: 0px; }
+.navtabs ul li { border-right: 0px none; position: relative; }
+.navtabs li a { height: 26px; line-height: 26px; padding: 0px 10px; }
+.navtabs li a.navtab { border-top: 1px solid rgb(206, 223, 235); border-left: 1px solid rgb(206, 223, 235); display: block; background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(139, 140, 139); min-width: 60px; width: auto ! important; text-align: center; color: rgb(255, 255, 255); font: bold 12px/26px Arial,Calibri,Verdana,Geneva,sans-serif; text-decoration: none; padding: 0px 10px; }
+.navtabs li a.navtab:hover { background: url('selected-tab-gradient-with-top-alpha.png') repeat-x scroll 0px -4px rgb(209, 222, 230); color: rgb(0, 0, 0); }
+.navtabs li.selected { height: 26px; color: rgb(0, 0, 0); }
+.navtabs li.selected a.navtab { color: rgb(0, 0, 0); background: url('selected-tab-gradient-with-top-alpha.png') repeat-x scroll 0% 0% rgb(209, 222, 230); position: relative; top: -4px; padding-top: 4px; z-index: 10; }
+.navtabs > ul.floatcontainer li a, .navbar_advanced_search li a { text-decoration: none; font: 11px/26px Arial,Calibri,Verdana,Geneva,sans-serif; }
+.navtabs > ul.floatcontainer li a { color: rgb(0, 0, 0); padding: 2px 5px; }
+.navtabs > ul.floatcontainer ul.popupbody a { line-height: 26px; }
+.navbar_advanced_search li { height: 26px; display: block; clear: both; }
+.navbar_advanced_search li a { color: rgb(0, 0, 0); }
+.navbar_advanced_search li a:hover { color: rgb(237, 28, 36); text-decoration: underline; }
+.navtabs > ul.floatcontainer li a:hover { color: rgb(237, 28, 36); text-decoration: underline; }
+.navtabs > ul.floatcontainer .popupbody li a { text-indent: 0px; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px 10px; }
+.navtabs > ul.floatcontainer .popupbody li a:hover { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 235, 144); }
+.navtabs > ul.floatcontainer li a.popupctrl { border-radius: 3px; border: 1px solid transparent; background: url('arrow.png') no-repeat scroll right center transparent; padding-right: 15px; color: rgb(0, 0, 0); }
+.navtabs > ul.floatcontainer li:hover a.popupctrl { border-color: rgb(209, 222, 230); background-color: rgb(139, 140, 139); text-decoration: none; }
+.navtabs .popupbody { border: 1px solid rgb(139, 140, 139); background: none repeat scroll 0% 0% rgb(139, 140, 139); width: auto; }
+.navtabs .popupbody li { float: none; border-top: 1px solid rgb(139, 140, 139); }
+#navtabs .popupmenu ul, #navtabs .popupmenu ul li a { height: auto; }
+.globalsearch { position: absolute; width: 180px; right: 20px; top: 0px; float: right; clear: left; text-align: right; line-height: 1em; display: block; }
+.globalsearch .textboxcontainer { height: 26px; border-left: 1px solid rgb(255, 255, 255); display: inline-block; float: left; text-align: center; }
+.globalsearch .textboxcontainer span { border-top: 1px solid rgb(206, 223, 235); border-left: 1px solid rgb(206, 223, 235); display: inline-block; height: 22px; padding-left: 2px; padding-right: 2px; padding-top: 3px; margin-bottom: 1px; width: 147px; }
+.globalsearch input.textbox { width: 120px; }
+.toplinks form input.loginbutton { font-size: 12px; padding: 0px 5px; border: 1px solid rgb(65, 93, 141); }
+.globalsearch .buttoncontainer { height: 26px; border-left: 1px solid rgb(255, 255, 255); display: inline-block; border-right: 1px solid rgb(255, 255, 255); width: 25px; overflow: hidden; float: right; }
+.globalsearch .buttoncontainer span { border-top: 1px solid rgb(206, 223, 235); border-left: 1px solid rgb(206, 223, 235); height: 23px; padding-left: 4px; padding-top: 2.5px; display: inline-block; }
+.globalsearch .searchbutton { border: 0px none; padding: 0px; width: 22px; margin-top: -2px; margin-left: -2px; }
+.breadcrumb .navbit { float: left; background-image: url('navbit-arrow-right.png'); background-position: right center; background-repeat: no-repeat; padding-right: 10px; padding-left: 3px; }
+.breadcrumb .navbit:first-child { padding-left: 0px; }
+.breadcrumb .navbit.lastnavbit { background: none repeat scroll 0% 0% transparent; }
+.breadcrumb .navbit.lastnavbit span { float: left; background: none repeat scroll 0% 0% transparent; padding-right: 10px; padding-left: 3px; }
+.breadcrumb .navbit > a, .breadcrumb .lastnavbit > span { display: block; padding: 2px 4px; float: left; background-color: transparent; border: 1px solid transparent; border-radius: 5px; }
+.breadcrumb .navbit a { text-decoration: none; }
+.breadcrumb hr { display: none; }
+#pagetitle { padding: 5px 0px 0px; clear: both; background: none repeat scroll 0% 0% transparent; }
+#pagetitle a { color: rgb(62, 62, 62); }
+#pagetitle a:hover {  }
+#pagetitle h1 { color: inherit; font: bold 14px Tahoma,Calibri,Verdana,Geneva,sans-serif; }
+.footer { clear: both; margin-top: 15px; text-align: right; display: block; box-shadow: -2px 2px 2px rgb(200, 200, 200); background: none repeat scroll 0% 0% rgb(152, 155, 154); padding: 5px 0px; border: 1px solid rgb(66, 87, 105); font: 13px Tahoma,Calibri,Verdana,Geneva,sans-serif; }
+.footer a { color: rgb(255, 255, 255); }
+.footer a:hover { color: rgb(255, 255, 255); }
+.footer_copyright, .footer_morecopyright { padding-bottom: 5px; color: rgb(102, 102, 102); font: 11px Tahoma,Calibri,Verdana,Geneva,sans-serif; margin-top: 10px; text-align: center; display: block; }
+.footer_time { color: rgb(102, 102, 102); font: 11px Tahoma,Calibri,Verdana,Geneva,sans-serif; padding-top: 10px; text-align: center; }
+.footer_select { float: left; text-align: left; margin-left: 10px; margin-top: 0px; }
+.footer_links { margin-right: 10px; margin-top: 2px; }
+.footer_links li { display: inline; margin-left: 5px; }
+.below_body .time { color: rgb(62, 62, 62); }
+.notices { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 5px 0px; }
+.notices li { background: none repeat scroll 0% 0% rgb(255, 235, 144); font-size: 13px; color: rgb(62, 62, 62); padding: 5px 10px; margin-bottom: 5px; box-shadow: -2px 2px 2px rgb(200, 200, 200); text-align: left; clear: both; }
+.breadcrumb .navbithome { float: left; padding: 4px 0px; }
+.ad_global_header {  }
+#ad_global_below_navbar { width: 100%; padding: 0px; margin: 0px; }
+#ad_global_above_footer { width: 100%; padding: 0px; margin: 0px; text-align: left; clear: both; }
+#ad_thread_first_post_content { float: right; margin: 0px; }
+.formcontrols input, select, textarea { box-sizing: border-box; }
+.formcontrols { border-right: 1px solid rgb(107, 145, 171); border-left: 1px solid rgb(107, 145, 171); border-bottom: 1px solid rgb(107, 145, 171); }
+.formcontrols > :first-child, .formcontrols .blocksubhead + .blockrow, .formcontrols .section .blockrow:first-child { border-top: medium none; }
+.textbox, textarea, select { font: bold 11px Tahoma,Calibri,Verdana,Geneva,sans-serif; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(107, 145, 171); padding: 4px; outline: 0px none; border-radius: 3px; }
+/* ::::: http://www.websitebabble.com/css.php?styleid=2&langid=1&d=1407098654&td=ltr&sheet=toolsmenu.css,postlist.css,showthread.css,postbit.css,options.css,attachment.css,poll.css,lightbox.css ::::: */
+
+.toolsmenu { background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(233, 233, 233); width: 100%; display: block; border: 1px solid rgb(206, 206, 206); float: left; clear: both; margin: 0.5em 0px; }
+.toolsmenu div { text-align: right; color: rgb(78, 78, 78); width: 100%; clear: both; float: left; }
+.toolsmenu ul { padding: 5px 0px; float: right; margin-right: 10px; }
+.toolsmenu .popupgroup a.popupctrl, .toolsmenu .popupgroup .popupmenu a.popupctrl, .toolsmenu .nopopupgroup li a { font-size: 11px; color: rgb(78, 78, 78); display: block; float: left; clear: right; padding: 0.2em 0.4em; }
+.toolsmenu .popupgroup a.popupctrl, .toolsmenu .popupgroup .popupmenu a.popupctrl, .toolsmenu .popupgroup .popupmenu:hover a.popupctrl, .toolsmenu .popupgroup .popupmenu:hover .popupctrl a.popupctrl.active { border: 0px none; color: rgb(78, 78, 78); padding-right: 15px; }
+.toolsmenu li { position: relative; display: block; clear: right; }
+.toolsmenu .popupgroup ul { text-align: left; float: left; }
+.toolsmenu .popupgroup .popupbody { padding: 2px; }
+.toolsmenu .popupgroup .popupbody a, .toolsmenu .popupgroup .popupbody li label { font-size: 11px; }
+.toolsmenu .popupgroup .popupbody li { width: 100%; }
+.postlist, #postlist { clear: both; margin-top: 5px; margin-bottom: 10px; position: relative; }
+.above_postlist, #above_postlist { width: 100%; position: relative; left: 0px; float: left; margin-top: 5px; height: 32px; }
+.posts, #message_list { margin: 10px 0px; }
+.pagination_top { width: 60%; float: right; position: relative; margin-top: 5px; right: 0px; }
+.above_postlist .pagination_top .pagination, .above_postlist .pagination_top .postpagestats { float: right; clear: left; vertical-align: middle; font-size: 12px; color: rgb(62, 62, 62); }
+.postpagestats { margin-top: -1px; vertical-align: inherit; }
+.postlistfoot { display: block; width: 100%; height: 2em; clear: both; position: relative; }
+.below_postlist { display: block; clear: both; position: relative; float: right; margin-top: 45px; margin-bottom: 1em; width: 100%; }
+.noinlinemod.below_postlist { margin-top: -2.5em; }
+.below_postlist .pagination_bottom { float: right; margin-top: 5px; width: 100%; }
+.pagetitle { width: 100%; }
+.postlist {  }
+#ad_thread_first_post_content { float: right; }
+.postbit_reputation { clear: both; display: block; font-size: 0px; padding-left: 2px; }
+img.repimg { display: inline; margin-left: -2px; }
+.signature { padding-top: 1em; border-top: 1px solid rgb(221, 221, 221); margin-top: 2em; }
+.postbit, .postbitlegacy, .eventbit { margin-bottom: 10px; display: block; width: 100%; clear: both; position: relative; float: left; color: rgb(62, 62, 62); border: 1px solid rgb(152, 153, 161); }
+.postrow { overflow: auto; }
+.postbit .posthead, .postbitlegacy .posthead, .eventbit .eventhead { background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(147, 148, 147); border: 1px solid rgb(173, 193, 205); clear: both; display: block; float: left; width: 100%; color: rgb(255, 255, 255); margin: -1px -1px 0px; font: 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; padding: 4px 0px; }
+.postbit .posthead .postdate, .postbitlegacy .posthead .postdate { display: block; float: left; clear: right; width: 49%; margin-left: 10px; font: 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; padding-left: 15px; }
+.postbit .posthead .postdate.old, .postbitlegacy .posthead .postdate.old { background: url('post_old.png') no-repeat scroll left center transparent; }
+.postbit .postdate .time { color: rgb(255, 255, 255); margin-left: 10px; }
+.postbit .userinfo .contact, .postbit .userinfo_noavatar .contact { position: relative; float: left; clear: right; width: 50%; display: block; }
+.postbit .postuseravatarlink { display: block; text-align: center; position: relative; top: 0px; margin-left: 15px; float: left; clear: right; }
+.postbit .postuseravatarlink img {  }
+.postbit .userinfo, .postbit .userinfo_noavatar { background: none repeat scroll 0% 0% rgb(242, 246, 248); clear: both; height: auto ! important; border-bottom: 1px solid rgb(152, 153, 161); padding: 0.5em 0px; width: 100%; float: left; }
+.postbit .userinfo .contact, .userinfo .userinfo_extra, .postbit .userinfo_noavatar .contact { display: inline-block; height: auto ! important; }
+.postbit .username_container { float: left; clear: right; display: block; margin-left: 10px; }
+.postbit .userinfo .username_container .memberaction, .postbit .userinfo_noavatar .username_container .memberaction { display: inline; }
+.postbit .postdetails_noavatar .posthead, .postbit .postdetails_noavatar .userinfo .contact { margin-left: 0px; }
+.postbit .userinfo .username, .postbit .userinfo_noavatar .username { font-size: 14px; font-weight: bold; }
+.postbit .userinfo_noavatar .usertitle, .postbit .userinfo .usertitle, .postbit .userinfo_noavatar .rank, .postbit .userinfo .rank { font-size: 11px; font-weight: bold; display: block; clear: both; }
+.postbit .userinfo .userinfo_extra, .postbit .userinfo_noavatar .userinfo_extra { text-align: right; width: 300px; float: right; font-size: 11px; }
+.postbit .userinfo .userinfo_extra dl, .postbit .userinfo_noavatar .userinfo_extra dl { margin-right: 10px; float: right; width: 150px; }
+.postbit .userinfo_extra dl dt { float: left; display: block; margin-right: 5px; }
+.postbit .userinfo_extra dl dt:after { content: ":"; }
+.postbit .userinfo_extra dl dd { display: block; }
+.postbit .userinfo .popupmenu a.popupctrl, .postbit .userinfo_noavatar .popupmenu a.popupctrl { font-size: 12px; background: none repeat scroll 0% 0% transparent; padding: 0px; display: inline-block; }
+.postbit .userinfo .popupmenu a.popupctrl:hover, .postbit .userinfo_noavatar .popupmenu a.popupctrl:hover { color: rgb(108, 129, 141); }
+.postbit .postbody { clear: both; color: rgb(51, 51, 51); background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+.postbit .postrow { font-family: Verdana; }
+.postbit .postrow { padding: 5px 10px 3em; font: 14px Verdana; }
+.postbit hr { display: none; }
+.postcontent { word-wrap: break-word; }
+.postbit .posttitle { display: block; padding: 10px; font: bold 14px Tahoma,Calibri,Verdana,Geneva,sans-serif; margin: 0px; }
+.postbit .posthead .nodecontrols, .postbitlegacy .posthead .nodecontrols, .eventbit .eventhead .nodecontrols { position: absolute; color: rgb(255, 255, 255); right: 0px; top: 0px; width: 50%; padding: 4px 10px 0px; text-align: right; font: 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; vertical-align: middle; }
+.postbit .posthead .nodecontrols a, .postbitlegacy .posthead .nodecontrols a, .eventbit .eventhead .nodecontrols a { color: rgb(255, 255, 255); top: -2px; position: relative; }
+.postbit .postfoot, .postbitlegacy .postfoot, .eventbit .eventfoot { display: block; position: relative; right: 0px; float: left; clear: both; background: none repeat scroll 0% 0% transparent; font: bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; width: 100%; }
+.postbit .postfoot .textcontrols, .postbitlegacy .postfoot .textcontrols, .eventbit .eventfoot .eventcontrols { padding: 6px 0px 4px; display: block; background: none repeat scroll 0% 0% rgb(233, 233, 233); font: bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; width: 100%; margin-right: 10px; }
+.postbitlegacy .postfoot .postcontrols, .postbit .postfoot .postcontrols { float: right; padding-right: 10px; text-align: right; width: 50%; }
+.postbitlegacy .postfoot .postlinking, .postbit .postfoot .postlinking { padding-left: 10px; }
+.postbitlegacy .postfoot .textcontrols a, .postbit .postfoot .textcontrols a, .eventbit .eventfoot .eventcontrols a, .postbitlegacy .postfoot .textcontrols span.mobile, .postbit .postfoot .textcontrols span.mobile { border-radius: 0px; padding: 0px 0px 0px 23px; border: 0px solid rgb(168, 168, 168); background: none repeat scroll 0% 0% rgb(233, 233, 233); color: rgb(78, 78, 78); font: bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif; display: inline-block; margin-left: 5px; }
+.postbitlegacy .postfoot .textcontrols a.newreply, .postbit .postfoot .textcontrols a.newreply { background: url('quote_40b.png') no-repeat scroll left center rgb(233, 233, 233); padding: 0px 0px 0px 20px; border: 0px solid rgb(168, 168, 168); }
+.postbitlegacy .postfoot .textcontrols a.newreply:hover, .postbit .postfoot .textcontrols a.newreply:hover { background: url('quote_40b-hover.png') no-repeat scroll left center transparent; padding: 0px 0px 0px 20px; border: 0px none; }
+.postbitlegacy .postfoot .textcontrols a:hover, .postbit .postfoot .textcontrols a:hover { color: rgb(65, 115, 148); }
+.postbitlegacy .postfoot .textcontrols a img, .postbit .postfoot .textcontrols a img { position: absolute; top: 2px; left: 3px; }
+.postbitlegacy .postfoot .textcontrols a:hover img, .postbit .postfoot .textcontrols a:hover img { top: 2px; }
+.userinfo .popupmenu:hover a.popupctrl { background-color: transparent; }
+.postbit .userinfo .popupmenu .popupctrl {  }
+.userinfo .popupmenu:hover a.popupctrl { background-color: transparent; }
+img.onlinestatus { position: relative; top: 5px; left: -4px; }
+.hasad { display: block; margin-right: 300px; }
+.postbit .posttitle, .postbitlegacy .title { border-bottom: 1px solid rgb(200, 200, 200); padding-bottom: 5px; margin-bottom: 5px; }
+.forum_info_subblock, .info_subblock { padding: 5px 10px; }
+.forum_info .options_block_container, .thread_info .options_block_container { width: 100%; float: left; display: block; position: relative; top: 0px; padding-top: 0px; margin-top: 0px; }
+.forum_info .options_block, .thread_info .options_block, .forum_info .options_block2, .thread_info .options_block2 { width: 49%; padding-right: 0.5%; float: left; clear: right; position: relative; }
+.forum_info .options_block .options_correct, .thread_info .options_block .options_correct, .forum_info .options_block2 .options_correct, .thread_info .options_block2 .options_correct { margin-right: -1.1%; }
+.info_subblock ul li { margin-bottom: 2px; }
+.bbcodeblock ul li a, .rules_link a { font-weight: bold; }
+.thread_info { float: left; width: 100%; clear: both; position: relative; top: -10px; margin-bottom: 0px; color: rgb(62, 62, 62); }
+.thread_info a {  }
+.thread_info h4 { font-size: 12px; font-weight: bold; color: rgb(255, 255, 255); background: url('newbtn_middle.png') repeat-x scroll 0% 0% rgb(112, 112, 112); border: 1px solid rgb(96, 96, 96); margin-top: 5px; box-shadow: -2px 2px 2px rgb(200, 200, 200); }
+.thread_info .blockbody { border-bottom: 1px solid rgb(196, 196, 196); border-left: 1px solid rgb(196, 196, 196); border-right: 1px solid rgb(196, 196, 196); background: url('gradient-greytowhite.png') repeat-x scroll 0% 0% rgb(255, 255, 255); box-shadow: -2px 2px 2px rgb(200, 200, 200); }
+.thread_info .inner_block, .info_subblock { padding: 4px 10px; }
+#forumrules { border: 0px none; background: none repeat scroll 0% 0% transparent; }
+blockquote { overflow: hidden; }
+/* ::::: http://www.websitebabble.com/css.php?styleid=2&langid=1&d=1407098654&td=ltr&sheet=additional.css ::::: */
+
+#moderatorStyle { font-size: 12px; position: absolute; top: 50px; left: 750px; font-family: Arial; }
+#moderatorStyle a { color: rgb(246, 20, 43); text-decoration: underline; }
+#moderatorStyle a:hover { text-decoration: none; color: rgb(0, 0, 0); }
+.fb_reset { background: none repeat scroll 0% 0% transparent; border: 0px none; border-spacing: 0px; color: rgb(0, 0, 0); cursor: auto; direction: ltr; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 1; margin: 0px; overflow: visible; padding: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-shadow: none; text-transform: none; visibility: visible; white-space: normal; word-spacing: normal; }
+.fb_reset > div { overflow: hidden; }
+.fb_iframe_widget { display: inline-block; position: relative; }
+.fb_iframe_widget span { display: inline-block; position: relative; text-align: justify; }
+.fb_iframe_widget iframe { position: absolute; }

@@ -1,0 +1,40 @@
+/* ::::: http://www.imagebank.ie/css/styles.css ::::: */
+
+/* ::::: http://www.imagebank.ie/css/layout.css ::::: */
+
+div#allwrap { margin: 0px; padding: 0px; background: url('cl_tp2.gif') repeat-y scroll left center rgb(255, 255, 255); width: 700px; }
+div#wrapper { position: relative; margin: 0px 0px 0px 30px; padding: 0px; background: url('cr_tp2.gif') repeat-y scroll right center rgb(255, 255, 255); width: 733px; }
+.clear { clear: both; display: block; height: 1px; overflow: hidden; margin: 0px; padding: 0px; }
+/* ::::: http://www.imagebank.ie/css/forms.css ::::: */
+
+form { font: 9.5pt arial,verdana,sans-serif; margin: 0px; padding: 0px; }
+form label { display: block; float: left; width: 150px; padding: 0px; margin: 5px 0px 0px; text-align: right; }
+form input, form textarea { margin: 5px 0px 0px; }
+textarea { overflow: auto; }
+form br { clear: left; }
+body { background-color: rgb(235, 235, 235); font-family: Arial,"Trebuchet MS",Verdana,sans-serif; font-size: 9.5pt; margin: 0px; padding: 0px; }
+#header { background: url('bg_header.gif') no-repeat scroll 0% 0% rgb(235, 235, 235); height: 130px; min-width: 763px; }
+#footer { min-width: 750px; width: 750px; }
+#ccl { position: relative; left: 25px; top: -50px; font-size: 90%; width: 530px; }
+#Return_Link { position: absolute; left: 524px; }
+.Crumbs { position: relative; left: -118px; top: 7px; font-size: 8pt; }
+.Crumbs A { font-size: 8pt; font-variant: normal; }
+#Main_Nav { position: absolute; left: 144px; top: 79px; }
+.more_info { font-size: 0.9em; color: rgb(8, 99, 146); background: url('arrow.gif') no-repeat scroll right center transparent; padding-right: 12px; text-decoration: none; }
+.more_info:hover { text-decoration: underline; }
+#footer_nav { position: relative; top: -110px; left: 40px; }
+#footer_nav A { font-size: 9pt; color: rgb(153, 153, 153); background: url('arrow.gif') no-repeat scroll left center transparent; padding-left: 12px; text-decoration: none; }
+#footer_nav A:hover { text-decoration: underline; color: rgb(8, 99, 146); }
+.detailsphoto #mainColumn { position: absolute; top: 0px; left: 10px; background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 703px; font-size: 1em; }
+.detailsphoto div#wrapper { height: 630px; }
+.detailsphoto #de_header { background: url('de_header.gif') no-repeat scroll 0% 0% transparent; min-width: 695px; height: 85px; }
+.detailsphoto #de_header #category { font-size: 9.5pt; font-weight: bold; position: absolute; top: 20px; left: 130px; }
+.detailsphoto #de_header #titleimage { font-size: 9.5pt; font-weight: bold; position: absolute; top: 55px; left: 130px; }
+.detailsphoto #de_right { position: absolute; top: 100px; left: 390px; font-size: 9.5pt; }
+.detailsphoto #de_left { font-size: 9.5pt; }
+.detailsphoto #de_right a { font-size: 9.5pt; font-variant: small-caps; font-family: Arial; text-decoration: none; color: rgb(51, 153, 204); }
+.detailsphoto a:hover { text-decoration: underline; }
+.detailsphoto p { font-size: 9.5pt; font-family: Arial; text-decoration: none; color: rgb(0, 0, 0); }
+/* ::::: http://www.imagebank.ie/css/thickbox.css ::::: */
+
+* { padding: 0px; margin: 0px; }

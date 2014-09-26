@@ -1,0 +1,60 @@
+/* ::::: http://clipyourphotos.com/files/stylez.css ::::: */
+
+body { background-color: rgb(185, 221, 248); margin: 0px; padding: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 90%; line-height: 19px; overflow-x: hidden; overflow-y: scroll; color: rgb(66, 66, 66); }
+.container { background-color: transparent; padding: 0px; text-align: left; width: 960px; margin: 0px auto; }
+body, a, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote { margin: 0px; padding: 0px; }
+a { color: rgb(0, 153, 204); text-decoration: underline; }
+a:visited { color: rgb(51, 102, 153); }
+a:hover { background-color: rgb(255, 255, 204); border: 0px none; }
+a:active {  }
+a img { border: medium none; display: block; }
+html { min-height: 100%; margin-bottom: 1px; }
+p { line-height: 20px; }
+h1 { font-size: 150%; margin-bottom: 20px; font-weight: normal; }
+#breadCrumb { font-size: 95%; margin-bottom: 20px; font-weight: normal; color: rgb(102, 102, 102); }
+#breadCrumb a:link { border-bottom: 1px solid rgb(153, 153, 153); color: rgb(0, 153, 204); text-decoration: none; font-size: 110%; }
+#breadCrumb a:visited { border-bottom: 1px solid rgb(153, 153, 153); color: rgb(0, 153, 204); text-decoration: none; font-size: 110%; }
+h2 { font-size: 130%; margin-bottom: 8px; font-weight: normal; }
+li { margin-left: 30px; }
+.clearfix { display: inline-block; }
+#header { font-size: 14px; line-height: 1.7em; background-color: rgb(255, 255, 255); height: 70px; }
+#header .container { text-align: left; margin: 0px auto; height: 70px; background-image: url('header_bg.gif'); }
+#header #links { float: right; margin-top: 23px; width: 400px; margin-right: 15px; text-align: right; color: rgb(153, 153, 153); font-size: 13px; }
+#header a { text-decoration: none; border-bottom: 1px solid rgb(204, 204, 204); }
+#header a:visited { color: rgb(0, 153, 204); }
+#logo { margin-top: 10px; margin-left: 15px; height: 43px; width: 220px; cursor: pointer; clear: both; float: left; }
+#content { background-color: rgb(185, 221, 248); margin: 0px auto; padding: 0px; width: 100%; background-image: url('content_side_gradient_bg.png'); background-repeat: repeat-x; }
+#content .container { min-height: 400px; }
+#content-wrapper { background-image: url('content_wrap_bg.png'); background-repeat: repeat-y; min-height: 400px; padding: 0px 20px; }
+#footer { clear: both; margin-bottom: 5px; background-color: rgb(185, 221, 248); }
+#footer .container { background-image: url('bottom_curve.png'); background-repeat: no-repeat; height: 100%; padding-top: 30px; padding-bottom: 6px; color: rgb(44, 111, 142); font-size: 75%; text-align: center; }
+/* ::::: http://clipyourphotos.com/files/stylez/bulkr.css ::::: */
+
+#bulkr-v1 { overflow: hidden; margin-bottom: 30px; }
+#bulkr-v1 .left { width: 350px; float: right; overflow: hidden; text-align: center; padding-top: 35px; }
+#bulkr-v1 .right { width: 520px; float: left; text-align: center; padding-top: 35px; }
+#bulkr-v1 .gradient_div { float: right; }
+#bulkr-v1 div.intro { width: 330px; text-align: center; margin-left: 15px; }
+#bulkr-v1 h1 { font-weight: bold; font-family: helvetica,arial,sans-serif; color: rgb(51, 51, 51); letter-spacing: -2px; line-height: 1em; margin: 25px 0px 20px; padding: 0px; font-size: 38px; text-shadow: 1px 1px rgb(204, 204, 204); }
+#bulkr-v1 h2 { font-size: 16px; }
+#bulkr-v1 .install { height: 180px; }
+#bulkr-v1 .divider { clear: both; margin: 10px 0px; }
+#bulkr-v1 .features {  }
+#bulkr-v1 .testimonial { background-image: url('bulkr_testimonial_gradient.jpg'); background-repeat: no-repeat; width: 450px; padding-left: 30px; text-align: left; padding-top: 5px; margin-bottom: 30px; }
+#bulkr-v1 .testimonial h4 { font-size: 14px; font-weight: normal; text-shadow: 0px 1px rgb(255, 255, 255); }
+#bulkr-v1 .header_gap { height: 15px; }
+span.text-high { background-color: rgb(255, 255, 204); padding-left: 2px; padding-right: 2px; }
+.features ul { line-height: 23px; }
+#bulkr-v1 #counter { padding-top: 20px; color: rgb(62, 62, 62); font-size: 21px; }
+#bulkr-v1 #download_text { font-size: 13px; color: rgb(102, 102, 102); padding-top: 12px; }
+.download-pop-cmp { clear: both; height: auto; line-height: normal; min-height: 62px; opacity: 0.94; padding: 10px; position: fixed; width: 290px; z-index: 999999; }
+.download-pop-shadow { box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.5); }
+.download-pop-container { background-color: rgb(128, 128, 128); background-position: 0px 0px; border: 1px solid rgb(79, 79, 79); border-radius: 4px; color: rgb(237, 237, 237); margin: 0px; overflow: hidden; padding: 18px 16px 12px 8px; }
+.download-pop-icon-img { background-image: url('popup_download_info_group.png'); background-repeat: no-repeat; height: 30px; width: 35px; }
+.download-pop-icon { display: block; float: left; overflow: hidden; position: absolute; top: 32px; }
+.download-pop-msg { font-family: "Helvetica neue",Helvetica,Arial,Verdana,Sans-serif ! important; font-size: 13px ! important; font-weight: bold; margin-left: 40px; min-height: 40px; }
+.download-pop-close { height: 15px; position: absolute; right: 20px; top: 13px; width: 8px; }
+/* ::::: http://clipyourphotos.com/files/js/lightbox/jquery.lightbox-0.5.css ::::: */
+
+/* ::::: http://clipyourphotos.com/files/boxy/boxy.css ::::: */
+

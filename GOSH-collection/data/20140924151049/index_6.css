@@ -1,0 +1,124 @@
+body { background: none repeat scroll 0% 0% transparent; }
+/* ::::: https://www.google.com/friendconnect/styles/gadgets-ltr.css?d=0.1-4b76bd44_0abfbe4c_a2f0d73d_c53d87c5_3993c13c.7 ::::: */
+
+:first-child + html .goog-inline-block { display: inline; }
+:first-child + html .goog-app .goog-button-base-inner-box { left: -1px; }
+:first-child + html .goog-app .goog-button-base-content { display: inline-block; }
+:first-child + html .goog-app .goog-button-base-rtl .goog-button-base-inner-box { left: 1px; }
+.gfc-button-base-v2 { height: 21px; margin: 0px; padding: 0px; color: rgb(255, 255, 255); border-spacing: 0px; font: 13px Arial,sans-serif; }
+table.gfc-button { border: medium none ! important; cursor: pointer ! important; width: auto ! important; margin: 0px ! important; padding: 0px ! important; height: 21px ! important; line-height: 21px ! important; }
+table.gfc-button td, table.gfc-button tr, table.gfc-button tbody { text-align: left ! important; vertical-align: top ! important; border: medium none ! important; margin: 0px ! important; border-spacing: 0px ! important; height: 21px ! important; white-space: nowrap ! important; line-height: 21px ! important; }
+td.gfc-button-1 { width: 22px ! important; padding: 0px ! important; background: url('gfc_button_v2.gif') no-repeat scroll 0px 0px transparent; }
+td.gfc-button-2 { background: url('gfc_button_v2.gif') repeat-x scroll 0px -22px transparent; padding: 0px 7px ! important; font-weight: bold ! important; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) ! important; }
+td.gfc-button-3 { width: 2px ! important; padding: 0px ! important; background: url('gfc_button_v2.gif') no-repeat scroll 0px -44px transparent; }
+.clear { clear: both; font-size: 1px; height: 1px; line-height: 0%; margin: 0px; padding: 0px; }
+:first-child + html .gfc-inline-block { display: inline; }
+:first-child + html .gfc-button-base-inner-box { left: -1px; }
+:first-child + html .gfc-button-base-content { display: inline-block; }
+:first-child + html .gfc-button-base-rtl .gfc-button-base-inner-box { left: 1px; }
+.gfc-footer-msg { padding-left: 2px; margin-top: 1px; line-height: 11px; font-size: 11px; font-style: normal; font-weight: normal; font-family: sans-serif; }
+body, .fc-ask-botcap-short, #peg { margin: 0px; padding: 0px; }
+.fc-members { color: rgb(51, 51, 51); font-size: 13px; }
+.fc-members-canvas { color: rgb(51, 51, 51); font-size: 13px; }
+.fc-topcap { border-bottom: 1px solid rgb(204, 204, 204); padding: 6px 6px 5px; line-height: 16px; }
+.fc-topcap-color { background-color: rgb(229, 236, 249); }
+.fc-subtle-botcap { padding: 0px 5px 6px; font-size: 11px; clear: both; }
+.fc-botcap-short { background-color: rgb(229, 236, 249); border-top: 1px solid rgb(204, 204, 204); padding: 1px 5px 6px 6px; clear: both; }
+.fc-topverb { background-color: rgb(229, 236, 249); border-bottom: 1px solid rgb(204, 204, 204); padding: 4px 5px 5px 10px; clear: both; }
+.fc-topverb-canvas, .fc-botcap-short-canvas { padding: 6px 5px 6px 10px; }
+.fc-friendreq { background-color: rgb(255, 234, 192); border-bottom: 1px solid rgb(204, 204, 204); padding: 5px; color: rgb(0, 0, 0); clear: both; }
+.fc-no-elements { margin: 30px 5px 5px; color: rgb(102, 102, 102); text-align: center; }
+.fc-waitingmsg * { font-size: 12px; }
+.fc-waitingmsg { font-size: 12px; background-color: rgb(255, 234, 192); border-bottom: 1px solid rgb(204, 204, 204); padding: 5px; clear: both; }
+.fc-waitingmsg a { font-weight: bold; }
+.fc-waitingmsg img { margin-top: 2px; }
+.fc-scroll, .fc-noscroll, .fc-scroll-botnav, .fc-noscroll-botnav, .fc-noscroll-friendreq { clear: both; }
+.fc-scroll-botnav { height: 267px; }
+.fc-noscroll, .fc-noscroll-friendreq, .fc-noscroll-botnav { overflow: hidden; }
+.fc-scroll-botnav, .fc-scroll, .fc-scroll-botnav { overflow: auto; }
+.fc-content { padding: 5px; min-height: 105px; }
+.fc-content-canvas { padding: 20px 20px 10px; overflow: hidden; }
+.fc-minheight { min-height: 400px; }
+.fc-mem-grid { padding-bottom: 5px; }
+.fc-profile { overflow-x: hidden; }
+.fc-userpage-itemlist { margin-top: 12px; padding-top: 5px; border-top: 1px solid rgb(204, 204, 204); clear: both; }
+.fc-userpage-itemlist-canvas { margin-top: 20px; padding-top: 5px; border-top: 1px solid rgb(204, 204, 204); clear: both; }
+.fc-message { padding-top: 10px; clear: both; }
+.fc-profile-summary { font-size: 11px; }
+.fc-about-me { margin-top: 3px; }
+.clear { clear: both; font-size: 1px; height: 1px; line-height: 0%; margin: 0px; padding: 0px; }
+div.fc-thumbnail { float: left; }
+.fc-thumbnail img { border: 0px none; height: 32px; width: 32px; margin: 6px 6px 0px 0px; }
+img.fc-plus-pic { border: 0px none; height: 14px; width: 14px; margin: 0px 5px 0px 0px; float: left; }
+img.fc-envelope-pic { border: 0px none; height: 10px; width: 15px; margin: 2px 5px 0px 0px; float: left; }
+img.fc-do-not-enter-pic { border: 0px none; height: 14px; width: 14px; margin: 0px 5px 0px 0px; float: left; }
+img.fc-edit-pic { border: 0px none; height: 16px; width: 19px; margin: 0px 5px 0px 0px; float: left; }
+textarea.fc-textarea { width: 99%; }
+a, a:visited { color: rgb(0, 0, 204); }
+.fc-username { font-weight: bold; height: 16px; overflow: hidden; }
+.fc-sectitle { font-weight: bold; font-size: 13px; height: 14px; }
+.fc-sectitle-canvas { font-weight: bold; font-size: 13px; line-height: 120%; }
+.fc-header-sectitle { font-weight: bold; font-size: 15px; }
+.fc-userpage-name { font-size: 15px; font-weight: bold; height: 17px; overflow: hidden; }
+.fc-helpful { font-size: 11px; color: rgb(102, 102, 102); }
+.fc-on-other-site { font-size: 11px; color: rgb(102, 102, 102); }
+.fc-invitedby-text { margin-bottom: 5px; height: 13px; overflow: hidden; color: rgb(0, 0, 0); }
+div.fc-item-body { min-height: 16px; }
+.fc-right-verb { float: right; font-size: 11px; padding-top: 2px; }
+a.fc-friendreqs-link { color: rgb(0, 0, 204); font-size: 12px; font-weight: bold; }
+a.fc-friendreqs-link:visited { color: rgb(0, 0, 204); }
+a.fc-invitedby-link { color: rgb(0, 0, 204); font-size: 12px; font-weight: bold; }
+a.fc-invitedby-link:visited { color: rgb(0, 0, 204); }
+div.fc-invitedby-link-container { height: 14px; overflow: hidden; }
+a.fc-topcap-link { color: rgb(0, 0, 204); font-size: 11px; }
+a.fc-topcap-link:visited { color: rgb(0, 0, 204); }
+a.fc-cap-link-big { color: rgb(0, 0, 204); font-size: 12px; text-decoration: underline; }
+a.fc-cap-link-big:visited { color: rgb(0, 0, 204); }
+span.fc-botcap-text { font-size: 11px; }
+span.fc-small-menu-link { font-size: 11px; }
+.fc-right-verb a { color: rgb(0, 0, 204); }
+.fc-right-verb:visited a { color: rgb(0, 0, 204); }
+a.fc-see-all { color: rgb(0, 0, 204); font-size: 11px; padding: 0px 8px; font-weight: normal; }
+a.fc-see-all:visited { color: rgb(0, 0, 204); }
+a.fc-faded-link { color: rgb(119, 119, 204); font-size: 12px; }
+a.fc-faded-link:visited { color: rgb(119, 119, 204); }
+a.fc-faded-link-small { color: rgb(119, 119, 204); font-size: 11px; }
+a.fc-faded-link-small:visited { color: rgb(119, 119, 204); }
+.fc-send { background: url('send.gif') no-repeat scroll 0% 0% transparent; color: white; cursor: pointer; height: 16px; width: 55px; text-decoration: none; font-weight: bold; padding-top: 1px; text-align: center; float: right; }
+.fc-button { font-size: 15px; }
+.fc-members-header { font-size: 13px; background-color: rgb(229, 236, 249); border-top: 1px solid rgb(204, 204, 204); padding: 5px; margin-bottom: 10px; }
+.fc-member-large-thumb { width: 205px; height: 55px; margin: 3px 5px; }
+.fc-member-large-thumb-img { float: left; width: 45px; height: 45px; cursor: pointer; }
+.fc-member-large-thumb-name { float: left; margin: 5px; font-weight: bold; width: 140px; height: 40px; overflow: hidden; }
+.fc-member-large-thumb img { border: 0px none; height: 45px; width: 45px; margin: 6px 6px 0px 0px; }
+.delete-button { cursor: pointer; }
+img { border: 0px none; }
+a:visited { color: rgb(0, 0, 204); }
+.goog-menu { background-color: rgb(255, 255, 255); border-color: rgb(204, 204, 204) rgb(102, 102, 102) rgb(102, 102, 102) rgb(204, 204, 204); border-style: solid; border-width: 1px; cursor: default; margin: 0px; outline: medium none; padding: 4px 0px; position: absolute; }
+.goog-menuitem { color: rgb(0, 0, 0); font-weight: normal; font-size: 12px; list-style: none outside none; margin: 0px; padding: 4px 1ex 4px 8px; white-space: nowrap; text-decoration: underline; cursor: pointer; }
+.goog-menuseparator.fc-menuseparator-line { border-top: 1px solid rgb(204, 204, 204); margin: 4px 0px; padding: 0px; position: relative; }
+.fc-menutriangle-down { display: inline; margin-left: 5px; margin-top: 5px; text-decoration: none; }
+.fc-menutriangle-up { display: none; margin-left: 5px; margin-top: 5px; text-decoration: none; }
+.fc-menu-button { cursor: pointer; }
+.fc-promo-main { background: none repeat scroll 0% 0% rgb(245, 226, 186); border-bottom: 1px solid rgb(195, 159, 3); }
+.a, a:visited { color: rgb(0, 0, 204); }
+.clear { clear: both; font-size: 1px; height: 1px; line-height: 0%; margin: 0px; padding: 0px; }
+body { font-family: Arial,Helvetica,sans-serif; }
+input, textarea, select { font-family: Arial,Helvetica,sans-serif; }
+.fc-thumbnail img { height: 32px; width: 32px; }
+.fc-scroll-botnav, .fc-scroll, .fc-noscroll-botnav { height: 179px; }
+.fc-members, .fc-members-canvas { border-color: transparent; border-width: 0px; }
+.fc-userpage-itemlist, .fc-userpage-itemlist-canvas, .fc-botcap-short { border-top-color: transparent; border-width: 0px; }
+.fc-topcap, .fc-topverb, .fc-friendreq, .fc-friendreqs, .fc-timeframe { border-bottom-color: transparent; border-width: 0px; }
+.fc-userpic-caption { margin-left: 40px; }
+.fc-topcap-color { background-color: transparent; }
+.fc-botcap-short { background-color: transparent; }
+.fc-botverb, .fc-topverb, .fc-members-header { background-color: transparent; }
+.fc-botverb, .fc-topverb, .fc-members-header { background-color: transparent; }
+.fc-topcap, .fc-botverb, .fc-topverb, .fc-botcap-short, .fc-header-sectitle, .fc-members-header { color: rgb(102, 102, 102); }
+.fc-botverb, .fc-topcap .fc-menutriangle-down, .fc-topcap .fc-menutriangle-up, .fc-topcap a, .fc-topcap a:active, .fc-topcap a:visited, .fc-topcap-link a, .fc-topcap-link a:active, .fc-topcap-link a:visited, .fc-cap-link-big a, .fc-cap-link-big a:active, .fc-left-verb a, .fc-left-verb a:active, .fc-left-verb a:visited, .fc-right-verb a, .fc-right-verb a:active, .fc-right-verb a:visited, .fc-subtle-botcap a, .fc-subtle-botcap a:active, .fc-subtle-botcap a.fc-left-verb-canvas:visited a, .fc-left-verb-canvas a:active, .fc-left-verb-canvas a:visited, .fc-right-verb-canvas a, .fc-right-verb-canvas a:active, .fc-right-verb-canvas a:visited { color: rgb(34, 136, 187); }
+.fc-content-bg, .fc-subtle-botcap { background-color: transparent; }
+.fc-content a, .fc-content a:active, .fc-content a:visited, .fc-item-body a, .fc-item-body a:active, .fc-item-body a:visited, .fc-see-all a, .fc-see-all a:active, .fc-see-all a:visited, .fc-content-link a, .fc-content-link a:active, .fc-content-link a:visited, .fc-content-canvas a, .fc-content-canvas a:active, .fc-content-canvas a:visited { color: rgb(34, 136, 187); }
+.fc-members, .fc-members-canvas { color: rgb(102, 102, 102); }
+.fc-helpful, .fc-on-other-site, .fc-no-elements, .ot-activity-metadata { color: rgb(153, 153, 153); }
+.fc-sectitle { color: rgb(0, 0, 0); }

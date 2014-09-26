@@ -1,0 +1,22 @@
+/* ::::: http://www.bigfishcampaign.org/core-style.css ::::: */
+
+body { font-family: arial,helvetica,sans-serif; font-size: 14px; }
+a:link { color: blue; text-decoration: underline; font-weight: bold; }
+a:hover { color: blue; text-decoration: none; font-weight: bold; }
+a:visited { color: blue; text-decoration: underline; font-weight: bold; }
+a.menu:link { color: rgb(255, 255, 0); text-decoration: none; font-weight: bold; }
+a.menu:hover { color: rgb(255, 204, 0); text-decoration: none; font-weight: bold; }
+a.menu:visited { color: rgb(255, 255, 0); text-decoration: none; font-weight: bold; }
+a.side:link { color: rgb(51, 153, 255); text-decoration: none; font-weight: bold; }
+a.side:hover { color: rgb(0, 255, 255); text-decoration: none; font-weight: bold; }
+a.side:visited { color: rgb(51, 153, 255); text-decoration: none; font-weight: bold; }
+#wrapper { width: 980px; margin: 0px auto; border: 1px solid rgb(187, 187, 187); padding: 10px; background-color: rgb(187, 187, 187); }
+#header { padding: 10px; background-image: url('bfc-bgimage.jpg'); background-repeat: repeat-x; }
+#content { margin-top: 10px; padding-bottom: 10px; }
+#content div { padding: 10px; border: 1px solid rgb(187, 187, 187); float: left; }
+#content-left { width: 160px; background-color: rgb(204, 204, 255); }
+#top-menu { float: right; margin-left: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid rgb(187, 187, 187); width: 760px; background-color: rgb(51, 51, 255); text-align: center; word-spacing: 25px; }
+#content-main { margin-left: 10px; width: 530px; background-color: rgb(238, 238, 238); }
+#content-right { margin-left: 10px; width: 200px; }
+#footer { float: left; margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid rgb(187, 187, 187); width: 960px; background-color: rgb(51, 51, 255); word-spacing: 45px; }
+#bottom { clear: both; text-align: right; }

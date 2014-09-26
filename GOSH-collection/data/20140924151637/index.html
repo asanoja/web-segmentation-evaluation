@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="Description" content="The complete solution to backup, download and browse photos, videos on Flickr. Download sets (albums), favorites, groups, explore photos &amp; more on Mac, Windows &amp; Linux.">
+<title>Bulkr: Backup, download flickr photos, videos, sets &amp; more</title>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+
+
+
+
+<!--span pub-key="pub-751323ce-5010-4b8e-bfd7-2b34b2f4a917" sub-key="sub-aa7e5061-2c07-11e2-aa68-ebb0a8163e45" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></span>
+<script src="http://cdn.pubnub.com/pubnub-3.3.min.js"></script>
+<script>(function(){
+ 
+    // LISTEN FOR PHOTO DOWNLOAD COUNT FROM APP 
+    PUBNUB.subscribe({
+        channel    : "photo_downloads",      // CONNECT TO THIS CHANNEL.
+ 
+        restore    : false,              // STAY CONNECTED, EVEN WHEN BROWSER IS CLOSED
+                                         // OR WHEN PAGE CHANGES.
+ 
+        callback   : function(message) { // RECEIVED A MESSAGE.
+			//updateDLCount(message);
+        },
+ 
+        disconnect : function() {        // LOST CONNECTION.
+        },
+ 
+        reconnect  : function() {        // CONNECTION RESTORED.
+        },
+ 
+        connect    : function() {        // CONNECTION ESTABLISHED.
+        }
+    })
+ 
+})();</script-->
+
+<!--//pubnub counter script <script language="javascript">
+	var updateCount = true;
+	function updateDLCount(message){
+		if(updateCount == false) // start counting only after animation is complete
+			return;
+		var n_comma = number_format(message,0,0,",");
+		mil	= n_comma.split(",");
+		$("#dl_count").text(n_comma);
+		$("#mil").text(mil[0]);
+		fader();	
+	}
+	
+	function initTween(st,en,sp){
+		//alert(st);
+		  var tween = new TWEEN.Tween({ num: st })
+			  .to({ num: en }, sp )
+			  .easing( TWEEN.Easing.Quintic.Out)
+			  .onUpdate(function () {
+					 $("#dl_count").text(number_format(this.num,0,0,","));
+					})
+			  .start(); 
+			  
+		}
+			
+	function animate() {
+			requestAnimationFrame( animate ); // Required for TWEEN.update()
+			TWEEN.update();		
+		}
+		
+	function number_format( number, decimals, dec_point, thousands_sep ) {
+		var n = number, c = isNaN(decimals = Math.abs(decimals)) ? 2 : decimals;
+		var d = dec_point == undefined ? "," : dec_point;
+		var t = thousands_sep == undefined ? "." : thousands_sep, s = n < 0 ? "-" : "";
+		var i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", j = (j = i.length) > 3 ? j % 3 : 0;
+		
+		return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+	}
+	
+	initTween(244063379,244064379, 8000);	
+	animate();
+</script>-->
+
+
+
+<!-- script for pubnub counter highlighter <script src="/files/js/jquery.animate-colors.js"> </script>
+<script src="/files/js/jquery.animate-colors-min.js"></script>
+            <script language="javascript">
+			 	function fader(){
+						$('#dl_count').css('background-color', '#B4EDA4').animate({backgroundColor: '#FFFFFF'}, 900);
+					}
+				
+					$(document).ready(function() {
+						fader();	
+					});	
+			</script>-->
+
+
+<!--script type="text/javascript" src="/files/js/loadExternalPage.js"></script>
+<script type="text/javascript" src="/files/js/lightbox/prototype.js"></script>
+<script type="text/javascript" src="/files/js/lightbox/scriptaculous.js?load=effects,builder"></script-->
+
+
+
+
+<!-- InstanceEndEditable -->
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body data-twttr-rendered="true">
+<!-- HEADER -->
+<div id="header">
+	<div class="container">
+		<div id="logo" onclick="location.href='/';" title="Goto Homepage">
+		</div>
+		<div id="links">
+				 <a href="http://clipyourphotos.com/about">About</a><!--sup id="new-superscript-text">new!</sup-->
+		 • <a id="l_header_twitter" href="http://twitter.com/clipyourphotos">Twitter</a>
+		 • <a id="l_header_blog" href="http://clipyourphotos.com/blog">Blog</a>
+		 • <a href="http://clipyourphotos.com/feedback" style="color: rgb(153, 0, 0);"><strong>Feedback</strong></a></div>
+	</div>
+</div>
+<!-- END HEADER --> 
+
+<!-- CONTENT -->
+<div id="content">
+	<div class="container">
+		<div id="content-wrapper">
+			<div id="breadCrumb">← <a href="http://clipyourphotos.com/?ref=breadCrumb" title="ClipYourPhotos homepage">Home</a> › Bulkr</div>
+			<!-- InstanceBeginEditable name="Main_content" -->
+            
+            <!--script src='/files/js/Snowfall/snowfall.js'></script>
+            <script>
+			snowFall.snow(document.body, {round : true, minSize: 2, maxSize:5, flakeCount:50});
+            </script-->
+            
+ 			            
+            <div style="top: 25%; left: 10px; display: none;" class="download-pop-cmp" id="download_notification">
+                <div class="download-pop-container download-pop-shadow">
+                    <div class="download-pop-icon download-pop-icon-img"></div>
+                    <div class="download-pop-msg">6,560 photos were downloaded with Bulkr in the last 1 hour!</div>
+                    <div class="download-pop-close"><a href="#" onclick="hideDownloadInfoDiv()"><img onclick="hideDownloadInfoDiv" src="popup_download_info_close.png" height="15px" width="15px"></a></div>
+                </div>
+            </div>
+            
+            <!-- The script below shows/hides the notification bar as per date spcecified -->
+          		   
+			<div id="bulkr-v1" class="clearfix">
+				<div class="left" style="padding-top: 0px;">
+					<div class="intro">
+						<h1 style="line-height: 35px; background-image: url('simple-title-bckg.png'); padding-top: 15px; padding-bottom: 15px;">Photo download made simple.</h1>
+						<div style="width: 315px; padding-left: 5px;">
+							<h2>Bulkr is a desktop app to
+                              <p><span class="text-high">backup</span>, <span class="text-high">browse</span> &amp; <span class="text-high">download</span></p> 
+					      photos &amp; videos on Flickr. Install it <span style="color: rgb(51, 204, 0);"><b>free</b></span>.</h2>
+						</div>
+                        
+						<div class="install">
+						<div id="air-badge"><embed type="application/x-shockwave-flash" src="airinstallbadge-v1.swf" style="undefined" id="undefined" name="undefined" bgcolor="#FFFFFF" quality="high" flashvars="airversion=2.0&amp;appname=Bulkr&amp;appurl=http://clipyourphotos.com/files/downloads/bulkr/bulkr-1.7.air&amp;pubid=FBAB9E68ED32BC183252F597C39DBF71CF315A79.1&amp;image=/files/bulkr/air_badge.jpeg&amp;appid=com.prakaz.project.photogettr&amp;appversion=1.7&amp;titlecolor=#66FF00&amp;buttonlabelcolor=#ffffff&amp;str_install=INSTALL%20NOW" height="180" width="315"></div>
+							 
+						</div>
+						<div style="padding-bottom: 12px; font-size: 11px;">
+							<div style="padding-right: 0px;">
+                         					   		<strong><a href="http://clipyourphotos.com/bulkr/release-notes">v1.7</a></strong> (1.38 MB). <strong><span id="installation-problem-txt">Problem installing?</span> <a href="http://clipyourphotos.com/bulkr/manual">Click Here</a></strong>
+                                                  	<!--strong><a href="/bulkr/release-notes">v1.6</a></strong> (1.38 MB). <strong><font >Problem installing?</font> <a href="/bulkr/manual">Click Here</a></strong-->
+                        	 <!--strong>version <a href="/bulkr/release-notes">1.6</a></strong> (1.38 MB).  <a href="/bulkr/manual">Manual install</a-->
+                                                 </div>
+                        <div style="padding-right: 0px;"></div>
+							<p></p>
+						</div>
+                        <div style="padding-top: 5px; font-size: 15px; font-weight: bold;"> Do more with <a href="http://clipyourphotos.com/bulkr/pro">Bulkr PRO</a>!<a href="http://clipyourphotos.com/bulkr/pro"></a></div>
+						<!--<div style="padding-left:55px;"> <a href="/bulkr/pro"><img src="../../files/images/bulkr/bulkr_button_purachase.jpg" alt="Bulkr PRO" width="222" height="49" title="Bulkr PRO"/></a></div>-->
+					</div>
+				</div>
+				<div class="gradient_div" style="height: 520px;"> <img src="bulkr_divider_gradient.jpg" height="100%" width="36"> </div>
+				<div class="right" style="padding-top: 5px;">
+					<div style="height: 50px; padding-left: 35px; padding-bottom: 7px;">
+						<div style="float: left; padding-top: 8px;"> <img src="bulkr_logo.jpg" alt="Bulkr Logo" title="Bulkr Logo" height="43" width="128"> </div>
+						<div style="float: right; height: 30px; padding-top: 25px; padding-right: 25px;">
+                        <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="index_1.html" name="I0_1411564593876" id="I0_1411564593876" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%"></iframe></div>
+						<iframe style="width: 109px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" src="index_2.html" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe>
+							<!--script type="text/javascript">tweetmeme_style = 'compact';tweetmeme_url = 'http://clipyourphotos.com/bulkr';</script><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script-->
+						  <iframe src="index_3.html" scrolling="No" style="border: medium none; overflow: hidden; width: 100px; height: 21px;" allowtransparency="true" frameborder="0"></iframe>
+							<!--a name="fb_share" type="button" share_url="http://clipyourphotos.com/bulkr" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script-->                             
+						</div>
+					</div>
+					<p><img src="screenshot.png" alt="Bulkr screenshot" title="Bulkr screenshot" height="336" width="452"></p>
+					<div id="counter">
+						<!--p style="letter-spacing:0"><span id="dl_count" class="text-high" style="margin-right:5px;">244,064,379</span> <span>photos downloaded!</span></p-->
+						<div id="numbers" style="float: left; width: 180px; margin-left: 35px; padding-right: 5px; text-align: right;"><span id="dl_count">244,064,379</span></div>
+						<div style="text-align: left;">photos downloaded!</div>
+                        <p id="download_text">That's more than <span class="text-high" style="color: rgb(85, 85, 85);"><strong><span id="mil">244</span> million</strong></span> photos!</p>
+					</div>
+				</div>
+				<div class="divider"></div>
+				<div class="left" style="text-align: left;"><img src="bulkr_title_features.jpg" alt="features" height="52" width="141">
+					<div class="header_gap"></div>
+					<div class="features">
+						<ul>
+							<li><span class="text-high"><strong>Backup</strong></span> your   photostream &amp; <span class="text-high"><strong>videos</strong></span> with a click</li>
+							<li>Download Flickr <span class="text-high"><strong>videos</strong></span></li>
+							<li>Download your or any user's <span class="text-high"><strong>sets</strong> (albums)</span></li>
+							<li>Download photos in 4 different sizes</li>
+							<li style="font-size: 13px;"><strong><span class="text-high">Write title, tags, description, geotag</span> to EXIF(XMP)</strong></li>
+							<li>Preview images before download</li>
+							<li><span class="text-high"><strong>Auto resume download</strong></span> if connection breaks</li>
+							<li><span class="text-high">Download <strong>creative commons</strong></span> photos &amp; <span class="text-high"><strong>videos</strong></span>- <br>
+								up to 500 at a go from:
+<ul>
+									<li>Flickr search</li>
+									<li>Your photostream</li>
+									<li>User's photostream or set (album)</li>
+									<li>Your favorites</li>
+									<li>Any Flickr group<br>
+									</li>
+									<li>Explored photos</li>
+								</ul>
+								<br>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="gradient_div" style="height: 445px;"> <img src="bulkr_divider_gradient.jpg" height="100%" width="36"> </div>
+				<div class="right"><img src="bulkr_title_video.jpg" alt="Video on Bulkr by Tekzilla" height="52" width="378">
+					<div class="header_gap"></div>
+					<iframe type="text/html" src="index_4.html" frameborder="0" height="300" width="440"></iframe>
+                    <!--
+Create an empty div where the video will live.
+Note the video ID is added at the end to prevent conflicts
+  and allow multiple videos being tracked.
+-->
+<!--div id="player_M9oPjIzb0bk"></div!-->
+ 
+<!-- Include the YouTube JS API -->
+<!--script type='text/javascript'
+  src='http://www.youtube.com/player_api'></script>
+<script>
+  var players = [];
+   
+  /** 
+   * Helper function for loading KM trackable videos.
+   * 
+   * id     - The YouTube video ID
+   * width  - The player width
+   * height - The player height
+   * name   - The name of the video. This can be anything and
+       will be appended to the event logged in KM.
+   */
+  function loadKMTrackedVideo (id, width, height, name)
+  {
+    players[id] = new YT.Player('player_' + id, {
+      videoId: id,
+      width: width,
+      height: height,
+      events: { onStateChange: function (event)
+      {
+        switch(event.data)
+        {
+          case YT.PlayerState.PLAYING:
+            return _kmq.push(
+              ['record', 'BULKR HOMEPAGE - Played ~ ' + name]);
+          case YT.PlayerState.PAUSED:
+            return _kmq.push(
+              ['record', 'BULKR HOMEPAGE - Paused ~ ' + name]);
+          case YT.PlayerState.ENDED:
+            return _kmq.push(
+              ['record', 'BULKR HOMEPAGE - Finished Playing ~  ' + name]);
+        }
+      }}
+    });
+  }
+   
+  /**
+   * When the Youtube API is ready start loading in our
+     KM trackable videos
+   */
+  function onYouTubePlayerAPIReady ()
+  {
+    loadKMTrackedVideo('M9oPjIzb0bk', 440, 278, 'Tekzilla Bulkr video');
+  }
+ 
+</script-->
+
+					<!--object width="440" height="278">
+						<param name="movie" value="http://www.youtube-nocookie.com/v/M9oPjIzb0bk&amp;hl=en_US&amp;fs=1?rel=0" />
+						<param name="allowFullScreen" value="true" />
+						<param name="allowscriptaccess" value="always" />
+						<embed src="http://www.youtube-nocookie.com/v/M9oPjIzb0bk&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="440" height="278"></embed>
+					</object-->
+		    </div>
+				<div class="divider"></div>
+				<div class="left"> <!--img src="../../files/images/bulkr/bulkr_title_featured.jpg" width="170" height="50" alt="promo" /-->
+					<div class="header_gap"></div>
+					<div style="padding-left: 70px; text-align: left;">
+                    <img src="adobe_bulkr.jpg" alt="Recommended by Adobe" title="Recommended by Adobe" height="85" width="199">
+                    <img src="tedx_bulkr.jpg" alt="Used by TEDx" title="Used by TEDx" height="57" width="199">
+                    <img src="obama_bulkr.jpg" alt="Used by Obama Administration" title="Used by Obama Administration" height="72" width="199">
+					<img src="dos_bulkr.jpg" alt="Used by United States Department of State" title="Used by United States Department of State" height="64" width="199">
+                    <img src="tekzilla_bulkr.jpg" alt="Recommended by tekzilla.com" title="Recommended by tekzilla.com" height="64" width="199">
+                    <img src="lifehacker_bulkr.jpg" alt="Recommended by lifehacker.com" title="Recommended by lifehacker.com" height="62" width="199">
+                    <img src="dsquad_bulkr.jpg" alt="Recommended by downloadsquad.com" title="Recommended by downloadsquad.com" height="61" width="199">
+                    <!--img src="/files/images/bulkr/softonic_bulkr.jpg" alt="Recommended by softonic.com" title="Recommended by softonic.com" width="199" height="53" /-->
+                    <img src="makeuse_bulkr.jpg" alt="Recommended by makeuseof.com" title="Recommended by makeuseof.com" height="56" width="199"> 
+                    <!--img src="../../files/images/bulkr/adobe.jpg" width="216" height="78" alt="Recommended by Adobe" />
+                    <img src="../../files/images/bulkr/tedx.jpg" width="208" height="69" alt="Used by TEDx" />
+                    <img src="../../files/images/bulkr/obama.jpg" width="208" height="84" alt="Used by OBAMA Administration" />
+                    <img src="../../files/images/bulkr/lifehacker.jpg" width="216" height="74" alt="Recommended by lifehacker.com" />
+                    <img src="../../files/images/bulkr/tekzilla.jpg" width="216" height="70" alt="Recommended by tekzilla.com" />
+                    <img src="../../files/images/bulkr/downloadsquad.jpg" width="216" height="79" alt="Recommended by downloadsquad.com" />
+                    <img src="../../files/images/bulkr/softonic.jpg" width="216" height="65" alt="Recommended by softonic.com" />
+                    <img src="../../files/images/bulkr/makeuseof.jpg" width="216" height="63" alt="Recommended by makeuseof.com" /-->
+						<!--div style="width:215px;text-align:center;padding-top:30px">
+							and <a href="http://blogsearch.google.com/blogsearch?hl=en&amp;ie=UTF-8&amp;q=bulkr&amp;btnG=Search+Blogs">hundreds of blogs</a>
+						</div-->
+					
+			
+					</div>
+				</div>
+				<div class="gradient_div" style="height: 640px;"> <img src="bulkr_divider_gradient.jpg" alt="" height="100%" width="36"> </div>
+				<div class="right"><img src="bulkr_title_testimonial.jpg" alt="testimonials" height="50" width="338">
+					<div class="header_gap"></div>
+					<div style="padding-left: 15px;">
+						<div class="testimonial">
+							<table border="0" width="414">
+								<tbody><tr>
+									<td height="48" valign="top" width="34"><img src="quote_start.png" height="19" width="23"></td>
+									<td width="40"><img src="46779423@n02.jpg" height="30" width="30"></td>
+									<td colspan="2" align="left"><h4>Brilliant, so easy to install and use. </h4>
+										<h4>Does exactly what it says on the tin!&nbsp;</h4></td>
+								</tr>
+								<tr>
+									<td height="36">&nbsp;</td>
+									<td>&nbsp;</td>
+									<td align="right" width="277"><em>Lou Weez</em></td>
+									<td align="right" width="45"><img src="quote_end.png" height="27" width="35"></td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div class="testimonial">
+							<table border="0" width="414">
+								<tbody><tr>
+									<td height="48" valign="top" width="34"><img src="quote_start.png" height="19" width="23"></td>
+									<td width="40"><img src="23663448@n08.jpg" height="30" width="30"></td>
+									<td colspan="2" align="left"><h4>This app is the best. </h4>
+										<h4>The tool every flick user should have. </h4></td>
+								</tr>
+								<tr>
+									<td height="36">&nbsp;</td>
+									<td>&nbsp;</td>
+									<td align="right" width="277"><em>David Wolf</em></td>
+									<td align="right" width="45"><img src="quote_end.png" height="27" width="35"></td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div class="testimonial">
+							<table border="0" width="414">
+								<tbody><tr>
+									<td height="48" valign="top" width="34"><img src="quote_start.png" height="19" width="23"></td>
+									<td width="40"><img src="56682442@n00.jpg" height="30" width="30"></td>
+									<td colspan="2" align="left"><h4>It's the only app I tried for downloading 10,000 <br>
+											full-size photos that didn't crash on me.</h4></td>
+								</tr>
+								<tr>
+									<td height="36">&nbsp;</td>
+									<td>&nbsp;</td>
+									<td align="right" width="277"><em>Peter Van Dijck</em></td>
+									<td align="right" width="45"><img src="quote_end.png" height="27" width="35"></td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div class="testimonial">
+							<table border="0" width="414">
+								<tbody><tr>
+									<td height="48" valign="top" width="34"><img src="quote_start.png" height="19" width="23"></td>
+									<td width="40"><img src="29163397@n05.jpg" height="30" width="30"></td>
+									<td colspan="2" align="left"><h4>I've been using this app for about 5 minutes and <br>
+											I wish I'd been using it for 5 years! Brilliant!</h4></td>
+								</tr>
+								<tr>
+									<td height="36">&nbsp;</td>
+									<td>&nbsp;</td>
+									<td align="right" width="277"><em>Aitenuk</em></td>
+									<td align="right" width="45"><img src="quote_end.png" height="27" width="35"></td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</div>
+				<div class="divider"></div>
+                <!--div style="clear:both; height:90px; width:800px; margin-left:100px; margin-bottom:20px;margin-top:30px">
+					<script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-1142020175132399";
+                    /* clipYourPhotos */
+                    google_ad_slot = "6874701510";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                    //"--">
+                    </script>
+                    <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>
+				</div-->
+				<div style="text-align: center; padding-top: 10px;"><a href="#">Back to top</a> ↑</div>
+							</div>
+		
+		
+
+        
+
+			<!-- InstanceEndEditable --> </div>
+	</div>
+</div>
+<!-- END CONTENT --> 
+
+<!-- FOOTER -->
+
+<div id="footer">
+	<div class="container"><!--img src="/files/images/nuts_and_bolts/footer_promo.jpg" width="911" height="73" border="0" usemap="#Map_footer" /-->
+		<map name="Map_footer" id="Map_footer"><area shape="circle" coords="741,36,26" href="http://twitter.com/clipyourphotos" target="_top" title="Follow us on Twitter">
+		<area shape="circle" coords="686,37,26" title="Get email updates" href="javascript:emailSubscription();">
+			<area shape="circle" coords="631,39,26" href="http://feeds.feedburner.com/clipyourphotos" title="Subscribe to RSS feed">
+		</map><br>© 2014 ClipYourPhotos.com. This site uses the Flickr API but is not endorsed or certified by Flickr.</div>
+</div>
+
+
+
+
+<link rel="shortcut icon" href="favicon_t.ico"> <!-- END FOOTER -->
+
+
+
+
+
+<iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="index_5.html" id="oauth2relay537022692" name="oauth2relay537022692"></iframe></body>
+</html>

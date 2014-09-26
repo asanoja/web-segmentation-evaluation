@@ -1,0 +1,48 @@
+html, body { margin: 0px; padding: 0px; min-height: 100%; }
+body { position: fixed; top: 0px; left: 0px; width: 100%; font: 600 12px/20px "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif; background: none repeat scroll 0% 0% transparent; visibility: visible; opacity: 1; }
+body { -moz-user-select: none; }
+a { text-decoration: none; color: rgb(68, 68, 68); }
+p { margin: 0px; }
+.x { display: block; position: absolute; top: 50%; right: 0px; width: 14px; height: 14px; margin-top: -7px; margin-right: 10px; font-family: arial,sans-serif; font-size: 24px; font-weight: bolder; text-align: center; line-height: 14px; cursor: pointer; }
+.button { display: block; position: absolute; top: 50%; right: 0px; margin: -15px 10px 0px 0px; height: 29px; padding: 0px 10px; font-family: "Helvetica Neue",Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-size: 13px; line-height: 29px; font-weight: bold; text-decoration: none; border-radius: 2px; background-color: rgb(172, 179, 187); -moz-user-select: none; cursor: pointer; background-clip: padding-box; }
+.button:active { color: rgba(255, 255, 255, 0.8); }
+.button.follow:active:before, .button:active .logo { opacity: 0.8; }
+.button:active { box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2) inset; }
+.button.blue { background-color: rgb(85, 159, 202); }
+.button.follow { padding-left: 28px; }
+.button.follow:before { display: block; position: absolute; top: 0px; left: 6px; content: ""; font-size: 18px; font-family: 'tumblr-icons','Blank'; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; }
+.clearfix:after { content: ""; display: block; clear: both; }
+.iframe_controls { position: absolute; top: 0px; left: 0px; margin: 5px; padding: 0px; border-radius: 3px; white-space: nowrap; min-width: 300px; max-width: 500px; min-height: 96px; overflow: hidden; }
+.iframe_controls.closed { left: 100%; }
+.iframe_controls .title_bar { position: relative; font-size: 15px; line-height: 28px; height: 28px; padding: 5px 10px; border-bottom: 1px solid transparent; }
+.iframe_controls .content { position: relative; height: 57px; }
+.avatar { display: block; position: absolute; top: 50%; left: 0px; margin: -19px 10px 10px; width: 38px; height: 38px; border-radius: 2px; background-size: cover; }
+.avatar:after { content: ""; display: block; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 2px; box-sizing: border-box; }
+.avatar img { display: none; width: 100%; height: 100%; }
+.blog_name_title { display: block; padding: 10px 100px 10px 60px; line-height: 18px; }
+.blog_name { display: block; font-size: 14px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.blog_title { display: block; font-size: 14px; white-space: nowrap; font-weight: normal; overflow: hidden; text-overflow: ellipsis; }
+.iframe_controls { background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.73); box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3); }
+.iframe_controls .blog_name_title { color: rgba(0, 0, 0, 0.73); }
+.iframe_controls .title_bar { background-color: rgb(255, 255, 255); border-bottom-color: rgba(0, 0, 0, 0.1); }
+.blog_name { color: rgba(0, 0, 0, 0.73); }
+.blog_title { color: rgba(0, 0, 0, 0.47); }
+.x { color: rgba(0, 0, 0, 0.26); }
+body { transition: opacity 0.3s ease-in-out 0.2s; }
+.iframe_controls { transition: left 0.3s ease-in-out 0s; }
+@font-face {
+	font-family: "Blank";
+	src: url('undefined');
+}
+@font-face {
+	font-family: "tumblr-icons";
+	font-style: normal;
+	font-weight: normal;
+	src: url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6_002.eot') format("embedded-opentype"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6_002.woff') format("woff"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6_002.ttf') format("truetype"), url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6_002.svg') format("svg");
+}
+@media not all {
+	@font-face {
+	font-family: "tumblr-icons";
+	src: url('tumblr-icons_e55f5cc6b14ebd990908c0a9d8db91f6_002.svg') format("svg");
+}
+}

@@ -1,0 +1,10 @@
+/* ::::: http://www.eweek.com/css/daily_tech_briefing.css ::::: */
+
+#right_rail_video_widget_container { width: 298px; border: 1px solid rgb(153, 153, 153); padding: 0px; margin: 15px 0px; background-color: rgb(246, 246, 246); }
+#right_rail_video_widget_container #video_tabs-1 { border: 1px solid rgb(221, 221, 221); }
+#right_rail_video_widget_container #video_tabs-1 div { border: 1px solid rgb(221, 221, 221); margin: 5px; padding: 2px; background-image: url('tab_item_bg.gif'); background-repeat: repeat-x; background-position: left bottom; border-radius: 2px; font-weight: bold; font-size: 11px; line-height: 15px ! important; text-align: left; clear: both; color: rgb(102, 102, 102); }
+#right_rail_video_widget_container #video_tabs-1 div .headline { font-weight: normal; }
+#right_rail_video_widget_container #video_tabs-1 div p { font-size: 11px; line-height: 15px ! important; font-weight: bold; margin: 0px; text-align: left; }
+#right_rail_video_widget_container #video_tabs-1 div:hover { background-color: rgb(24, 62, 122); background-image: url('@22@22'); color: rgb(255, 255, 255); cursor: pointer; }
+#right_rail_video_widget_container #video_tabs-1 div:hover p { color: rgb(255, 255, 255); }
+#right_rail_video_widget_container #sp_logo { background-color: rgb(255, 255, 255); width: 298px; }

@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; background: none repeat scroll 0% 0% transparent; }
+body { line-height: 1; }
+ul {  }
+:focus { outline: 0px none; }
+html[xmlns] .clearfix { display: block; }
+.clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.no-display { display: none ! important; }
+.wrap { width: 100%; clear: both; }
+.main { width: 980px; max-width: 1200px; margin: 0px auto; position: relative; }
+.column { overflow: hidden; float: left; }
+.main .inner { padding-left: 15px; padding-right: 15px; }
+.column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module { margin-left: 15px; margin-right: 15px; }
+#ja-mainbody { float: left; }
+#ja-current-content, #ja-main { float: right; }
+.ja-colswrap {  }
+.ja-col {  }
+#ja-right, .ja-inset2 { float: right; }
+#ja-right .ja-r1 .ja-col { width: 100%; }
+#ja-header {  }
+#ja-footer { clear: both; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Helvetica,Arial,sans-serif; line-height: 1.5; }
+body#bd { background: none repeat scroll 0% 0% rgb(21, 21, 21); color: rgb(150, 150, 150); }
+body.fs3 { font-size: 12px; }
+a { color: rgb(253, 164, 10); text-decoration: none; }
+a:hover, a:active, a:focus { text-decoration: underline; }
+.column p, .column pre, .column blockquote, .column h1, .column h2, .column h3, .column h4, .column h5, .column h6, .column ol, .column ul { margin: 10px 0px; padding: 0px; }
+h1 { font-size: 180%; }
+h2 { font-size: 200%; }
+h3 { font-size: 200%; }
+.contentheading, .componentheading, h1, h2, h3, h4, h5 { font-family: Georgia,"Times New Roman",Times,serif; font-weight: normal; line-height: 1.2; }
+h2.contentheading, .contentheading { margin: 0px; padding: 0px; }
+.contentheading { font-size: 200%; }
+h2.contentheading { color: rgb(255, 255, 255); margin-top: 10px; font-weight: 500; background: url('icon-line-grey.gif') no-repeat scroll left bottom transparent; padding: 0px 0px 10px; }
+small, .small, .smalldark, .modifydate, .img_caption, .contenttoc, p.site-slogan, a.readon, .ja-navhelper, #ja-footer { font-size: 92%; }
+small, .small { color: rgb(153, 153, 153); }
+.column ul li { background: url('bullet3.gif') no-repeat scroll 20px 7px transparent; line-height: 160%; overflow: hidden; padding-left: 30px; }
+.article-tools { clear: both; color: rgb(153, 153, 153); display: block; line-height: normal; margin: 10px 0px 5px; padding: 0px; position: relative; text-transform: uppercase; font-size: 92%; }
+.article-meta { float: left; padding: 0px; width: 70%; }
+.buttonheading { float: right; }
+.buttonheading img { border: 0px none; float: right; margin: 0px 5px 0px 0px; }
+div.ja-moduletable h3, div.moduletable h3 { background: url('icon-line-grey.gif') no-repeat scroll left bottom transparent; padding: 0px 0px 10px; color: rgb(255, 255, 255); font-size: 179%; font-weight: normal; }
+div.ja-moduletable h3 span {  }
+div.ja-moduletable, div.moduletable { margin-bottom: 5px; position: relative; overflow: hidden; }
+div.ja-moduletable .ja-box-ct, div.moduletable .ja-box-ct {  }
+div.ja-moduletable ul, div.ja-module ul { margin: 0px; padding-top: 10px; padding-bottom: 20px; }
+div.ja-moduletable ul li, div.ja-module ul li { background: url('bullet.gif') no-repeat scroll 7px 8px transparent; padding-left: 15px; }
+.wrap {  }
+.main {  }
+#ja-wrapper { overflow: hidden; }
+#ja-container { position: relative; z-index: 5; border-top: 1px solid rgb(37, 37, 37); border-bottom: 1px solid rgb(37, 37, 37); background-color: rgb(28, 28, 28); padding: 20px 0px; }
+#ja-container {  }
+#ja-container .ja-r1 {  }
+#ja-container.ja-r1 .main { background: url('grad5.gif') repeat-y scroll 715px 0% transparent; }
+#ja-container.ja-r1 #ja-main .inner { padding-right: 45px; }
+#ja-mainbody {  }
+#ja-main {  }
+#ja-main .inner {  }
+#ja-mainbody {  }
+#ja-main {  }
+.ja-content-main { padding: 0px; }
+.ja-colswrap {  }
+.ja-col {  }
+#ja-header { background-color: rgb(32, 32, 32); border-bottom: 1px solid rgb(21, 21, 21); }
+#ja-header .main { height: 95px; position: relative; }
+h1.logo, div.logo-text h1 { font-size: 250%; line-height: 1; }
+h1.logo, div.logo-text { float: left; z-index: 1; }
+h1.logo { margin: 30px 0px 0px 15px; }
+h1.logo a { background: url('logo.png') no-repeat scroll left center transparent; display: block; height: 48px; width: 231px; }
+h1.logo a span { position: absolute; top: -1000px; }
+#ja-mainnav { line-height: 1; position: relative; z-index: 1000; float: right; background: url('mainnav-bg.gif') repeat-x scroll left top transparent; border-bottom: 1px solid rgb(0, 0, 0); }
+span.menu-title { display: block; }
+.ja-navhelper { background-color: rgb(21, 21, 21); border-top: 1px solid rgb(16, 16, 16); border-bottom: 1px solid rgb(16, 16, 16); }
+.ja-navhelper .main { padding: 8px 0px; }
+.ja-navhelper a { padding: 0px 2px; color: rgb(253, 164, 10); text-decoration: none; }
+.ja-navhelper a:hover, .ja-navhelper a:active, .ja-navhelper a:focus { color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(253, 164, 10); }
+.ja-breadcrums { float: left; margin-top: 2px; width: 80%; }
+.ja-breadcrums strong { margin-right: 5px; }
+.ja-breadcrums img { margin: 1px 5px; }
+.pathway { color: rgb(253, 164, 10); font-weight: bold; }
+.ja-breadcrums img { display: none; }
+.ja-breadcrums a { padding-right: 20px; background: url('arrow-01.png') no-repeat scroll 95% 4px transparent; }
+.ja-links { float: right; margin-top: 2px; }
+.ja-links li { background: none repeat scroll 0% 0% transparent; padding: 0px; display: inline; }
+.ja-links li.top a { background: url('arrow2.png') no-repeat scroll 5px center transparent; padding-left: 17px; padding-right: 5px; }
+.ja-links li.top a:hover {  }
+#ja-footer { clear: both; background-color: rgb(32, 32, 32); border-top: 4px solid rgb(48, 48, 48); }
+#ja-footer .main { color: rgb(102, 102, 102); position: relative; padding: 15px 0px 5px; }
+#ja-footer .inner { clear: both; }
+#ja-footer .ja-copyright {  }
+#ja-footer small { color: rgb(117, 117, 117); font-size: 100%; }
+#ja-poweredby { float: right; }
+#ja-footer .ja-footnav { font-size: 100%; }
+.ja-copyright small { display: block; }
+#ja-hot-news { background-color: rgb(21, 21, 21); border-bottom: 1px solid rgb(0, 0, 0); padding-top: 5px; }
+.article-content { text-align: justify; }
+ul.checklist li, ul.star li, ul.arrow li, ul.address li, ul.phone li, ul.email li { background: none repeat scroll 0% 0% transparent ! important; margin-left: 8px; padding: 0px 0px 0px 22px; position: relative; overflow: hidden; }
+ul.checklist span.icon, ul.star span.icon, ul.arrow span.icon, ul.address span.icon, ul.phone span.icon, ul.email span.icon { background-image: url('icons-sprites-silk.png'); background-repeat: no-repeat; width: 18px; height: 18px; display: block; position: absolute; top: 0px; left: 0px; }
+ul.arrow span.icon { background-position: left top; }
+.ja-megamenu { margin: 0px; padding: 0px; }
+ul.megamenu { margin: 10px; }
+ul.level0 { margin: 0px; padding: 0px; }
+ul.level0 li.mega { margin: 0px; padding: 0px; float: left; display: block; background: none repeat scroll 0% 0% transparent; cursor: pointer; }
+ul.level0 li.mega a.mega { font-size: 100%; padding: 20px 15px 15px; display: block; color: rgb(117, 117, 117); font-weight: bold; line-height: normal; text-decoration: none; cursor: pointer; }
+ul.level0 li.mega a.last {  }
+ul.level0 li.mega span.menu-title { display: block; }
+ul.level0 li.haschild a.mega span.menu-title, ul.level0 li.haschild-over a.mega span.menu-title { background: url('arrow3.png') no-repeat scroll left center transparent; padding-left: 12px; }
+ul.level0 li.active {  }
+ul.level0 li.mega a:hover, ul.level0 li.mega a:active, ul.level0 li.mega a:focus, ul.level0 li.mega a.sfhover { color: rgb(197, 197, 197); }
+ul.level0 li:hover, ul.level0 li.sfhover, ul.level0 li.over, ul.level0 li.havechildsfhover, ul.level0 li.havechild-activesfhover { background: url('mainnav-hover.gif') repeat-x scroll left 5px transparent; }
+ul.level0 li.mega a.active, ul.level0 li.mega a.active:hover, ul.level0 li.mega a.active:active, ul.level0 li.mega a.active:focus { background-color: rgb(48, 48, 48); background-image: none; color: rgb(197, 197, 197); }
+.ja-megamenu li.mega .childcontent { display: block; height: auto; position: absolute; }
+.ja-megamenu li.mega .childcontent, .ja-megamenu li.haschild-over li.mega .childcontent, .ja-megamenu li.mega li.haschild-over li.mega .childcontent, .ja-megamenu li.mega li.mega li.haschild-over li.mega .childcontent, .ja-megamenu li.mega li.mega li.mega li.haschild-over li.mega .childcontent, .ja-megamenu li.mega li.mega li.mega li.mega li.haschild-over li.mega .childcontent { left: -999em; }
+ul.level1 li.mega { float: none; }
+.megacol { float: left; }
+ul.level1 li.mega { border-top: 1px dotted rgb(48, 48, 48); }
+ul.level1 li.first { border-top: 0px none; }
+ul.level0 li.mega ul.level1 li.mega a.mega { border: 0px none; font-weight: normal; margin: 0px; padding: 0px 5px; line-height: 27px; }
+ul.level0 li.mega ul.level1 li:hover, ul.level0 li.mega ul.level1 li.sfhover, ul.level0 li.mega ul.level1 li.over, ul.level0 li.mega ul.level1 li.havechildsfhover, ul.level0 li.mega ul.level1 li.havechild-activesfhover { background-image: none; }
+ul.level1 li.mega a.mega span.menu-title { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+ul.level1 li.active a.active { color: rgb(197, 197, 197) ! important; }
+.childcontent { z-index: 999; }
+.childcontent-inner { background: none repeat scroll 0% 0% rgb(16, 16, 16); border: 1px solid rgb(32, 32, 32); color: rgb(117, 117, 117); }
+ul.level1 li.mega a.over, ul.level1 li.mega a.active { border-bottom: 0px none; }
+/* ::::: http://egyweb.com/new2/images/light-theme.css ::::: */
+
+body#bd { color: rgb(53, 53, 53); background-color: rgb(255, 255, 255); }
+#ja-hot-news { background-color: rgb(53, 53, 53); color: rgb(117, 117, 117); }
+#ja-header { background-color: rgb(248, 248, 248); border-bottom: 1px solid rgb(187, 187, 187); }
+#ja-mainnav { background-image: url('mainnav-bg_001.gif'); border-bottom: 1px solid rgb(255, 255, 255); }
+ul.level0 li.haschild a.mega span.menu-title, ul.level0 li.haschild-over a.mega span.menu-title { background-image: url('arrow3_001.png'); }
+ul.level0 li.mega ul.level1 li:hover, ul.level0 li.mega ul.level1 li.sfhover, ul.level0 li.mega ul.level1 li.over, ul.level0 li.mega ul.level1 li.havechildsfhover, ul.level0 li.mega ul.level1 li.havechild-activesfhover { background-image: none; }
+ul.level1 li.mega a.mega span.menu-title { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+ul.level1 li.mega { border-top: 1px dotted rgb(204, 204, 204); }
+ul.level1 li.active a.active { color: rgb(53, 53, 53) ! important; }
+.childcontent-inner { background: none repeat scroll 0% 0% rgb(248, 248, 248); border: 1px solid rgb(221, 221, 221); color: rgb(117, 117, 117); }
+ul.level0 li.mega a:hover, ul.level0 li.mega a:active, ul.level0 li.mega a:focus, ul.level0 li.mega a.sfhover { color: rgb(53, 53, 53); }
+ul.level0 li:hover, ul.level0 li.sfhover, ul.level0 li.over, ul.level0 li.havechildsfhover, ul.level0 li.havechild-activesfhover { background-color: rgb(229, 229, 229); background-image: none; }
+ul.level0 li.mega a.active, ul.level0 li.mega a.active:hover, ul.level0 li.mega a.active:active, ul.level0 li.mega a.active:focus { color: rgb(53, 53, 53); background-color: rgb(229, 229, 229); background-image: none; }
+ul.level1 li.mega a.over, ul.level1 li.mega a.active { border-bottom: 0px none; }
+ul.level1 li.first { border-top: 0px none; }
+#ja-container { border: 0px none; background-color: rgb(255, 255, 255); }
+h2.contentheading { color: rgb(53, 53, 53); background-image: url('icon-line-grey_001.gif'); }
+div.ja-moduletable h3, div.moduletable h3 { color: rgb(16, 16, 16); background-image: url('icon-line-grey_001.gif'); }
+#ja-container { border: 0px none; }
+.ja-navhelper { background-color: rgb(248, 248, 248); border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); }
+#ja-container.ja-r1 .main { background-image: url('grad5_001.gif'); }
+.ja-breadcrums a { background-image: url('arrow-01_001.png'); }
+a { color: rgb(240, 136, 25); }
+h1.logo a { background: url('logo.png') no-repeat scroll left center transparent; }
+.ja-navhelper a { color: rgb(34, 57, 108); }
+.ja-navhelper a:hover, .ja-navhelper a:active, .ja-navhelper a:focus { background-color: rgb(54, 113, 147); }
+.ja-links li.top a:hover { color: rgb(240, 136, 25); }
+.pathway { color: rgb(240, 136, 25); }
+.main { width: 980px; }
+#ja-wrapper { min-width: 981px; }
