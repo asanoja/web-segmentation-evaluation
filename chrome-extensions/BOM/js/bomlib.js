@@ -1,15 +1,17 @@
 var tabularList = ["TABLE", "TD"]
 var containerList = ["BODY", "DIV", "UL", "DL", "P", "OBJECT", "IFRAME", "INS"];
-var contentList = ["SPAN", "A", "LI", "DT", "DD", "H1", "H2", "H3", "H4", "H5", "IMG", "INS", "INPUT", "P"];
-var excludeList = ["SCRIPT", "STYLE", "AREA", "HEAD", "META", "FRAME", "FRAMESET", "BR", "HR", "NOSCRIPT"];
+var contentList = ["SPAN", "A", "LI", "DT", "DD", "H1", "H2", "H3", "H4", "H5", "IMG", "INS", "INPUT", "P","PRE","TT"];
+var excludeList = ["SCRIPT", "STYLE", "AREA", "HEAD", "META", "FRAME", "FRAMESET", "BR", "HR", "NOSCRIPT","TITLE"];
 var ignoreList = ["HTML", "TBODY", "TR", "PARAM", "LINK", "COLGROUP"];
 var semanticList = ["SECTION", "HEADER", "FOOTER", "ASIDE", "NAV", "ARTICLE"]
+
+var sortedList = [];
 
 var gridRows = 20; //horizontal partition grid
 var gridCols = 10; //vertical partition grid
 var grid;
 
-var ac = 5; //0 small blocks <--> 10 big blocks
+var ac = 7; //0 small blocks <--> 10 big blocks
 var dc = 50; //50px max separation distance between blocks for merging process
 var tc = 1; //minimum characters to be consider a valid text element not WS or valid innertext string
 
@@ -19,15 +21,16 @@ var dy = dc; // used to determine labels to logic objects. Using DC parameter as
 var blocks = []; //list of all logic objects (blocks)
 var geoList = []; //list if all geometric objects (content)
 
-var bomversion = "1.1";
+var bomversion = "1.1.1";
 
-var colors = {PAGE: '#FFFF00', CONTAINER: '#34FF00', CONTENT_CONTAINER: '#6FBEE5', CONTENT: 'blue', DEFAULT: 'magenta', TABULAR: 'purple'};
+var colors = {PAGE: '#FFFF00', CONTAINER: '#FF0000', CONTENT_CONTAINER: '#FF0000', CONTENT: 'FF0000', DEFAULT: 'FF0000', TABULAR: 'FF0000'};
 
 var root // DOM top object
 var page; //page logical object
 var georoot; //top content object
 
 var verbose = true; //for debugging. Write DIVS representing blocks  in live web page.
+var debugging = false; //for debugging. Write strings to console.
 var showGrid = false; //if true and verbose=true it allows to show the grid to compute importances
 
 /*
@@ -42,31 +45,42 @@ function startSegmentation(win, pac, pdc, returnType, psourceurl) {
     contentDocument = contentWindow.document;
     ac = pac;
     dc = pdc;
-    debug("Starting with AC:" + ac + ", DC:" + dc + "px, return:" + returnType);
+    output("Starting with AC:" + ac + ", DC:" + dc + "px, return:" + returnType);
     root = contentDocument.getElementsByTagName('BODY')[0];
-    debug("Processing Content Structure");
+    output("Processing Content Structure");
     processContentStructure(root, 0);
-    debug("Processing Geometric Structure");
+    output("Processing Geometric Structure");
     georoot = processGeometricStructure(root, undefined);
-    debug("Pre-processing Logic Structure");
+    output("Pre-processing Logic Structure");
     page = prepareLogicStructure(georoot);
-    debug("Processing Logic Structure");
+    output("Processing Logic Structure");
     processLogicStructureMain(page, 0, 1, undefined);
     buildGrid();
+    output("Processing Importance");
     processImportance(page);
     //clearGrid();
+    output("Setting labels");
+    setLabels(page);
     switch(returnType.toLowerCase()) {
         case "vixml": return(getViXML());break;
         case "wprima": return(getWPrima(page));break;
         case "record": return(getRecord(page,""));break;
+        //~ case "descriptor": return(getDescriptor(page,""));break;
+        case "descriptor": return(getDescriptorSorted(page,""));break;
         default: return(getViXML());break;
     }
-    
-        
-    
-        
 }
 
+
+function setLabels(block) {
+	block.setLabel();
+	for (var i=0;i<block.children.length;i++) {
+		var b = block.children[i];
+		if (b) {
+			setLabels(b);
+		}
+	}
+}
 
 /* escape special characters from link title */
 function code(s) {
@@ -325,7 +339,7 @@ function prepareLogicStructure(go, parent) {
     } else {
         if ((included(go.type, ["PAGE", "CONTAINER", "CONTENT_CONTAINER", "CONTENT", "DEFAULT", "TABULAR"])) && (go.geometry))
         {
-			if ( (go.geometry.x<0 || go.geometry.w<0) || (go.geometry.y<0 || go.geometry.h<0) ) {
+			if ( (go.geometry.x<0 || go.geometry.w<=0) || (go.geometry.y<0 || go.geometry.h<=0) ) {
 			} else {
 				log = createNewLogicalObject(go, parent);
 			}
@@ -343,6 +357,13 @@ function prepareLogicStructure(go, parent) {
  * used for debuging in local javascript console 
  */
 function debug(s) {
+    if (debugging) output(s);
+}
+
+/*
+ * used for output in local javascript console 
+ */
+function output(s) {
     console.log(s);
 }
 
@@ -402,11 +423,12 @@ function getElementIdx(elt)
  * */
 
 function getRect(obj) {
+	if (!obj) return({x: 0, y: 0, w: 10, h: 10,r:10,b:10})
     if (obj.tagName.toUpperCase() == "BODY") {
-        return {x: 0, y: 0, w: documentDim().w, h: documentDim().h}
+        return {x: 0, y: 0, w: documentDim().w, h: documentDim().h,r:documentDim().w,b:documentDim().h}
     } else {
         //~ r=obj.getBoundingClientRect();
-        return {x: $(obj).offset().left, y: $(obj).offset().top, w: $(obj).width(), h: $(obj).height()};
+        return {x: $(obj).offset().left, y: $(obj).offset().top, w: $(obj).width(), h: $(obj).height(),r:$(obj).offset().left+$(obj).width(),b:$(obj).offset().top+$(obj).height()};
     }
 
 }
@@ -633,13 +655,13 @@ function processContentStructure(element, level) {
             span.appendChild(element);
             par.appendChild(span);
             element = span;
-            element.setAttribute("bomtype", "CONTENT");
+            //~ element.setAttribute("bomtype", "CONTENT");
             return;
         }
     }
 
-    if (element.getAttribute("bomtype"))
-        return(false);
+    //~ if (element.getAttribute("bomtype"))
+        //~ return(false);
     if (isExcluded(element))
         return(false);
     if (!visible(element))
@@ -659,7 +681,7 @@ function processContentStructure(element, level) {
 
     var tn = element.tagName;
     var bt = BOMType(element);
-    element.setAttribute("bomtype", bt);
+    //~ element.setAttribute("bomtype", bt);
     for (var i = 0; i < element.childNodes.length; i++) {
         processContentStructure(element.childNodes[i], level + 1);
     }
@@ -693,13 +715,13 @@ function processGeometricObject(element) {
     var bt = BOMType(element);
     var geo;
     if (bt) {
-        element.setAttribute("bomtype", bt);
+        //~ element.setAttribute("bomtype", bt);
         var dim = getRect(element);
         var r = dim.x + " " + dim.y + " " + dim.w + " " + dim.h;
         var a = relativeAreaElement(element);
-        element.setAttribute("bomgeometry", r);
-        element.setAttribute("bomarea", a);
-        element.setAttribute("bomid", "C" + (1000 + Math.random(1000)));
+        //~ element.setAttribute("bomgeometry", r);
+        //~ element.setAttribute("bomarea", a);
+        //~ element.setAttribute("bomid", "C" + (1000 + Math.random(1000)));
         geo = createNewGeometricObject(element, element.parent);
     }
     return(geo);
@@ -707,16 +729,26 @@ function processGeometricObject(element) {
 
 /* process the geometric structure */
 function processGeometricStructure(element, parent) {
-    if (!element)
+    if (!element) {
+		debug(element+" skipped. no element")
         return;
-    if (isWS(element))
+	}
+    if (isWS(element)) {
+		debug(element+" skipped. is WS")
         return(false);
-    if (isComment(element))
+	}
+    if (isComment(element)) {
+		debug(element+" skipped. is comment")
         return(false);
-    if (isText(element))
+	}
+    if (isText(element)) {
+		debug(element+" skipped. is text")
         return(false);
-    if (isExcluded(element))
+	}
+    if (isExcluded(element)) {
+		debug(element+" skipped. is excluded")
         return(false);
+	}
 
     var dim = getRect(element);
     if ((dim.w == 0) && (dim.h == 0)) {
@@ -726,7 +758,9 @@ function processGeometricStructure(element, parent) {
     var geo;
     if (!isIgnored(element)) {
         geo = createNewGeometricObject(element, parent);
-    }
+    } else {
+		debug(element+" skipped. is in ignored list")
+	}
 
     for (var i = 0; i < element.childNodes.length; i++) {
         var child = element.childNodes[i];
@@ -735,7 +769,9 @@ function processGeometricStructure(element, parent) {
                 processGeometricStructure(child, geo);
             else
                 processGeometricStructure(child, parent);
-        }
+        } else {
+			debug(child+" skipped. in geometric structure")
+		}
     }
     return geo;
 }
@@ -894,8 +930,9 @@ function distance(log1, log2) {
 function createNewLogicalObject(geo, parent) {
     var log = new logicalObject();
     log.parent = parent;
+    geo.setLog(log);
     log.addGeometricObject(geo);
-    log.setLabel();
+    //~ log.setLabel();
     if (parent)
         parent.children.push(log);
     blocks.push(log);
@@ -930,13 +967,18 @@ function getAligment(log1, log2) {
 function removeLogicObject(log) {
     if (!log)
         return;
-    //console.log("delete "+log.id+" "+log.label)
+    //debug("delete "+log.id+" "+log.label)
     if (log.parent) {
+		for (var i = 0; i < log.geometricObjects.length; i++) {
+			var geo = log.geometricObjects[i];
+			log.parent.addGeometricObject(geo);
+		}
         for (var i = 0; i < log.children.length; i++) {
             var child = log.children[i];
             if (child) {
-                child.parent = log.parent;
-                log.parent.children.push(child);
+				log.parent.addChild(child);
+                //~ child.parent = log.parent;
+                //~ log.parent.children.push(child);
                 log.children[i] = undefined;
             }
         }
@@ -960,6 +1002,7 @@ function processLogicalObject(log) {
         return(touched);
     if (log.visited)
         return(touched);
+    if (!log.block) return;
     var dep = false;
     var i, j;
     for (i = 0; i < log.children.length; i++) {
@@ -1066,8 +1109,10 @@ function processLogicStructure(log) {
         touched=processLogicalObject(log);
     } else {
         if (log.countChildren() == 1 && !log.isSemantic()) {
-            child = log.children[0];
-            removeLogicObject(log);
+			child = log.firstChild();
+			//~ child = log.children[0];
+			log.mergeWith(child); //hack for HTML5
+            //~ removeLogicObject(log);
             touched=processLogicStructure(child);
         } else {
             touched=processLogicalObject(log);
@@ -1089,7 +1134,7 @@ function processLogicStructureMain(log) {
 	var touched=-1;
 	var k=1;
     while ( touched != 0) {
-		console.log("Pass "+k+". "+touched+" blocks were touched");
+		debug("Pass "+k+". "+touched+" blocks were touched");
 		visitReset();
 		touched=processLogicStructure(log);
 		k++;
@@ -1110,7 +1155,7 @@ function logicalObject(obj) {
     this.children = [];
     this.type = "";
     this.geometricObjects = [];
-    this.label = "STANDARD";
+    this.label = undefined;
     this.visualCuesPresent = false;
     this.importance = 0;
     this.gran = 0;
@@ -1136,29 +1181,145 @@ function logicalObject(obj) {
 		if (this.type == "PAGE") {
 			return(1);
 		} else {
-			var mypos = this.parent.getPos(this);
-			return(this.parent.getId()+"."+(mypos+1));
+			if (this.parent) {
+				var mypos = this.parent.getPos(this);
+				return(this.parent.getId()+"."+(mypos+1));
+			} else {
+				return(this.id);
+			}
 		}
 	}
+    this.inVisiblePart = function() {
+		return(this.dim.y < $(window).height());// && this.dim.h <= $(window).height());
+	}
+	this.horizontal = function() {
+		return(this.dim.w > this.dim.h);
+	}
+	this.vertical = function() {
+		return(this.dim.h > this.dim.w);
+	}
+	this.lastVerticalBlock = function() {
+		for (var i=0;i<blocks.length;i++) { //ojo blocks no esta actualizado quedan blocks fantasmas
+			var b=blocks[i];
+			if (b) {
+				if (b.dim.b > this.dim.b && b.label!='PAGE') {
+					return(false);
+				}
+			}
+		}
+		return(true);
+	}
+	this.firstVerticalBlock = function() {
+		for (var i=0;i<blocks.length;i++) { //ojo blocks no esta actualizado quedan blocks fantasmas
+			var b=blocks[i];
+			if (b) {
+				if (b.dim.y < this.dim.y && b.label!='PAGE') {
+					return(false);
+				}
+			}
+		}
+		return(true);
+	}
+	this.atLeft = function() {
+		return(this.dim.r < $(document).width()/2);
+	}
+	this.atRight = function() {
+		return(this.dim.x > $(document).width()/2);
+	}
+	this.atTop = function() {
+		return(this.dim.b < $(document).height()/3);
+	}
+	this.atBottom = function() {
+		return(this.dim.y > ($(document).height()-$(document).height()/3));
+	}
 	
-    this.setLabel = function() {
-        if (this.dim.x < dx) {
-            this.label = "LEFT";
-        } else {
-            if ((documentDim().w - this.dim.w) < dx) {
-                this.label = "RIGHT";
-            } else {
-                if (this.dim.y < dy) {
-                    this.label = "TOP";
-                } else {
-                    if ((documentDim().h - this.dim.h) < dy) {
-                        this.label = "BOTTOM";
-                    } else {
-                        this.label = "STANDARD";
-                    }
-                }
-            }
-        }
+	this.inTheMiddle = function() {
+		return(!this.atTop() && !this.atBottom() && !this.atLeft() && !this.atRight());
+	}
+	this.setLabelByUser = function(label) {
+		if (!this.block) return;
+		if (!label) return;
+		if (this.label=="PAGE") return;
+		this.label=label;
+	}
+	this.setLabel = function() { //new HACK for HTML5
+		if (!this.block) return;
+		if (this.label) return;
+		if (this.type == "PAGE") {
+			this.label="PAGE";
+			this.updateBlock();
+			return;
+		};
+		var linkTolerance = 0.2;
+		var wordTolerance = 0.5;
+		var elementTolerance = 0.2;
+		var hc = this.countCover() || 1;
+		var phc = page.countCover() || 1;
+		var wc = this.wordCover() || 0;
+		var lc = this.linkCount() || 0;
+		var pwc = page.wordCover() || 1;
+		if (!this.dim) return;
+		debug(this.id,"WC:",this.wordCover(),"LC:",this.linkCount(),"HC:",this.countCover(),"PA:",this.normalizedArea());
+		
+		if (true || this.normalizedArea() > ac) {
+			if (this.inVisiblePart()) {
+				//~ if ((this.dim.x < dc) && ($(document).width() - this.dim.r <= dc) ) {
+					// el bloque ocupa todo el width
+					if (this.firstVerticalBlock()) {
+						if (hc / phc > elementTolerance) {
+							if (this.countChildren()>0) {
+								this.label="SECTION";
+							} else {
+								if (this.parent.countChildren()==1) {
+									this.label="SECTION";
+								} else {
+									this.label = "HEADER";
+								}
+							}
+						} else {
+							this.label = "HEADER";
+						}
+					} else {
+						if (hc / phc > elementTolerance) {
+							if (this.countChildren()>0) {
+								this.label = "SECTION";
+							} else {
+								this.label = "ARTICLE";
+							}
+						} else {
+							if (lc / hc > linkTolerance) {
+								this.label = "NAV";
+							} else {
+								if (this.inTheMiddle()) {
+									this.label = "ARTICLE";
+								} else {
+									if (this.lastVerticalBlock()) {
+										this.label = "FOOTER";
+									} else {
+										if (this.atBottom()) {
+											this.label = "FOOTER";
+										} else {
+											if (this.atLeft() || this.atRight()) {
+												this.label = "ASIDE";
+											} else {
+												this.label = "ARTICLE";
+											}
+										}
+										
+									}
+								}
+							}
+						}
+					}
+			} else {
+				if (this.lastVerticalBlock()) {
+					this.label = "FOOTER";
+				} else {
+					this.label = "ARTICLE";
+				}
+			}
+		} 
+		this.updateBlock();
     }
 
     this.nextSibling = function() {
@@ -1187,19 +1348,16 @@ function logicalObject(obj) {
         }
     }
 
-    //~ this.accept = function() {
-        //~ this.clearChildrenBlocks();
-    //~ }
 
     this.accept = function() {
         this.visited = true
         this.accepted = true;
+        this.setLabel();
         for (var i = 0; i < this.children.length; i++) {
             if (this.children[i]) {
                 this.children[i].accept();
                 this.children[i].deleteBlock();
                 this.children[i] = undefined;
-                blocks.splice(blocks.indexOf(this.children[i]), 1);
             }
         }
     }
@@ -1238,37 +1396,15 @@ function logicalObject(obj) {
             }
         }
         this.accept();
+        //removeLogicObject(log);
         blocks.splice(blocks.indexOf(log), 1);
         log = undefined
         if (verbose)
             this.updateBlock();
     }
 
-    //~ this.normW = function() {
-        //~ return 100 * this.dim.w / documentDim().w;
-    //~ }
-    //~ this.normH = function() {
-        //~ return 100 * this.dim.h / documentDim().h;
-    //~ }
-//~ 
     this.normalizedArea = function() {
 		return(relativeArea(this.dim,documentDim()));
-        //~ var cont = 0;
-        //~ for (var i = 0; i < 100; i += 10) {
-            //~ if (this.normW() > i)
-                //~ cont++;
-        //~ }
-        //~ var dw = cont;
-        //~ cont = 0;
-        //~ for (var i = 0; i < 100; i += 10) {
-            //~ if (this.normH() > i)
-                //~ cont++;
-        //~ }
-        //~ var dh = cont;
-	//~ 
-        //~ var d=0;
-		//~ if (dw!=0 && dh!=0) d = Math.round((dw+dh)/2);
-        //~ return(d);
     }
 
     this.bomgeometry = function() {
@@ -1290,41 +1426,57 @@ function logicalObject(obj) {
         child.parent = this;
         this.children.push(child);
     }
-
-    this.addGeometricObject = function(geo) {
-        if (!geo)
-            return;
-        if (!geo.element)
-            return;
-        this.geometricObjects.push(geo);
-
-        var nr;
-        var r;
-        if (!this.dim) {
-            if (geo.tagName() == "BODY") {
-                this.type = 'PAGE';
-                this.id = "PAGE";
-                this.dim = {x: 0, y: 0, w: documentDim(parent.contentWindow, parent.contentDocument).w, h: documentDim(parent.contentWindow, parent.contentDocument).h}
-            } else {
-                this.dim = {x: 0, y: 0, w: 0, h: 0}
-                this.dim = geo.geometry;
-                this.type = geo.type;
-            }
-            r = getPolygonPoints(this.dim);
-        } else {
-            r = getPolygonPoints(this.dim).concat(getPolygonPoints(geo.geometry));
-            if (included(geo.type, ["CONTAINER", "CONTENT_CONTAINER"])) {
-                this.type = geo.type;
-            }
-        }
-
-        xs = getX(r);
-        ys = getY(r);
+	this.removeGeometricObject = function(geo) {
+		this.geometricObjects.splice(this.geometricObjects.indexOf(geo), 1);
+		if (verbose) this.updateBlock();
+	}
+	
+	this.computeDim = function() {
+		this.dim = undefined;
+		for (var i=0;i<this.geometricObjects.length;i++) {
+			var geo = this.geometricObjects[i];
+			if (!this.dim) {
+				if (geo.tagName() == "BODY") {
+					this.type = 'PAGE';
+					this.id = "PAGE";
+					this.dim = {x: 0, y: 0, w: documentDim(parent.contentWindow, parent.contentDocument).w, h: documentDim(parent.contentWindow, parent.contentDocument).h}
+				} else {
+					this.dim = {x: 0, y: 0, w: 0, h: 0}
+					this.dim = geo.geometry;
+					this.type = geo.type;
+				}
+				r = getPolygonPoints(this.dim);
+			} else {
+				r = getPolygonPoints(this.dim).concat(getPolygonPoints(geo.geometry));
+				if (included(geo.type, ["CONTAINER", "CONTENT_CONTAINER"])) {
+					this.type = geo.type;
+				}
+			}
+		}
+		var xs = getX(r);
+        var ys = getY(r);
 
         this.dim.x = Math.min.apply(null, xs);
         this.dim.y = Math.min.apply(null, ys);
         this.dim.w = Math.max.apply(null, xs) - this.dim.x;
         this.dim.h = Math.max.apply(null, ys) - this.dim.y;
+	}
+	
+    this.addGeometricObject = function(geo,dim) {
+		var ddim=true;
+		if (!(typeof dim === 'undefined')) ddim=dim;
+        if (!geo)
+            return;
+        if (!geo.element && !geo.geometry)
+            return;
+        geo.setLog(this);
+        this.geometricObjects.push(geo);
+
+        var nr;
+        var r;
+        if (ddim) this.computeDim(geo);
+
+        
 
         if (verbose && !this.block) {
             this.block = this.insertBlock();
@@ -1332,24 +1484,26 @@ function logicalObject(obj) {
         geo.visited = true;
         var fc;
         var bgc;
-        bgc = contentWindow.getComputedStyle(geo.element, null).getPropertyValue("background-color");
-        fc = parseInt(contentWindow.getComputedStyle(geo.element, null).getPropertyValue("font-size"));
-        if (bgc != "rgba(0, 0, 0, 0)") {
-            this.visualCuesPresent = true;
-        }
-
-        if (geo.element.parentNode) {
-            t = 0
-            var pre = $(geo.element).prev()[0];
-            var nxt = $(geo.element).next()[0];
-            if (nxt) {
-                var sfc = parseInt(contentWindow.getComputedStyle(nxt, null).getPropertyValue("font-size"));
-                if ((sfc / fc) < 0.8)
-                    t++;
-            }
-            if (t > 0)
-                this.visualCuesPresent = true;
-        }
+        if (geo.element) {
+			bgc = contentWindow.getComputedStyle(geo.element, null).getPropertyValue("background-color");
+			fc = parseInt(contentWindow.getComputedStyle(geo.element, null).getPropertyValue("font-size"));
+			if (bgc != "rgba(0, 0, 0, 0)") {
+				this.visualCuesPresent = true;
+			}
+		
+			if (geo.element.parentNode) {
+				t = 0
+				var pre = $(geo.element).prev()[0];
+				var nxt = $(geo.element).next()[0];
+				if (nxt) {
+					var sfc = parseInt(contentWindow.getComputedStyle(nxt, null).getPropertyValue("font-size"));
+					if ((sfc / fc) < 0.8)
+						t++;
+				}
+				if (t > 0)
+					this.visualCuesPresent = true;
+			}
+		}
         /* update values */
         this.gran = this.normalizedArea();
         this.wordcover = this.wordCover();
@@ -1361,18 +1515,27 @@ function logicalObject(obj) {
 
     this.insertBlock = function() {
         var vc = "";
-        var block = document.createElement('div');
-        if (this.visualCuesPresent)
-            vc = "VC";
-        block.innerHTML = "<span visited='true' class='bomauxtext' style='opacity:1;color:black;font-size:12pt;z-index: 999910000;'>" + this.getId() + " - " + this.gran.toFixed(0) + "<br>imp:" + this.importance + "</span>";
-        block.setAttribute("class", "block");
-        block.setAttribute("visited", "true");
-        block.setAttribute("id", this.makeid());
-        contentDocument.body.appendChild(block);
-        return(block);
+        this.block = document.createElement('div');
+        //~ if (this.visualCuesPresent)
+            //~ vc = "VC";
+        //~ block.innerHTML = "<span visited='true' class='bomauxtext' style='opacity:1;color:black;font-size:12pt;z-index: 999910000;'>" + this.getId()+"</span>";
+        this.block.setAttribute("class", "block");
+        //~ block.setAttribute("visited", "true");
+        this.block.setAttribute("id", this.makeid());
+        //~ block.setAttribute("bid", this.getId());
+        //~ block.setAttribute("style","border: 4px solid red");
+        contentDocument.body.appendChild(this.block);
+        this.updateBlock();
+        //~ for (var i=0;i<this.geometricObjects.length;i++) { //hack HTML5
+			//~ var geo = this.geometricObjects[i];
+			//~ geo.setLog(this);
+		//~ }
+        return(this.block);
     }
 
     this.updateBlock = function() {
+		if(!this) {debug("Log obj does not exists");}
+		if (!this.block) this.insertBlock();
         var aaa = "G:&nbsp;"+this.gran.toFixed(0);
         var imp = "";
         if (this.countChildren() == 0) {
@@ -1381,29 +1544,37 @@ function logicalObject(obj) {
         } else {
             this.hide();
         }
-        var bg = "black";
+        var bg = "red";
         if (this.accepted) bg="red";
-        this.block.innerHTML = "<span visited='true' class='bomauxtext' style='opacity:1;color:black;font-size:12pt;background-color:"+bg+";color:white'>B" + this.getId() + " - " + aaa +" - imp: "+ imp + "</span>";
+        if (!this.block) return; //resolver este caso cuando block es nulo en los span
+
+        this.block.innerHTML = "<span visited='true' class='bomauxtext' style='opacity:1;color:black;font-size:12pt;background-color:"+bg+";color:white'>B" + this.id + " "+this.label+"</span>";
         var g = this.dim.x + " " + this.dim.y + " " + this.dim.w + " " + this.dim.h;
         this.block.setAttribute("bomgeometry", g);
         this.block.setAttribute("bomtype", this.type);
+        this.block.setAttribute("bid", this.getId());
         color = colors[this.type];
-        this.block.setAttribute("style", "border : 2px solid black;z-index: 999910000;position:absolute;background-color:transparent;border-color:" + color + ";color:black;font-weight:bold;opacity:1");
+        this.block.setAttribute("style", "border : 4px solid black;z-index: 999910000;position:absolute;background-color:transparent;border-color:" + color + ";color:black;font-weight:bold;opacity:1");
         this.block.style.left = this.dim.x + "px";
         this.block.style.top = this.dim.y + "px";
         this.block.style.width = this.dim.w + "px";
         this.block.style.height = this.dim.h + "px";
+        for (var i=0;i<this.geometricObjects.length;i++) { //hack HTML5
+			var geo = this.geometricObjects[i];
+			geo.setLog(this);
+		}
     }
 
     this.setOn = function() {
         if (!this.block)
             return;
-        var c = colors[this.type]
-        if (!c)
-            c = "black";
+        if (this.label=="PAGE")
+            c = "yellow";
+        else 
+			c="red";
         this.block.style.backgroundColor = c;
         this.block.style.opacity = "0.5";
-        this.block.style.border = "2px dotted black";
+        this.block.style.border = "4px solid red";
         this.block.style.color = "white";
     }
 
@@ -1413,7 +1584,7 @@ function logicalObject(obj) {
         this.block.style.backgroundColor = "transparent";
         this.block.style.color = "black";
         this.block.style.opacity = "1";
-        this.block.style.border = "2px solid " + colors[this.type];
+        this.block.style.border = "4px solid "+colors[this.type]
     }
     this.hide = function() {
         if (!this.block)
@@ -1457,12 +1628,47 @@ function logicalObject(obj) {
 		}
 		return(cont);
 	}
+    this.linkCount = function() {
+		var cont=0;
+		for (var i=0;i<this.geometricObjects.length;i++) {
+			cont+=this.geometricObjects[i].linkCount();
+		}
+		return(cont);
+	}
     this.terminal = function() {
         return(this.countChildren() == 0);
     }
     this.isSemantic = function() {
         return(isSemantic(this.geometricObjects[0].element));
     }
+    this.coverElement = function(elem) {
+		var ed = getRect(elem);
+		if ((this.dim.x<=ed.x) && (ed.r<=this.dim.r) && (this.dim.r>=ed.x) && (this.dim.x<=ed.r)) {
+			if ((this.dim.y<=ed.y) && (ed.b<=this.dim.b) && (this.dim.b>=ed.y) && (this.dim.y<=ed.b)) {
+				return(true);
+			}
+			if (included(elem.tagName,['TR','TD'])) {
+				if (PolyK.ContainsPoint(getPolygonPoints(this.dim),ed.x,ed.y) && PolyK.ContainsPoint(getPolygonPoints(this.dim),ed.r,ed.y)) {
+					return(true); //fucking tables
+				}
+			}
+		} else {
+			if (included(elem.tagName,['TR','TD'])) {
+				if (PolyK.ContainsPoint(getPolygonPoints(this.dim),ed.x,ed.y) && PolyK.ContainsPoint(getPolygonPoints(this.dim),ed.r,ed.y)) {
+					return(true); //fucking tables
+				}
+			}
+		}
+		return(false);
+	}
+	this.firstChild = function() {
+		for (var i=0;i<this.children.length;i++) {
+			var child = this.children[i];
+			if (child) {
+				return(child);
+			}	
+		}
+	}
 }
 
 /* relative area granularity */
@@ -1475,8 +1681,10 @@ function relativeArea(dim,docdim) {
 		var y = Math.round(100*dim.y/docdim.h);
 		var h = Math.round(100*dim.h/docdim.h);
 		
-		var dh = w-x;
-		var dv = h-y;
+		var dh = w;
+		var dv = h;
+		//~ var dh = w-x;
+		//~ var dv = h-y;
 		
 		d = Math.round(((dh+dv)/2)/10);
 		
@@ -1520,6 +1728,7 @@ function geometricObject() {
     this.area = undefined;
     this.id = undefined;
     this.visited = false;
+    this.logicObject = undefined;
     
     this.tagName = function() {
 		if (this.element) {
@@ -1528,15 +1737,27 @@ function geometricObject() {
 			}
 		}
 	}
-
+	
+	this.setLog = function(log){
+		this.logicObject = log;
+		this.element.setAttribute("bid",this.logicObject.id); //hack for HTML5
+		var all = this.element.getElementsByTagName("*");
+		for (var i=0;i<all.length;i++) {
+			var node = all[i];
+			if (node.nodeType==1) {
+				node.setAttribute("bid",this.logicObject.id); //hack for HTML5
+			}
+		}
+	}
+	
     this.addContentElement = function(element) {
         this.element = element;
         this.bt = BOMType(this.element);
-        if (this.bt) {
+        //~ if (this.bt) {
             this.type = this.bt;
             this.geometry = getRect(this.element);
             this.id = "C" + (1000 + Math.random(1000));
-        }
+        //~ }
     }
     this.getGeometry = function() {
         return(this.dim.x + " " + this.dim.y + " " + this.dim.w + " " + this.dim.h);
@@ -1551,6 +1772,11 @@ function geometricObject() {
     this.wordCover = function() {
 		var text = $(this.element).text();
 		return(countWords(text));
+	}
+    this.linkCount = function() {
+		var links = $(this.element).find("a");
+		var onclicks = $(this.element).find("[onclick]");
+		return(links.length + onclicks.length);
 	}
 }
 
@@ -1770,38 +1996,38 @@ function getWPrima(log) {
         var html = "";
         for (var j = 0; j < log.geometricObjects.length; j++) {
             var geo = log.geometricObjects[j];
-            if (geo) {
-                var lcss = "";
-                var cs = getComputedStyle(geo.element);
-                for (var k = 0; k < cs.length; k++) {
-                    var at = cs.item(k);
-                    lcss += at + ":" + cs.getPropertyValue(at) + ";";
-                    css += at + ":" + cs.getPropertyValue(at) + ";";
-                }
-                if (!geo.element.hasAttribute("css_added")) {
-                    geo.element.setAttribute("style", lcss);
-                }
-                geo.element.setAttribute("css_added", "true");
-            }
-            var all = geo.element.getElementsByTagName("*");
-            for (var k = 0; k < all.length; k++) {
-                var child = all[k];
-                var lcss = "";
-                if (!child.hasAttribute("css_added")) {
-                    var cs = getComputedStyle(child);
-                    for (var ki = 0; ki < cs.length; ki++) {
-                        var at = cs.item(ki);
-                        lcss += at + ":" + cs.getPropertyValue(at) + ";";
-                    }
-                    child.setAttribute("style", lcss);
-                }
-                child.setAttribute("css_added", "true");
-            }
+            //~ if (geo) {
+                //~ var lcss = "";
+                //~ var cs = getComputedStyle(geo.element);
+                //~ for (var k = 0; k < cs.length; k++) {
+                    //~ var at = cs.item(k);
+                    //~ lcss += at + ":" + cs.getPropertyValue(at) + ";";
+                    //~ css += at + ":" + cs.getPropertyValue(at) + ";";
+                //~ }
+                //~ if (!geo.element.hasAttribute("css_added")) {
+                    //geo.element.setAttribute("style", lcss);
+                //~ }
+                //~ geo.element.setAttribute("css_added", "true");
+            //~ }
+            //~ var all = geo.element.getElementsByTagName("*");
+            //~ for (var k = 0; k < all.length; k++) {
+                //~ var child = all[k];
+                //~ var lcss = "";
+                //~ if (!child.hasAttribute("css_added")) {
+                    //~ var cs = getComputedStyle(child);
+                    //~ for (var ki = 0; ki < cs.length; ki++) {
+                        //~ var at = cs.item(ki);
+                        //~ lcss += at + ":" + cs.getPropertyValue(at) + ";";
+                    //~ }
+                    //~ //child.setAttribute("style", lcss);
+                //~ }
+                //~ child.setAttribute("css_added", "true");
+            //~ }
             html += geo.element.outerHTML;
         }
     }
     var r = log.dim.x + " " + log.dim.y + " " + log.dim.w + " " + log.dim.h
-    prima += "<" + type + " geometry='" + r + "' importance='" + grid.getImportance(log) + "' id='"+log.id+"'>\n";
+    prima += "<" + type + " geometry='" + r + "' importance='" + grid.getImportance(log) + "' id='"+log.id+"' label='"+log.label+"'>\n";
     if (!log.terminal()) {
         for (var i = 0; i < log.children.length; i++) {
             var child = log.children[i];
@@ -1828,7 +2054,7 @@ function getRecord(obj,srcurl) {
 	if (!obj) return;
 	var s="";
 	if (obj.terminal()) {
-		return "BOM,"+sniff()+",none,"+srcurl+","+documentDim().w+","+documentDim().h + ","+ georoot.countCover() + "," + ac + ","+obj.id+","+obj.dim.x+","+obj.dim.y+","+obj.dim.w+","+obj.dim.h+","+obj.countCover()+","+obj.countCover()+"\n";
+		return "BOM,"+sniff()+",none,"+srcurl+","+documentDim().w+","+documentDim().h + ","+ georoot.countCover() + "," + ac + ","+obj.id+","+obj.dim.x+","+obj.dim.y+","+obj.dim.w+","+obj.dim.h+","+obj.countCover()+","+obj.wordCover()+"\n";
 	} else {
 		for (var i=0;i<obj.children.length;i++) {
 			var child = obj.children[i];
@@ -1837,6 +2063,83 @@ function getRecord(obj,srcurl) {
 			}
 		}
 	}
+	return(s)
+}
+
+/** DESCRIPTOR **/
+
+function fillBlocksRecursive(obj) {
+	if (!obj) return;
+	blocks.push(obj);
+	for (var i=0;i<obj.children.length;i++) {
+		var child = obj.children[i];
+		if (child) {
+			fillBlocksRecursive(child);
+		}
+	}
+}
+
+// General comparison function for convenience
+function compare(x, y) {
+  if (x === y) {
+    return 0;
+  }
+  return x > y ? 1 : -1;
+}
+
+function dumpBlockArray() {
+	for (var i=0;i<blocks.length;i++) {
+		var b = blocks[i];
+		if (b) {
+			debug(b.id+"("+b.dim.x+","+b.dim.y+")["+b.label+"]");
+		}
+	}
+}
+
+function getLabelString() {
+	var s="";
+	for (var i=0;i<blocks.length;i++) {
+		var b = blocks[i];
+		if (b) {
+			s+= b.id+"="+b.label+",";
+		}
+	}
+	return(s);
+}
+function getDescriptorSorted(obj) {
+// sorted children by y,x positions usually obj=Page
+	blocks=[];
+	fillBlocksRecursive(obj);
+	debug("BLOCKSX:")
+	dumpBlockArray();
+	blocks.sort(function(obj1, obj2) {
+	  var x = obj1.dim.y;
+	  var y = obj2.dim.y;
+	  if (x !== y) {
+		return compare(x, y);
+	  }
+	  return compare(obj1.name, obj2.name);
+	});
+	dumpBlockArray();
+	s=getLabelString();
+	debug(s);
+	return s;
+}
+
+function getDescriptor(obj) {
+	if (!obj) return;
+	var s="";
+	debug("CUR:"+(obj.id+"="+obj.label));
+	s+= obj.id+"="+obj.label+",";
+	
+	for (var i=0;i<obj.children.length;i++) {
+		var child = obj.children[i];
+		if (child) {
+			s+=getDescriptor(child);
+			debug("S:"+s);
+		}
+	}
+	
 	return(s)
 }
 
