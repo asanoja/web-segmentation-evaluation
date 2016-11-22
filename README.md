@@ -9,11 +9,12 @@ Users can create blocks based on Web page elements. They can merge blocks, navig
 # Links
 
 Download MOB from <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/MOB/MOB.crx'>Here</a>
+
 For installing the extension follow the same process as the <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/'>BOM extension</a> installation instructions
+
 <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/MOB/MOB-quickguide.pdf'>Download the Quick guide</a>
-Source code
-Web page segmentation repository
-Dataset: Web pages sources (in ScrapBook firefox extension format)
+
+Dataset: <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/inventory/dataset.tar.gz'>Web pages sources</a> (in <a href='https://addons.mozilla.org/en-US/firefox/addon/scrapbook/'>ScrapBook</a> firefox extension format)
 
 
 
