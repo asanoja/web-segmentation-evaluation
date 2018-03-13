@@ -9,17 +9,17 @@ Users can create blocks based on Web page elements. They can merge blocks, navig
 Our segmenter BoM segments a Web page without having a priori knowledge of its content and using only the heuristic rules defined by the W3C Web standards. For instance, we detect blocks using HTML5 content categories instead of using the tag names or text features.
 The segmentation process is composed of two main phases : detecting fine-grained (as small as possible) blocks and then merging them according to a stop condition, so that the segmentation is performed at the desired granularity. It can be expressed by the following function Φ(W), where W is the rendered DOM of a Web page.
 
-<a href ="http://www-poleia.lip6.fr/~sanojaa/BOM/">More info about BoM</a>
+<a href ="http://bom.ciens.ucv.ve/">More info about BoM</a>
 
 # Links
 
-Download MOB from <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/MOB/MOB.crx'>Here</a>
+Download MOB from <a href='http://bom.ciens.ucv.ve/about/mob'>Here</a>
 
-For installing the extension follow the same process as the <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/'>BOM extension</a> installation instructions
+For installing the extension follow the same process as the <a href='http://bom.ciens.ucv.ve/bom-demo-installation-instructions/'>BOM extension</a> installation instructions
 
-<a href='http://www-poleia.lip6.fr/~sanojaa/BOM/MOB/MOB-quickguide.pdf'>Download the Quick guide</a>
+<a href='http://bom.ciens.ucv.ve/old_site/MOB/MOB-quickguide.pdf'>Download the Quick guide</a>
 
-Dataset: <a href='http://www-poleia.lip6.fr/~sanojaa/BOM/inventory/dataset.tar.gz'>Web pages sources</a> (in <a href='https://addons.mozilla.org/en-US/firefox/addon/scrapbook/'>ScrapBook</a> firefox extension format)
+Dataset: <a href='http://bom.ciens.ucv.ve/evaluation/dataset-info/'>Web pages sources</a> (in <a href='https://addons.mozilla.org/en-US/firefox/addon/scrapbook/'>ScrapBook</a> firefox extension format)
 
 
 
