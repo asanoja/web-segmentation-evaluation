@@ -1,3 +1,8 @@
+// Andres Sanoja
+// Stephane Gancarski
+// UCV - UPMC
+// 2017
+
 var maxid=0;
 var prefix=undefined;
 var mig45data = {}
